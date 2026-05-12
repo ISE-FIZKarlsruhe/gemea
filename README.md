@@ -45,16 +45,13 @@ The QLever index is organised into four named graphs:
 
 ## Pipeline
 
+**Ingest (build-time)**
+
 ```
 DDB Search API ──► fetch IDs ──► fetch JSON records
                                        │
                                        ▼
                               SQLite (per sector)
-                                       │
-                            export_ddb.py (Phase 0)
-                                       │
-                                       ▼
-                              N-Triples (per sector)
                                        │
                          scripts/transform/ (Phase 1)
                          EDM → mocho alignment
@@ -63,11 +60,37 @@ DDB Search API ──► fetch IDs ──► fetch JSON records
                               N-Quads (named graphs)
                                        │
                               qlever index build
-                                       │
-                                       ▼
-                         QLever SPARQL endpoint
-                         SHMARQL Linked Data browser
-                         mcp-server-qlever (agent access)
+```
+
+**Access (runtime)**
+
+```mermaid
+flowchart LR
+    subgraph SH["Self-Hosted"]
+        User([User]) -->|chat| OW[OpenWebUI]
+        OW -->|inference| OL[Ollama]
+        OL -->|open-source LLM| OW
+        OW -->|tool call| MCPO[MCPO]
+        MCPO -->|MCP| T[sparql_query\nPython tool]
+    end
+
+    subgraph CC["Commercial"]
+        UserC([User]) -->|chat| CL[Claude]
+        CL -->|MCP| TC[sparql_query\nPython tool]
+    end
+
+    subgraph VPS["VPS (gemea.ise.fiz-karlsruhe.de)"]
+        QL[QLever\nSPARQL endpoint]
+        SHMARQL[SHMARQL\nLinked Data browser]
+        SHMARQL -->|SPARQL proxy| QL
+    end
+
+    T -->|SPARQL GET| QL
+    QL -->|JSON results| T
+    T --> MCPO
+    TC -->|SPARQL GET| QL
+    QL -->|JSON results| TC
+    User -->|browse| SHMARQL
 ```
 
 **Goethe-Faust POC.** The alignment and dispatch logic were developed and validated on the [Goethe-Faust corpus](goethe-faust/) — 115,432 DDB records retrieved via the keywords *Goethe* and *Faust* — before scaling to the full 26.8M-object collection. The corpus analysis scripts, outputs, and design decisions are in [`goethe-faust/`](goethe-faust/).
@@ -190,8 +213,9 @@ docker compose --env-file config.env -f goethe-faust/docker-compose.qlever.yml l
 
 ```bibtex
 @inproceedings{tan2026gemea,
-  author    = {Tan, Mary Ann and Gesese, Genet Asefa and Sack, Harald},
-  title     = {{GeMeA: A Knowledge Graph for the German Digital Library}},
+  author    = {Tan, Mary Ann and Posthumus, Etienne and Gesese, Genet Asefa and Sack, Harald},
+  title     = {{GEMEA: An Open Knowledge Graph over 26M+
+German Cultural Heritage Objects}},
   booktitle = {{Proceedings of the 23rd International Semantic Web Conference (ISWC 2026)}},
   year      = {2026},
   note      = {Resource Track. Forthcoming.},
