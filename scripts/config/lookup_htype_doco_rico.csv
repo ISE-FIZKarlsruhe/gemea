@@ -1,0 +1,47 @@
+htype_code,label_de,label_en,domain,rdf_type,has_record_set_type,target_vocab,notes
+htype_001,Abschnitt,Section,library,"doco:Section, rdac:C10007",,doco rdac,
+htype_002,Anhang,Appendix,library,"doco:Appendix, rdac:C10007",,doco rdac,
+htype_003,Beigefügtes oder enthaltenes Werk,Contained Work,library,"rdac:C10001, rdac:C10007",,rdac,Contained work; W+M; GND Werk
+htype_004,Annotation,Annotation,library,rdac:C10007,,rdac,
+htype_005,Anrede,Address,library,rdac:C10007,,rdac,Dedicatory address or prefatory speech
+htype_006,Aufsatz,Article,library,"rdac:C10001, rdac:C10007",,rdac,Publication type (journal/serial article); W+M; GND Werk
+htype_007,Band,Volume,library,"doco:Part, rdac:C10007",,doco rdac,Volume as a Part of a multivolume set
+htype_008,Beilage,Additional,library,rdac:C10007,,rdac,Supplementary insert
+htype_009,Einleitung,Introduction,library,"doco:Section, rdac:C10007",,doco rdac,Introduction section
+htype_010,Eintrag,Entry,library,rdac:C10007,,rdac,Dictionary or encyclopaedia entry
+htype_011,Faszikel,Fascicle,library,"doco:Part, rdac:C10007",,doco rdac,Fascicle = installment / separately published part
+htype_012,Fragment,Fragment,library,"doco:TextChunk, rdac:C10007",,doco rdac,Partial text or manuscript fragment
+htype_013,Handschrift,Manuscript,library,"rdac:C10001, rdac:C10007",,rdac,Publication type (handwritten document); W+M; GND Werk
+htype_014,Heft,Issue,library,rdac:C10007,,rdac,Periodical issue
+htype_015,Illustration,Illustration,library,"doco:Figure, rdac:C10007, mocho:ImageWork",,doco rdac mocho,W+M; GND Werk
+htype_016,Index,Index,library,"doco:Index, rdac:C10007",,doco rdac,
+htype_017,Inhaltsverzeichnis,Table of Contents,library,"doco:TableOfContents, rdac:C10007",,doco rdac,
+htype_018,Kapitel,Chapter,library,"doco:Chapter, rdac:C10007",,doco rdac,
+htype_019,Karte,Map,library,"doco:Figure, rdac:C10007, mocho:ImageWork",,doco rdac mocho,Map; W+M; GND Werk
+htype_020,Mehrbändiges Werk,Multivolume Work,library,"rdac:C10001, rdac:C10007",,rdac,Publication type (aggregation); W+M; GND Werk
+htype_021,Monografie,Monograph,library,"rdac:C10001, rdac:C10007",,rdac,Publication type; W+M; GND Werk
+htype_022,Musik,Music,library,"rdac:C10001, mo:MusicalWork, rdac:C10007",,rdac mo,Music score or recording; W+M; GND Werk
+htype_023,Fortlaufendes Sammelwerk,Serial,library,"rdac:C10001, rdac:C10007",,rdac,Publication type (continuing resource); W+M; GND Werk
+htype_024,Privilegie,Charter,library,rdac:C10007,,rdac,Legal document genre
+htype_025,Rezension,Review,library,"rdac:C10001, rdac:C10007",,rdac,Publication type (critical review); W+M; GND Werk
+htype_026,Text,Text,library,"doco:TextChunk, rdac:C10007",,doco rdac,Generic text block
+htype_027,Vers,Verse,library,"doco:Stanza, rdac:C10007",,doco rdac,Verse unit; use doco:Line if single-line resolution required
+htype_028,Vorwort,Preface,library,"doco:Preface, rdac:C10007",,doco rdac,
+htype_029,Widmung,Dedication,library,rdac:C10007,,rdac,No DoCO Dedication class
+htype_030,Bestand,Holding / Fonds,archival,rico:RecordSet,"ric-rst:Fonds, vocnet-htype:ht030",rico,Findbuch + Tektonik; top-level holding node shared by both hierarchies
+htype_031,Gliederung,Classification,archival,rico:RecordSet,"ric-rst:Series, vocnet-htype:ht031",rico,Findbuch Classification
+htype_032,Serie,Series,archival,rico:RecordSet,"ric-rst:Series, vocnet-htype:ht032",rico,Findbuch Series
+htype_033,Unterserie,Subseries,archival,rico:RecordSet,"ric-rst:Series, vocnet-htype:ht033",rico,Findbuch Subseries
+htype_034,Archivale,File,archival,rico:Record,,rico,Findbuch File; individual archival record
+htype_035,Teil,Part,archival,rico:RecordPart,,rico,Findbuch Item; component part of an archival record
+htype_036,Bestandsserie,Holding Series,archival,rico:RecordSet,"ric-rst:Collection, vocnet-htype:ht036",rico,Tektonik Series
+htype_037,Bestandsklassifikation,Holding Classification,archival,rico:RecordSet,"ric-rst:Collection, vocnet-htype:ht037",rico,Tektonik Classification
+htype_038,Brief,Letter,archival,rico:Record,,rico,Archival letter = individual record within a file or bundle
+htype_039,Konvolut,Bundle,archival,rico:RecordSet,,rico,Bundle of related archival items; no standard RiC-O RecordSetType individual
+htype_040,Mappe,Folder,archival,rico:RecordSet,,rico,Archival folder grouping records; no standard RiC-O RecordSetType individual
+htype_041,Archiv,Archive,archival,rico:RecordSet,ric-rst:Collection,rico,Top-level archival institution or repository
+htype_044,Zeitung,Newspaper,library,"rdac:C10001, rdac:C10007",,rdac,Publication type (newspaper); W+M; GND Werk
+htype_045,Jahrgang,Year,library,"doco:Part, rdac:C10007",,doco rdac,Annual volume of a newspaper serial
+htype_046,Monat,Month,library,"doco:Part, rdac:C10007",,doco rdac,Monthly issue of a newspaper serial
+htype_047,Tag,Day,library,"doco:Part, rdac:C10007",,doco rdac,Daily edition of a newspaper
+htype_048,Tektonik,Tektonik,archival,rico:RecordSet,mocho:Tektonik,rico,Tektonik root; top-level DDB archival hierarchy node

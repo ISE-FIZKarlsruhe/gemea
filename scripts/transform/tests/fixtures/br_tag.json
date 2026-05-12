@@ -1,0 +1,1103 @@
+{
+  "properties": {
+    "item-id": "223GMAWUHPGI76OQUKSL54XVOCHHXDWD",
+    "dataset-id": "1296799422070261UOgo",
+    "dataset-label": "Gesamtlieferung (Findbuch) - EAD",
+    "revision-id": "63",
+    "ingest-date": "2026-02-12T09:45:54+0100",
+    "cortex-type": "Kultur",
+    "mapping-version": "6.18",
+    "automatically-translated": false
+  },
+  "provider-info": {
+    "domains": [
+      "http://ddb.vocnet.org/sparte/sparte001",
+      "",
+      ""
+    ],
+    "provider-name": "Landesarchiv Berlin",
+    "provider-europeana-name": "",
+    "provider-parent-id": "",
+    "provider-facebook": "",
+    "provider-twitter": "",
+    "provider-uri": "http://www.landesarchiv-berlin.de",
+    "provider-email": "info@landesarchiv.berlin.de",
+    "provider-collection": "",
+    "provider-item-id": "I31x07399657438509218991230122316107",
+    "provider-item-id-type": "",
+    "provider-id": "00000908",
+    "provider-ddb-id": "72SC3WBMDZ7SGFJOV7GDZKGB5BXKXE7R",
+    "provider-isil": "http://ld.zdb-services.de/resource/organisations/DE-2297",
+    "provider-logo": "https://registrierung.deutsche-digitale-bibliothek.de/logos/00000908.png",
+    "provider-longitude": "13.316745",
+    "provider-latitude": "52.5799701",
+    "provider-state": "Berlin",
+    "provider-parents": {
+      "parents": null
+    }
+  },
+  "edm": {
+    "RDF": {
+      "Aggregation": {
+        "about": "JMBRBN4UZALVUGUPNUBTANLFTGDACJ4A",
+        "aggregatedCHO": {
+          "resource": "http://www.deutsche-digitale-bibliothek.de/item/223GMAWUHPGI76OQUKSL54XVOCHHXDWD",
+          "lang": null,
+          "$": ""
+        },
+        "isShownAt": {
+          "resource": "http://www.landesarchiv-berlin.findbuch.net#41205265702e2031363720284e6f74656e202d204e29x1318",
+          "lang": null,
+          "$": ""
+        },
+        "isShownBy": null,
+        "edmRights": null,
+        "dcTermsRights": {
+          "resource": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "lang": null,
+          "$": ""
+        },
+        "provider": "Deutsche Digitale Bibliothek",
+        "dataProvider": [
+          {
+            "resource": null,
+            "lang": null,
+            "$": "Landesarchiv Berlin"
+          },
+          {
+            "resource": "http://www.deutsche-digitale-bibliothek.de/organization/72SC3WBMDZ7SGFJOV7GDZKGB5BXKXE7R",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "object": null,
+        "aggregator": null,
+        "hasView": null
+      },
+      "WebResource": [
+        {
+          "about": "http://www.landesarchiv-berlin.findbuch.net#41205265702e2031363720284e6f74656e202d204e29x1318",
+          "type": {
+            "resource": "http://ddb.vocnet.org/medientyp/mt007",
+            "lang": null,
+            "$": ""
+          },
+          "edmRights": null,
+          "dcTermsRights": null,
+          "creator": null
+        }
+      ],
+      "Concept": [
+        {
+          "about": "http://ddb.vocnet.org/sparte/sparte001",
+          "notation": "sec_01",
+          "prefLabel": null
+        },
+        {
+          "about": "http://ddb.vocnet.org/medientyp/mt007",
+          "notation": "mediatype_007",
+          "prefLabel": null
+        },
+        {
+          "about": "https://d-nb.info/gnd/4142968-0",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "de",
+            "$": "Archivale"
+          }
+        },
+        {
+          "about": "Y4H53WZCE74FYVXGRW5OONXHOKDQJNVI",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Faust I. und II."
+          }
+        }
+      ],
+      "Agent": [
+        {
+          "about": "http://www.deutsche-digitale-bibliothek.de/organization/72SC3WBMDZ7SGFJOV7GDZKGB5BXKXE7R",
+          "prefLabel": [
+            {
+              "lang": null,
+              "$": "Landesarchiv Berlin"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": {
+            "resource": "http://ddb.vocnet.org/sparte/sparte001",
+            "$": ""
+          },
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": null,
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        },
+        {
+          "about": "A6WCMIEVGJR5B2LACVZOXZP5AWJA4FDE",
+          "prefLabel": [
+            {
+              "lang": "ger",
+              "$": "Goethe, Johann Wolfgang von"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": null,
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": null,
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        },
+        {
+          "about": "JA4SKEB55ACXTOPFA4OBX5FJ23VEJB65",
+          "prefLabel": [
+            {
+              "lang": "ger",
+              "$": "Lassen, Eduard"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": null,
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": null,
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        }
+      ],
+      "PhysicalThing": null,
+      "ProvidedCHO": {
+        "about": "http://www.deutsche-digitale-bibliothek.de/item/223GMAWUHPGI76OQUKSL54XVOCHHXDWD",
+        "hasType": [
+          {
+            "resource": "https://d-nb.info/gnd/4142968-0",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "description": [
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Hierarchie: A Rep. 167 (Noten - N) Königliche Schauspiele/Preußische Staatstheater"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Enthält: Klavierauszug."
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Johann Wolfgang von Goethe *28. August 1749, +22. März 1832<br />Eduard Lassen *13 April 1830, +15 Januar 1904"
+          }
+        ],
+        "identifier": [
+          "A Rep. 167 (Noten - N) Nr. 1318 N"
+        ],
+        "dcSubject": [
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Faust I. und II."
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Goethe, Johann Wolfgang von"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Lassen, Eduard"
+          }
+        ],
+        "title": {
+          "resource": null,
+          "lang": null,
+          "$": "Noten - Faust, I. und II. Teil von Goethe, Johann Wolfgang von; Musik: Lassen, Eduard"
+        },
+        "dcTermsSubject": [
+          {
+            "resource": "Y4H53WZCE74FYVXGRW5OONXHOKDQJNVI",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "A6WCMIEVGJR5B2LACVZOXZP5AWJA4FDE",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "JA4SKEB55ACXTOPFA4OBX5FJ23VEJB65",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "isPartOf": [
+          {
+            "resource": "http://www.deutsche-digitale-bibliothek.de/item/HNIS7CYAKX5R2FWOIR73JBIWA3VZSC7Z",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "hierarchyType": "htype_034",
+        "aggregationEntity": "false",
+        "hierarchyPosition": "000000000000650",
+        "dcTermSubject": [
+          {
+            "resource": "Y4H53WZCE74FYVXGRW5OONXHOKDQJNVI",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "A6WCMIEVGJR5B2LACVZOXZP5AWJA4FDE",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "JA4SKEB55ACXTOPFA4OBX5FJ23VEJB65",
+            "lang": null,
+            "$": ""
+          }
+        ]
+      },
+      "Event": null,
+      "Place": null,
+      "Organization": null,
+      "Address": null,
+      "TimeSpan": null
+    }
+  },
+  "indexing-profile": {
+    "item-id": "223GMAWUHPGI76OQUKSL54XVOCHHXDWD",
+    "facet": [
+      {
+        "name": "affiliate_fct",
+        "value": [
+          "Goethe, Johann Wolfgang von",
+          "Lassen, Eduard"
+        ]
+      },
+      {
+        "name": "affiliate_fct_autocomplete",
+        "value": [
+          "Goethe, Johann Wolfgang von",
+          "Lassen, Eduard"
+        ]
+      },
+      {
+        "name": "affiliate_fct_role",
+        "value": [
+          "Goethe, Johann Wolfgang von",
+          "Lassen, Eduard",
+          "Goethe, Johann Wolfgang von_1_affiliate_fct_subject",
+          "Lassen, Eduard_1_affiliate_fct_subject"
+        ]
+      },
+      {
+        "name": "affiliate_fct_role_autocomplete",
+        "value": [
+          "Goethe, Johann Wolfgang von",
+          "Lassen, Eduard",
+          "Goethe, Johann Wolfgang von_1_affiliate_fct_subject",
+          "Lassen, Eduard_1_affiliate_fct_subject"
+        ]
+      },
+      {
+        "name": "keywords_fct",
+        "value": [
+          "Archivale",
+          "Faust I. und II."
+        ]
+      },
+      {
+        "name": "keywords_fct_autocomplete",
+        "value": [
+          "Archivale",
+          "Faust I. und II."
+        ]
+      },
+      {
+        "name": "topic_fct",
+        "value": [
+          "Faust I. und II."
+        ]
+      },
+      {
+        "name": "topic_fct_autocomplete",
+        "value": [
+          "Faust I. und II."
+        ]
+      },
+      {
+        "name": "objecttype_fct",
+        "value": [
+          "Archivale"
+        ]
+      },
+      {
+        "name": "objecttype_fct_autocomplete",
+        "value": [
+          "Archivale"
+        ]
+      },
+      {
+        "name": "type_fct",
+        "value": [
+          "mediatype_007"
+        ]
+      },
+      {
+        "name": "provider_fct",
+        "value": [
+          "Landesarchiv Berlin"
+        ]
+      },
+      {
+        "name": "provider_fct_autocomplete",
+        "value": [
+          "Landesarchiv Berlin"
+        ]
+      },
+      {
+        "name": "provider_fct_normdata",
+        "value": [
+          "http://www.deutsche-digitale-bibliothek.de/organization/72SC3WBMDZ7SGFJOV7GDZKGB5BXKXE7R"
+        ]
+      },
+      {
+        "name": "dataprovider_fct",
+        "value": [
+          "Landesarchiv Berlin"
+        ]
+      },
+      {
+        "name": "dataprovider_fct_autocomplete",
+        "value": [
+          "Landesarchiv Berlin"
+        ]
+      },
+      {
+        "name": "dataprovider_fct_normdata",
+        "value": [
+          "http://www.deutsche-digitale-bibliothek.de/organization/72SC3WBMDZ7SGFJOV7GDZKGB5BXKXE7R"
+        ]
+      },
+      {
+        "name": "apd_keywords_fct",
+        "value": [
+          "Faust I. und II."
+        ]
+      },
+      {
+        "name": "apd_keywords_fct_autocomplete",
+        "value": [
+          "Faust I. und II."
+        ]
+      },
+      {
+        "name": "sector_fct",
+        "value": [
+          "sec_01"
+        ]
+      },
+      {
+        "name": "last_update",
+        "value": [
+          "2026-02-12T09:45:54+0100"
+        ]
+      }
+    ]
+  },
+  "preview": {
+    "media": "unknown",
+    "type": "Kultur",
+    "title": "Noten - Faust, I. und II. Teil von Goethe, Johann Wolfgang von; Musik: Lassen, Eduard",
+    "subtitle": "Landesarchiv Berlin, A Rep. 167 (Noten - N) Nr. 1318 N",
+    "thumbnail": {
+      "href": null
+    }
+  },
+  "view": {
+    "item": {
+      "identifier": "I31x07399657438509218991230122316107",
+      "label": "Noten - Faust, I. und II. Teil von Goethe, Johann Wolfgang von; Musik: Lassen, Eduard",
+      "title": "Noten - Faust, I. und II. Teil von Goethe, Johann Wolfgang von; Musik: Lassen, Eduard",
+      "subtitle": "Landesarchiv Berlin, A Rep. 167 (Noten - N) Nr. 1318 N",
+      "rights": "Für nähere Informationen zu Nutzungs- und Verwertungsrechten kontaktieren Sie bitte info@landesarchiv.berlin.de.",
+      "metdata-rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "http://www.landesarchiv-berlin.findbuch.net#41205265702e2031363720284e6f74656e202d204e29x1318",
+      "category": "Kultur",
+      "media": "unknown",
+      "thumbnail": "",
+      "latitude": "",
+      "longitude": "",
+      "license": null,
+      "institution": {
+        "id": "72SC3WBMDZ7SGFJOV7GDZKGB5BXKXE7R",
+        "url": "http://www.landesarchiv-berlin.de",
+        "name": "Landesarchiv Berlin",
+        "logo-institution-ddbid": "72SC3WBMDZ7SGFJOV7GDZKGB5BXKXE7R"
+      },
+      "viewers": {
+        "viewer": []
+      },
+      "fields": [
+        {
+          "usage": "display",
+          "field": [
+            {
+              "id": "flex_arch_004",
+              "name": "Archivaliensignatur",
+              "value": [
+                {
+                  "content": "A Rep. 167 (Noten - N) Nr. 1318 N",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_arch_001",
+              "name": "Bestand",
+              "value": [
+                {
+                  "content": "A Rep. 167 (Noten - N) Königliche Schauspiele/Preußische Staatstheater",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_arch_029",
+              "name": "Kontext",
+              "value": [
+                {
+                  "content": "A Rep. 167 (Noten - N) Königliche Schauspiele/Preußische Staatstheater",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_arch_010",
+              "name": "Enthältvermerke",
+              "value": [
+                {
+                  "content": "Enthält: Klavierauszug.",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_arch_016",
+              "name": "Archivalientyp",
+              "value": [
+                {
+                  "content": "Archivale",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_arch_022",
+              "name": "Bemerkungen",
+              "value": [
+                {
+                  "content": "Johann Wolfgang von Goethe *28. August 1749, +22. März 1832<br />Eduard Lassen *13 April 1830, +15 Januar 1904",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_arch_027",
+              "name": "Indexbegriffe Person/Institution",
+              "value": [
+                {
+                  "content": "Goethe, Johann Wolfgang von",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Lassen, Eduard",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_arch_034",
+              "name": "Indexbegriffe Sache",
+              "value": [
+                {
+                  "content": "Faust I. und II.",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            }
+          ]
+        },
+        {
+          "usage": "index",
+          "field": [
+            {
+              "id": "title",
+              "name": "Titel",
+              "value": [
+                {
+                  "content": "Noten - Faust, I. und II. Teil von Goethe, Johann Wolfgang von; Musik: Lassen, Eduard",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "description",
+              "name": "Beschreibung",
+              "value": [
+                {
+                  "content": "Enthält: Klavierauszug.",
+                  "resource": "http://purl.org/dc/elements/1.1/description",
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "objecttype_delivered",
+              "name": "Objekttyp aus Lieferdaten",
+              "value": [
+                {
+                  "content": "Archivale",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "dataset_id",
+              "name": "dataset_id",
+              "value": [
+                {
+                  "content": "1296799422070261UOgo",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "dataset_label",
+              "name": "dataset_label",
+              "value": [
+                {
+                  "content": "Gesamtlieferung (Findbuch) - EAD",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "delivery_id",
+              "name": "delivery_id",
+              "value": [
+                {
+                  "content": "7636624680625351jfHy",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "supplier_id",
+              "name": "supplier_id",
+              "value": [
+                {
+                  "content": "00000908",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "mapping_version",
+              "name": "mapping_version",
+              "value": [
+                {
+                  "content": "6.18",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "md_format",
+              "name": "Metadata Format",
+              "value": [
+                {
+                  "content": "ead",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "source_format",
+              "name": "source_format",
+              "value": [
+                {
+                  "content": "urn:isbn:1-931666-22-9",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "apd_abstracts",
+              "name": "Enthält",
+              "value": [
+                {
+                  "content": "Enthält: Klavierauszug.",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "apd_context",
+              "name": "Kontext",
+              "value": [
+                {
+                  "content": "A Rep. 167 (Noten - N) Königliche Schauspiele/Preußische Staatstheater",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "apd_level_of_description",
+              "name": "Verzeichnungsstufe",
+              "value": [
+                {
+                  "content": "htype_034",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "apd_document_type",
+              "name": "Archivalientyp",
+              "value": [
+                {
+                  "content": "Archivale",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "apd_xml_sort",
+              "name": "Sortierung nach XML-Position",
+              "value": [
+                {
+                  "content": "Landesarchiv Berlin_A Rep. 167 (Noten - N)_000000000000650",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "apd_reference_number",
+              "name": "(Vor-)Signatur",
+              "value": [
+                {
+                  "content": "A Rep. 167 (Noten - N) Nr. 1318 N",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "context",
+              "name": "Parent Hierarchien",
+              "value": [
+                {
+                  "content": "PAYZNSUS5FONPEPQA7BGHXQABJQ5ORWJ",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "ranking",
+              "name": "Ranking",
+              "value": [
+                {
+                  "content": "Goethe, Johann Wolfgang von",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Lassen, Eduard",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Faust I. und II.",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            }
+          ]
+        }
+      ]
+    },
+    "cortex-institution": null
+  },
+  "source": {
+    "description": {
+      "id": "223GMAWUHPGI76OQUKSL54XVOCHHXDWD",
+      "record": {
+        "ref": "PAYZNSUS5FONPEPQA7BGHXQABJQ5ORWJ",
+        "href": "/items/PAYZNSUS5FONPEPQA7BGHXQABJQ5ORWJ/source/record",
+        "type": "urn:isbn:1-931666-22-9",
+        "id": [
+          {
+            "type": "c[@level='collection']/@id",
+            "value": "I31x65650048758834618991230142347835"
+          },
+          {
+            "type": "c[@level='file']/@id",
+            "value": "I31x07399657438509218991230122316107"
+          }
+        ]
+      }
+    }
+  },
+  "aggregator-info": null,
+  "binaries": {
+    "binary": null
+  },
+  "wgs84-position": null,
+  "ddbObject": {
+    "typePortal": [],
+    "category": [
+      {
+        "standardised": [
+          {
+            "value": "Kulturobjekt",
+            "href": null,
+            "resource": null,
+            "relationType": null,
+            "translated": null,
+            "type": null,
+            "typeUri": null,
+            "lang": null,
+            "import": "technicalMapping"
+          }
+        ],
+        "literal": [],
+        "synonym": [],
+        "detail": null,
+        "hierarchyType": null,
+        "machineGenerated": null,
+        "translated": null,
+        "typeAgent": null,
+        "type": null,
+        "typeUri": null,
+        "lang": null
+      }
+    ],
+    "identifier": {
+      "objectID": {
+        "value": "I31x07399657438509218991230122316107",
+        "href": null,
+        "resource": null,
+        "relationType": null,
+        "translated": null,
+        "type": null,
+        "typeUri": null,
+        "lang": null,
+        "import": null
+      },
+      "referenceNumber": [],
+      "formerReferenceNumber": [],
+      "inventoryNumber": [],
+      "isbn": [],
+      "issn": [],
+      "vd16": [],
+      "vd17": [],
+      "vd18": [],
+      "otherNumber": [],
+      "archivalReferenceNumber": [],
+      "holdingReferenceNumber": [],
+      "identifierLIDO": [],
+      "doi": [],
+      "handle": [],
+      "purl": [],
+      "urn": [],
+      "detail": null,
+      "hierarchyType": null,
+      "machineGenerated": null,
+      "translated": null,
+      "typeAgent": null,
+      "type": null,
+      "typeUri": null,
+      "lang": null
+    },
+    "mediaType": {
+      "standardised": [],
+      "literal": [
+        {
+          "value": "unknown",
+          "href": null,
+          "resource": null,
+          "relationType": null,
+          "translated": null,
+          "type": null,
+          "typeUri": null,
+          "lang": null,
+          "import": null
+        }
+      ],
+      "synonym": [],
+      "detail": null,
+      "hierarchyType": null,
+      "machineGenerated": null,
+      "translated": null,
+      "typeAgent": null,
+      "type": null,
+      "typeUri": null,
+      "lang": null
+    },
+    "monumentType": [],
+    "objectType": [],
+    "objectGenre": [],
+    "title": [
+      {
+        "value": "Noten - Faust, I. und II. Teil von Goethe, Johann Wolfgang von; Musik: Lassen, Eduard",
+        "href": null,
+        "resource": null,
+        "relationType": null,
+        "translated": null,
+        "type": null,
+        "typeUri": null,
+        "lang": null,
+        "import": null
+      }
+    ],
+    "otherTitles": null,
+    "language": [],
+    "measurements": [],
+    "extent": null,
+    "edition": null,
+    "circulation": null,
+    "materialsTechniques": [],
+    "inscriptions": [],
+    "lettering": [],
+    "culturalAttribution": [],
+    "condition": [],
+    "notes": [],
+    "description": [],
+    "origin": [],
+    "significanceIndigenousContext": [],
+    "formalDescription": [],
+    "abstractOfHolding": [],
+    "furtherInformation": [],
+    "containsNote": [],
+    "location": null,
+    "sources": [],
+    "collection": [],
+    "provenances": [],
+    "preProvenance": [],
+    "agent": [],
+    "creator": [],
+    "contributor": [],
+    "publisher": [],
+    "creationDate": [],
+    "durationDate": [],
+    "durationOfHoldingDate": [],
+    "publicationDate": [],
+    "relatedObjectAndLiterature": [],
+    "relatedObject": [],
+    "relatedLiterature": [],
+    "relatedWork": [],
+    "secondaryLiterature": [],
+    "context": [],
+    "holdingOnline": [],
+    "holding": [],
+    "accessRestriction": [],
+    "classification": [],
+    "sponsorship": [],
+    "appreciation": [],
+    "event": [],
+    "binaries": null,
+    "subjectWhat": [],
+    "subjectWho": [],
+    "subjectWhen": [],
+    "subjectWhere": [],
+    "subjectEvent": [],
+    "subject": [],
+    "digitalObjectAtArchive": [],
+    "bibliographicCitation": [],
+    "series": [],
+    "tableOfContent": [],
+    "linkToCatalogueOPAC": [],
+    "rightsInformations": [],
+    "legalStatus": [],
+    "metadataRights": null,
+    "otherRights": [],
+    "objectViewDataprovider": null,
+    "project": [],
+    "properties": null,
+    "providerInfo": null,
+    "aggregatorInfo": null,
+    "ranking": null,
+    "sourceRecord": null,
+    "type": null,
+    "verified": null,
+    "abstract": []
+  }
+}

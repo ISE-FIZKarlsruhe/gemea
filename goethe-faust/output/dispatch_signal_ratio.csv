@@ -1,0 +1,30 @@
+sector,sector_label,mediatype,total,htype_only,htype_only_pct,dctype_only,dctype_only_pct,both,both_pct,neither,neither_pct,unique_htype,unique_dctype,htype_density,dctype_density,semantic_leader
+sparte001,Archive,AUDIO,8,0,0.0,8,100.0,0,0.0,0,0.0,0,1,0.0000,0.1250,dc:type
+sparte001,Archive,PHOTO,5361,232,4.3,3672,68.5,1457,27.2,0,0.0,2,151,0.0004,0.0282,dc:type
+sparte001,Archive,TEXT,23109,85,0.4,0,0.0,23024,99.6,0,0.0,4,16,0.0002,0.0007,dc:type
+sparte001,Archive,VIDEO,7,0,0.0,7,100.0,0,0.0,0,0.0,0,1,0.0000,0.1429,dc:type
+sparte001,Archive,NOT DIGITIZED,21745,4425,20.3,223,1.0,17097,78.6,0,0.0,6,84,0.0003,0.0039,dc:type
+sparte002,Library,ANY,25,0,0.0,19,76.0,0,0.0,6,24.0,0,3,0.0000,0.1200,dc:type
+sparte002,Library,AUDIO,12,0,0.0,12,100.0,0,0.0,0,0.0,0,1,0.0000,0.0833,dc:type
+sparte002,Library,PHOTO,984,0,0.0,406,41.3,578,58.7,0,0.0,3,22,0.0030,0.0224,dc:type
+sparte002,Library,TEXT,28850,8853,30.7,1907,6.6,18089,62.7,1,0.0,20,152,0.0007,0.0053,dc:type
+sparte002,Library,VIDEO,8,0,0.0,0,0.0,8,100.0,0,0.0,1,1,0.1250,0.1250,tied
+sparte002,Library,NOT DIGITIZED,20335,8976,44.1,1541,7.6,9818,48.3,0,0.0,4,170,0.0002,0.0084,dc:type
+sparte003,Monument Preservation,PHOTO,97,0,0.0,97,100.0,0,0.0,0,0.0,0,32,0.0000,0.3299,dc:type
+sparte003,Monument Preservation,NOT DIGITIZED,15,0,0.0,15,100.0,0,0.0,0,0.0,0,6,0.0000,0.4000,dc:type
+sparte004,Research,AUDIO,22,0,0.0,22,100.0,0,0.0,0,0.0,0,2,0.0000,0.0909,dc:type
+sparte004,Research,PHOTO,948,0,0.0,938,98.9,10,1.1,0,0.0,2,117,0.0021,0.1234,dc:type
+sparte004,Research,TEXT,260,0,0.0,0,0.0,260,100.0,0,0.0,4,4,0.0154,0.0154,tied
+sparte004,Research,NOT DIGITIZED,53,0,0.0,26,49.1,27,50.9,0,0.0,1,12,0.0189,0.2264,dc:type
+sparte005,Media Library,AUDIO,424,0,0.0,424,100.0,0,0.0,0,0.0,0,3,0.0000,0.0071,dc:type
+sparte005,Media Library,PHOTO,3792,0,0.0,3792,100.0,0,0.0,0,0.0,0,101,0.0000,0.0266,dc:type
+sparte005,Media Library,TEXT,2,0,0.0,2,100.0,0,0.0,0,0.0,0,1,0.0000,0.5000,dc:type
+sparte005,Media Library,VIDEO,63,0,0.0,63,100.0,0,0.0,0,0.0,0,6,0.0000,0.0952,dc:type
+sparte005,Media Library,NOT DIGITIZED,9,0,0.0,9,100.0,0,0.0,0,0.0,0,5,0.0000,0.5556,dc:type
+sparte006,Museum,AUDIO,10,0,0.0,10,100.0,0,0.0,0,0.0,0,2,0.0000,0.2000,dc:type
+sparte006,Museum,PHOTO,8972,0,0.0,8972,100.0,0,0.0,0,0.0,0,406,0.0000,0.0453,dc:type
+sparte006,Museum,TEXT,15,0,0.0,8,53.3,7,46.7,0,0.0,1,4,0.0667,0.2667,dc:type
+sparte006,Museum,VIDEO,18,0,0.0,18,100.0,0,0.0,0,0.0,0,2,0.0000,0.1111,dc:type
+sparte006,Museum,NOT DIGITIZED,203,0,0.0,202,99.5,0,0.0,1,0.5,0,50,0.0000,0.2463,dc:type
+sparte007,Others,PHOTO,74,0,0.0,74,100.0,0,0.0,0,0.0,0,21,0.0000,0.2838,dc:type
+sparte007,Others,TEXT,11,0,0.0,0,0.0,11,100.0,0,0.0,3,3,0.2727,0.2727,tied

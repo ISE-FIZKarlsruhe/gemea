@@ -1,0 +1,75 @@
+sparte,mediatype,htype,dc_type,ddb_url,rule_w,rule_m,lookup_w,lookup_m,match,source
+sparte001 Archive,*,ht048,—,NO EXAMPLE FOUND,ric-rst:Collection + rico:RecordSet + vocnet-htype:ht048,—,—,—,NO_EXAMPLE,—
+sparte001 Archive,*,ht037,—,https://www.deutsche-digitale-bibliothek.de/item/73TWBW4FVYAXSDAMZ6ZZCZH3RU25RTQK,ric-rst:Collection + rico:RecordSet + vocnet-htype:ht037,—,ric-rst:Collection + rico:RecordSet + vocnet-htype:ht037,—,MATCH,htype:ht037
+sparte001 Archive,*,ht036,—,NO EXAMPLE FOUND,ric-rst:Collection + rico:RecordSet + vocnet-htype:ht036,—,—,—,NO_EXAMPLE,—
+sparte001 Archive,*,ht030,—,https://www.deutsche-digitale-bibliothek.de/item/2P772ZDVQ7XWL7X5WLMOIQH4UNAUVQIF,ric-rst:Fonds + rico:RecordSet + vocnet-htype:ht030,—,ric-rst:Fonds + rico:RecordSet + vocnet-htype:ht030,—,MATCH,htype:ht030
+sparte001 Archive,*,ht031,—,https://www.deutsche-digitale-bibliothek.de/item/DZQNVQOYVTYMYHXRIF7ANOEQTE4L2PO4,ric-rst:Series + rico:RecordSet + vocnet-htype:ht031,—,ric-rst:Series + rico:RecordSet + vocnet-htype:ht031,—,MATCH,htype:ht031
+sparte001 Archive,*,ht032,—,https://www.deutsche-digitale-bibliothek.de/item/NUHJOR7I3UZEEZA4MQZCQDSHOIQ5O45N,ric-rst:Series + rico:RecordSet + vocnet-htype:ht032,—,ric-rst:Series + rico:RecordSet + vocnet-htype:ht032,—,MATCH,htype:ht032
+sparte001 Archive,*,ht033,—,NO EXAMPLE FOUND,ric-rst:Series + rico:RecordSet + vocnet-htype:ht033,—,—,—,NO_EXAMPLE,—
+sparte001 Archive,*,ht034,—,https://www.deutsche-digitale-bibliothek.de/item/E5B7N2LIPJG2R3GDKENOGDOVNLN4HMOB,rico:Record,—,rico:Record,—,MATCH,htype:ht034
+sparte001 Archive,*,ht035,—,https://www.deutsche-digitale-bibliothek.de/item/BMZFF3WMGARJG5VCU3QOUQDR3ZG6A5T7,rico:RecordPart,—,rico:RecordPart,—,MATCH,htype:ht035
+sparte001 Archive,mt001 Audio,—,—,https://www.deutsche-digitale-bibliothek.de/item/FKADYPL5QTDOE3NAZKYOLGOQ35I2ZFYT,—,aco:AudioManifestation,—,aco:AudioManifestation,MATCH,mt_lookup:sparte001×mt001
+sparte001 Archive,mt002 Photo,—,—,https://www.deutsche-digitale-bibliothek.de/item/UQRRMA74KAUENWXGVRKZQNQR56XTHZKA,—,mocho:ImageManifestation,—,mocho:ImageManifestation,MATCH,mt_lookup:sparte001×mt002
+sparte001 Archive,mt003 Text,—,—,https://www.deutsche-digitale-bibliothek.de/item/5ZY4472SVE6KF5FQSJKMN2VKEZ2P3B5D,—,mocho:Manifestation,—,mocho:Manifestation,MATCH,mt_lookup:sparte001×mt003
+sparte001 Archive,mt005 Video,—,—,https://www.deutsche-digitale-bibliothek.de/item/GCUBBSNWTFRUAPVBTVX6UR7C5KNI6GJS,ec:EditorialWork,ec:MediaResource,ec:EditorialWork,ec:MediaResource,MATCH,mt_lookup:sparte001×mt005
+sparte001 Archive,mt007 Not Digitized,—,—,https://www.deutsche-digitale-bibliothek.de/item/OF7XLLXMYWKGPGUO7RB6BDK7GIV3UIZ3,—,—,—,—,MATCH_EMPTY,mt_lookup:sparte001×mt007
+sparte002 Library,mt003 Text,ht001,—,https://www.deutsche-digitale-bibliothek.de/item/3FAVQ4GSSC4MVX5L57K2EPBI2YC5OZUT,—,doco:Section + rdac:C10007,doco:Section + rdac:C10007,—,MATCH,htype:ht001
+sparte002 Library,mt003 Text,ht002,—,NO EXAMPLE FOUND,—,doco:Appendix + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht003,—,https://www.deutsche-digitale-bibliothek.de/item/2RHDUHMCN4EESVW4VS63D7A5E2QEPW2L,rdac:C10001,rdac:C10007,rdac:C10001 + rdac:C10007,—,MATCH,htype:ht003
+sparte002 Library,mt003 Text,ht004,—,https://www.deutsche-digitale-bibliothek.de/item/4XH2JJRFAHFZ3XNEJIG6REL3BUMDCEUZ,—,rdac:C10007,rdac:C10007,—,MATCH,htype:ht004
+sparte002 Library,mt003 Text,ht005,—,NO EXAMPLE FOUND,—,rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht006,—,https://www.deutsche-digitale-bibliothek.de/item/GHZHYP4F4M2AASH3X3VOAOHZRKIZL2UV,rdac:C10001,rdac:C10007,rdac:C10001 + rdac:C10007,—,MATCH,htype:ht006
+sparte002 Library,mt003 Text,ht007,—,https://www.deutsche-digitale-bibliothek.de/item/EK2MOFW5UAABCLSU32D3ITVSIPMISUU4,—,doco:Part + rdac:C10007,doco:Part + rdac:C10007,—,MATCH,htype:ht007
+sparte002 Library,mt003 Text,ht008,—,https://www.deutsche-digitale-bibliothek.de/item/ULQVT2HDVM76T7ZYQJ3L6C3TNKX5RQRN,—,rdac:C10007,rdac:C10007,—,MATCH,htype:ht008
+sparte002 Library,mt003 Text,ht009,—,NO EXAMPLE FOUND,—,doco:Section + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht010,—,https://www.deutsche-digitale-bibliothek.de/item/Z4TW6STKEPZ52EJZYVO7HJAMD2ZHWVTY,—,rdac:C10007,rdac:C10007,—,MATCH,htype:ht010
+sparte002 Library,mt003 Text,ht011,—,NO EXAMPLE FOUND,—,doco:Part + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht012,—,NO EXAMPLE FOUND,—,doco:TextChunk + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht013,—,https://www.deutsche-digitale-bibliothek.de/item/NFBQBKQDLJK3J7GKOAZV3JX7HYP7QOJC,rdac:C10001,rdac:C10007,rdac:C10001 + rdac:C10007,—,MATCH,htype:ht013
+sparte002 Library,mt003 Text,ht014,—,https://www.deutsche-digitale-bibliothek.de/item/GGIWU2LMFXJAMVWGTPJ3HBFSF4ZP2EUW,—,rdac:C10007,rdac:C10007,—,MATCH,htype:ht014
+sparte002 Library,mt003 Text,ht015,—,NO EXAMPLE FOUND,mocho:ImageWork,doco:Figure + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht016,—,https://www.deutsche-digitale-bibliothek.de/item/VYBINSDDDSM4HQSAVSCWW33PKSACPZKJ,—,doco:Index + rdac:C10007,doco:Index + rdac:C10007,—,MATCH,htype:ht016
+sparte002 Library,mt003 Text,ht017,—,https://www.deutsche-digitale-bibliothek.de/item/NHVHLFE3OTCCJC72WQANTOX2QXOL3BCA,—,doco:TableOfContents + rdac:C10007,doco:TableOfContents + rdac:C10007,—,MATCH,htype:ht017
+sparte002 Library,mt003 Text,ht018,—,https://www.deutsche-digitale-bibliothek.de/item/YARS3R522ATSAXFQUA5VOY6ZDEFFB5SI,—,doco:Chapter + rdac:C10007,doco:Chapter + rdac:C10007,—,MATCH,htype:ht018
+sparte002 Library,mt003 Text,ht019,—,NO EXAMPLE FOUND,mocho:ImageWork,doco:Figure + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht020,—,https://www.deutsche-digitale-bibliothek.de/item/XMHOHAUCJW6CF4RRWHGDPQVR2VTNM4RH,rdac:C10001,rdac:C10007,rdac:C10001 + rdac:C10007,—,MATCH,htype:ht020
+sparte002 Library,mt003 Text,ht021,—,https://www.deutsche-digitale-bibliothek.de/item/QLOFDDUYRP4CEB77SVFSLBFM5WSGSJC4,rdac:C10001,rdac:C10007,rdac:C10001 + rdac:C10007,—,MATCH,htype:ht021
+sparte002 Library,mt003 Text,ht022,—,NO EXAMPLE FOUND,mo:MusicalWork + rdac:C10001,rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht023,—,https://www.deutsche-digitale-bibliothek.de/item/GYFU6KFILFZ6ZPBW2UVQALIW7B6HIV43,rdac:C10001,rdac:C10007,rdac:C10001 + rdac:C10007,—,MATCH,htype:ht023
+sparte002 Library,mt003 Text,ht024,—,NO EXAMPLE FOUND,—,rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht025,—,NO EXAMPLE FOUND,rdac:C10001,rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht026,—,https://www.deutsche-digitale-bibliothek.de/item/HBUAQGZUYUUIEDBEN72UHC7SF4HNJO5T,—,doco:TextChunk + rdac:C10007,doco:TextChunk + rdac:C10007,—,MATCH,htype:ht026
+sparte002 Library,mt003 Text,ht027,—,https://www.deutsche-digitale-bibliothek.de/item/LVH6IBCF4LQMQKHKI35QMN52MAZSBMTU,—,doco:Stanza + rdac:C10007,doco:Stanza + rdac:C10007,—,MATCH,htype:ht027
+sparte002 Library,mt003 Text,ht028,—,https://www.deutsche-digitale-bibliothek.de/item/27JP5Q3YGCHAVABC3SYK2DDMYSLY3IFI,—,doco:Preface + rdac:C10007,doco:Preface + rdac:C10007,—,MATCH,htype:ht028
+sparte002 Library,mt003 Text,ht029,—,https://www.deutsche-digitale-bibliothek.de/item/6PK2QJ5LXWKTOXEH7KAIU3N4UTJQS75O,—,rdac:C10007,rdac:C10007,—,MATCH,htype:ht029
+sparte002 Library,mt003 Text,ht044,—,NO EXAMPLE FOUND,rdac:C10001,rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht045,—,NO EXAMPLE FOUND,—,doco:Part + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht046,—,NO EXAMPLE FOUND,—,doco:Part + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt003 Text,ht047,—,NO EXAMPLE FOUND,—,doco:Part + rdac:C10007,—,—,NO_EXAMPLE,—
+sparte002 Library,mt001 Audio,—,—,https://www.deutsche-digitale-bibliothek.de/item/ZEA7H5QDCNMVFQ3QYICQYACA4BCRGJ2H,—,aco:AudioManifestation,—,aco:AudioManifestation,MATCH,mt_lookup:sparte002×mt001
+sparte002 Library,mt002 Photo,—,—,https://www.deutsche-digitale-bibliothek.de/item/IP3WL6ABDVFII4PLBBTV7SDIRW336ALD,—,mocho:ImageManifestation,—,mocho:ImageManifestation,MATCH,mt_lookup:sparte002×mt002
+sparte002 Library,mt005 Video,—,—,https://www.deutsche-digitale-bibliothek.de/item/UAGRGHLZFVEROT2VWBYMVI32BXKR2KK3,ec:EditorialWork,ec:MediaResource,ec:EditorialWork,ec:MediaResource,MATCH,mt_lookup:sparte002×mt005
+sparte002 Library,mt007 Not Digitized,—,—,https://www.deutsche-digitale-bibliothek.de/item/IAXXWIQ2YIL5YIE2EJVFPBKKKBLU3TRQ,—,rdac:C10007,—,rdac:C10007,MATCH,mt_lookup:sparte002×mt007
+sparte003 Monument Preservation,mt001 Audio,—,—,NO EXAMPLE FOUND,mocho:ImmovableWork,aco:AudioManifestation,—,—,NO_EXAMPLE,—
+sparte003 Monument Preservation,mt002 Photo,—,—,https://www.deutsche-digitale-bibliothek.de/item/7ZNGRYPUQISHXF2FYUORTK2QACZ35EZB,mocho:ImmovableWork,mocho:ImageManifestation,mocho:ImmovableWork,mocho:ImageManifestation,MATCH,mt_lookup:sparte003×mt002
+sparte003 Monument Preservation,mt003 Text,—,—,NO EXAMPLE FOUND,mocho:ImmovableWork,rdac:C10007,—,—,NO_EXAMPLE,—
+sparte003 Monument Preservation,mt005 Video,—,—,NO EXAMPLE FOUND,mocho:ImmovableWork,ec:MediaResource,—,—,NO_EXAMPLE,—
+sparte003 Monument Preservation,mt007 Not Digitized,—,—,https://www.deutsche-digitale-bibliothek.de/item/4HT2HSNENKT6W6555BLPGULC2U43YS6K,mocho:ImmovableWork,—,mocho:ImmovableWork,—,MATCH,mt_lookup:sparte003×mt007
+sparte004 Research,mt001 Audio,—,—,https://www.deutsche-digitale-bibliothek.de/item/HQAPVSNXVK6E7UME6GA4ECWQLAFLDZMY,—,aco:AudioManifestation,—,aco:AudioManifestation,MATCH,mt_lookup:sparte004×mt001
+sparte004 Research,mt002 Photo,—,—,https://www.deutsche-digitale-bibliothek.de/item/5X6KCFMDCSPZVTQLTMY37UYJSY4YQN72,—,mocho:ImageManifestation,—,mocho:ImageManifestation,MATCH,mt_lookup:sparte004×mt002
+sparte004 Research,mt003 Text,—,—,https://www.deutsche-digitale-bibliothek.de/item/7IONCWN2PFXBHVHUJICDFRKV3WBEFEUX,—,rdac:C10007,—,rdac:C10007,MATCH,mt_lookup:sparte004×mt003
+sparte004 Research,mt005 Video,—,—,NO EXAMPLE FOUND,—,ec:MediaResource,—,—,NO_EXAMPLE,—
+sparte004 Research,mt007 Not Digitized,—,—,https://www.deutsche-digitale-bibliothek.de/item/H4SWXTOOQUEH27KTD6Z5B5EMNM6X7QBA,—,mocho:Manifestation,—,mocho:Manifestation,MATCH,mt_lookup:sparte004×mt007
+sparte005 Media Library,mt001 Audio,—,Schallplatte,https://www.deutsche-digitale-bibliothek.de/item/MUZRWLWXBKZF4K5U6L56XTRS3RJLZ4KJ,—,aco:AudioManifestation,mo:MusicalWork,mo:MusicalManifestation,DC_TYPE_OVERRIDE,dc_lookup:any×mt001×Schallplatte
+sparte005 Media Library,mt001 Audio,—,Schellackplatte,https://www.deutsche-digitale-bibliothek.de/item/ZFO5MNDVJFVGM6QEFF7YGIEPMY4RSLFY,—,aco:AudioManifestation,mo:MusicalWork,mo:MusicalManifestation,DC_TYPE_OVERRIDE,dc_lookup:any×mt001×Schellackplatte
+sparte005 Media Library,mt001 Audio,—,Tonbandspule,https://www.deutsche-digitale-bibliothek.de/item/PWURCUUQ6IAH7M3ZCLARJ3SHGIYXPDLV,—,aco:AudioManifestation,—,aco:AudioManifestation,MATCH,mt_lookup:sparte005×mt001
+sparte005 Media Library,mt002 Photo,—,Vogelschaubild,https://www.deutsche-digitale-bibliothek.de/item/SXMSNZVE5IDBAYHJAYPDTSNC7LK3FTRI,mocho:ImageWork,mocho:ImageManifestation,mocho:ImageWork,—,DC_TYPE_OVERRIDE,dc_lookup:sparte005×mt002×Vogelschaubild
+sparte005 Media Library,mt002 Photo,—,Kontaktbogen,https://www.deutsche-digitale-bibliothek.de/item/LAKQTYJIMI5XXLBZVOWTSAOXVIY4CZPW,mocho:ImageWork,mocho:ImageManifestation,mocho:ImageWork,—,DC_TYPE_OVERRIDE,dc_lookup:sparte005×mt002×Kontaktbogen
+sparte005 Media Library,mt002 Photo,—,Palazzo Vestibül,https://www.deutsche-digitale-bibliothek.de/item/BSG5FSCSKIYQEWCQHDTYGM2TBJUWMINN,mocho:ImageWork,mocho:ImageManifestation,mocho:ImageWork,—,DC_TYPE_OVERRIDE,dc_lookup:sparte005×mt002×Palazzo Vestibül
+sparte005 Media Library,mt005 Video,—,Trailer,https://www.deutsche-digitale-bibliothek.de/item/ZBHVTJHYNYX2JTQRE4CK4HOCDXRSWAA3,ec:EditorialWork,ec:MediaResource,—,ec:EditorialWork,DC_TYPE_OVERRIDE,dc_lookup:sparte005×mt005×Trailer
+sparte005 Media Library,mt005 Video,—,Teaser,https://www.deutsche-digitale-bibliothek.de/item/BGFT4GCBHV5FDZZ7CHM667RU27BIN6F2,ec:EditorialWork,ec:MediaResource,—,ec:EditorialWork,DC_TYPE_OVERRIDE,dc_lookup:sparte005×mt005×Teaser
+sparte005 Media Library,mt005 Video,—,Veranstaltungsmitschnitt,https://www.deutsche-digitale-bibliothek.de/item/7SHZO3PB2OJTQP4UKSLBTWZRXIH4DY4O,ec:EditorialWork,ec:MediaResource,—,ec:EditorialWork,DC_TYPE_OVERRIDE,dc_lookup:sparte005×mt005×Veranstaltungsmitschnitt
+sparte006 Museum,mt002 Photo,—,—,https://www.deutsche-digitale-bibliothek.de/item/4UJUISTFHL3WYBF3YOD3QPEPCBBVWLON,vra:Work,vra:Image,vra:Work,vra:Image,MATCH,mt_lookup:sparte006×mt002
+sparte006 Museum,mt005 Video,—,—,https://www.deutsche-digitale-bibliothek.de/item/HN4OLHBINWTHQNIKE7TNVX2TR6UL6CT3,ec:EditorialWork,ec:MediaResource,ec:EditorialWork,ec:MediaResource,MATCH,mt_lookup:sparte006×mt005
+sparte007 Others,mt002 Photo,—,—,https://www.deutsche-digitale-bibliothek.de/item/JKYGBMKYVNFUGQZWRUSQMY5EALD2DFUP,—,mocho:ImageManifestation,—,mocho:ImageManifestation,MATCH,mt_lookup:sparte007×mt002
+*,*,—,—,https://www.deutsche-digitale-bibliothek.de/item/4XP3MXZNXLDXI4WMBFNIPZR4QRSJZCUK,—,mocho:Manifestation,—,—,NO_LOOKUP,NO LOOKUP ENTRY

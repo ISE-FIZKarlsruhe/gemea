@@ -1,0 +1,688 @@
+{
+  "total_records": 115432,
+  "entity_counts": {
+    "Aggregation": 115432,
+    "WebResource": 115432,
+    "Concept": 115432,
+    "Agent": 115432,
+    "ProvidedCHO": 115432,
+    "Event": 110059,
+    "TimeSpan": 99930,
+    "Place": 59249,
+    "PhysicalThing": 22265
+  },
+  "fields": [
+    {
+      "entity_type": "Agent",
+      "json_key": "about",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "prefLabel",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "altLabel",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "note",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "date",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "type",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "identifier",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "hasPart",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "isPartOf",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "begin",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "end",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "hasMet",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "isRelatedTo",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "name",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "biographicalInformation",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "dateOfBirth",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "dateOfDeath",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "dateOfEstablishment",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "dateOfTermination",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "gender",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "placeOfBirth",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "placeOfDeath",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "professionOrOccupation",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "sameAs",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Agent",
+      "json_key": "wasPresentAt",
+      "record_count": 422026,
+      "record_pct": 365.61,
+      "entity_pct": 365.61
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "about",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "aggregatedCHO",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "isShownAt",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "isShownBy",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "edmRights",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "dcTermsRights",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "provider",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "dataProvider",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "object",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "aggregator",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Aggregation",
+      "json_key": "hasView",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "Concept",
+      "json_key": "about",
+      "record_count": 717638,
+      "record_pct": 621.7,
+      "entity_pct": 621.7
+    },
+    {
+      "entity_type": "Concept",
+      "json_key": "notation",
+      "record_count": 717638,
+      "record_pct": 621.7,
+      "entity_pct": 621.7
+    },
+    {
+      "entity_type": "Concept",
+      "json_key": "prefLabel",
+      "record_count": 717638,
+      "record_pct": 621.7,
+      "entity_pct": 621.7
+    },
+    {
+      "entity_type": "Event",
+      "json_key": "about",
+      "record_count": 158407,
+      "record_pct": 137.23,
+      "entity_pct": 143.93
+    },
+    {
+      "entity_type": "Event",
+      "json_key": "hasType",
+      "record_count": 158407,
+      "record_pct": 137.23,
+      "entity_pct": 143.93
+    },
+    {
+      "entity_type": "Event",
+      "json_key": "happenedAt",
+      "record_count": 158407,
+      "record_pct": 137.23,
+      "entity_pct": 143.93
+    },
+    {
+      "entity_type": "Event",
+      "json_key": "occurredAt",
+      "record_count": 158407,
+      "record_pct": 137.23,
+      "entity_pct": 143.93
+    },
+    {
+      "entity_type": "Event",
+      "json_key": "P11_had_participant",
+      "record_count": 158407,
+      "record_pct": 137.23,
+      "entity_pct": 143.93
+    },
+    {
+      "entity_type": "PhysicalThing",
+      "json_key": "title",
+      "record_count": 55771,
+      "record_pct": 48.32,
+      "entity_pct": 250.49
+    },
+    {
+      "entity_type": "PhysicalThing",
+      "json_key": "hierarchyType",
+      "record_count": 55771,
+      "record_pct": 48.32,
+      "entity_pct": 250.49
+    },
+    {
+      "entity_type": "PhysicalThing",
+      "json_key": "aggregationEntity",
+      "record_count": 55771,
+      "record_pct": 48.32,
+      "entity_pct": 250.49
+    },
+    {
+      "entity_type": "PhysicalThing",
+      "json_key": "about",
+      "record_count": 55771,
+      "record_pct": 48.32,
+      "entity_pct": 250.49
+    },
+    {
+      "entity_type": "PhysicalThing",
+      "json_key": "isPartOf",
+      "record_count": 54812,
+      "record_pct": 47.48,
+      "entity_pct": 246.18
+    },
+    {
+      "entity_type": "PhysicalThing",
+      "json_key": "hierarchyPosition",
+      "record_count": 53861,
+      "record_pct": 46.66,
+      "entity_pct": 241.91
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "about",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "lat",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "long",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "alt",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "prefLabel",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "altLabel",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "note",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "hasPart",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "isNextInSequence",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "sameAs",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "type",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "Place",
+      "json_key": "isPartOf",
+      "record_count": 118088,
+      "record_pct": 102.3,
+      "entity_pct": 199.31
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "about",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "title",
+      "record_count": 115432,
+      "record_pct": 100.0,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "hasMet",
+      "record_count": 110059,
+      "record_pct": 95.35,
+      "entity_pct": 95.35
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "identifier",
+      "record_count": 101218,
+      "record_pct": 87.69,
+      "entity_pct": 87.69
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "hasType",
+      "record_count": 97272,
+      "record_pct": 84.27,
+      "entity_pct": 84.27
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "hierarchyType",
+      "record_count": 92957,
+      "record_pct": 80.53,
+      "entity_pct": 80.53
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "dcType",
+      "record_count": 92853,
+      "record_pct": 80.44,
+      "entity_pct": 80.44
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "description",
+      "record_count": 88443,
+      "record_pct": 76.62,
+      "entity_pct": 76.62
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "aggregationEntity",
+      "record_count": 76855,
+      "record_pct": 66.58,
+      "entity_pct": 66.58
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "extent",
+      "record_count": 76759,
+      "record_pct": 66.5,
+      "entity_pct": 66.5
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "edmType",
+      "record_count": 73045,
+      "record_pct": 63.28,
+      "entity_pct": 63.28
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "language",
+      "record_count": 71681,
+      "record_pct": 62.1,
+      "entity_pct": 62.1
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "dcTermsLanguage",
+      "record_count": 71681,
+      "record_pct": 62.1,
+      "entity_pct": 62.1
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "dcSubject",
+      "record_count": 69588,
+      "record_pct": 60.28,
+      "entity_pct": 60.28
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "dcTermsSubject",
+      "record_count": 69588,
+      "record_pct": 60.28,
+      "entity_pct": 60.28
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "dcTermSubject",
+      "record_count": 69588,
+      "record_pct": 60.28,
+      "entity_pct": 60.28
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "isPartOf",
+      "record_count": 67539,
+      "record_pct": 58.51,
+      "entity_pct": 58.51
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "date",
+      "record_count": 51936,
+      "record_pct": 44.99,
+      "entity_pct": 44.99
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "hierarchyPosition",
+      "record_count": 50988,
+      "record_pct": 44.17,
+      "entity_pct": 44.17
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "currentLocation",
+      "record_count": 50385,
+      "record_pct": 43.65,
+      "entity_pct": 43.65
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "issued",
+      "record_count": 47879,
+      "record_pct": 41.48,
+      "entity_pct": 41.48
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "creator",
+      "record_count": 42589,
+      "record_pct": 36.9,
+      "entity_pct": 36.9
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "contributor",
+      "record_count": 30251,
+      "record_pct": 26.21,
+      "entity_pct": 26.21
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "format",
+      "record_count": 20496,
+      "record_pct": 17.76,
+      "entity_pct": 17.76
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "spatial",
+      "record_count": 8194,
+      "record_pct": 7.1,
+      "entity_pct": 7.1
+    },
+    {
+      "entity_type": "ProvidedCHO",
+      "json_key": "alternative",
+      "record_count": 6048,
+      "record_pct": 5.24,
+      "entity_pct": 5.24
+    },
+    {
+      "entity_type": "TimeSpan",
+      "json_key": "about",
+      "record_count": 99930,
+      "record_pct": 86.57,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "TimeSpan",
+      "json_key": "begin",
+      "record_count": 99930,
+      "record_pct": 86.57,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "TimeSpan",
+      "json_key": "end",
+      "record_count": 99930,
+      "record_pct": 86.57,
+      "entity_pct": 100.0
+    },
+    {
+      "entity_type": "WebResource",
+      "json_key": "about",
+      "record_count": 312538,
+      "record_pct": 270.76,
+      "entity_pct": 270.76
+    },
+    {
+      "entity_type": "WebResource",
+      "json_key": "type",
+      "record_count": 312538,
+      "record_pct": 270.76,
+      "entity_pct": 270.76
+    },
+    {
+      "entity_type": "WebResource",
+      "json_key": "edmRights",
+      "record_count": 312538,
+      "record_pct": 270.76,
+      "entity_pct": 270.76
+    },
+    {
+      "entity_type": "WebResource",
+      "json_key": "dcTermsRights",
+      "record_count": 312538,
+      "record_pct": 270.76,
+      "entity_pct": 270.76
+    },
+    {
+      "entity_type": "WebResource",
+      "json_key": "creator",
+      "record_count": 312538,
+      "record_pct": 270.76,
+      "entity_pct": 270.76
+    }
+  ]
+}

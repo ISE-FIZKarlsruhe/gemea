@@ -1,0 +1,39 @@
+mediatype,htype,dc_type_de,count,rdf_type_w,rdf_type_m,notes,mapped
+mt002,,Baudenkmal,49,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Brücke,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Bunker,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Büro- und Geschäftshaus,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Denkmal,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Diapositiv,9,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Direktorenwohnhaus,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Flächendenkmal,2,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Freilichtbühne,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Friedhof,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Grabstätte,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,"Kirche, ev.",2,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,"Kirche, evangelisch, Werksteinbau",1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Laden,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Meilensäule,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Münze,1,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Orangerie,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Parteihaus,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Polizeigebäude,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Regierungsbau,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Saalbau,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Schloss,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Schlossanlage,2,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Schule,6,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Skulptur,1,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Standbild,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Verwaltungsgebäude,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Vestibül,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Wohnanlage,1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,Wohnhaus,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Wohnhaus (Stadtturm),1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt002,,"Wohnhaus, Fachwerk",1,http://purl.org/vra/Work,,Sector default — sparte003,yes
+mt007,,Baudenkmal,10,,,,no
+mt007,,Corps de Logis,1,,,,no
+mt007,,Einzeldenkmal,1,,,,no
+mt007,,Landhausgruppe,1,,,,no
+mt007,,Straße,1,,,,no
+mt007,,Wohnhausgruppe,1,,,,no

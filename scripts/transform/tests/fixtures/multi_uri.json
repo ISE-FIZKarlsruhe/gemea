@@ -1,0 +1,1046 @@
+{
+  "properties": {
+    "item-id": "23MBRVVDUHBFZNDCTK4SQM7KROKGVGNF",
+    "dataset-id": "73011210872088131vhnI",
+    "dataset-label": "Gesamtlieferung: Uni Paderborn (INGRID) - LIDO",
+    "revision-id": "8",
+    "ingest-date": "2025-10-16T13:21:06+0200",
+    "cortex-type": "Kultur",
+    "mapping-version": "6.16",
+    "automatically-translated": false
+  },
+  "provider-info": {
+    "domains": [
+      "http://ddb.vocnet.org/sparte/sparte004",
+      "",
+      ""
+    ],
+    "provider-name": "Universität Paderborn. Institut für Germanistik und Vergleichende Literaturwissenschaft",
+    "provider-europeana-name": "",
+    "provider-parent-id": "00008309",
+    "provider-facebook": "",
+    "provider-twitter": "",
+    "provider-uri": "https://kw.uni-paderborn.de/institut-fuer-germanistik-und-vergleichende-literaturwissenschaft",
+    "provider-email": "",
+    "provider-collection": "",
+    "provider-item-id": "DE-466_166902",
+    "provider-item-id-type": "",
+    "provider-id": "oid1717781343263",
+    "provider-ddb-id": "Y4U5WTWIXQYY4P2DWZLZYH3Z4ETTJ336",
+    "provider-isil": "",
+    "provider-logo": "https://registrierung.deutsche-digitale-bibliothek.de/logos/oid1717781343263.png",
+    "provider-longitude": "8.771539",
+    "provider-latitude": "51.7084898",
+    "provider-state": "Nordrhein-Westfalen",
+    "provider-parents": {
+      "parents": [
+        {
+          "provider-name": "Universität Paderborn",
+          "domains": [
+            "http://ddb.vocnet.org/sparte/sparte004",
+            "",
+            ""
+          ],
+          "provider-parent-id": "",
+          "provider-uri": "http://www.uni-paderborn.de/",
+          "provider-email": "",
+          "provider-collection": "",
+          "provider-item-id-type": "",
+          "provider-id": "00008309",
+          "provider-ddb-id": "RU5JET3R7GM7EUCGFRDLOREV343CGWXL",
+          "provider-logo": "",
+          "provider-longitude": "8.7718404",
+          "provider-latitude": "51.7079179",
+          "aggregator": false
+        }
+      ]
+    }
+  },
+  "edm": {
+    "RDF": {
+      "Aggregation": {
+        "about": "72H3DQ3TAHNE32AGEFIG3G4W3G7LIG6V",
+        "aggregatedCHO": {
+          "resource": "http://www.deutsche-digitale-bibliothek.de/item/23MBRVVDUHBFZNDCTK4SQM7KROKGVGNF",
+          "lang": null,
+          "$": ""
+        },
+        "isShownAt": {
+          "resource": "https://media.uni-paderborn.de/#/detail/38522fc5-ed5d-4e4b-9ccc-25c908080e5a",
+          "lang": null,
+          "$": ""
+        },
+        "isShownBy": {
+          "resource": "https://media.uni-paderborn.de/eas/partitions-inline/2/0/257000/257015/c92f3cd8651f4de96c8e6a2b8da40accaa6d198a/image/png",
+          "lang": null,
+          "$": ""
+        },
+        "edmRights": {
+          "resource": "http://creativecommons.org/licenses/by-sa/4.0/",
+          "lang": null,
+          "$": ""
+        },
+        "dcTermsRights": {
+          "resource": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "lang": null,
+          "$": ""
+        },
+        "provider": "Deutsche Digitale Bibliothek",
+        "dataProvider": [
+          {
+            "resource": null,
+            "lang": null,
+            "$": "Universität Paderborn. Institut für Germanistik und Vergleichende Literaturwissenschaft"
+          },
+          {
+            "resource": "http://www.deutsche-digitale-bibliothek.de/organization/Y4U5WTWIXQYY4P2DWZLZYH3Z4ETTJ336",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "object": {
+          "resource": "https://media.uni-paderborn.de/eas/partitions-inline/2/0/257000/257015/c92f3cd8651f4de96c8e6a2b8da40accaa6d198a/image/png",
+          "lang": null,
+          "$": ""
+        },
+        "aggregator": null,
+        "hasView": null
+      },
+      "WebResource": [
+        {
+          "about": "https://media.uni-paderborn.de/#/detail/38522fc5-ed5d-4e4b-9ccc-25c908080e5a",
+          "type": {
+            "resource": "http://ddb.vocnet.org/medientyp/mt002",
+            "lang": null,
+            "$": ""
+          },
+          "edmRights": {
+            "resource": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "lang": null,
+            "$": ""
+          },
+          "dcTermsRights": {
+            "resource": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "lang": null,
+            "$": ""
+          },
+          "creator": null
+        },
+        {
+          "about": "https://media.uni-paderborn.de/eas/partitions-inline/2/0/257000/257015/c92f3cd8651f4de96c8e6a2b8da40accaa6d198a/image/png",
+          "type": {
+            "resource": "http://ddb.vocnet.org/medientyp/mt002",
+            "lang": null,
+            "$": ""
+          },
+          "edmRights": {
+            "resource": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "lang": null,
+            "$": ""
+          },
+          "dcTermsRights": {
+            "resource": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "lang": null,
+            "$": ""
+          },
+          "creator": null
+        }
+      ],
+      "Concept": [
+        {
+          "about": "http://ddb.vocnet.org/medientyp/mt002",
+          "notation": "mediatype_002",
+          "prefLabel": null
+        },
+        {
+          "about": "http://ddb.vocnet.org/medientyp/mt002",
+          "notation": "mediatype_002",
+          "prefLabel": null
+        },
+        {
+          "about": "http://ddb.vocnet.org/sparte/sparte004",
+          "notation": "sec_04",
+          "prefLabel": null
+        },
+        {
+          "about": "http://d-nb.info/gnd/4021791-7",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Graffiti"
+          }
+        },
+        {
+          "about": "http://d-nb.info/gnd/7581172-8",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Streetart"
+          }
+        }
+      ],
+      "Agent": [
+        {
+          "about": "http://www.deutsche-digitale-bibliothek.de/organization/Y4U5WTWIXQYY4P2DWZLZYH3Z4ETTJ336",
+          "prefLabel": [
+            {
+              "lang": null,
+              "$": "Universität Paderborn. Institut für Germanistik und Vergleichende Literaturwissenschaft"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": {
+            "resource": "http://ddb.vocnet.org/sparte/sparte004",
+            "$": ""
+          },
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": [
+            {
+              "resource": "http://www.deutsche-digitale-bibliothek.de/organization/RU5JET3R7GM7EUCGFRDLOREV343CGWXL",
+              "lang": null,
+              "$": ""
+            }
+          ],
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        },
+        {
+          "about": "http://www.deutsche-digitale-bibliothek.de/organization/RU5JET3R7GM7EUCGFRDLOREV343CGWXL",
+          "prefLabel": [
+            {
+              "lang": null,
+              "$": "Universität Paderborn"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": null,
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": null,
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        }
+      ],
+      "PhysicalThing": null,
+      "ProvidedCHO": {
+        "about": "http://www.deutsche-digitale-bibliothek.de/item/23MBRVVDUHBFZNDCTK4SQM7KROKGVGNF",
+        "currentLocation": {
+          "resource": "http://d-nb.info/gnd/4044283-4 https://www.geonames.org/2855745",
+          "lang": null,
+          "$": ""
+        },
+        "hasType": [
+          {
+            "resource": "http://d-nb.info/gnd/4021791-7",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "http://d-nb.info/gnd/7581172-8",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "hasMet": [
+          {
+            "resource": "3SM3IMI3ZMGW5XVTJTCSAW7SNXBAUXZ5",
+            "$": ""
+          },
+          {
+            "resource": "OTVXPRGVBL4OSBQD3MC43ASTJP7FN4Y5",
+            "$": ""
+          }
+        ],
+        "edmType": "IMAGE",
+        "description": [
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Typ: Comment auf Lärmschutzwand"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Buchstabenstil: Tag Style"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Zeichentyp: Buchstaben"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Funktion: Namennennung"
+          }
+        ],
+        "format": {
+          "resource": null,
+          "lang": "ger",
+          "$": "Schwarz (Material/Technik)"
+        },
+        "date": [
+          "21.02.2000 (Photography Fotografische Aufnahme)"
+        ],
+        "dcType": {
+          "resource": "http://d-nb.info/gnd/7581172-8",
+          "lang": "ger",
+          "$": "Streetart"
+        },
+        "title": {
+          "resource": null,
+          "lang": "ger",
+          "$": "WiE DiE FAuSt AUF"
+        },
+        "spatial": [
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Essen"
+          }
+        ]
+      },
+      "Event": [
+        {
+          "about": "3SM3IMI3ZMGW5XVTJTCSAW7SNXBAUXZ5",
+          "hasType": {
+            "resource": "http://terminology.lido-schema.org/lido00031",
+            "lang": null,
+            "$": ""
+          },
+          "happenedAt": [
+            {
+              "resource": "TEQYJROPD3NBPOL25N2LB44DGVANUDAO",
+              "lang": null,
+              "$": ""
+            }
+          ],
+          "occuredAt": null,
+          "P11_had_participant": null
+        },
+        {
+          "about": "OTVXPRGVBL4OSBQD3MC43ASTJP7FN4Y5",
+          "hasType": {
+            "resource": "http://terminology.lido-schema.org/lido01127",
+            "lang": null,
+            "$": ""
+          },
+          "happenedAt": null,
+          "occuredAt": [
+            {
+              "resource": "J4SPE24SGSPAP4OH43TPQVOZZLREUD6Q",
+              "lang": null,
+              "$": ""
+            }
+          ],
+          "P11_had_participant": null
+        }
+      ],
+      "Place": [
+        {
+          "about": "TEQYJROPD3NBPOL25N2LB44DGVANUDAO",
+          "lat": null,
+          "long": null,
+          "alt": null,
+          "prefLabel": [
+            {
+              "lang": null,
+              "$": "Essen"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "hasPart": null,
+          "isNextInSequence": null,
+          "sameAs": null,
+          "type": null,
+          "isPartOf": null
+        },
+        {
+          "about": "http://d-nb.info/gnd/4044283-4 https://www.geonames.org/2855745",
+          "lat": null,
+          "long": null,
+          "alt": null,
+          "prefLabel": [
+            {
+              "lang": "ger",
+              "$": "Paderborn"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "hasPart": null,
+          "isNextInSequence": null,
+          "sameAs": null,
+          "type": null,
+          "isPartOf": null
+        }
+      ],
+      "Organization": null,
+      "Address": null,
+      "TimeSpan": {
+        "about": "J4SPE24SGSPAP4OH43TPQVOZZLREUD6Q",
+        "begin": {
+          "lang": null,
+          "$": "21.02.2000"
+        },
+        "end": {
+          "lang": null,
+          "$": "21.02.2000"
+        }
+      }
+    }
+  },
+  "indexing-profile": {
+    "item-id": "23MBRVVDUHBFZNDCTK4SQM7KROKGVGNF",
+    "facet": [
+      {
+        "name": "place_fct",
+        "value": [
+          "Essen",
+          "Paderborn"
+        ]
+      },
+      {
+        "name": "place_fct_autocomplete",
+        "value": [
+          "Essen",
+          "Paderborn"
+        ]
+      },
+      {
+        "name": "place_fct_normdata",
+        "value": [
+          "http://d-nb.info/gnd/4044283-4 https://www.geonames.org/2855745"
+        ]
+      },
+      {
+        "name": "keywords_fct",
+        "value": [
+          "Graffiti",
+          "Streetart"
+        ]
+      },
+      {
+        "name": "keywords_fct_autocomplete",
+        "value": [
+          "Graffiti",
+          "Streetart"
+        ]
+      },
+      {
+        "name": "keywords_fct_normdata",
+        "value": [
+          "http://d-nb.info/gnd/4021791-7",
+          "http://d-nb.info/gnd/7581172-8"
+        ]
+      },
+      {
+        "name": "objecttype_fct",
+        "value": [
+          "Graffiti",
+          "Streetart"
+        ]
+      },
+      {
+        "name": "objecttype_fct_autocomplete",
+        "value": [
+          "Graffiti",
+          "Streetart"
+        ]
+      },
+      {
+        "name": "objecttype_fct_normdata",
+        "value": [
+          "http://d-nb.info/gnd/4021791-7",
+          "http://d-nb.info/gnd/7581172-8"
+        ]
+      },
+      {
+        "name": "type_fct",
+        "value": [
+          "mediatype_002"
+        ]
+      },
+      {
+        "name": "provider_fct",
+        "value": [
+          "Universität Paderborn. Institut für Germanistik und Vergleichende Literaturwissenschaft",
+          "Universität Paderborn"
+        ]
+      },
+      {
+        "name": "provider_fct_autocomplete",
+        "value": [
+          "Universität Paderborn. Institut für Germanistik und Vergleichende Literaturwissenschaft",
+          "Universität Paderborn"
+        ]
+      },
+      {
+        "name": "provider_fct_normdata",
+        "value": [
+          "http://www.deutsche-digitale-bibliothek.de/organization/Y4U5WTWIXQYY4P2DWZLZYH3Z4ETTJ336",
+          "http://www.deutsche-digitale-bibliothek.de/organization/RU5JET3R7GM7EUCGFRDLOREV343CGWXL"
+        ]
+      },
+      {
+        "name": "dataprovider_fct",
+        "value": [
+          "Universität Paderborn. Institut für Germanistik und Vergleichende Literaturwissenschaft"
+        ]
+      },
+      {
+        "name": "dataprovider_fct_autocomplete",
+        "value": [
+          "Universität Paderborn. Institut für Germanistik und Vergleichende Literaturwissenschaft"
+        ]
+      },
+      {
+        "name": "dataprovider_fct_normdata",
+        "value": [
+          "http://www.deutsche-digitale-bibliothek.de/organization/Y4U5WTWIXQYY4P2DWZLZYH3Z4ETTJ336"
+        ]
+      },
+      {
+        "name": "sector_fct",
+        "value": [
+          "sec_04"
+        ]
+      },
+      {
+        "name": "last_update",
+        "value": [
+          "2025-10-16T13:21:06+0200"
+        ]
+      }
+    ]
+  },
+  "preview": {
+    "media": "image",
+    "type": "Kultur",
+    "title": "WiE DiE FAuSt AUF",
+    "subtitle": "Graffiti; Streetart",
+    "thumbnail": {
+      "href": "775b6d91-e28e-41af-b71a-9f6e15626477"
+    }
+  },
+  "view": {
+    "item": {
+      "identifier": "DE-466_166902",
+      "label": "WiE DiE FAuSt AUF",
+      "title": "WiE DiE FAuSt AUF",
+      "subtitle": "Graffiti; Streetart",
+      "rights": "",
+      "metdata-rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "https://media.uni-paderborn.de/#/detail/38522fc5-ed5d-4e4b-9ccc-25c908080e5a",
+      "category": "Kultur",
+      "media": "image",
+      "thumbnail": "",
+      "latitude": "",
+      "longitude": "",
+      "license": {
+        "resource": "http://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "institution": {
+        "id": "Y4U5WTWIXQYY4P2DWZLZYH3Z4ETTJ336",
+        "url": "https://kw.uni-paderborn.de/institut-fuer-germanistik-und-vergleichende-literaturwissenschaft",
+        "name": "Universität Paderborn. Institut für Germanistik und Vergleichende Literaturwissenschaft",
+        "logo-institution-ddbid": "Y4U5WTWIXQYY4P2DWZLZYH3Z4ETTJ336"
+      },
+      "viewers": {
+        "viewer": []
+      },
+      "fields": [
+        {
+          "usage": "display",
+          "field": [
+            {
+              "id": "flex_mus_neu_020",
+              "name": "Objekt Bezeichnung",
+              "value": [
+                {
+                  "content": "Graffiti; Streetart",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_050",
+              "name": "Objektbeschreibung",
+              "value": [
+                {
+                  "content": "Typ: Comment auf Lärmschutzwand",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Buchstabenstil: Tag Style",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Zeichentyp: Buchstaben",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Funktion: Namennennung",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_060",
+              "name": "Material/Technik",
+              "value": [
+                {
+                  "content": "Sprühdose; Schwarz",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_100",
+              "name": "Ereignis",
+              "value": [
+                {
+                  "content": "Ausführung",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_120",
+              "name": "(wo)",
+              "value": [
+                {
+                  "content": "Essen",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_100",
+              "name": "Ereignis",
+              "value": [
+                {
+                  "content": "Fotografische Aufnahme",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_130",
+              "name": "(wann)",
+              "value": [
+                {
+                  "content": "21.02.2000",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_400",
+              "name": "Standort",
+              "value": [
+                {
+                  "content": "INGRID – Informationssystem Graffiti in Deutschland, Paderborn",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "stat_016",
+              "name": "Förderung",
+              "value": [
+                {
+                  "content": "INGRID ist ein gemeinsames Projekt der Universität Paderborn und des Karlsruher Instituts für Technologie (KIT), an dem die Fächer Sprachwissenschaft (Universität Paderborn) und Kunstgeschichte (KIT) beteiligt sind.",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_450",
+              "name": "Sammlung",
+              "value": [
+                {
+                  "content": "Sammlung Dirk Kreckel",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            }
+          ]
+        },
+        {
+          "usage": "index",
+          "field": [
+            {
+              "id": "title",
+              "name": "Title",
+              "value": [
+                {
+                  "content": "WiE DiE FAuSt AUF",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_050",
+              "name": "description",
+              "value": [
+                {
+                  "content": "Typ: Comment auf Lärmschutzwand",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Buchstabenstil: Tag Style",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Zeichentyp: Buchstaben",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Funktion: Namennennung",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "ranking",
+              "name": "Ranking",
+              "value": [
+                {
+                  "content": "Typ: Comment auf Lärmschutzwand",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Buchstabenstil: Tag Style",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Zeichentyp: Buchstaben",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Funktion: Namennennung",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "begin_time",
+              "name": "Anfang",
+              "value": [
+                {
+                  "content": "730172",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "end_time",
+              "name": "Ende",
+              "value": [
+                {
+                  "content": "730172",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "license",
+              "name": "Lizenz",
+              "value": [
+                {
+                  "content": "http://creativecommons.org/licenses/by-sa/4.0/",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "license_group",
+              "name": "Lizenzstatus",
+              "value": [
+                {
+                  "content": "rights_002",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "digitalisat",
+              "name": "digitalisat",
+              "value": [
+                {
+                  "content": "true",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "dataset_id",
+              "name": "dataset_id",
+              "value": [
+                {
+                  "content": "73011210872088131vhnI",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "dataset_label",
+              "name": "dataset_label",
+              "value": [
+                {
+                  "content": "Gesamtlieferung: Uni Paderborn (INGRID) - LIDO",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "delivery_id",
+              "name": "delivery_id",
+              "value": [
+                {
+                  "content": "7083158102019443sojK",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "supplier_id",
+              "name": "supplier_id",
+              "value": [
+                {
+                  "content": "oid1717781343263",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "mapping_version",
+              "name": "mapping_version",
+              "value": [
+                {
+                  "content": "6.16",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "md_format",
+              "name": "Metadata Format",
+              "value": [
+                {
+                  "content": "lido",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "source_format",
+              "name": "source_format",
+              "value": [
+                {
+                  "content": "http://www.lido-schema.org/",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            }
+          ]
+        }
+      ]
+    },
+    "cortex-institution": null
+  },
+  "source": {
+    "description": {
+      "id": "23MBRVVDUHBFZNDCTK4SQM7KROKGVGNF",
+      "record": {
+        "ref": "23MBRVVDUHBFZNDCTK4SQM7KROKGVGNF",
+        "href": "/items/23MBRVVDUHBFZNDCTK4SQM7KROKGVGNF/source/record",
+        "type": "http://www.lido-schema.org/",
+        "id": null
+      }
+    }
+  },
+  "aggregator-info": null,
+  "binaries": {
+    "binary": [
+      {
+        "ref": "775b6d91-e28e-41af-b71a-9f6e15626477",
+        "name": "WiE DiE FAuSt AUF",
+        "name2": "Rechtewahrnehmung: INGRID – Informationssystem Graffiti in Deutschland",
+        "name3": null,
+        "kind": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "mimetype": "image/jpeg",
+        "position": 1,
+        "primary": true,
+        "local_pathname": "https://media.uni-paderborn.de/eas/partitions-inline/2/0/257000/257015/c92f3cd8651f4de96c8e6a2b8da40accaa6d198a/image/png",
+        "license_group": "rights_002"
+      }
+    ]
+  },
+  "wgs84-position": null,
+  "ddbObject": null
+}

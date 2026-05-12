@@ -1,0 +1,25 @@
+mediatype,htype,dc_type_de,count,rdf_type_w,rdf_type_m,notes,mapped
+mt002,,Bronzeplastik,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bronzerelief,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Buch,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Collage,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Denkmal,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Druck,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Druck- und Schriftgut,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Druckgraphik,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Einladung,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fahrschein,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fotografie,6,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gemälde,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Papierarbeit,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Plastik,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Postkarte,8,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Sammlung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Schwarzweißfotografie,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Skulptur,7,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Stele,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Werbematerial,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeichnung,5,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt003,htype_001,Abschnitt,9,,,,no
+mt003,htype_020,mehrbändiges Werk,1,,,,no
+mt003,htype_021,Monografie,1,,,,no

@@ -1,0 +1,1386 @@
+mediatype,sector,dc_type_de,count,gnd_uri,has_gnd
+any,http://ddb.vocnet.org/sparte/sparte002,Artikel,7,,false
+any,http://ddb.vocnet.org/sparte/sparte002,Buch,2,,false
+any,http://ddb.vocnet.org/sparte/sparte002,Buchbeitrag,10,,false
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte001,Werbesendung,8,http://d-nb.info/gnd/4189638-5,true
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte002,Musikaufführung,12,http://vocab.getty.edu/aat/300262956,true
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte004,Schellackplatte,9,http://d-nb.info/gnd/4135113-7,true
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte004,Tonaufnahme,13,http://vocab.getty.edu/aat/300028633,true
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte005,Schallplatte,1,,false
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte005,Schellackplatte,422,http://d-nb.info/gnd/4135113-7,true
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte005,Tonbandspule,1,http://d-nb.info/gnd/4522869-3,true
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte006,Audiofile,7,,false
+http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte006,Inszenierung,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Abschrift,78,http://vocab.getty.edu/aat/300404333,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Akte,1,http://d-nb.info/gnd/4000925-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Akten,45,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Albumblatt (Papier),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Ansichtskarte,102,http://vocab.getty.edu/aat/300026819,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Anteilschein,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Archivale,920,https://d-nb.info/gnd/4142968-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Archivalie – Korrespondenz,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Archivalie – Werkmanuskript,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Archivalien,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Archivgut,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Artikel,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Aufruf,1,http://d-nb.info/gnd/4324096-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Aufsatz,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Aufsatz (Text),1,http://vocab.getty.edu/aat/300026291,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Bauzeichnung,1,http://vocab.getty.edu/aat/300034719,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Bescheinigung,115,http://vocab.getty.edu/aat/300026841,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Besitzvermerk,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Bewilligung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Bild,110,https://d-nb.info/gnd/4006568-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Bilder,312,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Billet,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Brief,873,http://d-nb.info/gnd/4008240-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Briefabschrift,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Briefbogen,1,http://vocab.getty.edu/aat/300193998,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Briefentwurf,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Briefgedicht,2,http://d-nb.info/gnd/4300048-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Briefmarke,1,http://vocab.getty.edu/aat/300037321,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Briefumschlag,7,http://vocab.getty.edu/aat/300197601,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Buch,1,http://vocab.getty.edu/aat/300028051,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Buch mit handschriftlichen Eintragungen,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Buch mit handschriftlicher Eintragung,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Bühnenbildentwurf,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Bühnenbildfotografie,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Dokument,16,http://d-nb.info/gnd/4180009-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Dokumentarfotografie,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Drama,1,http://d-nb.info/gnd/4012899-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Druck,7,http://vocab.getty.edu/aat/300041273,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Druckfahne,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Druckgrafik,51,http://d-nb.info/gnd/4113357-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Drucksache,27,http://d-nb.info/gnd/4013119-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Druckvorlage,1,http://d-nb.info/gnd/4417379-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Echtheitsbestätigung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Einzelporträt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Entwurf,1,http://d-nb.info/gnd/4121208-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Exzerpt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Farblithografie,1,http://d-nb.info/gnd/4279198-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Foto,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Fotoalbum,10,http://vocab.getty.edu/aat/300026695,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Fotografie,1158,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Fotografie einer Zeichnung,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Fotografie eines Pastells,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Fotokonvolut,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Fotokopie,2,http://vocab.getty.edu/aat/300136847,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Frachtbrief,1,http://vocab.getty.edu/aat/300201447,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Fragment,1,http://vocab.getty.edu/aat/300117130,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Gedicht,23,http://d-nb.info/gnd/4036774-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Grafik,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Grundriss,1,http://vocab.getty.edu/aat/300034158,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Grundrissplan,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Grußkarte,1,http://d-nb.info/gnd/4197426-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Gästebuch,13,http://d-nb.info/gnd/4019070-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Handschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Handschrift (Manuskript),803,http://d-nb.info/gnd/4126273-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Handschrift (Manuskript); Drucksache,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Handschrift (Manuskript); Zeitungsausschnitt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Handschriften,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Handschriftenband,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Inventar,1,http://vocab.getty.edu/aat/300027045,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Inventarliste,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Karten und Pläne,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Kassenbuch,2,http://vocab.getty.edu/aat/300027496,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Katalogblatt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Kaufbrief,1,http://vocab.getty.edu/aat/300141696,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Kaufvertrag,1,http://d-nb.info/gnd/4030088-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Komposition [Musik],1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Komödie,1,http://d-nb.info/gnd/4031952-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Konvolut,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Kopie,3,http://d-nb.info/gnd/4032423-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Kostümentwurf,18,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Lied,1,http://vocab.getty.edu/aat/300400522,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Lieder,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Liste,82,http://vocab.getty.edu/aat/300220511,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Lithografie,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Locken,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Lyrik,3,http://d-nb.info/gnd/4036774-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Manuskript,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Marginalie,1,http://vocab.getty.edu/aat/300026102,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Mietvertrag,4,http://d-nb.info/gnd/4039168-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Märchen,1,http://vocab.getty.edu/aat/300185684,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Nachlässe,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Negativ (Fotografie),5,http://vocab.getty.edu/aat/300127173,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Noten (Musik),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Notenbuch,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Notenmanuskript,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Notiz,7,http://d-nb.info/gnd/4206777-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Notizen,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Plakat,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Plakate und Flugblätter,15,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Plan,1,http://vocab.getty.edu/aat/300263886,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Planfilm-Negativ,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Posititiv-Abzug,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Positiv,1,http://vocab.getty.edu/aat/300138191,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Positiv-Abzug,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Prosa,7,http://d-nb.info/gnd/4047497-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Prosafragment,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Protokoll,4,http://d-nb.info/gnd/4047552-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Protokollbuch,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Quittung,8,http://d-nb.info/gnd/4144097-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Radierung,1,http://vocab.getty.edu/aat/300053241,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Rechnung,23,http://d-nb.info/gnd/4246502-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Reisepass,1,http://vocab.getty.edu/aat/300027392,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Requisitionsschein,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Rollenabschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Rollenheft,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Schenkungsurkunde,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Schriftgut,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Sonett,1,http://d-nb.info/gnd/4055555-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Sonstiges,14,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Stahlstich,2,http://vocab.getty.edu/aat/300190536,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Stammbaum,2,http://d-nb.info/gnd/4248436-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Stammbuch,10,http://d-nb.info/gnd/4056896-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Stammbuchblatt,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Stammbucheintrag,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Standfoto,17,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Studienbuch,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Teil 1 einer Trilogie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Teil 2 einer Trilogie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Teil 3 einer Trilogie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Teilnahmebescheinigung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Theaterstück,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Todesanzeige,1,http://d-nb.info/gnd/4185595-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Typoskript,1,http://vocab.getty.edu/aat/300028577,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Umschlag,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Unterschrift,1,http://vocab.getty.edu/aat/300189326,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Urkunde,3,http://d-nb.info/gnd/4062132-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Urkunden,10,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Verfügung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Visitenkarte,2,http://vocab.getty.edu/aat/300026823,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Visuelle Materialien,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Vollmacht,1,http://d-nb.info/gnd/4063907-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Vortragstyposkript,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Werk,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Werkverzeichnis,1,http://d-nb.info/gnd/4189680-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Widmung,4,http://d-nb.info/gnd/4148981-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Zeichnung,7,http://d-nb.info/gnd/4127900-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Zeitschriften-Sonderdruck,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Zeitungsausschnitt,8,http://d-nb.info/gnd/4324081-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Zettelkatalog,1,http://d-nb.info/gnd/4502311-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Zeugnis,1,http://d-nb.info/gnd/4067707-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001,Zirkular,1,http://d-nb.info/gnd/4299351-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Buch,34,http://d-nb.info/gnd/4008570-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Buchmalerei,38,http://d-nb.info/gnd/4008650-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Druck,36,http://vocab.getty.edu/aat/300041273,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Druckgraphik,67,http://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Fotografie,43,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Frontispiz,2,http://vocab.getty.edu/aat/300083021,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Gemälde,1,http://d-nb.info/gnd/4122164-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Grafik,148,http://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Illustration,444,https://d-nb.info/gnd/4123412-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Journal,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Karte,133,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Lithografie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Medaille,7,http://d-nb.info/gnd/4038206-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Plastik (Bildwerk),1,http://d-nb.info/gnd/4046277-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Porträt,7,https://d-nb.info/gnd/4006627-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Titelblatt,1,https://d-nb.info/gnd/4185576-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Visuelle Materialien,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Wandmalerei,3,http://d-nb.info/gnd/4064542-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Wohnstraße,1,http://d-nb.info/gnd/4190175-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Zeichnung,1,https://d-nb.info/gnd/4127900-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Zeitschrift,3,http://d-nb.info/gnd/4067488-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002,Zeitungsausschnitt,9,http://d-nb.info/gnd/4324081-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Baudenkmal,49,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Brücke,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Bunker,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Büro- und Geschäftshaus,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Denkmal,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Diapositiv,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Direktorenwohnhaus,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Flächendenkmal,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Freilichtbühne,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Friedhof,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Grabstätte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,"Kirche, ev.",2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,"Kirche, evangelisch, Werksteinbau",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Laden,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Meilensäule,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Münze,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Orangerie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Parteihaus,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Polizeigebäude,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Regierungsbau,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Saalbau,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Schloss,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Schlossanlage,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Schule,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Skulptur,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Standbild,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Verwaltungsgebäude,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Vestibül,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Wohnanlage,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Wohnhaus,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,Wohnhaus (Stadtturm),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003,"Wohnhaus, Fachwerk",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Abguss,1,http://vocab.getty.edu/aat/300047806,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Abstrakte Plastik,1,http://d-nb.info/gnd/4141149-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Amulett,1,http://vocab.getty.edu/aat/300266585,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Ansichtskarte,55,http://vocab.getty.edu/aat/300026816,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Ansichtskarte / Motivkarte,310,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Ansichtskarte / Motivkarte;Feldpostkarte,8,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Ansichtskarte / Motivkarte;Weltpostkarte,59,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Aquarell,1,http://vocab.getty.edu/aat/300389895,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Arbeitszimmer,1,http://vocab.getty.edu/aat/300081781,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Archiv,1,http://vocab.getty.edu/aat/300124822,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Archivale,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Bank (Bauwerk),1,http://vocab.getty.edu/aat/300005214,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Bild,4,http://vocab.getty.edu/aat/300033618http://vocab.getty.edu/aat/300264387,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Bleistiftzeichnung,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Brunnen,2,http://vocab.getty.edu/aat/300006179,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Buch,3,http://vocab.getty.edu/aat/300028051,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Büste,18,http://d-nb.info/gnd/4008836-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Deckenbild,1,http://vocab.getty.edu/aat/300033644,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Denkmal,18,http://d-nb.info/gnd/4011453-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Druck,23,http://vocab.getty.edu/aat/300041273,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Entwurf,7,http://vocab.getty.edu/aat/300069413,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Etikett,1,http://vocab.getty.edu/aat/300028730,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Exlibris,1,http://vocab.getty.edu/aat/300028731,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Faksimile,1,http://d-nb.info/gnd/4153591-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Federzeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Felsformation,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Folge,1,http://vocab.getty.edu/aat/300027349,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Fotografie,85,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Fotoreproduktion,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Freiplastik,1,http://d-nb.info/gnd/4155331-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Frontispiz (Illustration),1,http://vocab.getty.edu/aat/300083021,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Garten,4,http://vocab.getty.edu/aat/300008090,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Gartenhaus,1,http://vocab.getty.edu/aat/300006819,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Gartenpavillon,2,http://vocab.getty.edu/aat/300006819,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Gartentempel,1,http://vocab.getty.edu/aat/300006819http://vocab.getty.edu/aat/300007600,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Gasthaus,2,http://vocab.getty.edu/aat/300007170,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Gedenktafel,2,http://vocab.getty.edu/aat/300235430http://vocab.getty.edu/aat/300028719,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Gemälde,44,http://vocab.getty.edu/aat/300033618,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Grabmal,5,http://vocab.getty.edu/aat/300005909,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Grafik,32,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Gymnasium,2,http://vocab.getty.edu/aat/300006495,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Handzettel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Herme,1,http://vocab.getty.edu/aat/300047170,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Hinterhaus,1,http://vocab.getty.edu/aat/300005433,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Hof,1,http://vocab.getty.edu/aat/300107979,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Häckel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Häuserzeile,1,http://vocab.getty.edu/aat/300263552,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Illustration,7,http://vocab.getty.edu/aat/300015578,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Innenraum,2,http://vocab.getty.edu/aat/300004044,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Inschrifttafel,2,http://vocab.getty.edu/aat/300028879,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Kai,1,http://vocab.getty.edu/aat/300120786,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Kino,1,http://vocab.getty.edu/aat/300007135,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Kohlezeichnung,1,http://vocab.getty.edu/aat/300390908,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Kopf,1,http://vocab.getty.edu/aat/300262520,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Kupferstich,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Lekythos,2,http://vocab.getty.edu/aat/300264937,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Längsschnitt,1,http://vocab.getty.edu/aat/300034249,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Malerei,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Maske,1,http://vocab.getty.edu/aat/300138758,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Miniatur (Malerei),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Modell,1,http://vocab.getty.edu/aat/300047753,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Mosaik,1,http://vocab.getty.edu/aat/300015342,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Multireligiöser Raum,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Museum,8,http://vocab.getty.edu/aat/300005768,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Münze,3,http://d-nb.info/gnd/4040629-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Münze (Fünf Mark),2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Negativ,12,http://vocab.getty.edu/aat/300127173,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Obelisk,1,http://vocab.getty.edu/aat/300007021,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Objekt,1,http://vocab.getty.edu/aat/300047210,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Opernhaus,1,http://vocab.getty.edu/aat/300007104,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,"Optisches Gerät, Fotogerät, Filmgerät*",2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Papierabzug,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Plakat,1,http://vocab.getty.edu/aat/300027221,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Plakette,1,http://vocab.getty.edu/aat/300010262,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Plastik,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Plastik (Bildwerk),1,http://d-nb.info/gnd/4046277-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Plastik/Skulptur,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Portal,1,http://vocab.getty.edu/aat/300076641,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Radierung,1,http://vocab.getty.edu/aat/300053241,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Randzeichnung,1,http://vocab.getty.edu/aat/300200658,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Regierungsgebäude,1,http://vocab.getty.edu/aat/300008059,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Relief,9,http://vocab.getty.edu/aat/300047230,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Rückseite,1,http://vocab.getty.edu/aat/300190692,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Schattenriss,1,http://vocab.getty.edu/aat/300015423,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Schiffsmodell,1,http://vocab.getty.edu/aat/300266034http://vocab.getty.edu/aat/300082981,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Schule,3,http://vocab.getty.edu/aat/300006495,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Schwarzweiß-Positiv,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Silhouettenbild,12,http://vocab.getty.edu/aat/300015423,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Sitzfigur,3,http://vocab.getty.edu/aat/300343592,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Skizze,9,http://vocab.getty.edu/aat/300015617,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Skulptur,2,http://vocab.getty.edu/aat/300047090,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Standbild,1,http://d-nb.info/gnd/4129665-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Statue,2,http://vocab.getty.edu/aat/300047600,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Statuette,3,http://d-nb.info/gnd/4182966-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Straße,1,http://vocab.getty.edu/aat/300008247,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Streetart,12,http://d-nb.info/gnd/7581172-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Studie,18,http://vocab.getty.edu/aat/300081053,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Supraporte,1,http://vocab.getty.edu/aat/300002911,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Theater,2,http://vocab.getty.edu/aat/300007117,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Titelblatt,1,http://vocab.getty.edu/aat/300055033,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Tuschfederzeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Tuschpinselzeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Türklinke,1,http://vocab.getty.edu/aat/300077937,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Universität,4,http://vocab.getty.edu/aat/300006617,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Universitätsinstitut,19,http://vocab.getty.edu/aat/300312291,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Vorderhaus,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Vorhalle,1,http://vocab.getty.edu/aat/300004263,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Vorzeichnung,1,http://vocab.getty.edu/aat/300068293,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Wandbild,1,http://vocab.getty.edu/aat/300033644,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Warenhaus,1,http://vocab.getty.edu/aat/300005344,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Waschraum,1,http://vocab.getty.edu/aat/300081124,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Wohn- und Gasthaus,1,http://vocab.getty.edu/aat/300257729http://vocab.getty.edu/aat/300007170,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Wohnhaus,4,http://vocab.getty.edu/aat/300005433,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Zeichnung,39,http://vocab.getty.edu/aat/300033973,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Zeichnung?,1,http://vocab.getty.edu/aat/300033973,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,Zimmer,1,http://vocab.getty.edu/aat/300004044,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004,abstrakte Skulptur,1,http://vocab.getty.edu/aat/300047090,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Album,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Album Druck,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Album Print,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Album Zeichnung,138,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Anhänger,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Aquarell,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Archiv,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Ausstellungsgebäude,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Autograph,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Bild,6,http://d-nb.info/gnd/4006568-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Bilddokument,12,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Brief,2,http://d-nb.info/gnd/4008240-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Buch,16,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Buch Druck,27,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Buch Druck Einband,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Buch Druck Text,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Buch Zeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Buchausstattung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Bucheinband,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Börse,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Büste,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Büste & Sockel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Daguerreotypie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Deckenbild,2,http://vocab.getty.edu/aat/300411453,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Denkmal,14,http://d-nb.info/gnd/4011453-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Druck,834,http://d-nb.info/gnd/4113357-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Druck Landkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Druck Serie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Einband,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Esszimmer,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Fassade & Gartenmauer,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Filmszene,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Folge,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Foto,1,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Fotoalbum,32,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Fotografie,1898,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Fotogramm,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gartenhaus,10,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gartentempel,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gasthaus,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gaststätte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gedenkstein,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gedenktafel,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gemälde,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Globus,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Grabmal,4,http://d-nb.info/gnd/4021732-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Grabplatte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Grabstein,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Grafik,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gruppe (2-figurig),5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gruppe (3-figurig),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Gymnasium,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Halle,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Holzschnitt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Hotel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Innenraum,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Inschrift,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Kleinbilddia,53,http://vocab.getty.edu/aat/300128371,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Kontaktbogen,81,http://d-nb.info/gnd/7709611-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Kopf,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Kunst,50,http://d-nb.info/gnd/4114333-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Mausoleum,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Miniatur,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Museum,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Negativ,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Opernhaus,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Orgel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Palazzo,1,http://d-nb.info/gnd/4044394-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Palazzo Vestibül,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Plakat,14,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Plakatentwurf,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Portrait,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Postkarte,49,http://d-nb.info/gnd/4046902-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Print,12,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Programmhefte,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Putto,11,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Radierung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Relief,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Ring,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Schloss,9,http://d-nb.info/gnd/4052753-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Schloß,1,http://d-nb.info/gnd/4052753-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Schule,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Seite,51,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Silhouettenbild,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Skulpturengruppe,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Standfoto,103,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Statue,1,http://d-nb.info/gnd/4129665-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Statuette,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Straße,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Studie,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Theater,8,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Theateranzeige,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Titelblatt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Vogelschaubild,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Wandbild,26,http://d-nb.info/gnd/4064542-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Wohn- und Geschäftshaus,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Wohnhaus,16,http://d-nb.info/gnd/4023693-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Zeichnung,160,http://d-nb.info/gnd/4127900-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Zeichnung & Karikatur,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Zeichnung Brief,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005,Zeichnung Zeichnung,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Abbildungen,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Abguss,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Abhandlung,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Abzeichen,10,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Abzeichen Roter Frontkämpferbund,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Akzidenz,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Akzidenzdruck (Verlagsanzeige),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Album,11,http://vocab.getty.edu/aat/300026690,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Album für Liebig-Bilder Nr. 451-500,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Albumblatt (Papier),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Anschlagzettel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Ansichtskarte,3,http://vocab.getty.edu/aat/300026819,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Ansichtspostkarte,10,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Anthologie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Aquarell,3,http://vocab.getty.edu/aat/300389895,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Aquatinta,1,http://vocab.getty.edu/aat/300053242,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Architekturmodell,1,https://d-nb.info/gnd/4128638-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Archivalie,25,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Archivalien (Fotografie),1,http://vocab.getty.edu/aat/300046300http://vocab.getty.edu/aat/300136578,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Archivalien (Schriftliche Nachlässe),37,http://vocab.getty.edu/aat/300026879,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Audiofile,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Aufführungsprogramm,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Aufkleber,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Aufzeichnungen,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Ausstellungsführer,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Ausstellungskatalog,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Autograph,1,http://d-nb.info/gnd/4003942-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Banknote,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Becher,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bekanntmachung,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Belletristik,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bierdeckel,1,http://d-nb.info/gnd/4305216-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bild,46,http://d-nb.info/gnd/4006568-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bildermappe,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bilderrolle,1,http://d-nb.info/gnd/4606181-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bildhauermodell (Kleinkunst / Modell),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bildnis,1,http://d-nb.info/gnd/4006627-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bildwerk,7,http://vocab.getty.edu/aat/300047190,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Blaupause,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bleistifthalter,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bleistiftzeichnung,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Brief,41,http://d-nb.info/gnd/4008240-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Briefkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Briefumschlag,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Buch,49,http://vocab.getty.edu/aat/300028051,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Buchgrafik (Illustration),2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Buchgrafik (Innentitel),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Buchgrafik (Seite) / Typografie (Schriftmuster),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Buchgrafik (Titel),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Buchgrafik (Titel) / Typografie (Schriftmuster),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Buchseite,7,http://vocab.getty.edu/aat/300194222,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bühnenbild,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bühnenbildentwurf,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bühnenbildmodell,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Bühnenbildmodell (Nachbau),2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Büste,19,http://d-nb.info/gnd/4008836-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Carte de Visite,8,http://vocab.getty.edu/aat/300127141,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Chromolithographie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Collage,5,http://d-nb.info/gnd/4010384-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Comic,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Deckel oder Spielebrett eines Unterhaltungsspiels,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Deckelkrug,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Denkmalentwurf,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Denkmalreduktion,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Dia,6,http://d-nb.info/gnd/4149435-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Dokument,1,http://vocab.getty.edu/aat/300189226,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Dokument / einfacher Geschäftsbrief,2,http://d-nb.info/gnd/4071765-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Dokumentarfotografie,1,http://d-nb.info/gnd/4142019-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Dose,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druck,79,http://vocab.getty.edu/aat/300041273,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druck (aus Serie),2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druck Einzeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druckerzeugnis,1,http://d-nb.info/gnd/4013134-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druckgrafik,82,http://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druckgrafik (allgemein),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druckgraphik,2576,http://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druckschrift,57,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druckwerk,3,http://d-nb.info/gnd/4013134-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Druckwerk; Buch,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Druckwesen, Schriftwesen*",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Dörrofen,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Edison-Walze,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Einladung,8,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Einladungskarte,1,http://d-nb.info/gnd/4231692-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Einsätze für Amboß,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Einzelblattsammlung,22,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Ereignisbild,1,http://d-nb.info/gnd/4244253-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Erinnerungen,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Erinnerungs-Vedute / Stadtansicht,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Erinnerungsabzeichen,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Erinnerungsstück,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Ersttagspostkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Exilschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Exilzeitschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Exzerpt,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fachzeitschrift,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fahnenspitze,10,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Faksimile,2,http://vocab.getty.edu/aat/300121391,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fassboden,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Feldpostbrief,10,http://d-nb.info/gnd/4129680-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Feldpostkarte,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Feuerzeug,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Figur,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Figur / Frau,2,http://d-nb.info/gnd/4018202-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Figurgefäß,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Filmprogramm,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Flasche,2,http://d-nb.info/gnd/4154567-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Flugblatt,20,http://vocab.getty.edu/aat/300211825,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Foto,140,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fotocollage,1,http://d-nb.info/gnd/4045920-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fotografie,150,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fotografie (Lichtbild),2,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fotografisches Negativ,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fotomappe,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fotomechanische Reproduktion,188,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fragment (Menschliche Figur),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Frontispiz,1,http://vocab.getty.edu/aat/300083021,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Fußbecher,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gedenkmünze,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gedicht,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gedichtbuch,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gefallenenbuch,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gefäß,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Geldschein,82,http://d-nb.info/gnd/,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Geldschein / Notgeld,1,http://d-nb.info/gnd/4004469-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gemälde,10,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gemme,1,http://d-nb.info/gnd/4020059-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gemälde,549,http://d-nb.info/gnd/4122164-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Genre,3,http://vocab.getty.edu/aat/300139140,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Geschenkmappe,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gipsabguss,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gipse,2,http://vocab.getty.edu/aat/300015343,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Glasdia,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Glaubensbekenntnis,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Glockenspielaufsatz,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Glückwunschalbum,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Goethe-Bildnis auf Elfenbein,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Goldschmiedemodell,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Grafik,42,http://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Grafik (Gruppenporträt),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Grafitstiftzeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Graphik,55,http://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Gruppenfoto,1,http://d-nb.info/gnd/4196470-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Grußkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Götterstatuette,1,http://d-nb.info/gnd/4209243-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Halbrelief,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Halterung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Handschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Handzeichnung,17,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Handzettel,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Heft,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Hieb- und Stoßwaffe,1,http://d-nb.info/gnd/4072487-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Holzmodell,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Holzstich,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Humpen,1,http://vocab.getty.edu/aat/300262567,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Illustration,4,http://d-nb.info/gnd/4123412-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Informationsblatt,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Informationsschild,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Inszenierung,40,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Jeton,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Jubiläumspostkarte,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kalender,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kalligraphie (allgemein),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kaltnadelradierung,2,http://d-nb.info/gnd/4163131-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kameo,2,http://d-nb.info/gnd/4120541-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kanne,2,http://d-nb.info/gnd/4130798-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Karikatur,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Karte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kartenspiel,2,http://d-nb.info/gnd/4029798-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Kartenspiel, Quartett",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kassette,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kasten- / Kästchengriff,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Katabori-Netsuke,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Katalog,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Katalog und Preisliste,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Keine Angabe,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kettenanhämger,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kindertheater,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Klappsonnenuhr,1,http://d-nb.info/gnd/7562193-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kleidung,1,http://vocab.getty.edu/aat/300209261,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kleinplastik,2,http://d-nb.info/gnd/4031095-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kleinskulptur,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kohlezeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kondolenzbrief,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Konfirmationsschein,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Konvolut Zigarrenkisten-Etiketten (11),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Konzertprogramm,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kopf,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kopie,3,http://d-nb.info/gnd/4032423-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Koppelschloss,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Koralle,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Korrespondenz,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kostümentwurf,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kreidezeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Krug,1,http://d-nb.info/gnd/4033299-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kunstdruck,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kupferstich,5,http://d-nb.info/gnd/4033760-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kupferstich?,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kylix <Gefäß>,1,http://d-nb.info/gnd/4715607-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Kästchen in Buchform,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Künstlerkarte,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Künstlerpostkarte,5,http://d-nb.info/gnd/4165892-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Landkarte von Deutschland in den Grenzen von 1920,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Landschaftsdarstellung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Langspielplatte,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Lichtpause,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Lichtpause Einzeichnung,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Liebigbilder-Album für Sammelbildchen (unvollständig),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Lithografie,5,http://d-nb.info/gnd/4036042-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Lithografie (print),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Lithographie,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Ländermedaille,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Lösungsheft,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Malerei,58,http://vocab.getty.edu/aat/300054216,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Manuskript,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Mappenwerk,71,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Maske,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Medaille,116,http://d-nb.info/gnd/4038206-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Medaillon,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Messer,2,http://d-nb.info/gnd/4169502-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Messergriff,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Miniaturbüste,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Modell,2,http://d-nb.info/gnd/4039798-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Monatsschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Museumspostkarte,10,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Möbel,1,http://vocab.getty.edu/aat/300037680,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Möbelbeschlag,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Münze,29,http://d-nb.info/gnd/4040629-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Nagelpflegemittelschachtel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Nationalpreis (Probeguss),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Negativ,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Negativ s/w,19,http://d-nb.info/gnd/4347758-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Netsuke,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Notenblatt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Notenhandschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Notenheft,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Notgeld,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Notgeldschein,20,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Oblatenbogen (2),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Ofenplatte,1,http://d-nb.info/gnd/4172473-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Optisches Gerät, Fotogerät*",2,http://vocab.getty.edu/aat/300024585http://vocab.getty.edu/aat/300022633,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Orchestrion,1,http://d-nb.info/gnd/4172714-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Orden,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Papiergeld,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Papiertheaterbogen,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Partitur,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Pentagondodekaeder,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Personenmedaille,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Petschaft,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Pfeifenreiniger,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Pferdegeschirr (Gerät),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Philatelistischer Sonderdruck,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Plakat,127,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Plakette,6,http://d-nb.info/gnd/4174776-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Plastik,10,http://vocab.getty.edu/aat/300015637http://vocab.getty.edu/aat/300047600,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Plattenhülle,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Poesiealbum,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Politische Infopostkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Portrait,2,http://d-nb.info/gnd/4006627-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Porträt,14,http://d-nb.info/gnd/4006627-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Porträtfoto,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Porträtfotografie,1,http://d-nb.info/gnd/4046840-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Porträtpostkarte,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Porträttasse,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Positiv,16,http://d-nb.info/gnd/4141215-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Postkarte,46,http://vocab.getty.edu/aat/300026816,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Postkarte (Aquarell Goethes 1828),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Preis,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Pritschenfuß,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Probenfoto,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Profangrafik,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Profangrafiken in Bildermappe,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Programm,10,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Programmheft,32,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Programmheft XI,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Programmheft XII,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Programmheft XVII,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Programmheft XXV Spielzeit 1997/98,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Propagandaplakat,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Propagandaschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Prägewerkzeug,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Punktierstich,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Quittung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Radierung,9,http://d-nb.info/gnd/4048166-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Raumschmuck,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Reiseführer,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Relief,7,http://vocab.getty.edu/aat/300047230,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Repro,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Reprofotografie,15,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Reprografie,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Rezept,1,http://d-nb.info/gnd/4120926-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Rollenporträt,22,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Rosenkranz,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Rundplastik (Skulptur),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Rundplastik, männlich (Skulptur / Rundplastik)",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Rundschild,1,http://d-nb.info/gnd/4245388-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,SW-Foto,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Sammelbilder,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Sammelordner,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Sarg/Sarkophag (Grabausstattung),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Satirezeitschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Satirisches Flugblatt,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schale <Gefäß>,1,http://d-nb.info/gnd/4121610-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schallplatte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Scharnierfibel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schaustellerzettel,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schellackplatte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schlittschuh,1,http://d-nb.info/gnd/4215076-0,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schlossdarstellung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Schmuck / Trachtelement
+							(Nadel)",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schreibschatulle,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schriftgut,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schriftplakate,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schriftproben (3),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schuber mit kleinen Leseheftchen,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schulbuch,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schulhefte (9),1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schulwandbild Biologie,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Schulwandbild Biologie (Eisvogel,
+                            Neuntöter)",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Schulwandbild Geschichte (Der Neue
+                            Schulmann Nr. 4008)",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Schulwandbild Geschichte (Geschichte
+                            als Gegenwart 22)",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Schwarzweißfotografie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Serienschein,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Serienscheine amtl.,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Service,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Siegellack,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Silhouette,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Sitzstatuette,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Skizze,14,http://d-nb.info/gnd/4181668-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Skizzenbuch,15,http://d-nb.info/gnd/4055251-2,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Skulptur,24,http://d-nb.info/gnd/4046277-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Skulptur (visuelles
+                            Werk)",2,http://vocab.getty.edu/aat/300047090,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Skulptur (visuelles Werk),5,http://vocab.getty.edu/aat/300047090,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Spendenabzeichen,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Spielfigur,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Spruchblatt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Spruchpostkarte,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Stahlstich,11,http://d-nb.info/gnd/4128040-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Stammbuch,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Statue (Rundbild),4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Statuette,7,http://vocab.getty.edu/aat/300047455,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Statuette (Rundbild),4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Statuettengruppe,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Stempel,1,http://d-nb.info/gnd/4183099-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Stereofoto,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Stereoskopie,2,http://vocab.getty.edu/aat/300380031,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Stickmustervorlage,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Studie,7,http://d-nb.info/gnd/1041355866,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Stuhl,8,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Stundenplan,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Städtemedaille,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Szenenfoto,13,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Tagebuch,1,http://d-nb.info/gnd/4058900-6,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Tageszeitung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Taler,2,http://vocab.getty.edu/aat/300412168,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Tanzkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Tarnschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Temperabild,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Text,9,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Text-Noten-Blatt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Textbeilage,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Textsammlung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Theaterfotografie,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Theaterkostüm,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Theaterplakat,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Theaterprogramm,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Theaterzettel,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Tisch,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Tonband,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Traueranzeige,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Trauergedicht,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Typoskript,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Umschlag,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Unterhaltungsblatt,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Urkunde,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Veranstaltungspostkarte,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Veranstaltungsprogramm,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Video,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Visitenkarte,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Volkslied,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Vorlass,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Wandbild,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Wasserbarometer,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Wasserfarbe,2,http://vocab.getty.edu/aat/300015045,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Weihnachtskarte,4,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Weihrelief,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Werbepostkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Wetterglas,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Widmung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Wochenzeitschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Wochenzeitung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeichnung,3167,http://d-nb.info/gnd/4127900-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeichnung (Kunst),1,http://vocab.getty.edu/aat/300033973,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Zeichnung, Collage",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Zeichnung, Druckgraphik",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeichnung/Druckgrafik,16,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeichnungen,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeitschrift,6,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeitung,5,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeitungs-Telegramm,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeitungsausschnitt,2,http://d-nb.info/gnd/4324081-1,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zeugnis,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,Zyklus,28,http://vocab.getty.edu/aat/300184300,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,rechter Fausthandschuh,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"schulwandbild Literatur (L.
+                            9)",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006,"Ōban-Einzelblatt, beschnitten",1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Bronzeplastik,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Bronzerelief,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Buch,1,http://vocab.getty.edu/aat/300028051,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Collage,3,http://d-nb.info/gnd/4010384-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Denkmal,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Druck,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Druck- und Schriftgut,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Druckgraphik,3,http://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Einladung,7,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Fahrschein,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Fotografie,6,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Gemälde,4,http://d-nb.info/gnd/4122164-3,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Papierarbeit,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Plastik,2,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Postkarte,8,http://d-nb.info/gnd/4046902-5,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Sammlung,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Schwarzweißfotografie,7,http://d-nb.info/gnd/4121634-9,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Skulptur,7,http://d-nb.info/gnd/4046277-8,true
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Stele,1,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Werbematerial,3,,false
+http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007,Zeichnung,5,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Akte,9,https://d-nb.info/gnd/4000925-7,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Akten,16,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,"Amtsbücher, Register und Grundbücher",2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Archivale,404,https://d-nb.info/gnd/4142968-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Dokument,18626,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Drucksache,9,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Fotokopie,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Gliederung,7,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Monografie,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Personenakten,6,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Sachakte,853,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Schriftgut,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Text,2993,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Urkunde,20,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Urkunden,34,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001,Verzeichnung,42,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Abschlussarbeit (Bachelor),1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Abschlussarbeit (Master),1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Abschnitt,2900,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Alchemie,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Altkarte,1,https://d-nb.info/gnd/4611904-8,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Amtsdruckschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Annotation,9,https://d-nb.info/gnd/4560829-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Anthologie,8,https://d-nb.info/gnd/4002214-6,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Arbeitspapier,1519,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Artikel,22,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Aufsatz,1093,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Aufsatzsammlung,28,http://d-nb.info/gnd/4143413-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Ausstellung,1,http://d-nb.info/gnd/4129601-1,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Ausstellungskatalog,4,https://d-nb.info/gnd/4135467-9,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Authors' presentation copies (Provenance) - Germany - 19th century,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Autobiografie,1,https://d-nb.info/gnd/4003939-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Autograf,5,https://d-nb.info/gnd/4003942-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Band,357,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Beigefügtes oder enthaltenes Werk,101,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Beilage,19,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Bericht,104,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Bibliografie,7,https://d-nb.info/gnd/4006432-3,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Bildband,5,https://d-nb.info/gnd/4145395-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Bildliche Darstellung,30,http://d-nb.info/gnd/4145419-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Biografie,46,https://d-nb.info/gnd/4006804-3,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Biographie,4,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Botanik,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Brief,56,http://d-nb.info/gnd/4008240-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung,28,https://d-nb.info/gnd/4146609-3,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Buch,12,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Buchbeitrag,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Bücheranzeige,5,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Chronik,1,https://d-nb.info/gnd/4127914-1,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Collection,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Collection article,11,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Conference paper,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Dissertation o. Habilitation,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Dissertation: jur.,6,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Dissertation: phil.,5,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Dissertation: theol.,11,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Drama,8,https://d-nb.info/gnd/4012899-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Dramatik,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Einblattdruck,167,https://d-nb.info/gnd/4151236-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Eintrag,1,http://vocab.getty.edu/aat/300438434,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Epik,1,https://d-nb.info/gnd/4015025-2,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Epos,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Erlebnisbericht,3,https://d-nb.info/gnd/4133254-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Erzählende Literatur: Hauptwerk vor 1945,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Faustroman,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Festschrift,12,https://d-nb.info/gnd/4016928-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Fiktionale Darstellung,18,https://d-nb.info/gnd/1071854844,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Flugschrift,1,https://d-nb.info/gnd/4154770-6,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Forschungsbericht,7,http://d-nb.info/gnd/4155043-2,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Fortlaufendes Sammelwerk,27,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Gamlet i Don Kichot,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Gelegenheitsschrift: Krönung,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Grafik,4,http://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Handschrift,130,https://d-nb.info/gnd/4023287-6,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Heft,39,https://d-nb.info/gnd/4704591-7,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Hochschulschrift,1052,http://d-nb.info/gnd/4113937-9,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Humoristische Darstellung,1,https://d-nb.info/gnd/4160799-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Index,52,https://d-nb.info/gnd/4132120-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Inhaltsverzeichnis,62,https://d-nb.info/gnd/4616899-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Inkunabel,1,https://d-nb.info/gnd/4027041-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Interview,3,http://d-nb.info/gnd/4027503-6,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Journal article,29,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Kapitel,6065,https://d-nb.info/gnd/4290552-7,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Kinderbuch,1,https://d-nb.info/gnd/4303251-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Kommentar,10,https://d-nb.info/gnd/4136710-8,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Komödie,2,https://d-nb.info/gnd/4031952-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Konferenzbeitrag,6,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Konferenzschrift,9,https://d-nb.info/gnd/1071861417,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Kunstführer,1,http://d-nb.info/gnd/4166029-8,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Lehrmittel,1,https://d-nb.info/gnd/4074111-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto,4,https://d-nb.info/gnd/4035588-3,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Ballett,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Chorliederkreis,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Chorwerk,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Drama mit Gesang,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Dramatische Legende,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Festspiel,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Gedicht mit Gesang,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Gesänge,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Hymne,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Lied,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Liederspiel,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Melodram,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Monodram,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Oper,13,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Oratorium,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Parodie,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Pasticcio,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Posse,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Posse mit Gesang,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Schauspiel,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Schauspiel mit Gesang,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Singspiel,13,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Tanzpoem,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Trauerspiel mit Gesang und Tanz,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Vaudeville,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Zauberposse mit Gesang und Tanz,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Libretto: Zauberspiel,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Lied,1,https://d-nb.info/gnd/4035669-3,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Lyrik,2,https://d-nb.info/gnd/4036774-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Medizin,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Mineralogie,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Monografie,1154,https://d-nb.info/gnd/4454906-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Monograph,11,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Multivolume work,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Musikhandschrift,13,https://d-nb.info/gnd/4040847-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Nachruf,2,https://d-nb.info/gnd/4128540-2,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Noten,92,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Online-Publikation,12,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Quelle,26,https://d-nb.info/gnd/4135952-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Rede,2,https://d-nb.info/gnd/4048882-2,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Reisebericht,1,https://d-nb.info/gnd/4076645-7,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Research report,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Review,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Rezension,102,http://d-nb.info/gnd/4049712-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Roman,13,https://d-nb.info/gnd/4050479-7,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,"Sachbücher und Sachbilderbücher für Kinder und Jugendliche: Allgemeines, Nachschlagewerke",1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Satire,4,https://d-nb.info/gnd/4051752-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Schauspiel,18,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Schulbuch,2,https://d-nb.info/gnd/4053458-3,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Schulprogramm,3,https://d-nb.info/gnd/4077211-1,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Singspiel,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Statistik,1,http://d-nb.info/gnd/4056995-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Streitschrift,1,https://d-nb.info/gnd/4129058-6,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Studienarbeit,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Teil eines Periodikums,4,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Text,120,https://d-nb.info/gnd/4059596-1,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Theaterstück,13,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Tierbuch,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Tierkunde,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Tragödie,10,http://d-nb.info/gnd/4060591-7,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Trauerspiel,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Vers,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Verzeichnis,2,https://d-nb.info/gnd/4188171-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Volume,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Vorwort,66,https://d-nb.info/gnd/4135881-8,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Weblog,1,http://d-nb.info/gnd/4678688-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Website,1,http://d-nb.info/gnd/4596172-4,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Widmung,10,https://d-nb.info/gnd/4148981-0,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Working paper,9,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Wörterbuch,2,https://d-nb.info/gnd/4066724-8,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Zeitschrift,196,http://d-nb.info/gnd/4067488-5,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Zeitschriftenartikel,5,https://d-nb.info/gnd/4125424-7,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,Zoologie,6,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,mehrbändiges Werk,74,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,notated music,306,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,still image,3,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002,text,3482,https://d-nb.info/gnd/4059596-1,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte004,Abschnitt,162,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte004,Band,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte004,Kapitel,91,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte004,Monografie,5,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte005,Artikel,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte006,Abschnitt,7,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte006,Druck,4,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte006,Forschungs- und Entwicklungsbericht,2,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte006,Zeitung,2,http://vocab.getty.edu/aat/300026656,true
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte007,Abschnitt,9,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte007,Monografie,1,,false
+http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte007,mehrbändiges Werk,1,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte001,Interview,7,http://vocab.getty.edu/aat/300026392,true
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte002,zweidimensionales bewegtes Bild,8,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte005,Dokumentarfilm,10,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte005,Filmanfang,1,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte005,Teaser,6,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte005,Tonbild,1,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte005,Trailer,40,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte005,Veranstaltungsmitschnitt,5,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte006,Inszenierung,7,,false
+http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte006,Videofilm,11,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,AV-Medien,8,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Akte,279,https://d-nb.info/gnd/4000925-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Akte/Dokument,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Akten,2138,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Akten und Einzelstücke,67,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,"Amtsbücher, Register und Grundbücher",30,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Architekturplan / technische Zeichnung,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivale,4419,https://d-nb.info/gnd/4142968-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivalie,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivalie – Korrespondenz,140,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivalie – Lebensdokument,7,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivalie – Sonstige Sammlung,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivalie – Sonstige Sammlung – Sammlung des Nachlassers,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivalie – Werkmanuskript,72,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivalie – Werkmanuskript – Fremdmanuskript,5,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivbestand,1,https://d-nb.info/gnd/4142970-9,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Archivgut,40,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Artikel,9,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Audio-Visuelle Medien,124,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Audiovisuelles Medium,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Bestand,444,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Bestand Bilder,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Bibliotheksgut,6,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Bild,190,https://d-nb.info/gnd/4006568-6,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Bild / Foto,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Bild/Foto,141,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Bilder,1507,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Briefsammlung,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Buch,78,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Computerausdruck,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Dokument,84,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Dokument / Faksimile,4,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druck- und Schriftgut,4,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druck- und Schriftgut – Buch (gedruckt),127,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druck- und Schriftgut – Noten,9,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druck- und Schriftgut – Typoskript,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druck- und Schriftgut – Zeitschrift,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druck- und Schriftgut – Zeitschrift – Zeitschriftenartikel,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druck- und Schriftgut – Zeitung,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druck- und Schriftgut – Zeitung – Zeitungsartikel,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Druckgrafik,12,http://d-nb.info/gnd/4113357-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Drucksache,20,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Drucksachen,113,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Fallakte (allgemein),117,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Film,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Flugblatt / Plakat,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Fotografie,42,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Fotokopie,5,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Fotokopien und handschriftliche und schreibmaschinengetippte Notizen,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Fotos,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Gemälde,4,http://d-nb.info/gnd/4037220-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Gliederung,7,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Grafik,4,https://d-nb.info/gnd/4021845-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Karte/Plan,15,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Karten und Pläne,84,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Korrespondenz,27,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Medaillen und Plaketten,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Nachlässe,152,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Noten (Musik),30,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Original,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Original Zeitschriftartikel,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Periodikum,16,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Personenakten,46,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Plakate,120,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Plakate und Flugblätter,92,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Pläne,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,"Publikation / Bibliothek / Plakate, Grafiken, Objekte",149,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Sachakte,497,https://d-nb.info/gnd/4466365-1,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Sammlung,8,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Schriftgut,2276,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Serie,7,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Siegel,2,https://d-nb.info/gnd/4054876-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Sonstiges,160,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Theater-/Filmmaterial,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Tonaufnahmen,26,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Tondokumente,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Tonträger,21,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Urkunde,100,https://d-nb.info/gnd/4062132-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Urkunden,3090,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Verschiedenes,54,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Verzeichnung,40,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Visuelle Materialien,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Zeichnung,1,http://d-nb.info/gnd/4127900-1,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001,Zivilprozessakte,6,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Anleitung,2,http://d-nb.info/gnd/4142527-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Anthologie,65,http://d-nb.info/gnd/4002214-6,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Archivgut,7,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Artikel,177,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Atlas,1,http://d-nb.info/gnd/4143303-8,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Aufgabensammlung,7,http://d-nb.info/gnd/4143389-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Aufsatzsammlung,558,http://d-nb.info/gnd/4143413-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Ausstellung,131,http://d-nb.info/gnd/4129601-1,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Ausstellung 1992,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Ausstellung 1995,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Ausstellung 1999,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Ausstellung 2004,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Ausstellung 2008,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Ausstellungskatalog,101,https://d-nb.info/gnd/4135467-9,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Autobiografie,14,http://d-nb.info/gnd/4003939-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Autobiographie,15,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Autobiographie 1950-2000,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Beispielsammlung,8,http://d-nb.info/gnd/4144384-6,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Belletristik,186,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Belletristische Darstellung,22,https://d-nb.info/gnd/4144445-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Bestimmungsbuch,1,http://d-nb.info/gnd/4144950-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Bibliografie,18,http://d-nb.info/gnd/4006432-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Bibliographie,16,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Bild,1,http://d-nb.info/gnd/4006568-6,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Bildband,83,http://d-nb.info/gnd/4145395-5,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Bilderbuch,1,http://d-nb.info/gnd/4006604-6,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Biografie,50,http://d-nb.info/gnd/4006804-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Biographie,108,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Biographie 1765-1768,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Biographie 1775-1832,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Biographie 1831,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Biographien für Kinder und Jugendliche,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung,50,http://d-nb.info/gnd/4146609-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1765-1767,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1769-1832,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1774-1786,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1778-1782,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1780-1808,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1784-1828,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1788-1799,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1788-1816,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1790-1828,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1792-1816,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1794-1805,5,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1799-1832,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1803-1805,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1814-1818,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1815-1841,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1816-1831,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1822-1832,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1827,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1828-1831,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 1829,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Briefsammlung 2010,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Buch,1319,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,CD,1,http://d-nb.info/gnd/4522869-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,CD-ROM,2,http://d-nb.info/gnd/4139307-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Comic,20,http://d-nb.info/gnd/4010427-8,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Dramatik,40,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Drehbuch,1,http://d-nb.info/gnd/4127976-1,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Einführung,18,http://d-nb.info/gnd/4151278-9,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Erlebnisbericht,97,https://d-nb.info/gnd/4133254-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,"Erstlesealter, Vorschulalter",4,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Erzählende Literatur,76,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Erzählende Literatur: Anthologien,25,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Erzählende Literatur: Gegenwartsliteratur ab 1945,29,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Erzählende Literatur: Hauptwerk vor 1945,150,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Fallstudie,6,https://d-nb.info/gnd/4124897-1,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Fallstudiensammlung,2,http://d-nb.info/gnd/4522595-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Fantasy,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Festschrift,26,https://d-nb.info/gnd/4016928-5,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Fiktionale Darstellung,7,http://d-nb.info/gnd/1071854844,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Film,6,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Forschungsbericht,2,http://d-nb.info/gnd/4155043-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,"Frankfurt <Main, 2008>",1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Führer,95,http://d-nb.info/gnd/4155569-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Gedichte und Reime für Kinder und Jugendliche,5,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Gemischte Anthologien,30,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Geschenkbücher,6,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Geschichte,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Gespräch,38,http://d-nb.info/gnd/4020713-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Historische Romane und Erzählungen,5,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Hochschulschrift,5442,http://d-nb.info/gnd/4113937-9,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,"Humor, Satire",3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Humoristische Darstellung,4,http://d-nb.info/gnd/4160799-5,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Immerwährende Kalender,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Interview,8,http://d-nb.info/gnd/4027503-6,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Jugendbuch,6,http://d-nb.info/gnd/4306252-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Jugendbücher ab 12 Jahre,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Jugendsachbuch,10,http://d-nb.info/gnd/4028933-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kalender,1,http://d-nb.info/gnd/4029290-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Karikatur,6,http://d-nb.info/gnd/4029670-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Katalog,17,http://d-nb.info/gnd/4163417-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kinder- und Jugendliteratur,8,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kinderbuch,3,http://d-nb.info/gnd/4303251-5,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kinderbücher bis 11 Jahre,12,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kindersachbuch,6,http://d-nb.info/gnd/4163854-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kochbuch,21,http://d-nb.info/gnd/4114240-8,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kolumnensammlung,1,http://d-nb.info/gnd/1071862448,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kommentar,46,https://d-nb.info/gnd/4136710-8,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Konferenzschrift,202,http://d-nb.info/gnd/1071861417,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kongress,193,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kongress 1987,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kongress 1999,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kongress 2001,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kongress 2012,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Konkordanz,3,http://d-nb.info/gnd/4165001-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,"Krimis, Thriller, Spionage",1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Kunstführer,2,http://d-nb.info/gnd/4166029-8,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Lehrbuch,20,http://d-nb.info/gnd/4123623-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Lehrerhandbuch,9,http://d-nb.info/gnd/4167168-5,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Lehrmittel,158,http://d-nb.info/gnd/4074111-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Lernen im Vorschulalter,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Lesebuch,1,http://d-nb.info/gnd/4035435-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Lieder und Songs für Kinder und Jugendliche,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Literaturbericht,2,http://d-nb.info/gnd/4167870-9,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Literaturbericht 1960-1984,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Lyrik,116,http://d-nb.info/gnd/4036774-5,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,"Lyrik, Dramatik",7,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Monografie,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Nachruf,3,http://d-nb.info/gnd/4128540-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Periodikum,11,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Programmheft,5,http://d-nb.info/gnd/4373950-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Quelle,101,http://d-nb.info/gnd/4135952-5,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Ratgeber,48,http://d-nb.info/gnd/4048476-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht,64,http://d-nb.info/gnd/4076645-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1740,4,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1750-1850,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1777-1784,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1786-1787,8,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1786-1788,6,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1788-1790,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1819,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1830,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1924,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Reisebericht 1987,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Richtlinie,1,https://d-nb.info/gnd/4137814-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Romanhafte Biographien,8,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Sachbücher und Sachbilderbücher für Kinder und Jugendliche,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,"Sachbücher und Sachbilderbücher für Kinder und Jugendliche: Kunst, Musik",3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Sachbücher und Sachbilderbücher für Kinder und Jugendliche: Sonstiges,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,"Sachbücher und Sachbilderbücher für Kinder und Jugendliche: Tiere, Pflanzen, Natur, Umwelt",2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Schulbuch,11,http://d-nb.info/gnd/4053458-3,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Schulbücher,14,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,"Spielerisches Lernen: Abenteuer, Spielgeschichten, Unterhaltung",1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Spielerisches Lernen: Sprachen,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Statistik,1,http://d-nb.info/gnd/4056995-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Tabelle,1,http://d-nb.info/gnd/4184303-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Tagebuch,4,http://d-nb.info/gnd/4058900-6,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Tagebuch  1816,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Tagebuch 1786-1788,4,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Tagebuch 1829-1832,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Tagebuch 1992,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Testmaterial,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Text,19,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Theaterstück,1,http://d-nb.info/gnd/4304080-9,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Unterrichtseinheit,21,http://d-nb.info/gnd/4187074-8,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Verzeichnis,27,https://d-nb.info/gnd/4188171-0,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Visuelle Materialien,15,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Vorlesebücher,5,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Werkverzeichnis,1,http://d-nb.info/gnd/4189680-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Werkverzeichnis 1979-2001,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Wörterbuch,16,http://d-nb.info/gnd/4066724-8,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Zeitschrift,4,http://d-nb.info/gnd/4067488-5,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Zeittafel,1,http://d-nb.info/gnd/4190631-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Zitatensammlung,13,http://d-nb.info/gnd/4117724-1,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,notated music,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,still image,22,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,text,897,https://d-nb.info/gnd/4059596-1,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002,Übungssammlung,1,http://d-nb.info/gnd/4222208-4,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte003,Baudenkmal,10,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte003,Corps de Logis,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte003,Einzeldenkmal,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte003,Landhausgruppe,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte003,Straße,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte003,Wohnhausgruppe,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Archivale,27,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Druck,1,http://vocab.getty.edu/aat/300041273,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Folge,2,http://vocab.getty.edu/aat/300027349,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Fotografie,1,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Skizze,5,http://vocab.getty.edu/aat/300015617,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Sockel,1,http://vocab.getty.edu/aat/300080499,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Studie,2,http://vocab.getty.edu/aat/300081053,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Supraporte,1,http://vocab.getty.edu/aat/300002911,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Vorzeichnung,9,http://vocab.getty.edu/aat/300068293,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Wohnhaus,1,http://vocab.getty.edu/aat/300005433,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Zeichnung,2,http://vocab.getty.edu/aat/300033973,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004,Zyklus,1,http://vocab.getty.edu/aat/300184300,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte005,Deckenbild,1,http://vocab.getty.edu/aat/300411453,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte005,Fotografie,3,http://d-nb.info/gnd/4045895-7,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte005,Negativ,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte005,Postkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte005,Zyklus,1,http://d-nb.info/gnd/4191377-2,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Anzeige,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Archivalien-Konvolut,4,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Audio,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Ausweis,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Autograph,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Brief,42,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Briefkarte,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Briefmarke & Sonderstempel,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Buch,5,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Druckbogen,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Druckgraphik,7,http://vocab.getty.edu/aat/300041273,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Druckschrift,56,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Eintrittskarte,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Einzelblattsammlung,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Erinnerungsstück,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Flugblatt,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Foto,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Fotoalbum,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Gedicht,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Haarlocke,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Handzettel,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Illustration/Buchillustration,1,http://vocab.getty.edu/aat/300015578,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Informationsblatt,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Karteikarte,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Kassette,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Kindertheater,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Linoleumstempel,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Medaille,16,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Mensch (Grabausstattung / Sarg/Sarkophag),2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Mitteilung,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Plakat,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Plakette,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Postkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Programm,11,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Rede,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Schmuckblatt,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Schülerzeitschrift,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Skulptur,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Skulptur (visuelles Werk),1,http://vocab.getty.edu/aat/300047090,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Spielzeug,1,http://vocab.getty.edu/aat/300211037,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Spruchkarte,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Statue (Rundbild),1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Studie,1,http://vocab.getty.edu/aat/300081053,true
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Tarnschrift,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Theaterprogramm,3,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Zeichnung,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Zeichnung/Druckgrafik,6,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Zeitung,1,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Zeitungstelegramm,2,,false
+http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006,Zitat,1,,false

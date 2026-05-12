@@ -1,0 +1,105 @@
+# QLever + SHMARQL for an RDF dataset.
+#
+# First run builds the QLever index (a few minutes for large files).
+# Subsequent runs start in seconds — index persisted in $INDEX_DIR.
+#
+# Configuration: copy config.env.example to config.env and edit.
+# To re-run on another server: copy this directory, edit config.env,
+# then: docker compose -f docker-compose.qlever.yml up -d --wait
+#
+# SHMARQL UI:      http://localhost:${SHMARQL_PORT:-7032}
+# SPARQL endpoint: http://localhost:${QLEVER_PORT:-7030}
+# MCPO (MCP→HTTP): http://localhost:${MCPO_PORT:-8001}
+
+services:
+  qlever-goethe-faust:
+    image: docker.io/adfreiburg/qlever:latest
+    user: "0"
+    ports:
+      - "${QLEVER_PORT:-7030}:7019"
+    volumes:
+      - ${NQ_INPUT_DIR}:/input:ro
+      - ${INDEX_DIR:-data/qlever-index}:/data
+    working_dir: /data
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        set -e
+        INDEX_NAME="${INDEX_NAME:-goethe-faust}"
+        NQ_INPUT_GLOB="${NQ_INPUT_GLOB:-*.nq}"
+
+        if [ -f /data/$${INDEX_NAME}.ready ]; then
+          echo "Index already built, starting server..."
+          exec /qlever/qlever-server -i /data/$${INDEX_NAME} -p 7019 -t \
+            -m $${QLEVER_MEMORY:-4GB} --default-query-timeout 60s
+        fi
+
+        echo "=== Building QLever index ==="
+        FILES=$$(ls /input/$${NQ_INPUT_GLOB} 2>/dev/null | tr '\n' ' ')
+        if [ -z "$$FILES" ]; then
+          echo "ERROR: no files matched /input/$${NQ_INPUT_GLOB}" >&2
+          exit 1
+        fi
+        echo "Input files: $$FILES"
+
+        cat > /data/settings.json << 'SETTINGS'
+        {
+          "num-triples-per-batch": 500000,
+          "parser-batch-size": 50000,
+          "ascii-prefixes-only": false,
+          "languages-internal": ["de", "en", ""],
+          "prefixes-external": [
+            "http://www.deutsche-digitale-bibliothek.de/item/",
+            "http://www.deutsche-digitale-bibliothek.de/organization/",
+            "urn:edm:Aggregation:",
+            "urn:edm:ProvidedCHO:",
+            "http://www.deutschefotothek.de/documents/obj/",
+            "http://fotothek.slub-dresden.de/",
+            "http://www.europeana.eu/schemas/edm/",
+            "http://www.w3.org/"
+          ]
+        }
+        SETTINGS
+
+        /qlever/qlever-index -i /data/$${INDEX_NAME} \
+          -f $$FILES -F $${NQ_FORMAT:-nq} -W -s /data/settings.json 2>&1
+
+        touch /data/$${INDEX_NAME}.ready
+        echo "=== Index built. Starting server ==="
+        exec /qlever/qlever-server -i /data/$${INDEX_NAME} -p 7019 -t \
+          -m $${QLEVER_MEMORY:-4GB} --default-query-timeout 60s
+    environment:
+      - QLEVER_MEMORY=${QLEVER_MEMORY:-4GB}
+      - INDEX_NAME=${INDEX_NAME:-goethe-faust}
+      - NQ_INPUT_GLOB=${NQ_INPUT_GLOB:-*.nq}
+      - NQ_FORMAT=${NQ_FORMAT:-nq}
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:7019/?cmd=stats"]
+      interval: 5s
+      timeout: 5s
+      retries: 120
+      start_period: 300s
+
+  shmarql:
+    image: ghcr.io/epoz/shmarql:latest
+    ports:
+      - "${SHMARQL_PORT:-7032}:8000"
+    environment:
+      - ENDPOINT=http://qlever-goethe-faust:7019
+    depends_on:
+      qlever-goethe-faust:
+        condition: service_healthy
+
+  mcpo:
+    image: ghcr.io/open-webui/mcpo:latest
+    ports:
+      - "${MCPO_PORT:-8001}:8001"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: >
+      --port 8001 --
+      npx -y mcp-server-qlever
+      -e http://host.docker.internal:${QLEVER_PORT:-7030}
+    depends_on:
+      qlever-goethe-faust:
+        condition: service_healthy

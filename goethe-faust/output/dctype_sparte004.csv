@@ -1,0 +1,137 @@
+mediatype,htype,dc_type_de,count,rdf_type_w,rdf_type_m,notes,mapped
+mt001,,Schellackplatte,9,http://purl.org/ontology/mo/MusicalWork,http://purl.org/ontology/mo/MusicalManifestation,,yes
+mt001,,Tonaufnahme,13,,https://w3id.org/ac-ontology/aco#AudioManifestation,"Usual Topics: Tierstimme, Industriegeräusche, Lesung, Interview",yes
+mt002,,Abguss,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Abstrakte Plastik,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Amulett,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Ansichtskarte,55,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Ansichtskarte / Motivkarte,310,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Ansichtskarte / Motivkarte;Feldpostkarte,8,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Ansichtskarte / Motivkarte;Weltpostkarte,59,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Aquarell,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Arbeitszimmer,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Archiv,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bank (Bauwerk),1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bild,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bleistiftzeichnung,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Brunnen,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Buch,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Büste,18,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Deckenbild,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Denkmal,18,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Druck,23,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Entwurf,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Etikett,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Exlibris,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Faksimile,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Federzeichnung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Felsformation,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Folge,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fotografie,85,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fotoreproduktion,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Freiplastik,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Frontispiz (Illustration),1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Garten,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gartenhaus,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gartenpavillon,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gartentempel,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gasthaus,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gedenktafel,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gemälde,44,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Grabmal,5,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Grafik,32,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gymnasium,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Handzettel,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Herme,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Hinterhaus,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Hof,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Häckel,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Häuserzeile,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Illustration,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Innenraum,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Inschrifttafel,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kai,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kino,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kohlezeichnung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kopf,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kupferstich,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Lekythos,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Längsschnitt,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Malerei,5,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Maske,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Miniatur (Malerei),1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Modell,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Mosaik,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Multireligiöser Raum,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Museum,8,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Münze,3,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Münze (Fünf Mark),2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Negativ,12,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Obelisk,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Objekt,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Opernhaus,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,"Optisches Gerät, Fotogerät, Filmgerät*",2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Papierabzug,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Plakat,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Plakette,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Plastik,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Plastik (Bildwerk),1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Plastik/Skulptur,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Portal,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Radierung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Randzeichnung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Regierungsgebäude,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Relief,9,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Rückseite,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Schattenriss,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Schiffsmodell,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Schule,3,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Schwarzweiß-Positiv,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Silhouettenbild,12,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Sitzfigur,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Skizze,9,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Skulptur,2,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Standbild,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Statue,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Statuette,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Straße,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Streetart,12,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Studie,18,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Supraporte,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Theater,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Titelblatt,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Tuschfederzeichnung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Tuschpinselzeichnung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Türklinke,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Universität,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Universitätsinstitut,19,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Vorderhaus,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Vorhalle,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Vorzeichnung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Wandbild,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Warenhaus,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Waschraum,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Wohn- und Gasthaus,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Wohnhaus,4,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Zeichnung,39,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeichnung?,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zimmer,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,abstrakte Skulptur,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_015,Illustration,6,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Archivale,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt003,htype_001,Abschnitt,162,,,,no
+mt003,htype_007,Band,2,,,,no
+mt003,htype_018,Kapitel,91,,,,no
+mt003,htype_021,Monografie,5,,,,no
+mt007,,Druck,1,,,,no
+mt007,,Folge,2,,,,no
+mt007,,Fotografie,1,,,,no
+mt007,,Skizze,5,,,,no
+mt007,,Sockel,1,,,,no
+mt007,,Studie,2,,,,no
+mt007,,Supraporte,1,,,,no
+mt007,,Vorzeichnung,9,,,,no
+mt007,,Wohnhaus,1,,,,no
+mt007,,Zeichnung,2,,,,no
+mt007,,Zyklus,1,,,,no
+mt007,htype_034,Archivale,27,,,,no

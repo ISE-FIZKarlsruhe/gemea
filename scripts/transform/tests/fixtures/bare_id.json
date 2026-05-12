@@ -1,0 +1,1579 @@
+{
+  "properties": {
+    "item-id": "222NZKK63TNRLC2VETRV722VKBDSUVGL",
+    "dataset-id": "76409877634279609sQOu",
+    "dataset-label": "Gesamtlieferung: Deutsche Fotothek - LIDO",
+    "revision-id": "43",
+    "ingest-date": "2026-01-07T15:40:43+0100",
+    "cortex-type": "Kultur",
+    "mapping-version": "6.18",
+    "automatically-translated": false
+  },
+  "provider-info": {
+    "domains": [
+      "http://ddb.vocnet.org/sparte/sparte005",
+      "",
+      ""
+    ],
+    "provider-name": "Deutsche Fotothek",
+    "provider-europeana-name": "",
+    "provider-parent-id": "00014072",
+    "provider-facebook": "",
+    "provider-twitter": "https://twitter.com/Fotothek",
+    "provider-uri": "http://www.deutschefotothek.de",
+    "provider-email": "Deutsche.Fotothek@slub-dresden.de",
+    "provider-collection": "",
+    "provider-item-id": "DE-2396_90106124_df_pos-2018-a_0000067_000_f",
+    "provider-item-id-type": "",
+    "provider-id": "99900890",
+    "provider-ddb-id": "CJY7MSLPOPB7FTPC7JM5K2GGM5PBGLYI",
+    "provider-isil": "http://ld.zdb-services.de/resource/organisations/DE-2396",
+    "provider-logo": "https://registrierung.deutsche-digitale-bibliothek.de/logos/99900890.jpg",
+    "provider-longitude": "13.73593",
+    "provider-latitude": "51.02874",
+    "provider-state": "Sachsen",
+    "provider-parents": {
+      "parents": [
+        {
+          "provider-name": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden",
+          "domains": [
+            "http://ddb.vocnet.org/sparte/sparte002",
+            "",
+            ""
+          ],
+          "provider-parent-id": "",
+          "provider-uri": "http://www.slub-dresden.de",
+          "provider-email": "",
+          "provider-collection": "",
+          "provider-item-id-type": "",
+          "provider-id": "00014072",
+          "provider-ddb-id": "265BI7NE7QBS4NQMZCCGIVLFR73OCOSL",
+          "provider-logo": "https://registrierung.deutsche-digitale-bibliothek.de/logos/00014072.jpg",
+          "provider-longitude": "13.73593",
+          "provider-latitude": "51.02874",
+          "aggregator": false
+        }
+      ]
+    }
+  },
+  "edm": {
+    "RDF": {
+      "Aggregation": {
+        "about": "2X55WKCAYOIS4Y5CJPQQWQPXXC6TX4AK",
+        "aggregatedCHO": {
+          "resource": "http://www.deutsche-digitale-bibliothek.de/item/222NZKK63TNRLC2VETRV722VKBDSUVGL",
+          "lang": null,
+          "$": ""
+        },
+        "isShownAt": {
+          "resource": "http://www.deutschefotothek.de/documents/obj/90106124",
+          "lang": null,
+          "$": ""
+        },
+        "isShownBy": {
+          "resource": "http://fotothek.slub-dresden.de/fotos/df_pos-2018-a_0000067_000_f.jpg",
+          "lang": null,
+          "$": ""
+        },
+        "edmRights": {
+          "resource": "http://rightsstatements.org/vocab/InC/1.0/",
+          "lang": null,
+          "$": ""
+        },
+        "dcTermsRights": {
+          "resource": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "lang": null,
+          "$": ""
+        },
+        "provider": "Deutsche Digitale Bibliothek",
+        "dataProvider": [
+          {
+            "resource": null,
+            "lang": null,
+            "$": "Deutsche Fotothek"
+          },
+          {
+            "resource": "http://www.deutsche-digitale-bibliothek.de/organization/CJY7MSLPOPB7FTPC7JM5K2GGM5PBGLYI",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "object": {
+          "resource": "http://fotothek.slub-dresden.de/fotos/df_pos-2018-a_0000067_000_f.jpg",
+          "lang": null,
+          "$": ""
+        },
+        "aggregator": null,
+        "hasView": null
+      },
+      "WebResource": [
+        {
+          "about": "http://www.deutschefotothek.de/documents/obj/90106124",
+          "type": {
+            "resource": "http://ddb.vocnet.org/medientyp/mt002",
+            "lang": null,
+            "$": ""
+          },
+          "edmRights": {
+            "resource": "http://rightsstatements.org/vocab/InC/1.0/",
+            "lang": null,
+            "$": ""
+          },
+          "dcTermsRights": {
+            "resource": "http://rightsstatements.org/vocab/InC/1.0/",
+            "lang": null,
+            "$": ""
+          },
+          "creator": null
+        },
+        {
+          "about": "http://fotothek.slub-dresden.de/fotos/df_pos-2018-a_0000067_000_f.jpg",
+          "type": {
+            "resource": "http://ddb.vocnet.org/medientyp/mt002",
+            "lang": null,
+            "$": ""
+          },
+          "edmRights": {
+            "resource": "http://rightsstatements.org/vocab/InC/1.0/",
+            "lang": null,
+            "$": ""
+          },
+          "dcTermsRights": {
+            "resource": "http://rightsstatements.org/vocab/InC/1.0/",
+            "lang": null,
+            "$": ""
+          },
+          "creator": null
+        }
+      ],
+      "Concept": [
+        {
+          "about": "http://ddb.vocnet.org/medientyp/mt002",
+          "notation": "mediatype_002",
+          "prefLabel": null
+        },
+        {
+          "about": "http://ddb.vocnet.org/medientyp/mt002",
+          "notation": "mediatype_002",
+          "prefLabel": null
+        },
+        {
+          "about": "http://ddb.vocnet.org/sparte/sparte005",
+          "notation": "sec_05",
+          "prefLabel": null
+        },
+        {
+          "about": "DJVX2BT7X2HN24O6YRDOQM6T3CNZYYY6",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Fotoalbum"
+          }
+        },
+        {
+          "about": "YUVZR2OFQCZ5HKUOCBWXTII5WN6DCLOK",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Album"
+          }
+        },
+        {
+          "about": "PGMKFCFI7VBLOVKS5355NRUHMUZC6CLZ",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Einsteckalbum"
+          }
+        },
+        {
+          "about": "TZV7PUDAJH3QQMEEC6IGCH4JGI47DI7I",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Kalligraphie"
+          }
+        },
+        {
+          "about": "O5PEN2OFMNNZHKWE4YXVH7NKVZUJTH2X",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Urlaub"
+          }
+        },
+        {
+          "about": "GOA676SEMDESWCB5KDCEG2UJTCKNSO4K",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Tierfotografie"
+          }
+        },
+        {
+          "about": "MLFLSQ5OUF7HS3UX7QZYAKP5DRTK32PV",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Landschaft"
+          }
+        },
+        {
+          "about": "LJ6MP3DA52RF4EBIKGFOE4EDV6NJ7DQ2",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Architektur"
+          }
+        },
+        {
+          "about": "3CUAN3FT73OYPUPP4RQTB5H3HC4D5VUZ",
+          "notation": null,
+          "prefLabel": {
+            "resource": null,
+            "lang": "ger",
+            "$": "Straßenbild"
+          }
+        }
+      ],
+      "Agent": [
+        {
+          "about": "http://www.deutsche-digitale-bibliothek.de/organization/CJY7MSLPOPB7FTPC7JM5K2GGM5PBGLYI",
+          "prefLabel": [
+            {
+              "lang": null,
+              "$": "Deutsche Fotothek"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": {
+            "resource": "http://ddb.vocnet.org/sparte/sparte005",
+            "$": ""
+          },
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": [
+            {
+              "resource": "http://www.deutsche-digitale-bibliothek.de/organization/265BI7NE7QBS4NQMZCCGIVLFR73OCOSL",
+              "lang": null,
+              "$": ""
+            }
+          ],
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        },
+        {
+          "about": "http://www.deutsche-digitale-bibliothek.de/organization/265BI7NE7QBS4NQMZCCGIVLFR73OCOSL",
+          "prefLabel": [
+            {
+              "lang": null,
+              "$": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": null,
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": null,
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        },
+        {
+          "about": "46PLHXY2XDLSTQOJYTE5THFZDCMMIKMA",
+          "prefLabel": [
+            {
+              "lang": "ger",
+              "$": "Irmscher, Willy"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": null,
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": null,
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        },
+        {
+          "about": "http://d-nb.info/gnd/118540238",
+          "prefLabel": [
+            {
+              "lang": "ger",
+              "$": "Johann Wolfgang von Goethe"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": null,
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": null,
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": null
+        },
+        {
+          "about": "5M5Q6RQMEZJT7ZVIRVP4VC7KGLUJAH5V",
+          "prefLabel": [
+            {
+              "lang": "zxx",
+              "$": "DDZ"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "date": null,
+          "type": null,
+          "identifier": null,
+          "hasPart": null,
+          "isPartOf": null,
+          "begin": null,
+          "end": null,
+          "hasMet": null,
+          "isRelatedTo": null,
+          "name": null,
+          "biographicalInformation": null,
+          "dateOfBirth": null,
+          "dateOfDeath": null,
+          "dateOfEstablishment": null,
+          "dateOfTermination": null,
+          "gender": null,
+          "placeOfBirth": null,
+          "placeOfDeath": null,
+          "professionOrOccupation": null,
+          "sameAs": null,
+          "wasPresentAt": {
+            "resource": "PH5JJIYFIVCTJYPWZSMZCHQSJWATUON3",
+            "$": ""
+          }
+        }
+      ],
+      "PhysicalThing": null,
+      "ProvidedCHO": {
+        "about": "http://www.deutsche-digitale-bibliothek.de/item/222NZKK63TNRLC2VETRV722VKBDSUVGL",
+        "currentLocation": {
+          "resource": "RF56LSGFNKRXAJEFAXAC7RJF6ZC437SS",
+          "lang": null,
+          "$": ""
+        },
+        "hasType": [
+          {
+            "resource": "DJVX2BT7X2HN24O6YRDOQM6T3CNZYYY6",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "hasMet": [
+          {
+            "resource": "PH5JJIYFIVCTJYPWZSMZCHQSJWATUON3",
+            "$": ""
+          }
+        ],
+        "edmType": "IMAGE",
+        "description": [
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Motiv: Abb. Vorsatz. Titelblatt auf fliegendem Blatt mit Illustration und Autograph von W. Irmscher"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Negativ in color, quer"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Bitte beachten Sie die <a href=\"http://www.deutschefotothek.de/cms/gebuehren.xml\">Nutzungsbedingungen</a> der Deutschen Fotothek. (Bemerkung)"
+          }
+        ],
+        "contributor": [
+          {
+            "resource": null,
+            "lang": "zxx",
+            "$": "DDZ (Fotografische Aufnahme) (Atelier/Verlag)"
+          }
+        ],
+        "identifier": [
+          "df_pos-2018-a_0000067 (Inventarnummer)",
+          "df_pos-2018-a_0000067_000_f (Aufnahmenummer)",
+          "90106124 (Dokumentennummer)"
+        ],
+        "date": [
+          "2018 (Fotografische Aufnahme)"
+        ],
+        "dcType": {
+          "resource": null,
+          "lang": "ger",
+          "$": "Fotoalbum"
+        },
+        "dcSubject": [
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Album"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Einsteckalbum"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Kalligraphie"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Urlaub"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Tierfotografie"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Landschaft"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Architektur"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Straßenbild"
+          },
+          {
+            "resource": null,
+            "lang": "ger",
+            "$": "Irmscher, Willy"
+          },
+          {
+            "resource": "http://d-nb.info/gnd/118540238",
+            "lang": "ger",
+            "$": "Goethe, Johann Wolfgang von"
+          }
+        ],
+        "title": {
+          "resource": null,
+          "lang": "ger",
+          "$": "Fotoalbum des Malers Willy Irmscher : Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67"
+        },
+        "dcTermsSubject": [
+          {
+            "resource": "YUVZR2OFQCZ5HKUOCBWXTII5WN6DCLOK",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "PGMKFCFI7VBLOVKS5355NRUHMUZC6CLZ",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "TZV7PUDAJH3QQMEEC6IGCH4JGI47DI7I",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "O5PEN2OFMNNZHKWE4YXVH7NKVZUJTH2X",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "GOA676SEMDESWCB5KDCEG2UJTCKNSO4K",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "MLFLSQ5OUF7HS3UX7QZYAKP5DRTK32PV",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "LJ6MP3DA52RF4EBIKGFOE4EDV6NJ7DQ2",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "3CUAN3FT73OYPUPP4RQTB5H3HC4D5VUZ",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "46PLHXY2XDLSTQOJYTE5THFZDCMMIKMA",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "http://d-nb.info/gnd/118540238",
+            "lang": null,
+            "$": ""
+          }
+        ],
+        "extent": [
+          {
+            "resource": null,
+            "lang": "zxx",
+            "$": "8,5 x 12 x 2,2 cm (Werk/Vorlage)"
+          }
+        ],
+        "dcTermSubject": [
+          {
+            "resource": "YUVZR2OFQCZ5HKUOCBWXTII5WN6DCLOK",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "PGMKFCFI7VBLOVKS5355NRUHMUZC6CLZ",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "TZV7PUDAJH3QQMEEC6IGCH4JGI47DI7I",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "O5PEN2OFMNNZHKWE4YXVH7NKVZUJTH2X",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "GOA676SEMDESWCB5KDCEG2UJTCKNSO4K",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "MLFLSQ5OUF7HS3UX7QZYAKP5DRTK32PV",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "LJ6MP3DA52RF4EBIKGFOE4EDV6NJ7DQ2",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "3CUAN3FT73OYPUPP4RQTB5H3HC4D5VUZ",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "46PLHXY2XDLSTQOJYTE5THFZDCMMIKMA",
+            "lang": null,
+            "$": ""
+          },
+          {
+            "resource": "http://d-nb.info/gnd/118540238",
+            "lang": null,
+            "$": ""
+          }
+        ]
+      },
+      "Event": [
+        {
+          "about": "PH5JJIYFIVCTJYPWZSMZCHQSJWATUON3",
+          "hasType": {
+            "resource": "http://terminology.lido-schema.org/lido01127",
+            "lang": null,
+            "$": ""
+          },
+          "happenedAt": null,
+          "occuredAt": [
+            {
+              "resource": "UCVME5T65DKDQ4Y5PJ23IQEMTYT2VK2Q",
+              "lang": null,
+              "$": ""
+            }
+          ],
+          "P11_had_participant": [
+            {
+              "resource": "5M5Q6RQMEZJT7ZVIRVP4VC7KGLUJAH5V",
+              "lang": null,
+              "$": ""
+            }
+          ]
+        }
+      ],
+      "Place": [
+        {
+          "about": "RF56LSGFNKRXAJEFAXAC7RJF6ZC437SS",
+          "lat": null,
+          "long": null,
+          "alt": null,
+          "prefLabel": [
+            {
+              "lang": "ger",
+              "$": "Dresden"
+            }
+          ],
+          "altLabel": null,
+          "note": null,
+          "hasPart": null,
+          "isNextInSequence": null,
+          "sameAs": null,
+          "type": null,
+          "isPartOf": null
+        }
+      ],
+      "Organization": null,
+      "Address": null,
+      "TimeSpan": {
+        "about": "UCVME5T65DKDQ4Y5PJ23IQEMTYT2VK2Q",
+        "begin": {
+          "lang": null,
+          "$": "2018"
+        },
+        "end": {
+          "lang": null,
+          "$": "2018"
+        }
+      }
+    }
+  },
+  "indexing-profile": {
+    "item-id": "222NZKK63TNRLC2VETRV722VKBDSUVGL",
+    "facet": [
+      {
+        "name": "place_fct",
+        "value": [
+          "Dresden"
+        ]
+      },
+      {
+        "name": "place_fct_autocomplete",
+        "value": [
+          "Dresden"
+        ]
+      },
+      {
+        "name": "affiliate_fct",
+        "value": [
+          "DDZ",
+          "Irmscher, Willy",
+          "Johann Wolfgang von Goethe"
+        ]
+      },
+      {
+        "name": "affiliate_fct_autocomplete",
+        "value": [
+          "DDZ",
+          "Irmscher, Willy",
+          "Johann Wolfgang von Goethe"
+        ]
+      },
+      {
+        "name": "affiliate_fct_role",
+        "value": [
+          "DDZ",
+          "Irmscher, Willy",
+          "Johann Wolfgang von Goethe",
+          "DDZ_1_affiliate_fct_involved",
+          "Irmscher, Willy_1_affiliate_fct_subject",
+          "Johann Wolfgang von Goethe_1_affiliate_fct_subject"
+        ]
+      },
+      {
+        "name": "affiliate_fct_role_autocomplete",
+        "value": [
+          "DDZ",
+          "Irmscher, Willy",
+          "Johann Wolfgang von Goethe",
+          "DDZ_1_affiliate_fct_involved",
+          "Irmscher, Willy_1_affiliate_fct_subject",
+          "Johann Wolfgang von Goethe_1_affiliate_fct_subject"
+        ]
+      },
+      {
+        "name": "affiliate_fct_normdata",
+        "value": [
+          "http://d-nb.info/gnd/118540238"
+        ]
+      },
+      {
+        "name": "affiliate_fct_role_normdata",
+        "value": [
+          "http://d-nb.info/gnd/118540238",
+          "http://d-nb.info/gnd/118540238_1_affiliate_fct_subject"
+        ]
+      },
+      {
+        "name": "keywords_fct",
+        "value": [
+          "Fotoalbum",
+          "Album",
+          "Architektur",
+          "Einsteckalbum",
+          "Kalligraphie",
+          "Landschaft",
+          "Straßenbild",
+          "Tierfotografie",
+          "Urlaub"
+        ]
+      },
+      {
+        "name": "keywords_fct_autocomplete",
+        "value": [
+          "Fotoalbum",
+          "Album",
+          "Architektur",
+          "Einsteckalbum",
+          "Kalligraphie",
+          "Landschaft",
+          "Straßenbild",
+          "Tierfotografie",
+          "Urlaub"
+        ]
+      },
+      {
+        "name": "topic_fct",
+        "value": [
+          "Album",
+          "Architektur",
+          "Einsteckalbum",
+          "Kalligraphie",
+          "Landschaft",
+          "Straßenbild",
+          "Tierfotografie",
+          "Urlaub"
+        ]
+      },
+      {
+        "name": "topic_fct_autocomplete",
+        "value": [
+          "Album",
+          "Architektur",
+          "Einsteckalbum",
+          "Kalligraphie",
+          "Landschaft",
+          "Straßenbild",
+          "Tierfotografie",
+          "Urlaub"
+        ]
+      },
+      {
+        "name": "objecttype_fct",
+        "value": [
+          "Fotoalbum"
+        ]
+      },
+      {
+        "name": "objecttype_fct_autocomplete",
+        "value": [
+          "Fotoalbum"
+        ]
+      },
+      {
+        "name": "type_fct",
+        "value": [
+          "mediatype_002"
+        ]
+      },
+      {
+        "name": "provider_fct",
+        "value": [
+          "Deutsche Fotothek",
+          "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden"
+        ]
+      },
+      {
+        "name": "provider_fct_autocomplete",
+        "value": [
+          "Deutsche Fotothek",
+          "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden"
+        ]
+      },
+      {
+        "name": "provider_fct_normdata",
+        "value": [
+          "http://www.deutsche-digitale-bibliothek.de/organization/CJY7MSLPOPB7FTPC7JM5K2GGM5PBGLYI",
+          "http://www.deutsche-digitale-bibliothek.de/organization/265BI7NE7QBS4NQMZCCGIVLFR73OCOSL"
+        ]
+      },
+      {
+        "name": "dataprovider_fct",
+        "value": [
+          "Deutsche Fotothek"
+        ]
+      },
+      {
+        "name": "dataprovider_fct_autocomplete",
+        "value": [
+          "Deutsche Fotothek"
+        ]
+      },
+      {
+        "name": "dataprovider_fct_normdata",
+        "value": [
+          "http://www.deutsche-digitale-bibliothek.de/organization/CJY7MSLPOPB7FTPC7JM5K2GGM5PBGLYI"
+        ]
+      },
+      {
+        "name": "apd_keywords_fct",
+        "value": [
+          "Album",
+          "Architektur",
+          "Einsteckalbum",
+          "Kalligraphie",
+          "Landschaft",
+          "Straßenbild",
+          "Tierfotografie",
+          "Urlaub"
+        ]
+      },
+      {
+        "name": "apd_keywords_fct_autocomplete",
+        "value": [
+          "Album",
+          "Architektur",
+          "Einsteckalbum",
+          "Kalligraphie",
+          "Landschaft",
+          "Straßenbild",
+          "Tierfotografie",
+          "Urlaub"
+        ]
+      },
+      {
+        "name": "sector_fct",
+        "value": [
+          "sec_05"
+        ]
+      },
+      {
+        "name": "last_update",
+        "value": [
+          "2026-01-07T15:40:43+0100"
+        ]
+      }
+    ]
+  },
+  "preview": {
+    "media": "image",
+    "type": "Kultur",
+    "title": "Fotoalbum des Malers Willy Irmscher : Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67",
+    "subtitle": "Fotoalbum",
+    "thumbnail": {
+      "href": "0ac6ad6e-a985-4251-91ca-f4b918326ead"
+    }
+  },
+  "view": {
+    "item": {
+      "identifier": "DE-2396_90106124_df_pos-2018-a_0000067_000_f",
+      "label": "Fotoalbum des Malers Willy Irmscher : Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67",
+      "title": "Fotoalbum des Malers Willy Irmscher : Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67",
+      "subtitle": "Fotoalbum",
+      "rights": "Bitte beachten Sie die <a href=\"http://www.deutschefotothek.de/cms/gebuehren.xml\">Nutzungsbedingungen</a> der Deutschen Fotothek.",
+      "metdata-rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "http://www.deutschefotothek.de/documents/obj/90106124",
+      "category": "Kultur",
+      "media": "image",
+      "thumbnail": "",
+      "latitude": "",
+      "longitude": "",
+      "license": {
+        "resource": "http://rightsstatements.org/vocab/InC/1.0/"
+      },
+      "institution": {
+        "id": "CJY7MSLPOPB7FTPC7JM5K2GGM5PBGLYI",
+        "url": "http://www.deutschefotothek.de",
+        "name": "Deutsche Fotothek",
+        "logo-institution-ddbid": "CJY7MSLPOPB7FTPC7JM5K2GGM5PBGLYI"
+      },
+      "viewers": {
+        "viewer": []
+      },
+      "fields": [
+        {
+          "usage": "display",
+          "field": [
+            {
+              "id": "flex_mus_neu_010",
+              "name": "Original Titel",
+              "value": [
+                {
+                  "content": "Bilder von meinem Urlaub 1942. Stätten der Kindheit",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_020",
+              "name": "Objekt Bezeichnung",
+              "value": [
+                {
+                  "content": "Fotoalbum",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_050",
+              "name": "Objektbeschreibung",
+              "value": [
+                {
+                  "content": "Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Motiv: Abb. Vorsatz. Titelblatt auf fliegendem Blatt mit Illustration und Autograph von W. Irmscher",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Negativ in color, quer",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_070",
+              "name": "Maße",
+              "value": [
+                {
+                  "content": "8,5 x 12 x 2,2 cm (Werk/Vorlage)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_100",
+              "name": "Ereignis",
+              "value": [
+                {
+                  "content": "Fotografische Aufnahme",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_110",
+              "name": "(wer)",
+              "value": [
+                {
+                  "content": "DDZ (Atelier/Verlag)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_130",
+              "name": "(wann)",
+              "value": [
+                {
+                  "content": "2018",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_210",
+              "name": "Bezug (was)",
+              "value": [
+                {
+                  "content": "Album",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Einsteckalbum",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Kalligraphie",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Urlaub",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Tierfotografie",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Landschaft",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Architektur",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Straßenbild",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_220",
+              "name": "Bezug (wer)",
+              "value": [
+                {
+                  "content": "Irmscher, Willy (Zusammenhang)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Goethe, Johann Wolfgang von (Zusammenhang)",
+                  "resource": "http://d-nb.info/gnd/118540238",
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_250",
+              "name": "Bezug (Ereignis)",
+              "value": [
+                {
+                  "content": "Herstellung",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_130",
+              "name": "(wann)",
+              "value": [
+                {
+                  "content": "1942",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_460",
+              "name": "(Beschreibung)",
+              "value": [
+                {
+                  "content": "Erschaffung abgebildetes Objekt",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Halbband & gebunden & geklebt & Aquarell, Pappe & Papier & Fotopapier (Material/Technik)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_340",
+              "name": "Klassifikation",
+              "value": [
+                {
+                  "content": "Buchkunst (Gattung)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_400",
+              "name": "Standort",
+              "value": [
+                {
+                  "content": "Deutsche Fotothek, Dresden",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_410",
+              "name": "Inventarnummer",
+              "value": [
+                {
+                  "content": "df_pos-2018-a_0000067",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_420",
+              "name": "Weitere Nummer(n)",
+              "value": [
+                {
+                  "content": "df_pos-2018-a_0000067_000_f (Aufnahmenummer)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "90106124 (Dokumentennummer)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            }
+          ]
+        },
+        {
+          "usage": "index",
+          "field": [
+            {
+              "id": "title",
+              "name": "Title",
+              "value": [
+                {
+                  "content": "Fotoalbum des Malers Willy Irmscher : Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "flex_mus_neu_050",
+              "name": "description",
+              "value": [
+                {
+                  "content": "Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Motiv: Abb. Vorsatz. Titelblatt auf fliegendem Blatt mit Illustration und Autograph von W. Irmscher",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Negativ in color, quer",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "ranking",
+              "name": "Ranking",
+              "value": [
+                {
+                  "content": "Buchkunst (Gattung)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Fotoalbum des Malers Willy Irmscher. Halbband; 8,5 x 12 x 2,2 cm (1942). Dresden: SLUB/DF 2018.A.67",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Motiv: Abb. Vorsatz. Titelblatt auf fliegendem Blatt mit Illustration und Autograph von W. Irmscher",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Negativ in color, quer",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "DDZ",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                },
+                {
+                  "content": "Irmscher, Willy (Zusammenhang)Goethe, Johann Wolfgang von (Zusammenhang)",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "begin_time",
+              "name": "Anfang",
+              "value": [
+                {
+                  "content": "736696",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "end_time",
+              "name": "Ende",
+              "value": [
+                {
+                  "content": "737060",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "license",
+              "name": "Lizenz",
+              "value": [
+                {
+                  "content": "http://rightsstatements.org/vocab/InC/1.0/",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "license_group",
+              "name": "Lizenzstatus",
+              "value": [
+                {
+                  "content": "rights_003",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "digitalisat",
+              "name": "digitalisat",
+              "value": [
+                {
+                  "content": "true",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "dataset_id",
+              "name": "dataset_id",
+              "value": [
+                {
+                  "content": "76409877634279609sQOu",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "dataset_label",
+              "name": "dataset_label",
+              "value": [
+                {
+                  "content": "Gesamtlieferung: Deutsche Fotothek - LIDO",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "delivery_id",
+              "name": "delivery_id",
+              "value": [
+                {
+                  "content": "6190112694219399dpLx",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "supplier_id",
+              "name": "supplier_id",
+              "value": [
+                {
+                  "content": "99900890",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "mapping_version",
+              "name": "mapping_version",
+              "value": [
+                {
+                  "content": "6.18",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "md_format",
+              "name": "Metadata Format",
+              "value": [
+                {
+                  "content": "lido",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            },
+            {
+              "id": "source_format",
+              "name": "source_format",
+              "value": [
+                {
+                  "content": "http://www.lido-schema.org/",
+                  "resource": null,
+                  "rightsinfo": null,
+                  "rightsholder": null,
+                  "creditline": null
+                }
+              ],
+              "georeference": null
+            }
+          ]
+        }
+      ]
+    },
+    "cortex-institution": null
+  },
+  "source": {
+    "description": {
+      "id": "222NZKK63TNRLC2VETRV722VKBDSUVGL",
+      "record": {
+        "ref": "222NZKK63TNRLC2VETRV722VKBDSUVGL",
+        "href": "/items/222NZKK63TNRLC2VETRV722VKBDSUVGL/source/record",
+        "type": "http://www.lido-schema.org/",
+        "id": null
+      }
+    }
+  },
+  "aggregator-info": null,
+  "binaries": {
+    "binary": [
+      {
+        "ref": "0ac6ad6e-a985-4251-91ca-f4b918326ead",
+        "name": "Abb. Vorsatz. Titelblatt auf fliegendem Blatt mit Illustration und Autograph von W. Irmscher",
+        "name2": "Urheber*in: DDZ (Fotografische Aufnahme)",
+        "name3": "Digitalisierung: Deutsche Fotothek",
+        "kind": "http://rightsstatements.org/vocab/InC/1.0/",
+        "mimetype": "image/jpeg",
+        "position": 1,
+        "primary": true,
+        "local_pathname": "http://fotothek.slub-dresden.de/fotos/df_pos-2018-a_0000067_000_f.jpg",
+        "license_group": "rights_003"
+      }
+    ]
+  },
+  "wgs84-position": null,
+  "ddbObject": null
+}

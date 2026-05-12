@@ -1,0 +1,142 @@
+{
+    "Trailer": {
+        "remarks": "Promotional trailer; museum sector. Treated as standalone editorial work.",
+        "en": "Trailer",
+        "sectors": [
+            "sparte005"
+        ],
+        "count": 40,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:EditorialWork",
+            ""
+        ]
+    },
+    "Videofilm": {
+        "remarks": "General video film.",
+        "en": "Video film",
+        "sectors": [
+            "sparte006"
+        ],
+        "count": 11,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:EditorialWork",
+            ""
+        ]
+    },
+    "Dokumentarfilm": {
+        "remarks": "Documentary; editorial content.",
+        "en": "Documentary film",
+        "sectors": [
+            "sparte005"
+        ],
+        "count": 10,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:EditorialWork",
+            ""
+        ]
+    },
+    "zweidimensionales bewegtes Bild": {
+        "remarks": "Generic moving image; library sector.",
+        "en": "Two-dimensional moving image",
+        "sectors": [
+            "sparte002"
+        ],
+        "count": 8,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:MediaResource",
+            ""
+        ]
+    },
+    "Interview": {
+        "remarks": "Recorded interview; archival sector.",
+        "en": "Interview",
+        "sectors": [
+            "sparte001"
+        ],
+        "count": 7,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:EditorialWork",
+            ""
+        ]
+    },
+    "Inszenierung": {
+        "remarks": "Video recording of a theatrical or musical production.",
+        "en": "Stage production (video recording)",
+        "sectors": [
+            "sparte006"
+        ],
+        "count": 7,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:EditorialWork",
+            ""
+        ]
+    },
+    "Teaser": {
+        "remarks": "Short promotional clip. Treated as standalone editorial work.",
+        "en": "Teaser",
+        "sectors": [
+            "sparte005"
+        ],
+        "count": 6,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:EditorialWork",
+            ""
+        ]
+    },
+    "Veranstaltungsmitschnitt": {
+        "remarks": "Recording of a live event.",
+        "en": "Event recording",
+        "sectors": [
+            "sparte005"
+        ],
+        "count": 5,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:EditorialWork",
+            ""
+        ]
+    },
+    "Filmanfang": {
+        "remarks": "Fragment — opening sequence of a film.",
+        "en": "Film opening",
+        "sectors": [
+            "sparte005"
+        ],
+        "count": 1,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:MediaResource",
+            ""
+        ]
+    },
+    "Tonbild": {
+        "remarks": "Historical audiovisual format (slide show with audio). Treated as standalone editorial work.",
+        "en": "Sound film / slide show",
+        "sectors": [
+            "sparte005"
+        ],
+        "count": 1,
+        "class": [
+            "",
+            "",
+            "ebucoreplus:EditorialWork",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,287 @@
+mediatype,htype,dc_type_de,count,rdf_type_w,rdf_type_m,notes,mapped
+mt001,,Werbesendung,8,,,,no
+mt002,,Abschrift,78,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Akte,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Albumblatt (Papier),1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Ansichtskarte,101,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,,Anteilschein,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Archivgut,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Artikel,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Aufruf,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Aufsatz,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Aufsatz (Text),1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bauzeichnung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bescheinigung,115,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Besitzvermerk,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bewilligung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Billet,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Brief,873,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Briefabschrift,6,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Briefbogen,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Briefentwurf,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Briefgedicht,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Briefmarke,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Briefumschlag,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Buch,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Buch mit handschriftlichen Eintragungen,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Buch mit handschriftlicher Eintragung,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bühnenbildentwurf,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Bühnenbildfotografie,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Dokument,16,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Dokumentarfotografie,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Drama,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Druck,7,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,,Druckfahne,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Druckgrafik,51,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Drucksache,26,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Druckvorlage,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Echtheitsbestätigung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Einzelporträt,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Entwurf,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Exzerpt,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Farblithografie,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fotoalbum,10,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,,Fotografie,1158,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,,Fotografie einer Zeichnung,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fotografie eines Pastells,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fotokonvolut,5,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fotokopie,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Frachtbrief,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fragment,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gedicht,23,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Grafik,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Grundriss,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Grundrissplan,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Grußkarte,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gästebuch,13,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Handschrift,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Handschrift (Manuskript),803,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Handschrift (Manuskript); Drucksache,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Handschrift (Manuskript); Zeitungsausschnitt,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Handschriftenband,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Inventar,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Inventarliste,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kassenbuch,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Katalogblatt,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kaufbrief,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kaufvertrag,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Komposition [Musik],1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Komödie,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Konvolut,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kopie,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Kostümentwurf,18,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Lied,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Lieder,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Liste,82,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Lithografie,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Locken,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Lyrik,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Manuskript,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Marginalie,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Mietvertrag,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Märchen,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Negativ (Fotografie),5,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Noten (Musik),1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Notenbuch,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Notenmanuskript,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Notiz,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Notizen,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Plakat,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Plan,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Planfilm-Negativ,9,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Posititiv-Abzug,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Positiv,1,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,,Positiv-Abzug,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Prosa,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Prosafragment,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Protokoll,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Protokollbuch,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Quittung,8,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Radierung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Rechnung,23,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Reisepass,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Requisitionsschein,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Rollenabschrift,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Rollenheft,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Schenkungsurkunde,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Sonett,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Stahlstich,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Stammbaum,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Stammbuch,10,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Stammbuchblatt,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Stammbucheintrag,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Standfoto,17,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,,Studienbuch,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Teil 1 einer Trilogie,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Teil 2 einer Trilogie,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Teil 3 einer Trilogie,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Teilnahmebescheinigung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Theaterstück,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Todesanzeige,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Typoskript,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Umschlag,6,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Unterschrift,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Urkunde,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Verfügung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Visitenkarte,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Visuelle Materialien,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Vollmacht,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Vortragstyposkript,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Werk,9,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Werkverzeichnis,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Widmung,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeichnung,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeitschriften-Sonderdruck,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeitungsausschnitt,8,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zettelkatalog,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeugnis,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zirkular,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,,232,,,,no-dctype
+mt002,htype_034,Akten,45,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Ansichtskarte,1,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,htype_034,Archivale,920,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Archivalie – Korrespondenz,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Archivalie – Werkmanuskript,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Archivalien,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Archivgut,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Bild,110,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,htype_034,Bilder,310,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Drucksache,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Foto,6,,,Archive photo — rico:Record via htype dispatch; no dc:type class,no
+mt002,htype_034,Handschriften,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Karten und Pläne,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Nachlässe,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Plakate und Flugblätter,15,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Schriftgut,4,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Sonstiges,14,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_034,Urkunden,10,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_035,Bilder,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt003,htype_021,Monografie,1,,,,no
+mt003,htype_026,Text,2993,,,,no
+mt003,htype_034,,85,,,,no-dctype
+mt003,htype_034,Akte,2,,,,no
+mt003,htype_034,Akten,16,,,,no
+mt003,htype_034,Archivale,404,,,,no
+mt003,htype_034,Drucksache,9,,,,no
+mt003,htype_034,Fotokopie,1,,,,no
+mt003,htype_034,Gliederung,7,,,,no
+mt003,htype_034,Sachakte,853,,,,no
+mt003,htype_034,Schriftgut,1,,,,no
+mt003,htype_034,Urkunde,20,,,,no
+mt003,htype_034,Urkunden,29,,,,no
+mt003,htype_034,Verzeichnung,42,,,,no
+mt003,htype_035,Akte,7,,,,no
+mt003,htype_035,"Amtsbücher, Register und Grundbücher",2,,,,no
+mt003,htype_035,Dokument,18626,,,,no
+mt003,htype_035,Personenakten,6,,,,no
+mt003,htype_035,Urkunden,5,,,,no
+mt005,,Interview,7,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#EditorialWork,Recorded interview; archival sector.,yes
+mt007,,Archivgut,10,,,,no
+mt007,,Artikel,9,,,,no
+mt007,,Buch,75,,,,no
+mt007,,Druckgrafik,12,,,,no
+mt007,,Film,2,,,,no
+mt007,,Fotografie,40,,,,no
+mt007,,Gemälde,4,,,,no
+mt007,,Noten (Musik),30,,,,no
+mt007,,Periodikum,16,,,,no
+mt007,,Tonträger,21,,,,no
+mt007,,Visuelle Materialien,3,,,,no
+mt007,,Zeichnung,1,,,,no
+mt007,htype_030,,404,,,,no-dctype
+mt007,htype_030,Akten,111,,,,no
+mt007,htype_030,"Amtsbücher, Register und Grundbücher",6,,,,no
+mt007,htype_030,Archivbestand,1,,,,no
+mt007,htype_030,Bestand,444,,,,no
+mt007,htype_030,Bestand Bilder,1,,,,no
+mt007,htype_030,Bilder,1,,,,no
+mt007,htype_030,Drucksachen,1,,,,no
+mt007,htype_030,Karten und Pläne,1,,,,no
+mt007,htype_030,Nachlässe,1,,,,no
+mt007,htype_030,Urkunden,14,,,,no
+mt007,htype_031,,2,,,,no-dctype
+mt007,htype_031,Gliederung,7,,,,no
+mt007,htype_032,,2,,,,no-dctype
+mt007,htype_032,Serie,7,,,,no
+mt007,htype_034,,3960,,,,no-dctype
+mt007,htype_034,AV-Medien,8,,,,no
+mt007,htype_034,Akte,260,,,,no
+mt007,htype_034,Akte/Dokument,2,,,,no
+mt007,htype_034,Akten,1991,,,,no
+mt007,htype_034,Akten und Einzelstücke,67,,,,no
+mt007,htype_034,"Amtsbücher, Register und Grundbücher",24,,,,no
+mt007,htype_034,Architekturplan / technische Zeichnung,2,,,,no
+mt007,htype_034,Archivale,4419,,,,no
+mt007,htype_034,Archivalie,3,,,,no
+mt007,htype_034,Archivalie – Korrespondenz,140,,,,no
+mt007,htype_034,Archivalie – Lebensdokument,7,,,,no
+mt007,htype_034,Archivalie – Sonstige Sammlung,1,,,,no
+mt007,htype_034,Archivalie – Sonstige Sammlung – Sammlung des Nachlassers,1,,,,no
+mt007,htype_034,Archivalie – Werkmanuskript,72,,,,no
+mt007,htype_034,Archivalie – Werkmanuskript – Fremdmanuskript,5,,,,no
+mt007,htype_034,Archivgut,30,,,,no
+mt007,htype_034,Audio-Visuelle Medien,124,,,,no
+mt007,htype_034,Audiovisuelles Medium,1,,,,no
+mt007,htype_034,Bibliotheksgut,6,,,,no
+mt007,htype_034,Bild,190,,,,no
+mt007,htype_034,Bild / Foto,1,,,,no
+mt007,htype_034,Bild/Foto,141,,,,no
+mt007,htype_034,Bilder,1488,,,,no
+mt007,htype_034,Briefsammlung,3,,,,no
+mt007,htype_034,Buch,3,,,,no
+mt007,htype_034,Computerausdruck,1,,,,no
+mt007,htype_034,Druck- und Schriftgut,4,,,,no
+mt007,htype_034,Druck- und Schriftgut – Buch (gedruckt),127,,,,no
+mt007,htype_034,Druck- und Schriftgut – Noten,9,,,,no
+mt007,htype_034,Druck- und Schriftgut – Typoskript,2,,,,no
+mt007,htype_034,Druck- und Schriftgut – Zeitschrift,3,,,,no
+mt007,htype_034,Druck- und Schriftgut – Zeitschrift – Zeitschriftenartikel,1,,,,no
+mt007,htype_034,Druck- und Schriftgut – Zeitung,3,,,,no
+mt007,htype_034,Druck- und Schriftgut – Zeitung – Zeitungsartikel,1,,,,no
+mt007,htype_034,Drucksache,20,,,,no
+mt007,htype_034,Drucksachen,60,,,,no
+mt007,htype_034,Fallakte (allgemein),117,,,,no
+mt007,htype_034,Flugblatt / Plakat,2,,,,no
+mt007,htype_034,Fotokopie,5,,,,no
+mt007,htype_034,Fotokopien und handschriftliche und schreibmaschinengetippte Notizen,1,,,,no
+mt007,htype_034,Fotos,3,,,,no
+mt007,htype_034,Grafik,4,,,,no
+mt007,htype_034,Karte/Plan,15,,,,no
+mt007,htype_034,Karten und Pläne,83,,,,no
+mt007,htype_034,Korrespondenz,8,,,,no
+mt007,htype_034,Medaillen und Plaketten,1,,,,no
+mt007,htype_034,Nachlässe,151,,,,no
+mt007,htype_034,Original,2,,,,no
+mt007,htype_034,Original Zeitschriftartikel,1,,,,no
+mt007,htype_034,Personenakten,26,,,,no
+mt007,htype_034,Plakate,120,,,,no
+mt007,htype_034,Plakate und Flugblätter,92,,,,no
+mt007,htype_034,Pläne,1,,,,no
+mt007,htype_034,Sachakte,496,,,,no
+mt007,htype_034,Sammlung,8,,,,no
+mt007,htype_034,Schriftgut,2276,,,,no
+mt007,htype_034,Siegel,2,,,,no
+mt007,htype_034,Sonstiges,100,,,,no
+mt007,htype_034,Theater-/Filmmaterial,1,,,,no
+mt007,htype_034,Tonaufnahmen,26,,,,no
+mt007,htype_034,Tondokumente,1,,,,no
+mt007,htype_034,Urkunde,100,,,,no
+mt007,htype_034,Urkunden,3074,,,,no
+mt007,htype_034,Verschiedenes,54,,,,no
+mt007,htype_034,Verzeichnung,40,,,,no
+mt007,htype_034,Zivilprozessakte,6,,,,no
+mt007,htype_035,,52,,,,no-dctype
+mt007,htype_035,Akte,19,,,,no
+mt007,htype_035,Akten,36,,,,no
+mt007,htype_035,Bilder,18,,,,no
+mt007,htype_035,Dokument,84,,,,no
+mt007,htype_035,Dokument / Faksimile,4,,,,no
+mt007,htype_035,Drucksachen,52,,,,no
+mt007,htype_035,Fotografie,2,,,,no
+mt007,htype_035,Korrespondenz,19,,,,no
+mt007,htype_035,Personenakten,20,,,,no
+mt007,htype_035,"Publikation / Bibliothek / Plakate, Grafiken, Objekte",149,,,,no
+mt007,htype_035,Sachakte,1,,,,no
+mt007,htype_035,Sonstiges,60,,,,no
+mt007,htype_035,Urkunden,2,,,,no
+mt007,htype_037,,5,,,,no-dctype

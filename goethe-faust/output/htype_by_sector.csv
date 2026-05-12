@@ -1,0 +1,77 @@
+sector,sector_label,mediatype,htype,htype_label,count
+sparte001,Archive,AUDIO,,,8
+sparte001,Archive,PHOTO,,,3672
+sparte001,Archive,PHOTO,htype_034,File,1687
+sparte001,Archive,PHOTO,htype_035,Part,2
+sparte001,Archive,TEXT,htype_035,Part,18646
+sparte001,Archive,TEXT,htype_026,Text,2993
+sparte001,Archive,TEXT,htype_034,File,1469
+sparte001,Archive,TEXT,htype_021,Monograph,1
+sparte001,Archive,VIDEO,,,7
+sparte001,Archive,NOT DIGITIZED,htype_034,File,19996
+sparte001,Archive,NOT DIGITIZED,htype_030,Holding Tektonik File*,985
+sparte001,Archive,NOT DIGITIZED,htype_035,Part,518
+sparte001,Archive,NOT DIGITIZED,,,223
+sparte001,Archive,NOT DIGITIZED,htype_031,Classification,9
+sparte001,Archive,NOT DIGITIZED,htype_032,Series,9
+sparte001,Archive,NOT DIGITIZED,htype_037,Holding Classification,5
+sparte002,Library,ANY,,,25
+sparte002,Library,AUDIO,,,12
+sparte002,Library,PHOTO,htype_015,Illustration,444
+sparte002,Library,PHOTO,,,406
+sparte002,Library,PHOTO,htype_019,Map,133
+sparte002,Library,PHOTO,htype_021,Monograph,1
+sparte002,Library,TEXT,htype_021,Monograph,9635
+sparte002,Library,TEXT,htype_018,Chapter,6065
+sparte002,Library,TEXT,htype_006,Article,4596
+sparte002,Library,TEXT,htype_001,Section,2898
+sparte002,Library,TEXT,htype_007,Volume,2870
+sparte002,Library,TEXT,,,1908
+sparte002,Library,TEXT,htype_023,Serial,155
+sparte002,Library,TEXT,htype_013,Manuscript,120
+sparte002,Library,TEXT,htype_026,Text,118
+sparte002,Library,TEXT,htype_003,Contained Work,101
+sparte002,Library,TEXT,htype_020,Multivolume Work,75
+sparte002,Library,TEXT,htype_028,Preface,66
+sparte002,Library,TEXT,htype_017,Table of Contents,62
+sparte002,Library,TEXT,htype_016,Index,52
+sparte002,Library,TEXT,htype_038,Letter,49
+sparte002,Library,TEXT,htype_014,Issue,39
+sparte002,Library,TEXT,htype_008,Additional,19
+sparte002,Library,TEXT,htype_029,Dedication,10
+sparte002,Library,TEXT,htype_004,Annotation,9
+sparte002,Library,TEXT,htype_027,Verse,2
+sparte002,Library,TEXT,htype_010,Entry,1
+sparte002,Library,VIDEO,htype_021,Monograph,8
+sparte002,Library,NOT DIGITIZED,htype_021,Monograph,14979
+sparte002,Library,NOT DIGITIZED,htype_007,Volume,3772
+sparte002,Library,NOT DIGITIZED,,,1541
+sparte002,Library,NOT DIGITIZED,htype_006,Article,42
+sparte002,Library,NOT DIGITIZED,htype_020,Multivolume Work,1
+sparte003,Monument Preservation,PHOTO,,,97
+sparte003,Monument Preservation,NOT DIGITIZED,,,15
+sparte004,Research,AUDIO,,,22
+sparte004,Research,PHOTO,,,938
+sparte004,Research,PHOTO,htype_015,Illustration,6
+sparte004,Research,PHOTO,htype_034,File,4
+sparte004,Research,TEXT,htype_001,Section,162
+sparte004,Research,TEXT,htype_018,Chapter,91
+sparte004,Research,TEXT,htype_021,Monograph,5
+sparte004,Research,TEXT,htype_007,Volume,2
+sparte004,Research,NOT DIGITIZED,htype_034,File,27
+sparte004,Research,NOT DIGITIZED,,,26
+sparte005,Media Library,AUDIO,,,424
+sparte005,Media Library,PHOTO,,,3792
+sparte005,Media Library,TEXT,,,2
+sparte005,Media Library,VIDEO,,,63
+sparte005,Media Library,NOT DIGITIZED,,,9
+sparte006,Museum,AUDIO,,,10
+sparte006,Museum,PHOTO,,,8972
+sparte006,Museum,TEXT,,,8
+sparte006,Museum,TEXT,htype_001,Section,7
+sparte006,Museum,VIDEO,,,18
+sparte006,Museum,NOT DIGITIZED,,,203
+sparte007,Others,PHOTO,,,74
+sparte007,Others,TEXT,htype_001,Section,9
+sparte007,Others,TEXT,htype_020,Multivolume Work,1
+sparte007,Others,TEXT,htype_021,Monograph,1

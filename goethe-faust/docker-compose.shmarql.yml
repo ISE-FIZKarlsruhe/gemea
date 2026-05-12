@@ -1,0 +1,22 @@
+# SHMARQL (pyoxigraph-backed) for goethe-faust DDB EDM data.
+#
+# First run loads the NT file into a pyoxigraph store (~1 min for 1.3 GB).
+# Subsequent runs start in seconds — store persisted in ./data/shmarql-store/.
+#
+# To re-run on another server: copy this directory (including output/*.nt),
+# then: docker compose -f docker-compose.shmarql.yml up -d
+#
+# SPARQL endpoint: http://localhost:8030/sparql
+# UI:              http://localhost:8030/
+
+services:
+  shmarql-goethe-faust:
+    image: ghcr.io/epoz/shmarql:latest
+    ports:
+      - "${SHMARQL_PORT:-8030}:8000"
+    volumes:
+      - ./output:/data:ro
+      - ./data/shmarql-store:/store
+    environment:
+      - DATA_LOAD_PATHS=/data/ddbedm-goethe-faust.nt
+      - STORE_PATH=/store/goethe-faust.db

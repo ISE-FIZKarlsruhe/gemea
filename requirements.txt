@@ -1,0 +1,11 @@
+requests
+tqdm
+pandas
+pyarrow
+matplotlib
+ijson
+isodate
+duckdb
+rapidfuzz
+langcodes
+rdflib

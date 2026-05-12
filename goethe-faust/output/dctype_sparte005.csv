@@ -1,0 +1,117 @@
+mediatype,htype,dc_type_de,count,rdf_type_w,rdf_type_m,notes,mapped
+mt001,,Schallplatte,1,http://purl.org/ontology/mo/MusicalWork,http://purl.org/ontology/mo/MusicalManifestation,https://d-nb.info/gnd/4052032-8,yes
+mt001,,Schellackplatte,422,http://purl.org/ontology/mo/MusicalWork,http://purl.org/ontology/mo/MusicalManifestation,,yes
+mt001,,Tonbandspule,1,,,,no
+mt002,,Album,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Album Druck,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Album Print,3,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Album Zeichnung,138,http://purl.org/vra/Work,,2D artwork — sparte005,yes
+mt002,,Anhänger,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Aquarell,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Archiv,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Ausstellungsgebäude,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Autograph,4,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Bild,6,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work (media library only) — sparte005,yes
+mt002,,Bilddokument,12,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Brief,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Buch,16,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Buch Druck,27,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Buch Druck Einband,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Buch Druck Text,4,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Buch Zeichnung,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Buchausstattung,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Bucheinband,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Börse,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Büste,3,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Büste & Sockel,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Daguerreotypie,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Deckenbild,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Denkmal,14,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Druck,834,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work (media library only) — sparte005,yes
+mt002,,Druck Landkarte,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Druck Serie,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Einband,6,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Esszimmer,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Fassade & Gartenmauer,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Filmszene,3,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Folge,4,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Foto,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Fotoalbum,32,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Fotografie,1898,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Fotogramm,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gartenhaus,10,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gartentempel,4,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gasthaus,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gaststätte,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gedenkstein,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gedenktafel,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gemälde,2,http://purl.org/vra/Work,,2D artwork — sparte005,yes
+mt002,,Globus,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Grabmal,4,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Grabplatte,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Grabstein,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Grafik,2,http://purl.org/vra/Work,,2D artwork — sparte005,yes
+mt002,,Gruppe (2-figurig),5,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gruppe (3-figurig),1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Gymnasium,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Halle,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Holzschnitt,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Hotel,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Innenraum,4,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Inschrift,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Kleinbilddia,53,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Kontaktbogen,81,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Kopf,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Kunst,50,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Mausoleum,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Miniatur,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Museum,9,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Negativ,3,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Opernhaus,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Orgel,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Palazzo,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Palazzo Vestibül,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Plakat,14,http://purl.org/vra/Work,,2D artwork — sparte005,yes
+mt002,,Plakatentwurf,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Portrait,9,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Postkarte,49,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Print,12,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Programmhefte,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Putto,11,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Radierung,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Relief,4,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Ring,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Schloss,9,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Schloß,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Schule,9,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Seite,51,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Silhouettenbild,3,http://purl.org/vra/Work,,2D artwork — sparte005,yes
+mt002,,Skulpturengruppe,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Standfoto,103,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte005,yes
+mt002,,Statue,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Statuette,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Straße,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Studie,3,http://purl.org/vra/Work,,2D artwork — sparte005,yes
+mt002,,Theater,8,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Theateranzeige,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Titelblatt,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Vogelschaubild,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Wandbild,26,http://purl.org/vra/Work,,2D artwork — sparte005,yes
+mt002,,Wohn- und Geschäftshaus,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Wohnhaus,16,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImmovableWork,,Built heritage — any sector,yes
+mt002,,Zeichnung,160,http://purl.org/vra/Work,,2D artwork — sparte005,yes
+mt002,,Zeichnung & Karikatur,2,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Zeichnung Brief,1,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt002,,Zeichnung Zeichnung,6,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Sector default — sparte005,yes
+mt003,,Artikel,2,,,,no
+mt005,,Dokumentarfilm,10,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#EditorialWork,Documentary; editorial content.,yes
+mt005,,Filmanfang,1,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#MediaResource,Fragment — opening sequence of a film.,yes
+mt005,,Teaser,6,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#EditorialWork,Short promotional clip. Treated as standalone editorial work.,yes
+mt005,,Tonbild,1,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#EditorialWork,Historical audiovisual format (slide show with audio). Treated as standalone editorial work.,yes
+mt005,,Trailer,40,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#EditorialWork,Promotional trailer; museum sector. Treated as standalone editorial work.,yes
+mt005,,Veranstaltungsmitschnitt,5,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#EditorialWork,Recording of a live event.,yes
+mt007,,Deckenbild,1,,,,no
+mt007,,Fotografie,3,,,,no
+mt007,,Negativ,3,,,,no
+mt007,,Postkarte,1,,,,no
+mt007,,Zyklus,1,,,,no

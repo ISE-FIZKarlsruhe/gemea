@@ -1,0 +1,30 @@
+mediatype_label,sector_label,total,exact,any_sector,any_mediatype,fallback,pct_matched,mediatype,sector
+any,Library,19,0,19,0,0,100.0,any,http://ddb.vocnet.org/sparte/sparte002
+Audio,Archive,8,0,0,0,8,0.0,http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte001
+Audio,Library,12,0,0,0,12,0.0,http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte002
+Audio,Research,22,0,9,13,0,100.0,http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte004
+Audio,Media Library,424,0,423,0,1,99.8,http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte005
+Audio,Museum,10,0,10,0,0,100.0,http://ddb.vocnet.org/medientyp/mt001,http://ddb.vocnet.org/sparte/sparte006
+Photo,Archive,5129,5129,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte001
+Photo,Library,984,984,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte002
+Photo,Monument,97,97,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte003
+Photo,Research,948,948,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte004
+Photo,Media Library,3792,3792,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte005
+Photo,Museum,8972,8972,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte006
+Photo,Others,74,74,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt002,http://ddb.vocnet.org/sparte/sparte007
+Text,Archive,23024,0,0,21656,1368,94.1,http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte001
+Text,Library,19996,0,0,15898,4098,79.5,http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte002
+Text,Research,260,0,0,260,0,100.0,http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte004
+Text,Media Library,2,0,0,2,0,100.0,http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte005
+Text,Museum,15,0,0,13,2,86.7,http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte006
+Text,Others,11,0,0,11,0,100.0,http://ddb.vocnet.org/medientyp/mt003,http://ddb.vocnet.org/sparte/sparte007
+Video,Archive,7,7,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte001
+Video,Library,8,8,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte002
+Video,Media Library,63,63,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte005
+Video,Museum,18,18,0,0,0,100.0,http://ddb.vocnet.org/medientyp/mt005,http://ddb.vocnet.org/sparte/sparte006
+Not Digitized,Archive,17320,0,0,2945,14375,17.0,http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte001
+Not Digitized,Library,11359,0,0,9166,2193,80.7,http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte002
+Not Digitized,Monument,15,0,0,0,15,0.0,http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte003
+Not Digitized,Research,53,0,0,4,49,7.5,http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte004
+Not Digitized,Media Library,9,0,0,4,5,44.4,http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte005
+Not Digitized,Museum,202,0,0,83,119,41.1,http://ddb.vocnet.org/medientyp/mt007,http://ddb.vocnet.org/sparte/sparte006

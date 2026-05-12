@@ -1,0 +1,352 @@
+{
+    "Muster": {
+        "remarks": "This portion is not read",
+        "topic": "list of topics to differentiate between musical and non-musical content",
+        "sector": "sparte code (e.g. sparte004) indicates sector-specific mapping; null = any sector",
+        "en": "Template",
+        "group": "A | B | C",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "W: mo:MusicalWork (Group A) | '' (Groups B/C)",
+            "E: '' (deferred — aco:AudioExpression for Group B when in scope)",
+            "M: mo:MusicalManifestation (Group A) | aco:AudioManifestation (Groups B/C)",
+            "I: ''"
+        ]
+    },
+    "default": {
+        "remarks": "Fallback for any mt001 record not matched by a specific dc:type. Excludes Foto, Archivalie (handled by other dispatch layers).",
+        "en": "Default",
+        "group": "C",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Audiofile": {
+        "remarks": "Often recordings of theater performances. Digital audio file; carrier format for non-musical authored audio.",
+        "en": "Audio File",
+        "group": "B",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/7658708-3",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Band": {
+        "remarks": "Often an audio book. Publication unit; audio book content is authored non-musical speech.",
+        "en": "Volume",
+        "group": "B",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "CD": {
+        "remarks": "Compact disc audio carrier. All CD records in this corpus are musical.",
+        "en": "CD",
+        "group": "A",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "mo:MusicalWork",
+            "",
+            "mo:MusicalManifestation",
+            ""
+        ]
+    },
+    "Folie": {
+        "remarks": "Phonographic foil. Usual topic: Lied or Song. Musical flexible-disc carrier format.",
+        "en": "Phonographic Foil",
+        "group": "A",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "mo:MusicalWork",
+            "",
+            "mo:MusicalManifestation",
+            ""
+        ]
+    },
+    "Hörfunksendung": {
+        "remarks": "Radio broadcast. Authored non-musical audio document at Manifestation level.",
+        "en": "Radio Broadcast",
+        "group": "B",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4160384-9",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Inszenierung": {
+        "remarks": "Audio recording of a stage production. Often recordings of theater performances. Non-musical authored work.",
+        "en": "Stage Production",
+        "group": "B",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4027223-0",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Interview": {
+        "remarks": "Recorded interview. Speech content; no musical content. Generic audio carrier.",
+        "en": "Interview",
+        "group": "C",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4027503-6",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Kardiologie": {
+        "remarks": "Topic used as dc:type in some Magnettonband records. Treated as generic audio carrier at Manifestation level. Sector: sparte006.",
+        "sector": "sparte006",
+        "en": "Cardiology",
+        "group": "C",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4114141-6",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Langspielplatte": {
+        "remarks": "Long-play vinyl disc. Usual topic: Oper or Opera. Musical carrier format for extended classical recordings.",
+        "en": "Long Play Disc",
+        "group": "A",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4137299-2",
+        "class": [
+            "mo:MusicalWork",
+            "",
+            "mo:MusicalManifestation",
+            ""
+        ]
+    },
+    "Magnettonband": {
+        "remarks": "Magnetic tape reel. Topics: Mono, Stereo (technical characteristics). Used in research and lecture recording contexts; content is non-musical. Sector: sparte004.",
+        "topic": [
+            "Mono",
+            "Stereo"
+        ],
+        "sector": "sparte004",
+        "en": "Tape Record",
+        "group": "B",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4036989-4",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Magnettonband / Vortrag": {
+        "remarks": "Magnetic tape recording of a lecture (Vortrag). Compound dc:type explicitly names carrier (tape) and content (lecture). Non-musical authored speech. Sector: sparte006.",
+        "sector": "sparte006",
+        "en": "Tape Record / Lecture",
+        "group": "B",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4036989-4",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Mono": {
+        "remarks": "Monophonic audio recording. Technical carrier descriptor in the Research sector context. Non-musical. Sector: sparte004.",
+        "sector": "sparte004",
+        "en": "Mono",
+        "group": "B",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Monografie": {
+        "remarks": "Monograph in audio form (audio book or spoken-word recording of a scholarly work). Publication type, not a musical form.",
+        "en": "Monography",
+        "group": "B",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Platte": {
+        "remarks": "Disc. In the Research sector, audio discs are catalogued as research audio documents. Distinguished from Schallplatte (explicitly musical) by generic term and sector. Sector: sparte004.",
+        "sector": "sparte004",
+        "en": "Disc",
+        "group": "B",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Schallfolie": {
+        "remarks": "Thin flexible phonographic disc. Topics: Lied, Schlager, Kirchenmusik, Oper, Arie, Tonträger — all musical. Treated as unambiguously musical across all corpus instances.",
+        "topic": [
+            "Lied",
+            "Schlager",
+            "Kirchenmusik",
+            "Oper",
+            "Arie",
+            "Tonträger"
+        ],
+        "en": "Phonographic Foil",
+        "group": "A",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "mo:MusicalWork",
+            "",
+            "mo:MusicalManifestation",
+            ""
+        ]
+    },
+    "Schallplatte": {
+        "remarks": "Standard vinyl phonograph record. Canonical German library term for a musical disc carrier.",
+        "en": "Phonograph Record",
+        "group": "A",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4052032-8",
+        "class": [
+            "mo:MusicalWork",
+            "",
+            "mo:MusicalManifestation",
+            ""
+        ]
+    },
+    "Schellackplatte": {
+        "remarks": "Shellac disc (78 rpm). Audio carrier exclusively associated with early musical recordings.",
+        "en": "Gramophone Record",
+        "group": "A",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4135113-7",
+        "class": [
+            "mo:MusicalWork",
+            "",
+            "mo:MusicalManifestation",
+            ""
+        ]
+    },
+    "Sprechplatte": {
+        "remarks": "Speech disc for spoken-word recordings (poetry, radio plays, speeches). Explicitly non-musical; handles Schallfolie records whose topic is not in the musical topic list.",
+        "en": "Speech Record",
+        "group": "C",
+        "subj": false,
+        "dnb": "https://d-nb.info/gnd/4270582-4",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Stereo": {
+        "remarks": "Stereophonic audio recording. Technical carrier descriptor in the Research sector context. Non-musical. Sector: sparte004.",
+        "sector": "sparte004",
+        "en": "Stereo",
+        "group": "B",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Ton": {
+        "remarks": "Sound/audio recording in the Museum sector. Museum audio objects in this corpus are predominantly musical. Sector: sparte006.",
+        "sector": "sparte006",
+        "en": "Record",
+        "group": "A",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "mo:MusicalWork",
+            "",
+            "mo:MusicalManifestation",
+            ""
+        ]
+    },
+    "Tonaufnahme": {
+        "remarks": "Audio recording. Topics: Tierstimme, Industriegeräusche, Lesung, Interview. Generic carrier label; content varies widely. Sector: sparte002.",
+        "sector": "sparte002",
+        "en": "Audio Recording",
+        "group": "C",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    },
+    "Tondokument": {
+        "remarks": "Audio document. Topic: Musicethnologie (ethnomusicological field recordings). Musical class assigned on basis of corpus content. Open question: if other corpora contain non-ethnomusicological Tondokument records, this assignment is wrong — topic-gating not currently supported by the CSV lookup model.",
+        "topic": [
+            "Musicethnologie"
+        ],
+        "en": "Audio Document",
+        "group": "A",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "mo:MusicalWork",
+            "",
+            "mo:MusicalManifestation",
+            ""
+        ]
+    },
+    "Tondokumente": {
+        "remarks": "Plural of Tondokument; 3 instances of city council meeting recordings. Deliberative speech, not music.",
+        "en": "Audio Documents",
+        "group": "C",
+        "subj": false,
+        "dnb": "",
+        "class": [
+            "",
+            "",
+            "aco:AudioManifestation",
+            ""
+        ]
+    }
+}

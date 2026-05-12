@@ -1,0 +1,444 @@
+mediatype,htype,dc_type_de,count,rdf_type_w,rdf_type_m,notes,mapped
+any,,,6,,,,no-dctype
+any,,Artikel,7,,,,no
+any,,Buch,2,,,,no
+any,,Buchbeitrag,10,,,,no
+mt001,,Musikaufführung,12,,,,no
+mt002,,Buch,34,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Buchmalerei,38,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Druck,36,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Druckgraphik,67,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Fotografie,43,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Frontispiz,2,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Gemälde,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Grafik,147,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Journal,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Lithografie,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Medaille,7,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Plastik (Bildwerk),1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Porträt,7,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Titelblatt,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Visuelle Materialien,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Wandmalerei,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Wohnstraße,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeichnung,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeitschrift,3,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,,Zeitungsausschnitt,9,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_015,Illustration,444,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_019,Karte,133,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt002,htype_021,Grafik,1,,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation,Default (D9),yes
+mt003,,,1,,,,no-dctype
+mt003,,Abschlussarbeit (Bachelor),1,,,,no
+mt003,,Abschlussarbeit (Master),1,,,,no
+mt003,,Abschnitt,2,,,,no
+mt003,,Arbeitspapier,1519,,,,no
+mt003,,Artikel,22,,,,no
+mt003,,Band,1,,,,no
+mt003,,Bericht,104,,,,no
+mt003,,Buch,12,,,,no
+mt003,,Buchbeitrag,2,,,,no
+mt003,,Collection,2,,,,no
+mt003,,Collection article,11,,,,no
+mt003,,Conference paper,2,,,,no
+mt003,,Dissertation o. Habilitation,1,,,,no
+mt003,,Forschungsbericht,3,,,,no
+mt003,,Fortlaufendes Sammelwerk,1,,,,no
+mt003,,Handschrift,5,,,,no
+mt003,,Journal article,29,,,,no
+mt003,,Konferenzbeitrag,6,,,,no
+mt003,,Monografie,66,,,,no
+mt003,,Monograph,3,,,,no
+mt003,,Noten,92,,,,no
+mt003,,Research report,2,,,,no
+mt003,,Review,1,,,,no
+mt003,,Studienarbeit,1,,,,no
+mt003,,Teil eines Periodikums,4,,,,no
+mt003,,Working paper,9,,,,no
+mt003,,Zeitschriftenartikel,5,,,,no
+mt003,htype_001,Abschnitt,2898,,,,no
+mt003,htype_003,Beigefügtes oder enthaltenes Werk,101,,,,no
+mt003,htype_004,Annotation,9,,,,no
+mt003,htype_006,,3355,,,,no-dctype
+mt003,htype_006,Aufsatz,1093,,,,no
+mt003,htype_006,Bildband,1,,,,no
+mt003,htype_006,Erlebnisbericht,1,,,,no
+mt003,htype_006,Hochschulschrift,1,,,,no
+mt003,htype_006,Interview,3,,,,no
+mt003,htype_006,Konferenzschrift,1,,,,no
+mt003,htype_006,Rezension,68,,,,no
+mt003,htype_006,Weblog,1,,,,no
+mt003,htype_006,Website,1,,,,no
+mt003,htype_006,Zeitschrift,71,,,,no
+mt003,htype_007,,22,,,,no-dctype
+mt003,htype_007,Anthologie,4,,,,no
+mt003,htype_007,Aufsatzsammlung,4,,,,no
+mt003,htype_007,Autograf,2,,,,no
+mt003,htype_007,Band,356,,,,no
+mt003,htype_007,Biografie,3,,,,no
+mt003,htype_007,Briefsammlung,3,,,,no
+mt003,htype_007,Bücheranzeige,1,,,,no
+mt003,htype_007,Epos,2,,,,no
+mt003,htype_007,Festschrift,1,,,,no
+mt003,htype_007,Fiktionale Darstellung,3,,,,no
+mt003,htype_007,Gamlet i Don Kichot,1,,,,no
+mt003,htype_007,Hochschulschrift,19,,,,no
+mt003,htype_007,Konferenzschrift,3,,,,no
+mt003,htype_007,Libretto: Drama mit Gesang,1,,,,no
+mt003,htype_007,Libretto: Singspiel,1,,,,no
+mt003,htype_007,Libretto: Vaudeville,2,,,,no
+mt003,htype_007,Lyrik,1,,,,no
+mt003,htype_007,Quelle,3,,,,no
+mt003,htype_007,Roman,4,,,,no
+mt003,htype_007,Schauspiel,2,,,,no
+mt003,htype_007,Schulprogramm,3,,,,no
+mt003,htype_007,Text,1,,,,no
+mt003,htype_007,Theaterstück,3,,,,no
+mt003,htype_007,Verzeichnis,1,,,,no
+mt003,htype_007,Volume,2,,,,no
+mt003,htype_007,Wörterbuch,1,,,,no
+mt003,htype_007,notated music,108,,,,no
+mt003,htype_007,text,2313,,,,no
+mt003,htype_008,Beilage,19,,,,no
+mt003,htype_010,Eintrag,1,,,,no
+mt003,htype_013,Handschrift,120,,,,no
+mt003,htype_014,Heft,39,,,,no
+mt003,htype_016,Index,52,,,,no
+mt003,htype_017,Inhaltsverzeichnis,62,,,,no
+mt003,htype_018,Kapitel,6065,,,,no
+mt003,htype_020,Multivolume work,1,,,,no
+mt003,htype_020,mehrbändiges Werk,74,,,,no
+mt003,htype_021,,5476,,,,no-dctype
+mt003,htype_021,Alchemie,1,,,,no
+mt003,htype_021,Altkarte,1,,,,no
+mt003,htype_021,Amtsdruckschrift,1,,,,no
+mt003,htype_021,Anthologie,4,,,,no
+mt003,htype_021,Aufsatzsammlung,24,,,,no
+mt003,htype_021,Ausstellung,1,,,,no
+mt003,htype_021,Ausstellungskatalog,4,,,,no
+mt003,htype_021,Authors' presentation copies (Provenance) - Germany - 19th century,1,,,,no
+mt003,htype_021,Autobiografie,1,,,,no
+mt003,htype_021,Autograf,3,,,,no
+mt003,htype_021,Bibliografie,7,,,,no
+mt003,htype_021,Bildband,4,,,,no
+mt003,htype_021,Bildliche Darstellung,30,,,,no
+mt003,htype_021,Biografie,43,,,,no
+mt003,htype_021,Biographie,4,,,,no
+mt003,htype_021,Botanik,2,,,,no
+mt003,htype_021,Brief,7,,,,no
+mt003,htype_021,Briefsammlung,25,,,,no
+mt003,htype_021,Bücheranzeige,4,,,,no
+mt003,htype_021,Chronik,1,,,,no
+mt003,htype_021,Dissertation: jur.,6,,,,no
+mt003,htype_021,Dissertation: phil.,5,,,,no
+mt003,htype_021,Dissertation: theol.,11,,,,no
+mt003,htype_021,Drama,8,,,,no
+mt003,htype_021,Dramatik,1,,,,no
+mt003,htype_021,Einblattdruck,167,,,,no
+mt003,htype_021,Epik,1,,,,no
+mt003,htype_021,Erlebnisbericht,2,,,,no
+mt003,htype_021,Erzählende Literatur: Hauptwerk vor 1945,3,,,,no
+mt003,htype_021,Faustroman,1,,,,no
+mt003,htype_021,Festschrift,11,,,,no
+mt003,htype_021,Fiktionale Darstellung,15,,,,no
+mt003,htype_021,Flugschrift,1,,,,no
+mt003,htype_021,Forschungsbericht,4,,,,no
+mt003,htype_021,Gelegenheitsschrift: Krönung,1,,,,no
+mt003,htype_021,Grafik,4,,,,no
+mt003,htype_021,Handschrift,5,,,,no
+mt003,htype_021,Hochschulschrift,1032,,,,no
+mt003,htype_021,Humoristische Darstellung,1,,,,no
+mt003,htype_021,Inkunabel,1,,,,no
+mt003,htype_021,Kinderbuch,1,,,,no
+mt003,htype_021,Kommentar,10,,,,no
+mt003,htype_021,Komödie,2,,,,no
+mt003,htype_021,Konferenzschrift,5,,,,no
+mt003,htype_021,Kunstführer,1,,,,no
+mt003,htype_021,Lehrmittel,1,,,,no
+mt003,htype_021,Libretto,4,,,,no
+mt003,htype_021,Libretto: Ballett,3,,,,no
+mt003,htype_021,Libretto: Chorliederkreis,1,,,,no
+mt003,htype_021,Libretto: Chorwerk,3,,,,no
+mt003,htype_021,Libretto: Dramatische Legende,2,,,,no
+mt003,htype_021,Libretto: Festspiel,3,,,,no
+mt003,htype_021,Libretto: Gedicht mit Gesang,2,,,,no
+mt003,htype_021,Libretto: Gesänge,1,,,,no
+mt003,htype_021,Libretto: Hymne,1,,,,no
+mt003,htype_021,Libretto: Lied,1,,,,no
+mt003,htype_021,Libretto: Liederspiel,1,,,,no
+mt003,htype_021,Libretto: Melodram,1,,,,no
+mt003,htype_021,Libretto: Monodram,1,,,,no
+mt003,htype_021,Libretto: Oper,13,,,,no
+mt003,htype_021,Libretto: Oratorium,1,,,,no
+mt003,htype_021,Libretto: Parodie,1,,,,no
+mt003,htype_021,Libretto: Pasticcio,1,,,,no
+mt003,htype_021,Libretto: Posse,1,,,,no
+mt003,htype_021,Libretto: Posse mit Gesang,3,,,,no
+mt003,htype_021,Libretto: Schauspiel,3,,,,no
+mt003,htype_021,Libretto: Schauspiel mit Gesang,2,,,,no
+mt003,htype_021,Libretto: Singspiel,12,,,,no
+mt003,htype_021,Libretto: Tanzpoem,3,,,,no
+mt003,htype_021,Libretto: Trauerspiel mit Gesang und Tanz,1,,,,no
+mt003,htype_021,Libretto: Zauberposse mit Gesang und Tanz,1,,,,no
+mt003,htype_021,Libretto: Zauberspiel,1,,,,no
+mt003,htype_021,Lied,1,,,,no
+mt003,htype_021,Lyrik,1,,,,no
+mt003,htype_021,Medizin,2,,,,no
+mt003,htype_021,Mineralogie,2,,,,no
+mt003,htype_021,Monografie,1088,,,,no
+mt003,htype_021,Monograph,8,,,,no
+mt003,htype_021,Musikhandschrift,13,,,,no
+mt003,htype_021,Nachruf,2,,,,no
+mt003,htype_021,Online-Publikation,9,,,,no
+mt003,htype_021,Quelle,23,,,,no
+mt003,htype_021,Rede,2,,,,no
+mt003,htype_021,Reisebericht,1,,,,no
+mt003,htype_021,Rezension,34,,,,no
+mt003,htype_021,Roman,9,,,,no
+mt003,htype_021,"Sachbücher und Sachbilderbücher für Kinder und Jugendliche: Allgemeines, Nachschlagewerke",1,,,,no
+mt003,htype_021,Satire,4,,,,no
+mt003,htype_021,Schauspiel,16,,,,no
+mt003,htype_021,Schulbuch,2,,,,no
+mt003,htype_021,Singspiel,3,,,,no
+mt003,htype_021,Streitschrift,1,,,,no
+mt003,htype_021,Text,1,,,,no
+mt003,htype_021,Theaterstück,10,,,,no
+mt003,htype_021,Tierbuch,1,,,,no
+mt003,htype_021,Tierkunde,1,,,,no
+mt003,htype_021,Tragödie,10,,,,no
+mt003,htype_021,Trauerspiel,1,,,,no
+mt003,htype_021,Verzeichnis,1,,,,no
+mt003,htype_021,Wörterbuch,1,,,,no
+mt003,htype_021,Zoologie,6,,,,no
+mt003,htype_021,notated music,198,,,,no
+mt003,htype_021,still image,3,,,,no
+mt003,htype_021,text,1169,,,,no
+mt003,htype_023,Fortlaufendes Sammelwerk,26,,,,no
+mt003,htype_023,Online-Publikation,3,,,,no
+mt003,htype_023,Statistik,1,,,,no
+mt003,htype_023,Zeitschrift,125,,,,no
+mt003,htype_026,Text,118,,,,no
+mt003,htype_027,Vers,2,,,,no
+mt003,htype_028,Vorwort,66,,,,no
+mt003,htype_029,Widmung,10,,,,no
+mt003,htype_038,Brief,49,,,,no
+mt005,htype_021,zweidimensionales bewegtes Bild,8,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#MediaResource,Generic moving image; library sector.,yes
+mt007,,Archivgut,7,,,,no
+mt007,,Artikel,177,,,,no
+mt007,,Buch,1319,,,,no
+mt007,,Film,6,,,,no
+mt007,,Hochschulschrift,6,,,,no
+mt007,,Periodikum,11,,,,no
+mt007,,Visuelle Materialien,15,,,,no
+mt007,htype_006,,36,,,,no-dctype
+mt007,htype_006,Konferenzschrift,1,,,,no
+mt007,htype_006,Zeitschrift,2,,,,no
+mt007,htype_006,text,3,,,,no
+mt007,htype_007,,3351,,,,no-dctype
+mt007,htype_007,Anthologie,2,,,,no
+mt007,htype_007,Aufgabensammlung,3,,,,no
+mt007,htype_007,Aufsatzsammlung,58,,,,no
+mt007,htype_007,Ausstellung,4,,,,no
+mt007,htype_007,Beispielsammlung,1,,,,no
+mt007,htype_007,Belletristik,41,,,,no
+mt007,htype_007,Belletristische Darstellung,1,,,,no
+mt007,htype_007,Bibliografie,10,,,,no
+mt007,htype_007,Bildband,2,,,,no
+mt007,htype_007,Biographie,1,,,,no
+mt007,htype_007,Briefsammlung,3,,,,no
+mt007,htype_007,Comic,7,,,,no
+mt007,htype_007,Dramatik,4,,,,no
+mt007,htype_007,Erlebnisbericht,9,,,,no
+mt007,htype_007,Erzählende Literatur,1,,,,no
+mt007,htype_007,Erzählende Literatur: Gegenwartsliteratur ab 1945,3,,,,no
+mt007,htype_007,Erzählende Literatur: Hauptwerk vor 1945,4,,,,no
+mt007,htype_007,Fantasy,1,,,,no
+mt007,htype_007,Festschrift,1,,,,no
+mt007,htype_007,Gedichte und Reime für Kinder und Jugendliche,3,,,,no
+mt007,htype_007,Gemischte Anthologien,7,,,,no
+mt007,htype_007,Gespräch,4,,,,no
+mt007,htype_007,Historische Romane und Erzählungen,1,,,,no
+mt007,htype_007,Hochschulschrift,22,,,,no
+mt007,htype_007,Immerwährende Kalender,1,,,,no
+mt007,htype_007,Interview,1,,,,no
+mt007,htype_007,Kalender,1,,,,no
+mt007,htype_007,Kinderbücher bis 11 Jahre,1,,,,no
+mt007,htype_007,Kommentar,2,,,,no
+mt007,htype_007,Konferenzschrift,16,,,,no
+mt007,htype_007,Kongress,14,,,,no
+mt007,htype_007,Kongress 2001,1,,,,no
+mt007,htype_007,Lehrerhandbuch,9,,,,no
+mt007,htype_007,Lehrmittel,10,,,,no
+mt007,htype_007,Lyrik,2,,,,no
+mt007,htype_007,"Lyrik, Dramatik",3,,,,no
+mt007,htype_007,Quelle,3,,,,no
+mt007,htype_007,Ratgeber,2,,,,no
+mt007,htype_007,Reisebericht,10,,,,no
+mt007,htype_007,Reisebericht 1786-1787,1,,,,no
+mt007,htype_007,Reisebericht 1786-1788,1,,,,no
+mt007,htype_007,Schulbuch,10,,,,no
+mt007,htype_007,Schulbücher,3,,,,no
+mt007,htype_007,Tagebuch,4,,,,no
+mt007,htype_007,Text,1,,,,no
+mt007,htype_007,Verzeichnis,2,,,,no
+mt007,htype_007,Wörterbuch,2,,,,no
+mt007,htype_007,Zeitschrift,2,,,,no
+mt007,htype_007,text,126,,,,no
+mt007,htype_020,Hochschulschrift,1,,,,no
+mt007,htype_021,,5589,,,,no-dctype
+mt007,htype_021,Anleitung,2,,,,no
+mt007,htype_021,Anthologie,63,,,,no
+mt007,htype_021,Atlas,1,,,,no
+mt007,htype_021,Aufgabensammlung,4,,,,no
+mt007,htype_021,Aufsatzsammlung,500,,,,no
+mt007,htype_021,Ausstellung,127,,,,no
+mt007,htype_021,Ausstellung 1992,1,,,,no
+mt007,htype_021,Ausstellung 1995,1,,,,no
+mt007,htype_021,Ausstellung 1999,1,,,,no
+mt007,htype_021,Ausstellung 2004,1,,,,no
+mt007,htype_021,Ausstellung 2008,1,,,,no
+mt007,htype_021,Ausstellungskatalog,101,,,,no
+mt007,htype_021,Autobiografie,14,,,,no
+mt007,htype_021,Autobiographie,15,,,,no
+mt007,htype_021,Autobiographie 1950-2000,1,,,,no
+mt007,htype_021,Beispielsammlung,7,,,,no
+mt007,htype_021,Belletristik,145,,,,no
+mt007,htype_021,Belletristische Darstellung,21,,,,no
+mt007,htype_021,Bestimmungsbuch,1,,,,no
+mt007,htype_021,Bibliografie,8,,,,no
+mt007,htype_021,Bibliographie,16,,,,no
+mt007,htype_021,Bild,1,,,,no
+mt007,htype_021,Bildband,81,,,,no
+mt007,htype_021,Bilderbuch,1,,,,no
+mt007,htype_021,Biografie,50,,,,no
+mt007,htype_021,Biographie,107,,,,no
+mt007,htype_021,Biographie 1765-1768,1,,,,no
+mt007,htype_021,Biographie 1775-1832,1,,,,no
+mt007,htype_021,Biographie 1831,1,,,,no
+mt007,htype_021,Biographien für Kinder und Jugendliche,1,,,,no
+mt007,htype_021,Briefsammlung,47,,,,no
+mt007,htype_021,Briefsammlung 1765-1767,1,,,,no
+mt007,htype_021,Briefsammlung 1769-1832,1,,,,no
+mt007,htype_021,Briefsammlung 1774-1786,1,,,,no
+mt007,htype_021,Briefsammlung 1778-1782,1,,,,no
+mt007,htype_021,Briefsammlung 1780-1808,1,,,,no
+mt007,htype_021,Briefsammlung 1784-1828,1,,,,no
+mt007,htype_021,Briefsammlung 1788-1799,1,,,,no
+mt007,htype_021,Briefsammlung 1788-1816,1,,,,no
+mt007,htype_021,Briefsammlung 1790-1828,1,,,,no
+mt007,htype_021,Briefsammlung 1792-1816,1,,,,no
+mt007,htype_021,Briefsammlung 1794-1805,5,,,,no
+mt007,htype_021,Briefsammlung 1799-1832,1,,,,no
+mt007,htype_021,Briefsammlung 1803-1805,1,,,,no
+mt007,htype_021,Briefsammlung 1814-1818,1,,,,no
+mt007,htype_021,Briefsammlung 1815-1841,1,,,,no
+mt007,htype_021,Briefsammlung 1816-1831,2,,,,no
+mt007,htype_021,Briefsammlung 1822-1832,1,,,,no
+mt007,htype_021,Briefsammlung 1827,1,,,,no
+mt007,htype_021,Briefsammlung 1828-1831,1,,,,no
+mt007,htype_021,Briefsammlung 1829,1,,,,no
+mt007,htype_021,Briefsammlung 2010,1,,,,no
+mt007,htype_021,CD,1,,,,no
+mt007,htype_021,CD-ROM,2,,,,no
+mt007,htype_021,Comic,13,,,,no
+mt007,htype_021,Dramatik,36,,,,no
+mt007,htype_021,Drehbuch,1,,,,no
+mt007,htype_021,Einführung,18,,,,no
+mt007,htype_021,Erlebnisbericht,88,,,,no
+mt007,htype_021,"Erstlesealter, Vorschulalter",4,,,,no
+mt007,htype_021,Erzählende Literatur,75,,,,no
+mt007,htype_021,Erzählende Literatur: Anthologien,25,,,,no
+mt007,htype_021,Erzählende Literatur: Gegenwartsliteratur ab 1945,26,,,,no
+mt007,htype_021,Erzählende Literatur: Hauptwerk vor 1945,146,,,,no
+mt007,htype_021,Fallstudie,6,,,,no
+mt007,htype_021,Fallstudiensammlung,2,,,,no
+mt007,htype_021,Festschrift,25,,,,no
+mt007,htype_021,Fiktionale Darstellung,7,,,,no
+mt007,htype_021,Forschungsbericht,2,,,,no
+mt007,htype_021,"Frankfurt <Main, 2008>",1,,,,no
+mt007,htype_021,Führer,95,,,,no
+mt007,htype_021,Gedichte und Reime für Kinder und Jugendliche,2,,,,no
+mt007,htype_021,Gemischte Anthologien,23,,,,no
+mt007,htype_021,Geschenkbücher,6,,,,no
+mt007,htype_021,Geschichte,1,,,,no
+mt007,htype_021,Gespräch,34,,,,no
+mt007,htype_021,Historische Romane und Erzählungen,4,,,,no
+mt007,htype_021,Hochschulschrift,5413,,,,no
+mt007,htype_021,"Humor, Satire",3,,,,no
+mt007,htype_021,Humoristische Darstellung,4,,,,no
+mt007,htype_021,Interview,7,,,,no
+mt007,htype_021,Jugendbuch,6,,,,no
+mt007,htype_021,Jugendbücher ab 12 Jahre,3,,,,no
+mt007,htype_021,Jugendsachbuch,10,,,,no
+mt007,htype_021,Karikatur,6,,,,no
+mt007,htype_021,Katalog,17,,,,no
+mt007,htype_021,Kinder- und Jugendliteratur,8,,,,no
+mt007,htype_021,Kinderbuch,3,,,,no
+mt007,htype_021,Kinderbücher bis 11 Jahre,11,,,,no
+mt007,htype_021,Kindersachbuch,6,,,,no
+mt007,htype_021,Kochbuch,21,,,,no
+mt007,htype_021,Kolumnensammlung,1,,,,no
+mt007,htype_021,Kommentar,44,,,,no
+mt007,htype_021,Konferenzschrift,185,,,,no
+mt007,htype_021,Kongress,179,,,,no
+mt007,htype_021,Kongress 1987,1,,,,no
+mt007,htype_021,Kongress 1999,1,,,,no
+mt007,htype_021,Kongress 2012,1,,,,no
+mt007,htype_021,Konkordanz,3,,,,no
+mt007,htype_021,"Krimis, Thriller, Spionage",1,,,,no
+mt007,htype_021,Kunstführer,2,,,,no
+mt007,htype_021,Lehrbuch,20,,,,no
+mt007,htype_021,Lehrmittel,148,,,,no
+mt007,htype_021,Lernen im Vorschulalter,1,,,,no
+mt007,htype_021,Lesebuch,1,,,,no
+mt007,htype_021,Lieder und Songs für Kinder und Jugendliche,1,,,,no
+mt007,htype_021,Literaturbericht,2,,,,no
+mt007,htype_021,Literaturbericht 1960-1984,1,,,,no
+mt007,htype_021,Lyrik,114,,,,no
+mt007,htype_021,"Lyrik, Dramatik",4,,,,no
+mt007,htype_021,Monografie,3,,,,no
+mt007,htype_021,Nachruf,3,,,,no
+mt007,htype_021,Programmheft,5,,,,no
+mt007,htype_021,Quelle,98,,,,no
+mt007,htype_021,Ratgeber,46,,,,no
+mt007,htype_021,Reisebericht,54,,,,no
+mt007,htype_021,Reisebericht 1740,4,,,,no
+mt007,htype_021,Reisebericht 1750-1850,1,,,,no
+mt007,htype_021,Reisebericht 1777-1784,1,,,,no
+mt007,htype_021,Reisebericht 1786-1787,7,,,,no
+mt007,htype_021,Reisebericht 1786-1788,5,,,,no
+mt007,htype_021,Reisebericht 1788-1790,1,,,,no
+mt007,htype_021,Reisebericht 1819,1,,,,no
+mt007,htype_021,Reisebericht 1830,3,,,,no
+mt007,htype_021,Reisebericht 1924,1,,,,no
+mt007,htype_021,Reisebericht 1987,1,,,,no
+mt007,htype_021,Richtlinie,1,,,,no
+mt007,htype_021,Romanhafte Biographien,8,,,,no
+mt007,htype_021,Sachbücher und Sachbilderbücher für Kinder und Jugendliche,3,,,,no
+mt007,htype_021,"Sachbücher und Sachbilderbücher für Kinder und Jugendliche: Kunst, Musik",3,,,,no
+mt007,htype_021,Sachbücher und Sachbilderbücher für Kinder und Jugendliche: Sonstiges,1,,,,no
+mt007,htype_021,"Sachbücher und Sachbilderbücher für Kinder und Jugendliche: Tiere, Pflanzen, Natur, Umwelt",2,,,,no
+mt007,htype_021,Schulbuch,1,,,,no
+mt007,htype_021,Schulbücher,11,,,,no
+mt007,htype_021,"Spielerisches Lernen: Abenteuer, Spielgeschichten, Unterhaltung",1,,,,no
+mt007,htype_021,Spielerisches Lernen: Sprachen,1,,,,no
+mt007,htype_021,Statistik,1,,,,no
+mt007,htype_021,Tabelle,1,,,,no
+mt007,htype_021,Tagebuch  1816,1,,,,no
+mt007,htype_021,Tagebuch 1786-1788,4,,,,no
+mt007,htype_021,Tagebuch 1829-1832,1,,,,no
+mt007,htype_021,Tagebuch 1992,1,,,,no
+mt007,htype_021,Testmaterial,2,,,,no
+mt007,htype_021,Text,18,,,,no
+mt007,htype_021,Theaterstück,1,,,,no
+mt007,htype_021,Unterrichtseinheit,21,,,,no
+mt007,htype_021,Verzeichnis,25,,,,no
+mt007,htype_021,Vorlesebücher,5,,,,no
+mt007,htype_021,Werkverzeichnis,1,,,,no
+mt007,htype_021,Werkverzeichnis 1979-2001,1,,,,no
+mt007,htype_021,Wörterbuch,14,,,,no
+mt007,htype_021,Zeittafel,1,,,,no
+mt007,htype_021,Zitatensammlung,13,,,,no
+mt007,htype_021,notated music,3,,,,no
+mt007,htype_021,still image,22,,,,no
+mt007,htype_021,text,768,,,,no
+mt007,htype_021,Übungssammlung,1,,,,no

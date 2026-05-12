@@ -1,0 +1,9 @@
+ddbedm-goethe-faust.nt
+ddbedm-goethe-faust.nt.gz
+items-all-goethe-faust_meta.parquet
+items-dataframe.parquet
+items-dataframe.parquet.zip
+transform/
+mocho-transform/
+transcripts/
+config/

@@ -1,0 +1,472 @@
+mediatype,htype,dc_type_de,count,rdf_type_w,rdf_type_m,notes,mapped
+mt001,,Audiofile,7,,https://w3id.org/ac-ontology/aco#AudioManifestation,Often recordings of theater performances.,yes
+mt001,,Inszenierung,3,,https://w3id.org/ac-ontology/aco#AudioManifestation,Often recordings of theater performances.,yes
+mt002,,Abbildungen,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Abguss,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Abhandlung,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Abzeichen,10,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Abzeichen Roter Frontkämpferbund,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Akzidenz,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Akzidenzdruck (Verlagsanzeige),1,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Album,11,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Album für Liebig-Bilder Nr. 451-500,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Albumblatt (Papier),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Anschlagzettel,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Ansichtskarte,3,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Ansichtspostkarte,10,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Anthologie,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Aquarell,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Aquatinta,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Architekturmodell,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Archivalie,25,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Archivalien (Fotografie),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Archivalien (Schriftliche Nachlässe),37,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Audiofile,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Aufführungsprogramm,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Aufkleber,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Aufzeichnungen,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Ausstellungsführer,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Ausstellungskatalog,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Autograph,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Banknote,7,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Becher,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bekanntmachung,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Belletristik,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bierdeckel,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bild,46,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bildermappe,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bilderrolle,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bildhauermodell (Kleinkunst / Modell),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bildnis,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bildwerk,7,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Blaupause,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bleistifthalter,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bleistiftzeichnung,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Brief,41,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Briefkarte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Briefumschlag,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Buch,49,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Buchgrafik (Illustration),2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Buchgrafik (Innentitel),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Buchgrafik (Seite) / Typografie (Schriftmuster),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Buchgrafik (Titel),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Buchgrafik (Titel) / Typografie (Schriftmuster),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Buchseite,7,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bühnenbild,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bühnenbildentwurf,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bühnenbildmodell,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Bühnenbildmodell (Nachbau),2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Büste,19,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Carte de Visite,8,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Chromolithographie,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Collage,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Comic,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Deckel oder Spielebrett eines Unterhaltungsspiels,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Deckelkrug,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Denkmalentwurf,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Denkmalreduktion,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Dia,6,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Dokument,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Dokument / einfacher Geschäftsbrief,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Dokumentarfotografie,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Dose,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Druck,79,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Druck (aus Serie),2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Druck Einzeichnung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Druckerzeugnis,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Druckgrafik,82,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Druckgrafik (allgemein),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Druckgraphik,2576,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Druckschrift,57,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Druckwerk,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Druckwerk; Buch,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Druckwesen, Schriftwesen*",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Dörrofen,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Edison-Walze,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Einladung,8,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Einladungskarte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Einsätze für Amboß,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Einzelblattsammlung,22,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Ereignisbild,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Erinnerungen,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Erinnerungs-Vedute / Stadtansicht,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Erinnerungsabzeichen,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Erinnerungsstück,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Ersttagspostkarte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Exilschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Exilzeitschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Exzerpt,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Fachzeitschrift,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Fahnenspitze,10,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Faksimile,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Fassboden,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Feldpostbrief,10,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Feldpostkarte,7,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Feuerzeug,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Figur,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Figur / Frau,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Figurgefäß,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Filmprogramm,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Flasche,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Flugblatt,20,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Foto,140,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Fotocollage,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Fotografie,150,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Fotografie (Lichtbild),2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Fotografisches Negativ,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Fotomappe,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Fotomechanische Reproduktion,188,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Fragment (Menschliche Figur),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Frontispiz,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Fußbecher,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gedenkmünze,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gedicht,6,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gedichtbuch,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gefallenenbuch,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gefäß,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Geldschein,82,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Geldschein / Notgeld,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gemälde,10,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gemme,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gemälde,549,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Genre,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Geschenkmappe,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gipsabguss,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Gipse,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Glasdia,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Glaubensbekenntnis,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Glockenspielaufsatz,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Glückwunschalbum,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Goethe-Bildnis auf Elfenbein,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Goldschmiedemodell,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Grafik,42,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Grafik (Gruppenporträt),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Grafitstiftzeichnung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Graphik,55,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Gruppenfoto,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Grußkarte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Götterstatuette,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Halbrelief,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Halterung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Handschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Handzeichnung,17,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Handzettel,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Heft,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Hieb- und Stoßwaffe,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Holzmodell,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Holzstich,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Humpen,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Illustration,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Informationsblatt,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Informationsschild,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Inszenierung,40,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Jeton,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Jubiläumspostkarte,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kalender,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kalligraphie (allgemein),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kaltnadelradierung,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kameo,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kanne,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Karikatur,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Karte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kartenspiel,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Kartenspiel, Quartett",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kassette,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kasten- / Kästchengriff,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Katabori-Netsuke,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Katalog,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Katalog und Preisliste,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Keine Angabe,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kettenanhämger,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kindertheater,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Klappsonnenuhr,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kleidung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kleinplastik,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kleinskulptur,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kohlezeichnung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kondolenzbrief,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Konfirmationsschein,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Konvolut Zigarrenkisten-Etiketten (11),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Konzertprogramm,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kopf,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kopie,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Koppelschloss,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Koralle,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Korrespondenz,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kostümentwurf,9,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Kreidezeichnung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Krug,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kunstdruck,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kupferstich,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kupferstich?,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kylix <Gefäß>,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Kästchen in Buchform,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Künstlerkarte,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Künstlerpostkarte,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Landkarte von Deutschland in den Grenzen von 1920,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Landschaftsdarstellung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Langspielplatte,9,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Lichtpause,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Lichtpause Einzeichnung,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Liebigbilder-Album für Sammelbildchen (unvollständig),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Lithografie,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Lithografie (print),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Lithographie,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Ländermedaille,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Lösungsheft,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Malerei,58,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Manuskript,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Mappenwerk,71,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Maske,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Medaille,116,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Medaillon,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Messer,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Messergriff,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Miniaturbüste,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Modell,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Monatsschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Museumspostkarte,10,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Möbel,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Möbelbeschlag,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Münze,29,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Nagelpflegemittelschachtel,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Nationalpreis (Probeguss),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Negativ,7,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Negativ s/w,19,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Netsuke,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Notenblatt,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Notenhandschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Notenheft,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Notgeld,9,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Notgeldschein,20,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Oblatenbogen (2),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Ofenplatte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Optisches Gerät, Fotogerät*",2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Orchestrion,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Orden,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Papiergeld,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Papiertheaterbogen,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Partitur,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Pentagondodekaeder,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Personenmedaille,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Petschaft,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Pfeifenreiniger,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Pferdegeschirr (Gerät),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Philatelistischer Sonderdruck,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Plakat,127,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Plakette,6,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Plastik,10,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Plattenhülle,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Poesiealbum,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Politische Infopostkarte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Portrait,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Porträt,14,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Porträtfoto,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Porträtfotografie,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Porträtpostkarte,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Porträttasse,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Positiv,16,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Postkarte,46,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Postkarte (Aquarell Goethes 1828),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Preis,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Pritschenfuß,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Probenfoto,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Profangrafik,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Profangrafiken in Bildermappe,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Programm,10,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Programmheft,32,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Programmheft XI,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Programmheft XII,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Programmheft XVII,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Programmheft XXV Spielzeit 1997/98,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Propagandaplakat,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Propagandaschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Prägewerkzeug,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Punktierstich,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Quittung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Radierung,9,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Raumschmuck,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Reiseführer,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Relief,7,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,Repro,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Reprofotografie,15,https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork,,Photo Work — sparte006,yes
+mt002,,Reprografie,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Rezept,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Rollenporträt,22,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Rosenkranz,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Rundplastik (Skulptur),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Rundplastik, männlich (Skulptur / Rundplastik)",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Rundschild,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,SW-Foto,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Sammelbilder,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Sammelordner,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Sarg/Sarkophag (Grabausstattung),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Satirezeitschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Satirisches Flugblatt,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schale <Gefäß>,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schallplatte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Scharnierfibel,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schaustellerzettel,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schellackplatte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schlittschuh,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schlossdarstellung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Schmuck / Trachtelement
+							(Nadel)",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schreibschatulle,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schriftgut,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schriftplakate,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schriftproben (3),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schuber mit kleinen Leseheftchen,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schulbuch,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schulhefte (9),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schulwandbild Biologie,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Schulwandbild Biologie (Eisvogel,
+                            Neuntöter)",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Schulwandbild Geschichte (Der Neue
+                            Schulmann Nr. 4008)",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Schulwandbild Geschichte (Geschichte
+                            als Gegenwart 22)",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Schwarzweißfotografie,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Serienschein,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Serienscheine amtl.,9,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Service,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Siegellack,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Silhouette,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Sitzstatuette,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Skizze,14,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Skizzenbuch,15,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Skulptur,24,http://purl.org/vra/Work,,3D object — any sector,yes
+mt002,,"Skulptur (visuelles
+                            Werk)",2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Skulptur (visuelles Werk),5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Spendenabzeichen,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Spielfigur,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Spruchblatt,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Spruchpostkarte,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Stahlstich,11,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Stammbuch,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Statue (Rundbild),4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Statuette,7,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Statuette (Rundbild),4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Statuettengruppe,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Stempel,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Stereofoto,6,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Stereoskopie,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Stickmustervorlage,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Studie,7,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Stuhl,8,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Stundenplan,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Städtemedaille,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Szenenfoto,13,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Tagebuch,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Tageszeitung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Taler,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Tanzkarte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Tarnschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Temperabild,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Text,9,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Text-Noten-Blatt,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Textbeilage,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Textsammlung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Theaterfotografie,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Theaterkostüm,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Theaterplakat,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Theaterprogramm,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Theaterzettel,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Tisch,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Tonband,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Traueranzeige,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Trauergedicht,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Typoskript,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Umschlag,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Unterhaltungsblatt,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Urkunde,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Veranstaltungspostkarte,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Veranstaltungsprogramm,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Video,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Visitenkarte,3,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Volkslied,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Vorlass,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Wandbild,2,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Wasserbarometer,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Wasserfarbe,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Weihnachtskarte,4,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Weihrelief,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Werbepostkarte,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Wetterglas,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Widmung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Wochenzeitschrift,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Wochenzeitung,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Zeichnung,3167,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Zeichnung (Kunst),1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Zeichnung, Collage",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Zeichnung, Druckgraphik",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Zeichnung/Druckgrafik,16,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,Zeichnungen,7,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Zeitschrift,6,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Zeitung,5,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Zeitungs-Telegramm,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Zeitungsausschnitt,2,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Zeugnis,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,Zyklus,28,http://purl.org/vra/Work,,2D artwork — sparte006,yes
+mt002,,rechter Fausthandschuh,1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"schulwandbild Literatur (L.
+                            9)",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt002,,"Ōban-Einzelblatt, beschnitten",1,http://purl.org/vra/Work,,Sector default — sparte006,yes
+mt003,,Druck,4,,,,no
+mt003,,Forschungs- und Entwicklungsbericht,2,,,,no
+mt003,,Zeitung,2,,,,no
+mt003,htype_001,Abschnitt,7,,,,no
+mt005,,Inszenierung,7,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#EditorialWork,Video recording of a theatrical or musical production.,yes
+mt005,,Videofilm,11,,http://www.ebu.ch/metadata/ontologies/ebucoreplus#EditorialWork,General video film.,yes
+mt007,,,1,,,,no-dctype
+mt007,,Anzeige,2,,,,no
+mt007,,Archivalien-Konvolut,4,,,,no
+mt007,,Audio,3,,,,no
+mt007,,Ausweis,1,,,,no
+mt007,,Autograph,1,,,,no
+mt007,,Brief,42,,,,no
+mt007,,Briefkarte,2,,,,no
+mt007,,Briefmarke & Sonderstempel,1,,,,no
+mt007,,Buch,5,,,,no
+mt007,,Druckbogen,1,,,,no
+mt007,,Druckgraphik,7,,,,no
+mt007,,Druckschrift,56,,,,no
+mt007,,Eintrittskarte,1,,,,no
+mt007,,Einzelblattsammlung,2,,,,no
+mt007,,Erinnerungsstück,1,,,,no
+mt007,,Flugblatt,1,,,,no
+mt007,,Foto,1,,,,no
+mt007,,Fotoalbum,1,,,,no
+mt007,,Gedicht,1,,,,no
+mt007,,Haarlocke,1,,,,no
+mt007,,Handzettel,1,,,,no
+mt007,,Illustration/Buchillustration,1,,,,no
+mt007,,Informationsblatt,1,,,,no
+mt007,,Karteikarte,1,,,,no
+mt007,,Kassette,2,,,,no
+mt007,,Kindertheater,2,,,,no
+mt007,,Linoleumstempel,1,,,,no
+mt007,,Medaille,16,,,,no
+mt007,,Mensch (Grabausstattung / Sarg/Sarkophag),2,,,,no
+mt007,,Mitteilung,1,,,,no
+mt007,,Plakat,1,,,,no
+mt007,,Plakette,2,,,,no
+mt007,,Postkarte,1,,,,no
+mt007,,Programm,11,,,,no
+mt007,,Rede,1,,,,no
+mt007,,Schmuckblatt,1,,,,no
+mt007,,Schülerzeitschrift,2,,,,no
+mt007,,Skulptur,1,,,,no
+mt007,,Skulptur (visuelles Werk),1,,,,no
+mt007,,Spielzeug,1,,,,no
+mt007,,Spruchkarte,1,,,,no
+mt007,,Statue (Rundbild),1,,,,no
+mt007,,Studie,1,,,,no
+mt007,,Tarnschrift,1,,,,no
+mt007,,Theaterprogramm,3,,,,no
+mt007,,Zeichnung,1,,,,no
+mt007,,Zeichnung/Druckgrafik,6,,,,no
+mt007,,Zeitung,1,,,,no
+mt007,,Zeitungstelegramm,2,,,,no
+mt007,,Zitat,1,,,,no

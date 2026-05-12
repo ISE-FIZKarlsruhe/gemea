@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite it as below."
+type: software
+title: "GeMeA — German Memory Atlas"
+abstract: >
+  GeMeA is a knowledge graph over approximately 26.8 million digitised objects
+  from the German Digital Library (DDB), aligned to the mocho mid-level ontology
+  and served via QLever and SHMARQL.
+authors:
+  - family-names: Tan
+    given-names: Mary Ann
+    affiliation: "ISE — Information Service Engineering, FIZ Karlsruhe"
+    orcid: "https://orcid.org/0000-0002-6365-0569"
+  - family-names: Gesese
+    given-names: Genet Asefa
+    affiliation: "ISE — Information Service Engineering, FIZ Karlsruhe"
+  - family-names: Sack
+    given-names: Harald
+    affiliation: "ISE — Information Service Engineering, FIZ Karlsruhe"
+repository-code: "https://github.com/ISE-FIZKarlsruhe/gemea"
+url: "https://gemea.ise.fiz-karlsruhe.de/shmarql"
+license: MIT
+date-released: "2026"
+preferred-citation:
+  type: conference-paper
+  title: "GeMeA: A Knowledge Graph for the German Digital Library"
+  authors:
+    - family-names: Tan
+      given-names: Mary Ann
+    - family-names: Gesese
+      given-names: Genet Asefa
+    - family-names: Sack
+      given-names: Harald
+  collection-title: "Proceedings of the 23rd International Semantic Web Conference (ISWC 2026)"
+  year: 2026
+  notes: "Forthcoming."

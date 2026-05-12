@@ -1,0 +1,30 @@
+mediatype,sector,total,vocab_uri,pct
+Audio,Archive,8,8,100.0
+Audio,Library,12,12,100.0
+Audio,Research,22,22,100.0
+Audio,Media Library,424,423,99.8
+Audio,Museum,10,0,0.0
+Photo,Archive,5129,4538,88.5
+Photo,Library,984,846,86.0
+Photo,Monument,97,0,0.0
+Photo,Research,948,508,53.6
+Photo,Media Library,3792,3208,84.6
+Photo,Museum,8972,7598,84.7
+Photo,Others,74,39,52.7
+Text,Archive,23024,413,1.8
+Text,Library,19996,13107,65.5
+Text,Research,260,0,0.0
+Text,Media Library,2,0,0.0
+Text,Museum,15,2,13.3
+Text,Others,11,0,0.0
+Video,Archive,7,7,100.0
+Video,Library,8,0,0.0
+Video,Media Library,63,0,0.0
+Video,Museum,18,0,0.0
+Not Digitized,Archive,17320,5551,32.0
+Not Digitized,Library,11359,8733,76.9
+Not Digitized,Monument,15,0,0.0
+Not Digitized,Research,53,26,49.1
+Not Digitized,Media Library,9,5,55.6
+Not Digitized,Museum,202,11,5.4
+any,Library,19,0,0.0
