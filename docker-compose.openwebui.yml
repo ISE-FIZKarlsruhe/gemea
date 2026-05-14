@@ -1,0 +1,34 @@
+# OpenWebUI connected to native Ollama (Server A — Mac).
+#
+# IMPORTANT: Ollama must run natively on macOS, not in Docker.
+# Docker Desktop does not expose Apple Silicon GPU (Metal) to containers.
+# Running Ollama in Docker = CPU only = very slow.
+#
+# Setup (one-time):
+#   1. Install Ollama: https://ollama.com/download
+#   2. Pull model: ollama pull gemma3:1b
+#   3. Start stack: docker compose -f docker-compose.openwebui.yml up -d
+#   4. Open http://localhost:3000 and create an admin account
+#   5. Go to Admin → Settings → Tools
+#      Add tool server URL: http://SERVER_B:8001
+#      (replace SERVER_B with the hostname or IP of the QLever server)
+#
+# OpenWebUI: http://localhost:3000
+# Ollama API: http://localhost:11434 (native, not in this compose)
+
+services:
+  openwebui:
+    image: ghcr.io/open-webui/open-webui:main
+    ports:
+      - "${OPENWEBUI_PORT:-3000}:8080"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      # Points to native Ollama running on the Mac host
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - DEFAULT_MODELS=gemma4:e4b
+    volumes:
+      - openwebui-data:/app/backend/data
+
+volumes:
+  openwebui-data:

@@ -19,7 +19,7 @@ The corpus is served through [SHMARQL](https://github.com/epoz/shmarql) as a der
 
 ## Resource statistics
 
-Object and triple counts per sector (as of ISWC 2026 submission).
+Object and triple counts per sector (as of ISWC 2026 submission). ⚠️ Updated stats after ironing kinks — see table below.
 
 | Sector | Objects | Total triples | DDB-EDM | MOCHO | PROV |
 |---|---:|---:|---:|---:|---:|
@@ -31,6 +31,19 @@ Object and triple counts per sector (as of ISWC 2026 submission).
 | Monument Preserv. | 79,393 | 9,020,751 | 4,852,432 | 1,555,297 | 2,613,022 |
 | Others | 85,408 | 9,996,438 | 5,487,618 | 1,958,508 | 2,550,312 |
 | **Total** | **26,846,614** | **3,043,413,783** | **1,655,756,272** | **553,930,158** | **833,727,353** |
+
+Updated object and triple counts per sector (post-submission, after pipeline fixes).
+
+| Sector | Objects | Total triples | DDB-EDM | MOCHO | PROV |
+|---|---:|---:|---:|---:|---:|
+| Library | 18,570,245 | 1,981,590,317 | 1,043,156,260 | 398,850,679 | 539,583,378 |
+| Archive | 3,638,021 | 501,431,917 | 271,272,035 | 76,478,457 | 153,681,414 |
+| Museum | 2,117,728 | 237,492,790 | 121,768,266 | 54,294,081 | 61,414,768 |
+| Media Library | 1,799,838 | 263,104,795 | 142,865,860 | 64,023,886 | 56,215,049 |
+| Research | 1,227,252 | 146,191,553 | 78,275,686 | 28,281,400 | 39,634,464 |
+| Monument Preserv. | 83,572 | 9,628,501 | 5,086,627 | 1,789,244 | 2,752,630 |
+| Others | 89,904 | 10,545,972 | 5,619,439 | 2,242,076 | 2,684,457 |
+| **Total** | **27,526,560** | **3,149,985,845** | **1,668,044,173** | **625,959,823** | **855,966,160** |
 
 The QLever index is organised into four named graphs:
 
@@ -66,30 +79,34 @@ DDB Search API ──► fetch IDs ──► fetch JSON records
 
 ```mermaid
 flowchart LR
-    subgraph SH["Self-Hosted"]
+    subgraph SPARQL["SPARQL Backend"]
+        direction TB
+        VPS["Hosted\ngemea.ise.fiz-karlsruhe.de"]
+        SelfQL["Self-hosted\ndocker-compose.qlever.yml"]
+        QL[QLever\nSPARQL endpoint]
+        SHMARQL[SHMARQL\nLinked Data browser]
+        VPS --> QL
+        SelfQL --> QL
+        SHMARQL -->|SPARQL proxy| QL
+    end
+
+    subgraph COM["Commercial client"]
+        UserC([User]) -->|chat| CL[Claude]
+        CL -->|MCP| TC[mcp-server-qlever]
+    end
+
+    subgraph OSS["Open-source client\n(self-hosted)"]
         User([User]) -->|chat| OW[OpenWebUI]
         OW -->|inference| OL[Ollama]
         OL -->|open-source LLM| OW
         OW -->|tool call| MCPO[MCPO]
-        MCPO -->|MCP| T[sparql_query\nPython tool]
+        MCPO -->|MCP stdio| T[mcp-server-qlever]
     end
 
-    subgraph CC["Commercial"]
-        UserC([User]) -->|chat| CL[Claude]
-        CL -->|MCP| TC[sparql_query\nPython tool]
-    end
-
-    subgraph VPS["VPS (gemea.ise.fiz-karlsruhe.de)"]
-        QL[QLever\nSPARQL endpoint]
-        SHMARQL[SHMARQL\nLinked Data browser]
-        SHMARQL -->|SPARQL proxy| QL
-    end
-
-    T -->|SPARQL GET| QL
-    QL -->|JSON results| T
-    T --> MCPO
     TC -->|SPARQL GET| QL
     QL -->|JSON results| TC
+    T -->|SPARQL GET| QL
+    QL -->|JSON results| T
     User -->|browse| SHMARQL
 ```
 
@@ -101,6 +118,8 @@ flowchart LR
 
 ```
 gemea/
+├── docker-compose.qlever.yml    QLever + SHMARQL + MCPO (SPARQL backend)
+├── docker-compose.openwebui.yml OpenWebUI chat UI (open-source client)
 ├── docs/adr/                    Architecture Decision Records (transform)
 │   ├── transform-adr.md         Class dispatch and WEMI alignment decisions
 │   ├── transform-props-mapping-adr.md   Property mapping decisions
@@ -123,11 +142,15 @@ gemea/
 
 ## Self-hosting
 
-Requires Docker and Docker Compose. The self-hosting setup mirrors the Goethe-Faust deployment (validated before scaling to GeMeA).
+The SPARQL backend (QLever + SHMARQL) is available at `https://gemea.ise.fiz-karlsruhe.de` — no setup required to query it. For the LLM client, choose between a commercial option (Claude) or a fully open-source option (Ollama + OpenWebUI). Both can also be combined with a self-hosted SPARQL backend.
+
+### SPARQL backend (optional — skip if using the hosted VPS)
+
+Requires Docker and Docker Compose.
 
 **1. Download the N-Quads dump**
 ```bash
-wget https://gemea.ise.fiz-karlsruhe.de/downloads/gemea/gemea.nq
+wget https://gemea.ise.fiz-karlsruhe.de/downloads/gemea/{yyyymmdd}/nq/*.nq
 ```
 
 **2. Configure**
@@ -139,18 +162,22 @@ cp goethe-faust/config.env.example config.env
 **Before running**
 - [ ] `NQ_INPUT_DIR` exists and contains `gemea.nq`
 - [ ] `INDEX_DIR` exists and the Docker user (UID 1000) has write access
-- [ ] Ports `QLEVER_PORT` and `SHMARQL_PORT` are free on the host
+- [ ] Ports `QLEVER_PORT`, `SHMARQL_PORT`, and `MCPO_PORT` are free on the host
 
-**3. Build the QLever index and start SHMARQL**
+**3. Start**
 ```bash
-docker compose --env-file config.env -f goethe-faust/docker-compose.qlever.yml up -d
+docker compose --env-file config.env -f docker-compose.qlever.yml up -d --wait
 ```
 
-SPARQL endpoint: `http://localhost:7030` · SHMARQL browser: `http://localhost:7032` (defaults; adjust in `config.env`).
+SPARQL endpoint: `http://localhost:7030` · SHMARQL browser: `http://localhost:7032` · MCPO: `http://localhost:8001` (defaults; adjust in `config.env`).
 
-**4. MCP agent access (optional)**
+### LLM client
 
-Add to your Claude Code `.claude/settings.json`:
+Independent of whether you use the hosted or self-hosted SPARQL backend. Replace `<qlever-host>` with `gemea.ise.fiz-karlsruhe.de` (hosted) or `localhost` (self-hosted).
+
+**Option A — Commercial (Claude)**
+
+Add to `.claude/settings.json`:
 ```json
 {
   "mcpServers": {
@@ -158,11 +185,20 @@ Add to your Claude Code `.claude/settings.json`:
       "command": "docker",
       "args": ["run", "--rm", "-i",
                "ghcr.io/xorwell/mcp-server-qlever:latest",
-               "-e", "http://<qlever-host>:<QLEVER_PORT>"]
+               "-e", "http://<qlever-host>:7030"]
     }
   }
 }
 ```
+
+**Option B — Open-source (Ollama + OpenWebUI)**
+
+Ollama must run natively on macOS — Docker Desktop does not expose Apple Silicon GPU (Metal) to containers.
+
+1. Install [Ollama](https://ollama.com/download) and pull a model: `ollama pull gemma4:e4b`
+2. Start OpenWebUI: `docker compose -f docker-compose.openwebui.yml up -d`
+3. Open `http://localhost:3000` and create an admin account
+4. Go to **Admin → Settings → Tools** and add the MCPO tool server URL: `http://<qlever-host>:8001`
 
 ---
 
@@ -171,7 +207,7 @@ Add to your Claude Code `.claude/settings.json`:
 | Component | License |
 |---|---|
 | Code (scripts, transform) | [MIT](LICENSE) |
-| Data (corpus, KG dump) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Data (corpus, KG dump) | Per object — queryable via `dcterms:rights` |
 
 ---
 
@@ -195,7 +231,7 @@ Change `QLEVER_PORT` or `SHMARQL_PORT` in `config.env` to a free port.
 **T5. `dependency failed to start`**
 Root cause is always in the QLever logs:
 ```bash
-docker compose --env-file config.env -f goethe-faust/docker-compose.qlever.yml logs qlever
+docker compose --env-file config.env -f docker-compose.qlever.yml logs qlever
 ```
 
 ---
