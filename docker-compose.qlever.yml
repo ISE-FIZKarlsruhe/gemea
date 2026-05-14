@@ -7,16 +7,16 @@
 # To re-run on another server: copy this directory, edit config.env,
 # then: docker compose -f docker-compose.qlever.yml up -d --wait
 #
-# SHMARQL UI:      http://localhost:${SHMARQL_PORT:-7032}
-# SPARQL endpoint: http://localhost:${QLEVER_PORT:-7030}
-# MCPO (MCP→HTTP): http://localhost:${MCPO_PORT:-8001}
+# SHMARQL UI:      http://localhost:${SHMARQL_PORT:-2342}
+# SPARQL endpoint: http://localhost:${QLEVER_PORT:-2343}
+# MCPO (MCP→HTTP): http://localhost:${MCPO_PORT:-2344}
 
 services:
   qlever-goethe-faust:
     image: docker.io/adfreiburg/qlever:latest
     user: "0"
     ports:
-      - "${QLEVER_PORT:-7030}:7019"
+      - "${QLEVER_PORT:-2343}:7019"
     volumes:
       - ${NQ_INPUT_DIR}:/input:ro
       - ${INDEX_DIR:-data/qlever-index}:/data
@@ -83,7 +83,7 @@ services:
   shmarql:
     image: ghcr.io/epoz/shmarql:latest
     ports:
-      - "${SHMARQL_PORT:-7032}:8000"
+      - "${SHMARQL_PORT:-2342}:8000"
     environment:
       - ENDPOINT=http://qlever-goethe-faust:7019
     depends_on:
@@ -93,13 +93,13 @@ services:
   mcpo:
     image: ghcr.io/open-webui/mcpo:latest
     ports:
-      - "${MCPO_PORT:-8001}:8001"
+      - "${MCPO_PORT:-2344}:8001"
     extra_hosts:
       - "host.docker.internal:host-gateway"
     command: >
       --port 8001 --
       npx -y mcp-server-qlever
-      -e http://host.docker.internal:${QLEVER_PORT:-7030}
+      -e http://host.docker.internal:${QLEVER_PORT:-2343}
     depends_on:
       qlever-goethe-faust:
         condition: service_healthy
