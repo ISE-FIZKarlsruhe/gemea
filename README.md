@@ -1,6 +1,7 @@
 # GeMeA — German Memory Atlas
 
 GeMeA is a knowledge graph over approximately 26.8 million digitised objects from the [German Digital Library](https://www.deutsche-digitale-bibliothek.de/) (DDB), aligned to the [mocho](https://github.com/ISE-FIZKarlsruhe/mocho) mid-level ontology and indexed in [QLever](https://github.com/ad-freiburg/qlever) for high-performance SPARQL querying.
+The alignment of DDB metadata to mocho classes and properties is documented in the [GeMeA Alignment Writeup](https://gemea.ise.fiz-karlsruhe.de/alignment).
 The corpus is served through [SHMARQL](https://github.com/epoz/shmarql) as a dereferenceable Linked Data browser and SPARQL endpoint, and is queryable by AI agents via [mcp-server-qlever](https://github.com/xorwell/mcp-server-qlever).
 
 > Supplemental materials for: Mary Ann Tan, Genet Asefa Gesese, Harald Sack. **GeMeA: A Knowledge Graph for the German Digital Library.** *ISWC 2026 Resource Track* (forthcoming).
@@ -146,7 +147,7 @@ gemea/
 
 ## Self-hosting
 
-The SPARQL endpoint is available at `https://gemea.ise.fiz-karlsruhe.de/sparql` — no setup required to query it. For the LLM client, choose between a commercial option (Claude) or a fully open-source option (Ollama + OpenWebUI).
+The SPARQL endpoint is available at `https://gemea.ise.fiz-karlsruhe.de/shmarql/` — no setup required to query it. For the LLM client, choose between a commercial option (Claude) or a fully open-source option (Ollama + OpenWebUI).
 
 ### LLM client
 
@@ -160,7 +161,7 @@ Requires Docker. Add to `.claude/settings.json`:
       "command": "docker",
       "args": ["run", "--rm", "-i",
                "ghcr.io/xorwell/mcp-server-qlever:latest",
-               "-e", "https://gemea.ise.fiz-karlsruhe.de/sparql"]
+               "-e", "https://gemea.ise.fiz-karlsruhe.de/shmarql/"]
     }
   }
 }
@@ -173,7 +174,7 @@ Requires Docker. Ollama must run natively on macOS — Docker Desktop does not e
 1. Install [Ollama](https://ollama.com/download) and pull a model: `ollama pull gemma4:e4b`
 2. Start OpenWebUI: `docker compose -f docker-compose.openwebui.yml up -d`
 3. Open `http://localhost:3000` and create an admin account
-4. Go to **Admin → Settings → Tools** and add the MCPO tool server URL: `https://gemea.ise.fiz-karlsruhe.de/sparql`
+4. Go to **Admin → Settings → Tools** and add the MCPO tool server URL: `https://gemea.ise.fiz-karlsruhe.de/shmarql/`
 
 ### Running everything locally (test)
 
