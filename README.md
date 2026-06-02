@@ -261,6 +261,6 @@ docker compose --env-file config.env -f docker-compose.qlever.yml logs qlever
 German Cultural Heritage Objects}},
   booktitle = {{Proceedings of the 23rd International Semantic Web Conference (ISWC 2026)}},
   year      = {2026},
-  note      = {Resource Track. Forthcoming.},
+  note      = {Resource Track. Under Review.},
 }
 ```
