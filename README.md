@@ -1,6 +1,6 @@
 # GEMEA — German Memory Atlas
 
-GEMEA is a knowledge graph over approximately 26.8 million digitised objects from the [German Digital Library](https://www.deutsche-digitale-bibliothek.de/) (DDB), aligned to the [mocho](https://github.com/ISE-FIZKarlsruhe/mocho) mid-level ontology and indexed in [QLever](https://github.com/ad-freiburg/qlever) for high-performance SPARQL querying.
+GEMEA is a knowledge graph over approximately 27.5 million digitised objects from the [German Digital Library](https://www.deutsche-digitale-bibliothek.de/) (DDB), aligned to the [mocho](https://github.com/ISE-FIZKarlsruhe/mocho) mid-level ontology and indexed in [QLever](https://github.com/ad-freiburg/qlever) for high-performance SPARQL querying.
 The alignment of DDB metadata to mocho classes and properties is documented in the [GEMEA Alignment Writeup](https://gemea.ise.fiz-karlsruhe.de/alignment).
 The corpus is served through [SHMARQL](https://github.com/epoz/shmarql) as a dereferenceable Linked Data browser and SPARQL endpoint, and is queryable by AI agents via [mcp-server-qlever](https://github.com/xorwell/mcp-server-qlever).
 
@@ -44,20 +44,7 @@ The corpus is served through [SHMARQL](https://github.com/epoz/shmarql) as a der
 
 ## 2. Resource statistics
 
-Object and triple counts per sector (as of ISWC 2026 submission). ⚠️ Updated stats after ironing kinks — see table below.
-
-| Sector | Objects | Total triples | DDB-EDM | MOCHO | PROV |
-|---|---:|---:|---:|---:|---:|
-| Library | 18,338,116 | 1,930,178,220 | 1,040,390,087 | 356,952,292 | 532,835,841 |
-| Archive | 3,456,119 | 467,439,123 | 259,483,277 | 61,795,115 | 146,160,731 |
-| Museum | 2,011,841 | 230,484,127 | 123,795,378 | 48,164,578 | 58,524,171 |
-| Media Library | 1,709,846 | 258,176,923 | 145,905,243 | 58,871,240 | 53,400,440 |
-| Research | 1,165,891 | 138,118,201 | 75,842,237 | 24,633,128 | 37,642,836 |
-| Monument Preserv. | 79,393 | 9,020,751 | 4,852,432 | 1,555,297 | 2,613,022 |
-| Others | 85,408 | 9,996,438 | 5,487,618 | 1,958,508 | 2,550,312 |
-| **Total** | **26,846,614** | **3,043,413,783** | **1,655,756,272** | **553,930,158** | **833,727,353** |
-
-Updated object and triple counts per sector (post-submission, after pipeline fixes).
+Object and triple counts per sector.
 
 | Sector | Objects | Total triples | DDB-EDM | MOCHO | PROV |
 |---|---:|---:|---:|---:|---:|
@@ -139,7 +126,7 @@ flowchart LR
     QL -->|JSON results| T
 ```
 
-**Goethe-Faust POC.** The alignment and dispatch logic were developed and validated on the [Goethe-Faust corpus](goethe-faust/) — 115,432 DDB records retrieved via the keywords *Goethe* and *Faust* — before scaling to the full 26.8M-object collection. The corpus analysis scripts, outputs, and design decisions are in [`goethe-faust/`](goethe-faust/).
+**Goethe-Faust POC.** The alignment and dispatch logic were developed and validated on the [Goethe-Faust corpus](goethe-faust/) — 115,432 DDB records retrieved via the keywords *Goethe* and *Faust* — before scaling to the full 27.5M-object collection. The corpus analysis scripts, outputs, and design decisions are in [`goethe-faust/`](goethe-faust/).
 
 ---
 
@@ -158,11 +145,13 @@ gemea/
 │   ├── transform/               EDM → mocho transform package
 │   └── config/                  Lookup tables consumed by transform
 ├── goethe-faust/                Goethe-Faust reference corpus
+│   ├── config.env.example       Settings template for local QLever (§5.2)
+│   ├── docker-compose.qlever.yml    QLever + SHMARQL for the Goethe-Faust corpus
+│   ├── docker-compose.shmarql.yml   SHMARQL (pyoxigraph) for the Goethe-Faust EDM data
 │   ├── scripts/                 Data acquisition + corpus analysis scripts
 │   ├── output/                  Corpus analysis outputs (CSVs, PNGs, JSONs)
 │   └── data/                    Corpus sample (IDs + 1K-record excerpt)
-├── paper/
-│   └── iswc-2026.pdf            Submitted paper
+├── requirements.txt             Python dependencies for the scripts
 ├── CITATION.cff
 └── LICENSE                      MIT (code) / CC BY 4.0 (data)
 ```
@@ -310,7 +299,7 @@ docker compose --env-file config.env -f docker-compose.qlever.yml logs qlever
 
 ## 8. Caveats
 
-- The Goethe-Faust POC covers 115,432 records; the full GEMEA corpus covers 26.8M objects.
+- The Goethe-Faust POC covers 115,432 records; the full GEMEA corpus covers 27.5M objects.
 - GND Werk linking (Phase 1b) is partial; the `graph/work` named graph may be incomplete.
 - NER enrichment (Phase 2) is deferred and not included in this release.
 - Resource metadata (VoID descriptor, DCAT record, persistent URI) will be added at camera-ready.
