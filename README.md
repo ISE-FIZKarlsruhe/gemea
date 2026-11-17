@@ -1,24 +1,48 @@
-# GeMeA — German Memory Atlas
+# GEMEA — German Memory Atlas
 
-GeMeA is a knowledge graph over approximately 26.8 million digitised objects from the [German Digital Library](https://www.deutsche-digitale-bibliothek.de/) (DDB), aligned to the [mocho](https://github.com/ISE-FIZKarlsruhe/mocho) mid-level ontology and indexed in [QLever](https://github.com/ad-freiburg/qlever) for high-performance SPARQL querying.
-The alignment of DDB metadata to mocho classes and properties is documented in the [GeMeA Alignment Writeup](https://gemea.ise.fiz-karlsruhe.de/alignment).
+GEMEA is a knowledge graph over approximately 26.8 million digitised objects from the [German Digital Library](https://www.deutsche-digitale-bibliothek.de/) (DDB), aligned to the [mocho](https://github.com/ISE-FIZKarlsruhe/mocho) mid-level ontology and indexed in [QLever](https://github.com/ad-freiburg/qlever) for high-performance SPARQL querying.
+The alignment of DDB metadata to mocho classes and properties is documented in the [GEMEA Alignment Writeup](https://gemea.ise.fiz-karlsruhe.de/alignment).
 The corpus is served through [SHMARQL](https://github.com/epoz/shmarql) as a dereferenceable Linked Data browser and SPARQL endpoint, and is queryable by AI agents via [mcp-server-qlever](https://github.com/xorwell/mcp-server-qlever).
 
 > Presented at: Mary Ann Tan. **GEMEA: Germany's Cultural Memory as a Linked Knowledge Graph.** *SWIB26 — Semantic Web in Libraries*, online, 18 November 2026.
 
 ---
 
-## Downloads & endpoints
+## 1. Downloads & endpoints
 
 | Resource | URL |
 |---|---|
-| GeMeA N-Quads dump | <https://gemea.ise.fiz-karlsruhe.de/downloads/gemea> |
+| GEMEA N-Quads dump | <https://gemea.ise.fiz-karlsruhe.de/downloads/gemea> |
 | Goethe-Faust corpus (JSONL + N-Quads) | <https://gemea.ise.fiz-karlsruhe.de/downloads/goethe-faust/> |
 | SHMARQL Linked Data browser | <https://gemea.ise.fiz-karlsruhe.de/shmarql> |
 
+### 1.1 Dump layout
+
+`https://gemea.ise.fiz-karlsruhe.de/downloads/gemea/`
+
+| Path | Contents |
+|---|---|
+| `nq/sN.nq`, `nq/sN-<offset>.nq` | N-Quads per DDB sector, split into shards of ~4 GB (112 files, ~474 GB in total) |
+| `nq/prov-shared.nq` | Provenance shared across sectors |
+| `nq/werk-links/` | GND Werk links (`gnd-work-links-<timestamp>.nq`) and their provenance |
+| `duckdb/` | Label lookup tables (agents, concepts), provenance, and GND Werk staging tables per sector |
+| `stats/sN-stats.json` | Per-sector transform statistics (records, media types, hierarchy types) |
+| `logs/` | Transform logs and error files per sector |
+| `archive/<yyyymmdd>/` | Statistics of earlier releases |
+
+| Prefix | Sector | Objects | Shards | Size |
+|---|---|---:|---:|---:|
+| `s1` | Archive | 3,638,021 | 20 | 85 GB |
+| `s2` | Library | 18,570,245 | 50 | 295 GB |
+| `s3` | Monument Preserv. | 83,572 | 1 | 1.5 GB |
+| `s4` | Research | 1,227,252 | 10 | 21 GB |
+| `s5` | Media Library | 1,799,838 | 15 | 38 GB |
+| `s6` | Museum | 2,117,728 | 15 | 31.5 GB |
+| `s7` | Others | 89,904 | 1 | 1.5 GB |
+
 ---
 
-## Resource statistics
+## 2. Resource statistics
 
 Object and triple counts per sector (as of ISWC 2026 submission). ⚠️ Updated stats after ironing kinks — see table below.
 
@@ -57,7 +81,7 @@ The QLever index is organised into four named graphs:
 
 ---
 
-## Pipeline
+## 3. Pipeline
 
 **Ingest (build-time)**
 
@@ -119,7 +143,7 @@ flowchart LR
 
 ---
 
-## Directory structure
+## 4. Directory structure
 
 ```
 gemea/
@@ -145,11 +169,11 @@ gemea/
 
 ---
 
-## Self-hosting
+## 5. Self-hosting
 
 The SPARQL endpoint is available at `https://gemea.ise.fiz-karlsruhe.de/sparql` — no setup required to query it. The Linked Data browser is at `https://gemea.ise.fiz-karlsruhe.de/shmarql/`. For the LLM client, choose between a commercial option (Claude) or a fully open-source option (Ollama + OpenWebUI).
 
-### LLM client
+### 5.1 LLM client
 
 **Option A — Commercial (Claude)**
 
@@ -198,20 +222,33 @@ Requires Docker. Ollama must run natively on macOS — Docker Desktop does not e
      PREFIX ore: <http://www.openarchives.org/ore/terms/>
      Aggregates need an alias: SELECT (COUNT(?s) AS ?n).
      To count or list objects of a class, use ?s a <class>, e.g. ?s a edm:ProvidedCHO. Never invent properties; if unsure, first query the predicates of one example object.
+     GEMEA schema (EDM):
+     - Objects: ?cho a edm:ProvidedCHO; dc:title, dc:language ("ger", "lat", ...), edm:type ("TEXT", "IMAGE", "SOUND", "VIDEO", "3D").
+     - Institution and rights are on the aggregation: ?agg edm:aggregatedCHO ?cho ; edm:dataProvider ?provider ; edm:rights ?r.
+       edm:dataProvider has both a name literal and an organisation IRI; always add FILTER(isLiteral(?provider)) when grouping by institution, or each institution is counted twice.
+     - The endpoint times out after 30 s: avoid text filters (CONTAINS/REGEX) over all titles.
      Report only numbers the tool returns; if the tool returns nothing or an error, say so.
      ```
 7. Enable the tools with the wrench icon below the message box and ask: *"How many cultural heritage objects (edm:ProvidedCHO) are in GEMEA?"* Expected answer: 27,526,560.
 
 Small local models write weaker SPARQL than Claude: if an answer looks wrong, regenerate it or check the query under **Explored → sparql_query**.
 
-### Running everything locally (test)
+### 5.2 Running everything locally (test)
 
 To run QLever, SHMARQL, and MCPO on your own machine instead of using the hosted endpoint, download the N-Quads dump and use `docker-compose.qlever.yml`.
 
 **1. Download the N-Quads dump**
+All sectors take ~474 GB (see §1.1); for a first test, download one small sector such as `s3` (1.5 GB).
 ```bash
-wget https://gemea.ise.fiz-karlsruhe.de/downloads/gemea/{yyyymmdd}/nq/*.nq
+B=https://gemea.ise.fiz-karlsruhe.de/downloads/gemea/nq/
+# list the files; add `| grep '^s3'` before `> nq-files.txt` to fetch one sector only
+curl -s -H 'Accept: application/json' "$B" \
+  | python3 -c 'import json,sys; [print(e["name"]) for e in json.load(sys.stdin) if e["name"].endswith(".nq")]' \
+  > nq-files.txt
+# download (resumable)
+xargs -I{} curl -C - -O "$B{}" < nq-files.txt
 ```
+The GND Werk links in `nq/werk-links/` are not included; download them separately if needed.
 
 **2. Configure**
 ```bash
@@ -220,7 +257,7 @@ cp goethe-faust/config.env.example config.env
 ```
 
 **Before running**
-- [ ] `NQ_INPUT_DIR` exists and contains `gemea.nq`
+- [ ] `NQ_INPUT_DIR` exists and contains the downloaded `.nq` files
 - [ ] `INDEX_DIR` exists and the Docker user (UID 1000) has write access
 - [ ] Ports `QLEVER_PORT`, `SHMARQL_PORT`, and `MCPO_PORT` are free on the host
 
@@ -233,7 +270,7 @@ SPARQL endpoint: `http://localhost:2343` · SHMARQL browser: `http://localhost:2
 
 ---
 
-## License
+## 6. License
 
 | Component | License |
 |---|---|
@@ -242,7 +279,7 @@ SPARQL endpoint: `http://localhost:2343` · SHMARQL browser: `http://localhost:2
 
 ---
 
-## Troubleshooting
+## 7. Troubleshooting
 
 **T1. `Permission denied` writing to `/data`**
 The Docker user cannot write to `INDEX_DIR`. Check that the directory exists and is writable:
@@ -271,16 +308,16 @@ docker compose --env-file config.env -f docker-compose.qlever.yml logs qlever
 
 ---
 
-## Caveats
+## 8. Caveats
 
-- The Goethe-Faust POC covers 115,432 records; the full GeMeA corpus covers 26.8M objects.
+- The Goethe-Faust POC covers 115,432 records; the full GEMEA corpus covers 26.8M objects.
 - GND Werk linking (Phase 1b) is partial; the `graph/work` named graph may be incomplete.
 - NER enrichment (Phase 2) is deferred and not included in this release.
 - Resource metadata (VoID descriptor, DCAT record, persistent URI) will be added at camera-ready.
 
 ---
 
-## Citation
+## 9. Citation
 
 ```bibtex
 @misc{tan2026swib,

@@ -11,7 +11,7 @@
 #   4. Open http://localhost:3000 and create an admin account
 #   5. Go to Admin Panel → Settings → Integrations → Manage Tool Servers
 #      Add tool server URL: http://host.docker.internal:2344
-#      (MCPO; see README §Self-hosting, Option B, step 2)
+#      (MCPO; see README §5.1, Option B, step 2)
 #
 # OpenWebUI: http://localhost:3000
 # Ollama API: http://localhost:11434 (native, not in this compose)
