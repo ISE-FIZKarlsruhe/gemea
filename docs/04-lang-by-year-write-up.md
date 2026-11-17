@@ -1,4 +1,4 @@
-# Language Distribution and Date Coverage — All Sectors
+# Languages and Dates Across Sectors
 
 ## 1. Scope
 

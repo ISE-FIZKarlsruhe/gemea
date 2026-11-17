@@ -1,4 +1,4 @@
-# mediatype and hierarchy_type Corpus Analysis
+# Media Types and Hierarchy Types
 
 ## 1. Scope
 

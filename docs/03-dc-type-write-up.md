@@ -1,9 +1,9 @@
-# dc:type Corpus Analysis
+# Object Types (dc:type)
 
 
 ## 1. Scope
 
-The *dc:type* field is the primary object-type signal in the DDB's EDM-based metadata: it carries either an authority URI resolving to a controlled vocabulary term or a free-text literal, depending on the contributing institution. A corpus-wide analysis of the sector-level [parquet files](parquet-source.md) yields 24.6 million *dc:type* entries across 658 providers in seven sectors. Of these, 7.97 million (32.4%) are authority-linked (stored with `is_ext_uri=True`), and the remaining 16.6 million (67.6%) are unlinked literals. The analysis treats URI-linked and literal entries as structurally distinct: the former carry a resolved preferred label from an external authority, while the latter reflect free-text annotation practice that varies by institution, region, and tradition.
+The *dc:type* field is the primary object-type signal in the DDB's EDM-based metadata: it carries either an authority URI resolving to a controlled vocabulary term or a free-text literal, depending on the contributing institution. A corpus-wide analysis of the sector-level [parquet files](01-parquet-source.md) yields 24.6 million *dc:type* entries across 658 providers in seven sectors. Of these, 7.97 million (32.4%) are authority-linked (stored with `is_ext_uri=True`), and the remaining 16.6 million (67.6%) are unlinked literals. The analysis treats URI-linked and literal entries as structurally distinct: the former carry a resolved preferred label from an external authority, while the latter reflect free-text annotation practice that varies by institution, region, and tradition.
 
 | Metric | Value |
 |--------|-------|
@@ -12,7 +12,7 @@ The *dc:type* field is the primary object-type signal in the DDB's EDM-based met
 | Literal entries (`is_ext_uri=False`) | 16,648,031 (67.6%) |
 | Providers | 658 |
 
-**Note**: URI entries store the resolved prefLabel as `name`; the authority URI is retained in `concept_labels.duckdb` for later enrichment. Entries with an external URI but no resolvable label in the same record are omitted from the [parquet](parquet-source.md).
+**Note**: URI entries store the resolved prefLabel as `name`; the authority URI is retained in `concept_labels.duckdb` for later enrichment. Entries with an external URI but no resolvable label in the same record are omitted from the [parquet](01-parquet-source.md).
 
 ## 2. Sector-level variation in authority linking
 

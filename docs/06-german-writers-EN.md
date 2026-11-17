@@ -1,6 +1,6 @@
-# 📖 Data Story: How to Become Immortal — Measured in 3.15 Billion Triples
+# 📖 Data Story: How to Become Immortal
 
-*A true story, told by a knowledge graph that doesn't know who's famous — and gives it away anyway.*
+*A true story, measured in 3.15 billion triples, told by a knowledge graph that doesn't know who's famous — and gives it away anyway.*
 
 **Author:** Harald Sack, revised by Mary Ann Tan
 

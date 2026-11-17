@@ -1,7 +1,7 @@
 ---
-title: "GeMeA: German Memory Atlas"
+title: "GEMEA: German Memory Atlas"
 ---
-# GeMeA: German Memory Atlas
+# GEMEA: German Memory Atlas
 
 **GeMeA** (German Memory Atlas) is an open knowledge graph over approximately 27 million digitised objects from the [German Digital Library](https://www.deutsche-digitale-bibliothek.de/) (DDB). The corpus spans seven cultural heritage sectors — archives, libraries, museums, media libraries, research institutions, monument preservation offices, and others — and is aligned to the [mocho](https://github.com/ISE-FIZKarlsruhe/mocho) mid-level ontology for interoperability.
 
