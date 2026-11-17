@@ -1,0 +1,147 @@
+# The run provenance of a Werk linking run, as the
+# writer is to produce it: the block for graph:prov with its placeholders, without the hand
+# check (not written yet) and with the five parameter values written out. The test fills the
+# placeholders with the values of its made-up run folder.
+@prefix prov:            <http://www.w3.org/ns/prov#> .
+@prefix provcred:        <https://prov-cred.org/ns/> .
+@prefix mls:             <http://www.w3.org/ns/mls#> .
+@prefix mocho:           <https://ise-fizkarlsruhe.github.io/ddbkg/mocho#> .
+@prefix rdac:            <http://rdaregistry.info/Elements/c/> .
+@prefix skos:            <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:             <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:            <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void:            <http://rdfs.org/ns/void#> .
+@prefix dcterms:         <http://purl.org/dc/terms/> .
+@prefix xsd:             <http://www.w3.org/2001/XMLSchema#> .
+@prefix ddb-item:        <http://www.deutsche-digitale-bibliothek.de/item/> .
+@prefix gemea-work:      <https://gemea.ise.fiz-karlsruhe.de/work/> .
+@prefix gnd:             <https://d-nb.info/gnd/> .
+@prefix graph:           <https://gemea.ise.fiz-karlsruhe.de/graph/> .
+@prefix work-graph:      <https://gemea.ise.fiz-karlsruhe.de/graph/work/RUN_ID/> .
+@prefix source-data:     <urn:gemea:source-data:> .
+@prefix authority-file:  <urn:gemea:authority-file:> .
+@prefix software:        <urn:gemea:software:> .
+@prefix param:           <urn:gemea:param:link_gnd_local:> .
+@prefix param-value:     <urn:gemea:param-value:link_gnd_local:> .
+@prefix model:           <urn:gemea:model:> .
+@prefix evaluation:      <urn:gemea:evaluation:> .
+@prefix span-extraction: <urn:gemea:span-extraction:> .
+@prefix span-set:        <urn:gemea:span-set:> .
+@prefix linking-run:     <urn:gemea:linking-run:> .
+@prefix precision-check: <urn:gemea:precision-check:> .
+@prefix sample:          <urn:gemea:sample:> .
+@prefix evaluator:       <urn:gemea:evaluator:> .                             # OPEN 9: ORCID or project URN
+
+# ===== Provenance =====
+graph:prov {
+
+# Inputs (IRIs carry the SHA-256)
+source-data:s2_meta_de_content:INPUT_SHA256 a owl:NamedIndividual , prov:Entity ;
+    dcterms:identifier "sha256:INPUT_SHA256" .
+authority-file:gnd:TABLES_SHA256 a owl:NamedIndividual , prov:Entity ;
+    dcterms:identifier "sha256:TABLES_SHA256" ;
+    dcterms:date "DUMP_DATE"^^xsd:date .
+
+# Agents
+software:extract_werk_spans:COMMIT a owl:NamedIndividual , prov:SoftwareAgent ; dcterms:hasVersion "COMMIT" .
+software:t10_rule_baseline:RULE_SHA256 a owl:NamedIndividual , prov:SoftwareAgent ; dcterms:identifier "sha256:RULE_SHA256" .
+software:flair:FLAIR_VERSION a owl:NamedIndividual , prov:SoftwareAgent ; dcterms:hasVersion "FLAIR_VERSION" .
+software:link_gnd_local:COMMIT a owl:NamedIndividual , prov:SoftwareAgent , mls:Implementation ;
+    dcterms:hasVersion "COMMIT" ;
+    mls:hasHyperParameter param:decision , param:min-term-length , param:author-name-token-score , param:search-size , param:min-score .
+
+param:decision                a owl:NamedIndividual , mls:HyperParameter ; rdfs:label "--decision" .
+param:min-term-length         a owl:NamedIndividual , mls:HyperParameter ; rdfs:label "MIN_TERM_LENGTH" .
+param:author-name-token-score a owl:NamedIndividual , mls:HyperParameter ; rdfs:label "--name-threshold" .
+param:search-size             a owl:NamedIndividual , mls:HyperParameter ; rdfs:label "--search-size" .
+param:min-score               a owl:NamedIndividual , mls:HyperParameter ; rdfs:label "--min-score; only under --decision score" .
+
+# Model and its two published scores
+model:flair-ner-english-ontonotes-large:HF_REVISION a owl:NamedIndividual , provcred:Model ;
+    provcred:modelIdentifier "flair/ner-english-ontonotes-large" ;
+    provcred:modelVersion "HF_REVISION" ;
+    provcred:snapshotDate "DOWNLOAD_DATE"^^xsd:date ;
+    provcred:taskType provcred:NamedEntityRecognition ;
+    provcred:benchmarkDomain "English; OntoNotes genres, not stated on the model card" ;
+    provcred:deploymentDomain "German bibliographic titles, DDB" ;
+    provcred:modelCard <https://huggingface.co/flair/ner-english-ontonotes-large> ;
+    provcred:publishedEvaluation evaluation:flair-ner-english-ontonotes-large:HF_REVISION:card ,
+        evaluation:flair-ner-english-ontonotes-large:HF_REVISION:work-of-art .
+evaluation:flair-ner-english-ontonotes-large:HF_REVISION:card a owl:NamedIndividual , mls:ModelEvaluation ;
+    mls:specifiedBy provcred:MicroF1 ; mls:hasValue "CARD_F1"^^xsd:decimal ;
+    dcterms:language "en" ; dcterms:source <https://huggingface.co/flair/ner-english-ontonotes-large/resolve/HF_REVISION/training.log> .
+evaluation:flair-ner-english-ontonotes-large:HF_REVISION:work-of-art a owl:NamedIndividual , mls:ModelEvaluation ;
+    mls:specifiedBy provcred:MicroF1 ; mls:hasValue "WOA_F1"^^xsd:decimal ;
+    dcterms:language "en" ; dcterms:source <https://huggingface.co/flair/ner-english-ontonotes-large/resolve/HF_REVISION/training.log> .
+
+# Step 1: span extraction (order 0), one activity per span method
+span-extraction:STEP1_ID:rule a owl:NamedIndividual , provcred:DeterministicEnrichment ;   # OPEN 2: KGEnrichment for spans
+    provcred:refinementOrder 0 ;
+    prov:startedAtTime "STEP1_START"^^xsd:dateTime ; prov:endedAtTime "STEP1_END"^^xsd:dateTime ;
+    prov:used source-data:s2_meta_de_content:INPUT_SHA256 ;
+    prov:wasAssociatedWith software:extract_werk_spans:COMMIT , software:t10_rule_baseline:RULE_SHA256 .
+span-extraction:STEP1_ID:flair a owl:NamedIndividual , provcred:ModelEnrichment ;
+    provcred:refinementOrder 0 ;
+    prov:startedAtTime "STEP1_START"^^xsd:dateTime ; prov:endedAtTime "STEP1_END"^^xsd:dateTime ;
+    prov:used source-data:s2_meta_de_content:INPUT_SHA256 ;
+    prov:wasAssociatedWith model:flair-ner-english-ontonotes-large:HF_REVISION , software:flair:FLAIR_VERSION ,
+        software:extract_werk_spans:COMMIT .
+
+span-set:STEP1_ID:rule a owl:NamedIndividual , prov:Entity ;
+    prov:wasGeneratedBy span-extraction:STEP1_ID:rule .
+span-set:STEP1_ID:flair a owl:NamedIndividual , prov:Entity ;
+    prov:wasGeneratedBy span-extraction:STEP1_ID:flair .
+# A --flair-from run has no Flair extraction of its own; its linker uses the earlier span-set (OPEN: model after phase 4).
+
+# Step 2: linking (order 1), one activity for all data graphs
+linking-run:RUN_ID a owl:NamedIndividual , provcred:HeuristicEnrichment , mls:Run ;
+    provcred:refinementOrder 1 ;
+    prov:startedAtTime "RUN_START"^^xsd:dateTime ; prov:endedAtTime "LAST_PART_END"^^xsd:dateTime ;
+    prov:used span-set:STEP1_ID:rule , span-set:STEP1_ID:flair , authority-file:gnd:TABLES_SHA256 ;
+    prov:wasAssociatedWith software:link_gnd_local:COMMIT ;
+    mls:executes software:link_gnd_local:COMMIT ;
+    mls:hasInput param-value:RUN_ID:decision , param-value:RUN_ID:min-term-length ,
+        param-value:RUN_ID:author-name-token-score , param-value:RUN_ID:search-size , param-value:RUN_ID:min-score ;
+    provcred:affectedPredicate mocho:isManifestationOf ;
+    provcred:sourceGraph graph:ddbedm ;
+    provcred:targetGraph graph:work , work-graph:rule-span , work-graph:model-span ;
+    provcred:triplesAdded "DISTINCT_TRIPLES"^^xsd:nonNegativeInteger .         # distinct: a shared Work's triples are in both graphs
+param-value:RUN_ID:decision a owl:NamedIndividual , mls:HyperParameterSetting ;
+    mls:specifiedBy param:decision ; mls:hasValue "baseline" .
+param-value:RUN_ID:min-term-length a owl:NamedIndividual , mls:HyperParameterSetting ;
+    mls:specifiedBy param:min-term-length ; mls:hasValue 3 .
+param-value:RUN_ID:author-name-token-score a owl:NamedIndividual , mls:HyperParameterSetting ;
+    mls:specifiedBy param:author-name-token-score ; mls:hasValue "0.85"^^xsd:decimal .
+param-value:RUN_ID:search-size a owl:NamedIndividual , mls:HyperParameterSetting ;
+    mls:specifiedBy param:search-size ; mls:hasValue 500 .
+param-value:RUN_ID:min-score a owl:NamedIndividual , mls:HyperParameterSetting ;
+    mls:specifiedBy param:min-score ; mls:hasValue "0.6"^^xsd:decimal .
+
+# The run's whole output: a fixed version of the mutable graph:work (prov:specializationOf), so that one IRI is not
+# generated by every run (PROV-CONSTRAINTS §2.2). Not a named graph of its own.
+<https://gemea.ise.fiz-karlsruhe.de/graph/work/RUN_ID> a owl:NamedIndividual , prov:Entity , void:Dataset ;
+    prov:specializationOf graph:work ;
+    prov:wasGeneratedBy linking-run:RUN_ID ;
+    void:subset work-graph:rule-span , work-graph:model-span ;
+    void:triples "DISTINCT_TRIPLES"^^xsd:integer .                             # = provcred:triplesAdded of the run
+graph:work a owl:NamedIndividual , prov:Entity , void:Dataset ;
+    rdfs:comment "All links and Works of the latest run; replaced by each run. Its provenance is that of the run's path graphs."@en .
+
+# Data graphs: one per path (span method × linking criterion)
+work-graph:rule-span a owl:NamedIndividual , prov:Entity , void:Dataset ;
+    rdfs:comment "Links whose matched span came from a rule (ISBD title, ISBD other title, volume rule), made under --decision baseline: exact title, author confirmed, one Work."@en ;
+    prov:wasGeneratedBy linking-run:RUN_ID ;
+    prov:wasDerivedFrom span-set:STEP1_ID:rule , authority-file:gnd:TABLES_SHA256 ;
+    prov:wasAttributedTo software:link_gnd_local:COMMIT , software:t10_rule_baseline:RULE_SHA256 ,
+        software:extract_werk_spans:COMMIT ;                                   # shortcut
+    void:triples "RULE_SPAN_TRIPLES"^^xsd:integer .
+work-graph:model-span a owl:NamedIndividual , prov:Entity , void:Dataset ;
+    rdfs:comment "Links whose matched span came from Flair, made under --decision baseline: exact title, author confirmed, one Work."@en ;
+    prov:wasGeneratedBy linking-run:RUN_ID ;
+    prov:wasDerivedFrom span-set:STEP1_ID:flair , authority-file:gnd:TABLES_SHA256 ;
+    prov:wasAttributedTo software:link_gnd_local:COMMIT ,
+        model:flair-ner-english-ontonotes-large:HF_REVISION ;                  # shortcut
+    void:triples "MODEL_SPAN_TRIPLES"^^xsd:integer .
+
+}
+

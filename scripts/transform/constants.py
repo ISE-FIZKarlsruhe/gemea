@@ -2,21 +2,26 @@
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 from typing import Dict, List, Tuple
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
 
 SCRIPT_DIR  = Path(__file__).resolve().parent
-PROJECT_DIR = SCRIPT_DIR.parents[1]   # scripts/transform/ → scripts/ → project root
+PROJECT_DIR = SCRIPT_DIR.parents[1]   # scripts/transform/ → scripts/ → project root (gemea)
+CONFIG_DIR  = PROJECT_DIR / "config" / "transform"
 
-DEFAULT_JSONL        = PROJECT_DIR / "data"   / "items-all-goethe-faust.json"
-DEFAULT_IDS          = PROJECT_DIR / "data"   / "ids-all-goethe-faust.txt"
-DEFAULT_ALIGNMENT    = PROJECT_DIR / "output" / "config" / "lookup_class_prop_alignment.csv"
-DEFAULT_LIDO         = PROJECT_DIR / "output" / "config" / "lido_event_types.csv"
-DEFAULT_HTYPE        = PROJECT_DIR / "output" / "config" / "lookup_htype_doco_rico.csv"
-DEFAULT_MEDIATYPE    = PROJECT_DIR / "output" / "config" / "lookup_mediatype_class.csv"
-DEFAULT_AUDIO        = PROJECT_DIR / "output" / "config" / "audio_type2class.json"
+# The Goethe-Faust test corpus stays in the goethe-faust repo, by default a sibling checkout.
+GOETHE_FAUST_DIR = Path(os.environ.get("GOETHE_FAUST_DIR", PROJECT_DIR.parent / "goethe-faust"))
+
+DEFAULT_JSONL        = GOETHE_FAUST_DIR / "data" / "items-all-goethe-faust.json"
+DEFAULT_IDS          = GOETHE_FAUST_DIR / "data" / "ids-all-goethe-faust.txt"
+DEFAULT_ALIGNMENT    = CONFIG_DIR / "lookup_class_prop_alignment.csv"
+DEFAULT_LIDO         = CONFIG_DIR / "lido_event_types.csv"
+DEFAULT_HTYPE        = CONFIG_DIR / "lookup_htype_doco_rico.csv"
+DEFAULT_MEDIATYPE    = CONFIG_DIR / "lookup_mediatype_class.csv"
+DEFAULT_AUDIO        = CONFIG_DIR / "audio_type2class.json"
 DEFAULT_OUTPUT_BASE  = PROJECT_DIR / "output" / "transform"
 
 # ─── Type aliases ─────────────────────────────────────────────────────────────
@@ -170,7 +175,7 @@ _NEW_NS: tuple[str, ...] = (
     "http://purl.org/spar/doco/",
 )
 
-# ─── W-slot classes (trigger werk_staging row) ────────────────────────────────
+# ─── W-slot classes (werk_staging follows werk_groups.py, D30) ──
 
 _W_SLOT_CLASSES: frozenset[str] = frozenset({
     "http://rdaregistry.info/Elements/c/C10001",  # rdac:C10001 Work

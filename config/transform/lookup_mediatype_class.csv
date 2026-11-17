@@ -1,0 +1,28 @@
+sparte,mediatype,use_htype,rdf_type_w,rdf_type_m,notes
+http://ddb.vocnet.org/sparte/sparte001,http://ddb.vocnet.org/medientyp/mt001,True,,aco:AudioManifestation,Added alongside htype-derived rico:*
+http://ddb.vocnet.org/sparte/sparte001,http://ddb.vocnet.org/medientyp/mt002,True,,mocho:ImageManifestation,Added alongside htype-derived rico:*
+http://ddb.vocnet.org/sparte/sparte001,http://ddb.vocnet.org/medientyp/mt003,True,,mocho:Manifestation,Added alongside htype-derived rico:*; not rdac:C10007 — archival text not necessarily literary (D9)
+http://ddb.vocnet.org/sparte/sparte001,http://ddb.vocnet.org/medientyp/mt005,True,ec:EditorialWork,ec:MediaResource,Added alongside htype-derived rico:*
+http://ddb.vocnet.org/sparte/sparte001,http://ddb.vocnet.org/medientyp/mt007,True,,,htype dispatch only; no media-specific class (no digital carrier)
+http://ddb.vocnet.org/sparte/sparte002,http://ddb.vocnet.org/medientyp/mt001,True,,aco:AudioManifestation,Use mo:MusicalManifestation if htype=ht022 (mo:MusicalWork); added alongside htype-derived class
+http://ddb.vocnet.org/sparte/sparte002,http://ddb.vocnet.org/medientyp/mt002,True,,mocho:ImageManifestation,Added alongside htype-derived class
+http://ddb.vocnet.org/sparte/sparte002,http://ddb.vocnet.org/medientyp/mt003,True,,rdac:C10007,Htype-derived class takes priority; rdac:C10007 fallback if no htype match (D30)
+http://ddb.vocnet.org/sparte/sparte002,http://ddb.vocnet.org/medientyp/mt005,True,ec:EditorialWork,ec:MediaResource,Added alongside htype-derived class
+http://ddb.vocnet.org/sparte/sparte002,http://ddb.vocnet.org/medientyp/mt007,True,,rdac:C10007,Htype-derived class takes priority; rdac:C10007 fallback if no htype match
+http://ddb.vocnet.org/sparte/sparte003,http://ddb.vocnet.org/medientyp/mt001,False,mocho:ImmovableWork,aco:AudioManifestation,
+http://ddb.vocnet.org/sparte/sparte003,http://ddb.vocnet.org/medientyp/mt002,False,mocho:ImmovableWork,mocho:ImageManifestation,
+http://ddb.vocnet.org/sparte/sparte003,http://ddb.vocnet.org/medientyp/mt003,False,mocho:ImmovableWork,rdac:C10007,
+http://ddb.vocnet.org/sparte/sparte003,http://ddb.vocnet.org/medientyp/mt005,False,mocho:ImmovableWork,ec:MediaResource,
+http://ddb.vocnet.org/sparte/sparte003,http://ddb.vocnet.org/medientyp/mt007,False,mocho:ImmovableWork,,W only; no digital carrier
+http://ddb.vocnet.org/sparte/sparte004,http://ddb.vocnet.org/medientyp/mt001,False,,aco:AudioManifestation,Check dc:type values
+http://ddb.vocnet.org/sparte/sparte004,http://ddb.vocnet.org/medientyp/mt002,False,,mocho:ImageManifestation,
+http://ddb.vocnet.org/sparte/sparte004,http://ddb.vocnet.org/medientyp/mt003,True,,rdac:C10007,Same htype dispatch as sparte002; rdac:C10007 fallback if no htype match
+http://ddb.vocnet.org/sparte/sparte004,http://ddb.vocnet.org/medientyp/mt005,False,,ec:MediaResource,Check dc:type values
+http://ddb.vocnet.org/sparte/sparte004,http://ddb.vocnet.org/medientyp/mt007,False,,mocho:Manifestation,Check dc:type values
+http://ddb.vocnet.org/sparte/sparte005,http://ddb.vocnet.org/medientyp/mt001,False,,aco:AudioManifestation,
+http://ddb.vocnet.org/sparte/sparte005,http://ddb.vocnet.org/medientyp/mt002,False,mocho:ImageWork,mocho:ImageManifestation,
+http://ddb.vocnet.org/sparte/sparte005,http://ddb.vocnet.org/medientyp/mt005,False,ec:EditorialWork,ec:MediaResource,
+http://ddb.vocnet.org/sparte/sparte006,http://ddb.vocnet.org/medientyp/mt002,False,vra:Work,vra:Image,
+http://ddb.vocnet.org/sparte/sparte006,http://ddb.vocnet.org/medientyp/mt005,False,ec:EditorialWork,ec:MediaResource,
+http://ddb.vocnet.org/sparte/sparte007,http://ddb.vocnet.org/medientyp/mt002,False,,mocho:ImageManifestation,
+any,any,False,,mocho:Manifestation,D9 fallback

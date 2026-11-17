@@ -1,0 +1,22 @@
+category,IRI,label_en,label_de
+sector,http://ddb.vocnet.org/sparte/sparte001,Archive,
+sector,http://ddb.vocnet.org/sparte/sparte002,Library,
+sector,http://ddb.vocnet.org/sparte/sparte003,Monument Preservation,
+sector,http://ddb.vocnet.org/sparte/sparte004,Research,
+sector,http://ddb.vocnet.org/sparte/sparte005,Media Library,
+sector,http://ddb.vocnet.org/sparte/sparte006,Museum,
+sector,http://ddb.vocnet.org/sparte/sparte007,Others,
+mediaType,http://ddb.vocnet.org/medientyp/mt001,Audio,
+mediaType,http://ddb.vocnet.org/medientyp/mt002,Photo,
+mediaType,http://ddb.vocnet.org/medientyp/mt003,Text,
+mediaType,http://ddb.vocnet.org/medientyp/mt005,Video,
+mediaType,http://ddb.vocnet.org/medientyp/mt007,No digital representation,
+mediaType,http://ddb.vocnet.org/medientyp/mt010,3D Model,
+hierarchyType,http://ddb.vocnet.org/hierarchietyp/ht030,Holding,Bestand
+hierarchyType,http://ddb.vocnet.org/hierarchietyp/ht031,Classification,Gliederung
+hierarchyType,http://ddb.vocnet.org/hierarchietyp/ht032,Series,Serie
+hierarchyType,http://ddb.vocnet.org/hierarchietyp/ht033,Subseries,Unterserie
+hierarchyType,http://ddb.vocnet.org/hierarchietyp/ht034,File,Archivale
+hierarchyType,http://ddb.vocnet.org/hierarchietyp/ht036,Holding Series,Bestandsserie
+hierarchyType,http://ddb.vocnet.org/hierarchietyp/ht037,Holding Classification,Bestand Klassifikation
+hierarchyType,http://ddb.vocnet.org/hierarchietyp/ht048,Tektonik Collection,Tektonische Sammlung

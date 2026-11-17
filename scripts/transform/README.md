@@ -1,8 +1,8 @@
 # scripts/transform/
 
-Reference transform for the mocho ingest pipeline, using the goethe-faust corpus
-(115,432 DDB records). Converts DDB-EDM JSONL to mocho-aligned N-Quads and a
-DuckDB werk_staging table for GND Werk linking.
+Reference transform for the mocho ingest pipeline, developed on the goethe-faust corpus
+(115,432 DDB records) and run on the full GeMeA corpus. Converts DDB-EDM JSONL or SQLite to
+mocho-aligned N-Quads and a DuckDB werk_staging table for GND Werk linking.
 
 ---
 
@@ -18,6 +18,18 @@ DuckDB werk_staging table for GND Werk linking.
 | `__main__.py` | CLI entry point (`python -m transform`) |
 | `merge.py` | `python -m transform merge` — concat .nq shards, merge DuckDB + stats |
 | `sqlite_export.py` | `export()` — sequential SQLite → JSONL export for bulk runs |
+| `prescan.py` | Pass 1 prescan (`python -m transform.prescan`) — PROV-O shared nodes, label DBs, per-sector Parquet |
+| `werk_groups.py` | Werk-linking type groups, copied from the linker; decide which records go to `werk_staging` and which GND classes each row lists (D30) |
+| `merge_parquet.py` | `python -m transform merge_parquet` — concat per-sector `*_meta.parquet` files |
+
+| Folder | Contents |
+|---|---|
+| `run/` | Drivers: `run_gemea_transform.sh` (full corpus), `run_gemea_dryrun.sh`, `run-transform-sector.sh`, `monitor_transform.sh`, `setup_venv.sh` (server venv from `requirements-transform.txt`) |
+| `tools/` | N-Quads helpers: `split_nq.py`, `fix_nq_iris.py`, `merge_stats.py` |
+| `config_gen/` | Generators of the lookup tables in `config/transform/`: `align_ddbedm_to_mocho.py`, `profile_edm_fields.py`, `gen_*.py` (with the full `requirements.txt`) |
+| `tests/` | pytest suite and fixtures |
+
+Lookup tables live in `config/transform/` at the repository root. The Goethe-Faust test corpus is in [`goethe-faust/`](../../goethe-faust/); `GOETHE_FAUST_DIR` points to it and defaults to a sibling checkout `../goethe-faust`, so in this repository set it first, from the repository root: `export GOETHE_FAUST_DIR=$PWD/goethe-faust`. The full corpus JSON (2.4 GB) is a download; see [`goethe-faust/README.md`](../../goethe-faust/README.md).
 
 ---
 
@@ -26,8 +38,8 @@ DuckDB werk_staging table for GND Werk linking.
 ### Development / goethe-faust corpus
 
 ```
-data/items-all-goethe-faust.json      JSONL input
-output/config/*.csv / *.json          dispatch + alignment tables
+$GOETHE_FAUST_DIR/data/items-all-goethe-faust.json   JSONL input
+config/transform/*.csv / *.json                      dispatch + alignment tables
           │
           ▼
   python -m transform   (from scripts/)
@@ -44,31 +56,43 @@ output/config/*.csv / *.json          dispatch + alignment tables
 
 ### Full GeMeA corpus (Option C parallel)
 
-One `sN.sqlite` per sector. Each sector runs in its own subshell — export then
-transform back-to-back — with all sectors in parallel:
+Three-phase pipeline. Phase 0 (prescan) runs all 7 sectors in parallel to build
+shared DuckDB files and per-sector Parquet. Phase 0.5 generates `prov-shared.nq`
+from the completed `prov.duckdb`. Phase 1+2 (export + transform) runs with
+read-only access to those shared files.
 
 ```
+s1.sqlite ─┐                           prov.duckdb            ─┐
+s2.sqlite ─┤  prescan (phase 0,        concept_labels.duckdb    ├─ shared (read-only in phase 1+2)
+  ...      ─┤  all in parallel)        agent_labels.duckdb    ─┘
+sN.sqlite ─┘                           sN_meta.parquet (per sector)
+
+                                        ↓ phase 0.5 (once, after all prescan done)
+                                        python -m transform.prescan regen
+                                        → prov-shared.nq  (full PROV-O entity triples)
+
 s1.sqlite ─┐                          s1/ (.nq + .duckdb)  ─┐
 s2.sqlite ─┤  sqlite_export + transform  s2/ (.nq + .duckdb)  ─┤  cat → merged.nq
   ...      ─┤  (pipelined per sector,    ...                  ─┤  duckdb → merged.duckdb
 sN.sqlite ─┘   all in parallel)       sN/ (.nq + .duckdb)  ─┘
+                                        + prov-shared.nq included in final merge
 ```
 
 ```bash
-GOETHE=goethe-faust
-CFG=$GOETHE/output/config
-GEMEA=gemea/data/sqlite
+ROOT=gemea
+CFG=$ROOT/config/transform
+SQLITE=$ROOT/data/sqlite
 EXPORT=/tmp/gemea-export
 
 for n in 1 2 3 4 5 6 7; do
   (
-    PYTHONPATH=$GOETHE/scripts python -m transform.sqlite_export \
-      --db  $GEMEA/s${n}.sqlite \
+    PYTHONPATH=$ROOT/scripts python -m transform.sqlite_export \
+      --db  $SQLITE/s${n}.sqlite \
       --out $EXPORT/s${n}.jsonl \
     && \
-    PYTHONPATH=$GOETHE/scripts python -m transform \
+    PYTHONPATH=$ROOT/scripts python -m transform \
       --jsonl  $EXPORT/s${n}.jsonl \
-      --outdir $GOETHE/output/transform/gemea/s${n} \
+      --outdir $ROOT/output/transform/gemea/s${n} \
       --stats dispatch \
       --alignment $CFG/lookup_class_prop_alignment.csv \
       --lido      $CFG/lido_event_types.csv \
@@ -80,10 +104,10 @@ done
 wait
 
 # merge
-cat $GOETHE/output/transform/gemea/s*/*.nq > $GOETHE/output/transform/gemea/merged.nq
+cat $ROOT/output/transform/gemea/s*/*.nq > $ROOT/output/transform/gemea/merged.nq
 ```
 
-See [`docs/adr/transform-adr.md`](../../docs/adr/transform-adr.md) for dispatch design decisions.
+For the production run use `run/run_gemea_transform.sh`.
 
 ## Named graphs
 
@@ -99,13 +123,13 @@ See [`docs/adr/transform-adr.md`](../../docs/adr/transform-adr.md) for dispatch 
 
 | File | Description |
 |---|---|
-| `data/items-all-goethe-faust.json` | DDB-EDM JSONL; one JSON object per line |
-| `data/ids-all-goethe-faust.txt` | 32-char DDB object IDs; passed via `--ids` to filter JSONL |
-| `output/config/lookup_mediatype_class.csv` | `(sector, mediatype)` → class dispatch |
-| `output/config/lookup_htype_doco_rico.csv` | `htype_code` → rdf:type IRIs (§1.1) |
-| `output/config/lookup_class_prop_alignment.csv` | `(target_class, edm_prop)` → mocho property |
-| `output/config/lido_event_types.csv` | LIDO event URI → agent predicates per WEMI level |
-| `output/config/audio_type2class.json` | `dc:type` → audio group (A/B/C) for mt001 dispatch |
+| `$GOETHE_FAUST_DIR/data/items-all-goethe-faust.json` | DDB-EDM JSONL; one JSON object per line |
+| `$GOETHE_FAUST_DIR/data/ids-all-goethe-faust.txt` | 32-char DDB object IDs; passed via `--ids` to filter JSONL |
+| `config/transform/lookup_mediatype_class.csv` | `(sector, mediatype)` → class dispatch |
+| `config/transform/lookup_htype_doco_rico.csv` | `htype_code` → rdf:type IRIs (§1.1) |
+| `config/transform/lookup_class_prop_alignment.csv` | `(target_class, edm_prop)` → mocho property |
+| `config/transform/lido_event_types.csv` | LIDO event URI → agent predicates per WEMI level |
+| `config/transform/audio_type2class.json` | `dc:type` → audio group (A/B/C) for mt001 dispatch |
 
 ## CLI
 
@@ -171,13 +195,7 @@ python -m transform --ids ../data/ids-sample.txt
 .venv/bin/python -m pytest scripts/transform/tests/ -q
 ```
 
-42 unit tests covering loaders, class dispatch (§1.1), N-Quad formatting, PROV node
-construction, creator/contributor dispatch, and the D9 fallback. Uses actual config
-CSVs — no mocking.
-
----
-
-**Key references**:
-- [`../../docs/adr/transform-adr.md`](../../docs/adr/transform-adr.md) — class dispatch and WEMI alignment decisions (D1–D12)
-- [`../../docs/adr/transform-script-adr.md`](../../docs/adr/transform-script-adr.md) — implementation decisions (D13–D27)
-- [`../../docs/adr/transform-props-mapping-adr.md`](../../docs/adr/transform-props-mapping-adr.md) — property mapping decisions
+234 unit tests (2026-11-17, with duckdb installed) covering loaders, class dispatch (§1.1), N-Quad formatting, PROV node
+construction, creator/contributor dispatch, the D9 fallback, and prescan extraction
+(agents, dates, dc_type/dc_subject structs, lang split, sector/mediatype int, DuckDB
+label writes). Uses actual config CSVs — no mocking.

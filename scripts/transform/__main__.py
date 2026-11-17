@@ -2,22 +2,22 @@
 Purpose:    Transform DDB-EDM JSONL records to mocho-aligned N-Quads.
             Produces four named-graph streams: ddbedm (verbatim EDM passthrough),
             mocho (mocho-aligned triples), prov (PROV-O Layer 1), and a DuckDB
-            werk_staging table for GND Werk linking (link_gnd_works.py, Phase 0).
+            werk_staging table for GND Werk linking.
             Reference implementation for the mocho ingest pipeline.
-            Decisions: transform-adr.md D11/D15/D17, transform-script-adr.md D1–D27.
 Usage:      python -m transform
                 [--jsonl FILE] [--ids FILE] [--outdir DIR]
                 [--alignment FILE] [--lido FILE] [--htype FILE]
                 [--mediatype FILE] [--audio FILE]
                 [--stats LEVEL] [--log-level LEVEL]
                 [--limit N] [--total N] [--log-interval N] [--debug]
-Inputs:     data/items-all-goethe-faust.json              JSONL, one record per line
-            data/ids-all-goethe-faust.txt                  32-char object IDs, one per line
-            output/config/lookup_class_prop_alignment.csv  (target_class, edm_prop) → target_prop
-            output/config/lido_event_types.csv             lido_uri → agent predicates per WEMI
-            output/config/lookup_htype_doco_rico.csv       htype_code → (rdf_type, rst_iris)
-            output/config/lookup_mediatype_class.csv       (sparte, mediatype) → class dispatch row
-            output/config/audio_type2class.json            mt001 dc:type → group (A/B/C)
+Inputs:     $GOETHE_FAUST_DIR/data/items-all-goethe-faust.json  JSONL, one record per line
+            $GOETHE_FAUST_DIR/data/ids-all-goethe-faust.txt      32-char object IDs, one per line
+            config/transform/lookup_class_prop_alignment.csv     (target_class, edm_prop) → target_prop
+            config/transform/lido_event_types.csv                lido_uri → agent predicates per WEMI
+            config/transform/lookup_htype_doco_rico.csv          htype_code → (rdf_type, rst_iris)
+            config/transform/lookup_mediatype_class.csv          (sparte, mediatype) → class dispatch row
+            config/transform/audio_type2class.json               mt001 dc:type → group (A/B/C)
+            GOETHE_FAUST_DIR (env) defaults to the sibling checkout ../goethe-faust; config paths are under the gemea root
 Outputs:    output/transform/YYYYMMDD_HHMMSS/               run directory (one per invocation)
               <stem>.nq                                    combined N-Quads (all named graphs)
               <stem>-werk-staging.duckdb                  W-slot staging rows
@@ -27,7 +27,7 @@ Outputs:    output/transform/YYYYMMDD_HHMMSS/               run directory (one p
             <stem> is the input filename without extension (e.g. s2 → s2.nq)
 Deps:       stdlib only + duckdb (pip install duckdb)
 Assumes:    JSONL: one JSON object per line; record structure edm.RDF.*
-            All config CSVs present at output/config/
+            All config CSVs present at config/transform/
             Graceful exit on SIGINT/SIGTERM: partial stats and errors are written.
 """
 
@@ -89,7 +89,7 @@ def main() -> None:
     io = parser.add_argument_group("I/O")
     io.add_argument("--jsonl",  type=Path, default=DEFAULT_JSONL,
                     help="JSONL input file (one DDB-EDM JSON object per line); "
-                         "default: data/items-all-goethe-faust.json")
+                         "default: $GOETHE_FAUST_DIR/data/items-all-goethe-faust.json")
     io.add_argument("--db",     type=Path, default=None,
                     help="SQLite sector file — reads directly without intermediate JSONL export; "
                          "mutually exclusive with --jsonl")
@@ -104,28 +104,34 @@ def main() -> None:
     io.add_argument("--stem", type=str, default=None,
                     help="Output filename stem (overrides the input filename); "
                          "e.g. --stem items-all-goethe-faust → items-all-goethe-faust.nq, etc.")
+    io.add_argument("--prov-db", type=Path, default=None,
+                    dest="prov_db",
+                    help="Read-only prov.duckdb built by prescan.py; pre-loads "
+                         "already-emitted PROV-O shared-node URIs so this worker "
+                         "skips re-emitting their descriptive triples. "
+                         "Omit to run without shared-node dedup.")
 
     cfg = parser.add_argument_group("Config")
     cfg.add_argument("--alignment", type=Path, default=DEFAULT_ALIGNMENT,
                      help="Property alignment lookup CSV "
                           "(target_class, edm_prop) → mocho property; "
-                          "default: output/config/lookup_class_prop_alignment.csv")
+                          "default: config/transform/lookup_class_prop_alignment.csv")
     cfg.add_argument("--lido",      type=Path, default=DEFAULT_LIDO,
                      help="LIDO event type dispatch CSV "
                           "(event URI → agent predicates per WEMI level); "
-                          "default: output/config/lido_event_types.csv")
+                          "default: config/transform/lido_event_types.csv")
     cfg.add_argument("--htype",     type=Path, default=DEFAULT_HTYPE,
                      help="htype → class lookup CSV "
                           "(htype_code → rdf:type IRIs for §1.1 dispatch); "
-                          "default: output/config/lookup_htype_doco_rico.csv")
+                          "default: config/transform/lookup_htype_doco_rico.csv")
     cfg.add_argument("--mediatype", type=Path, default=DEFAULT_MEDIATYPE,
                      help="Mediatype × sector → class lookup CSV "
                           "(sector, mediatype → WEMI class IRIs); "
-                          "default: output/config/lookup_mediatype_class.csv")
+                          "default: config/transform/lookup_mediatype_class.csv")
     cfg.add_argument("--audio",     type=Path, default=DEFAULT_AUDIO,
                      help="mt001 dc:type → audio group JSON "
                           "(dc:type value → A/B/C group for audio class dispatch); "
-                          "default: output/config/audio_type2class.json")
+                          "default: config/transform/audio_type2class.json")
 
     run = parser.add_argument_group("Run control")
     run.add_argument("--stats",     choices=["none", "basic", "dispatch", "full"],
@@ -204,9 +210,28 @@ def main() -> None:
             dc_alternative   VARCHAR[],
             dc_created       VARCHAR,
             creator_uris     VARCHAR[],
-            creator_literals VARCHAR[]
+            creator_literals VARCHAR[],
+            type_group       VARCHAR,
+            gnd_classes      VARCHAR[]
         )
     """)
+
+    emitted_entities: dict[str, str] = {}
+    if args.prov_db:
+        try:
+            import duckdb as _ddb_ent
+            _c = _ddb_ent.connect(str(args.prov_db), read_only=True)
+            rows = _c.execute(
+                "SELECT uri, entity_type FROM prov_entities"
+            ).fetchall()
+            _c.close()
+            emitted_entities = {uri: etype for uri, etype in rows}
+            log.info("Loaded %d prov entities from %s",
+                     len(emitted_entities), args.prov_db)
+        except ImportError:
+            log.warning("duckdb not available — --prov-db ignored")
+        except Exception as exc:
+            log.warning("Could not read --prov-db %s: %s", args.prov_db, exc)
 
     stats_level = args.stats
 
@@ -220,6 +245,7 @@ def main() -> None:
     mocho_preds_all: Counter = Counter()
     mocho_preds_new: Counter = Counter()
     werk_by_class:   Counter = Counter()
+    werk_by_group:   Counter = Counter()
 
     start_time = time.monotonic()
     interrupted = False
@@ -274,6 +300,7 @@ def main() -> None:
                     record, ids_set,
                     mediatype_class_map, htype_map, audio_type2class,
                     class_prop_align, lido_dispatch,
+                    emitted_entities=emitted_entities,
                 )
             except Exception as exc:
                 entry = {
@@ -334,7 +361,7 @@ def main() -> None:
 
             if werk_row and conn is not None:
                 conn.execute(
-                    "INSERT OR REPLACE INTO werk_staging VALUES (?,?,?,?,?,?,?,?)",
+                    "INSERT OR REPLACE INTO werk_staging VALUES (?,?,?,?,?,?,?,?,?,?)",
                     [
                         werk_row["ddb_obj_id"],
                         werk_row["cho_uri"],
@@ -344,10 +371,13 @@ def main() -> None:
                         werk_row["dc_created"],
                         werk_row["creator_uris"],
                         werk_row["creator_literals"],
+                        werk_row["type_group"],
+                        werk_row["gnd_classes"],
                     ],
                 )
                 stats["werk_staging_rows"] += 1
                 werk_by_class[_to_curie(werk_row["target_class"])] += 1
+                werk_by_group[werk_row["type_group"]] += 1
 
             processed = stats["records_processed"]
             if args.log_interval and processed and processed % args.log_interval == 0:
@@ -405,6 +435,7 @@ def main() -> None:
             "werk_staging": {
                 "rows":     stats["werk_staging_rows"],
                 "by_class": dict(werk_by_class.most_common()),
+                "by_type_group": dict(werk_by_group.most_common()),
             },
         }
 

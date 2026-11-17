@@ -4,10 +4,10 @@ Purpose:    Run the full transform on the three fixture records and write .nq ou
 Usage:      python -m transform.tests.make_fixtures
             (run from scripts/ directory)
 Inputs:     scripts/transform/tests/fixtures/{multi_uri,br_tag,bare_id}.json
-            output/config/  (all standard config files)
+            config/transform/  (all standard config files)
 Outputs:    scripts/transform/tests/fixtures/{multi_uri,br_tag,bare_id}.nq
 Deps:       transform package (stdlib only)
-Assumes:    Run from goethe-faust/scripts/
+Assumes:    Run from gemea/scripts/
 """
 
 from __future__ import annotations
@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # adds scripts/ to sys.path
 
-from transform.constants import PROJECT_DIR
+from transform.constants import CONFIG_DIR
 from transform.loaders import (
     load_class_prop_alignment, load_lido_event_types,
     load_htype_map, load_mediatype_class, load_audio_type2class,
@@ -26,7 +26,7 @@ from transform.loaders import (
 from transform.transform import transform_record
 
 _FIXTURES = Path(__file__).parent / "fixtures"
-_CONFIG   = PROJECT_DIR / "output" / "config"
+_CONFIG   = CONFIG_DIR
 
 _FIXTURE_NAMES = ["multi_uri", "br_tag", "bare_id"]
 

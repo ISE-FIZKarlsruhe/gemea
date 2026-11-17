@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
 Purpose:    Generate output/config/image_type2class.json from the dc:type frequency
-            table for mt002 (Photo/Image). Implements the dispatch model from
-            notes/image-type-class-mapping.md:
+            table for mt002 (Photo/Image). Implements this dispatch model:
               Group A (ARTWORK_2D)                        → vra:Work        [W slot]
               Group B (OBJECTS_3D)                        → vra:Work        [W slot]
               Group C (PHOTO_TYPES)                       → mocho:ImageWork [W slot]

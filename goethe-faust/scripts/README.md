@@ -47,7 +47,7 @@ python scripts/build_dataframe.py
 
 ## Phase 4 — dc:type / htype analysis
 
-Quantifies signal coverage per sector × mediatype stratum — the empirical basis for dispatch priority in [`../../docs/adr/transform-adr.md`](../../docs/adr/transform-adr.md).
+Quantifies signal coverage per sector × mediatype stratum — the empirical basis for dispatch priority of the transform.
 
 | Script | Output |
 |---|---|
@@ -67,18 +67,18 @@ Quantifies signal coverage per sector × mediatype stratum — the empirical bas
 | `validate_sample.py` | stdout | Cross-checks validation_sample.csv against lookup CSVs |
 | `inspect_fallback.py` | stdout | Groups D9 fallback records by (sector, mediatype, htype, dc:type) |
 | `sample_type_dispatch.py` | stdout | Spot-checks dispatch table against sample records |
-| `analyse_ispartof.py` | stdout | isPartOf field analysis (basis for transform-props-mapping-adr.md D12) |
+| `analyse_ispartof.py` | stdout | isPartOf field analysis (basis for the isPartOf mapping, D12) |
 
 ## Config generation
 
-Generate the lookup tables consumed by `scripts/transform/`. Outputs are checked in under [`../../scripts/config/`](../../scripts/config/).
+The versions of the lookup-table generators that the corpus analysis was made with; each script's header gives where it writes. The tables the transform reads are checked in under [`../../config/transform/`](../../config/transform/), and their current generators are in [`../../scripts/transform/config_gen/`](../../scripts/transform/config_gen/).
 
-| Script | Output |
+| Script | Table it generates |
 |---|---|
-| `gen_dctype_class_mapping.py` | `../../scripts/config/lookup_dctype_to_class.csv` |
-| `gen_htype_doco_mapping.py` | `../../scripts/config/lookup_htype_doco_rico.csv/json` |
-| `gen_image_type2class.py` | `../../scripts/config/image_type2class.json` |
-| `gen_video_type2class.py` | `../../scripts/config/video_type2class.json` |
-| `gen_agent_alignment_rows.py` | `../../scripts/config/lookup_class_prop_alignment.csv` |
+| `gen_dctype_class_mapping.py` | `lookup_dctype_to_class.csv` |
+| `gen_htype_doco_mapping.py` | `lookup_htype_doco_rico.csv/json` |
+| `gen_image_type2class.py` | `image_type2class.json` |
+| `gen_video_type2class.py` | `video_type2class.json` |
+| `gen_agent_alignment_rows.py` | `lookup_class_prop_alignment.csv` |
 
 Run config generation after Phase 4 (dc:type frequencies are required as input).

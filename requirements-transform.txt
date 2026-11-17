@@ -1,0 +1,6 @@
+# Minimal requirements for the transform runtime: scripts/transform/ and scripts/transform/run/.
+# Install with: bash scripts/transform/run/setup_venv.sh (server), or pip install -r requirements-transform.txt
+# The config generators (scripts/transform/config_gen/) need the full requirements.txt (rdflib, transformers).
+duckdb==1.4.4
+langcodes==3.5.1
+pyarrow==21.0.0

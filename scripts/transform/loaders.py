@@ -108,15 +108,22 @@ def load_lido_event_types(path: Path) -> dict[str, dict[str, str]]:
 def load_audio_type2class(path: Path) -> dict[tuple[str, str], str]:
     """Load audio_type2class.json.
 
-    Returns dict[(sector_iri, dc_type_de)] → group char ('A', 'B', or 'C').
+    Returns dict[(sector_iri_or_empty, dc_type_de)] → group char ('A', 'B', or 'C').
+    Sector-agnostic entries (no sector field) use "" as the sector key.
+    Sector-specific entries use the full IRI (http://ddb.vocnet.org/sparte/sparteXXX).
     """
+    from .constants import _SECTOR_PREFIX
     with open(path, encoding="utf-8") as fh:
         raw = json.load(fh)
+    _SKIP = {"_doc", "Muster"}
     result: dict = {}
-    for entry in raw if isinstance(raw, list) else raw.get("entries", []):
-        sector   = entry.get("sector", "").strip()
-        dc_type  = entry.get("dc_type_de", "").strip()
-        group    = entry.get("group", "").strip()
-        if sector and dc_type and group:
-            result[(sector, dc_type)] = group
+    for dc_type, entry in raw.items():
+        if dc_type in _SKIP or not isinstance(entry, dict):
+            continue
+        group = entry.get("group", "").strip()
+        if not group:
+            continue
+        sector_code = entry.get("sector") or ""
+        sector_iri  = (_SECTOR_PREFIX + sector_code) if sector_code else ""
+        result[(sector_iri, dc_type)] = group
     return result

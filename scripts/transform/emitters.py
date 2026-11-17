@@ -18,19 +18,31 @@ from .constants import (
     DDB_BASE, DDB_ITEM_BASE, DDB_API_BASE, DDB_HIERARCHY_TYPE, EDM_NS, EDM_HAS_TYPE,
     _HTYPE_PREFIX,
     _EDM_ENTITY_TYPES, _DDBEDM_PROP, _MOCHO_SKIP, _NEW_NS,
-    _CLASS_WEMI, _CONTRIBUTOR_COL, _W_SLOT_CLASSES, SUBJECT_KEYS,
+    _CLASS_WEMI, _CONTRIBUTOR_COL, SUBJECT_KEYS,
 )
+from .werk_groups import GROUP_CLASSES, type_group
 from .utils import (
     make_nq, coerce_list, mint_bare_id, _escape_literal, _sanitize_iri,
     value_to_nt_obj, normalize_date, is_ddb_or_gnd, resolve_agent, _to_curie,
     build_bare_id_index, expand_obj_nt, resource_uris,
 )
 
+# Entity types whose descriptive triples are deduplicated across records/runs via the
+# emitted dict (uri → entity_type).  ProvidedCHO, Aggregation, WebResource are excluded
+# — they are unique per record.
+_DEDUP_ENTITY_TYPES: dict[str, str] = {
+    "Agent":    "edm_agent",
+    "Place":    "edm_place",
+    "Concept":  "skos_concept",
+    "TimeSpan": "edm_timespan",
+}
+
 
 def emit_ddbedm_triples(
     rdf: dict,
     graph_iri: str,
     lang_coll: set[str] | None = None,
+    emitted: dict[str, str] | None = None,
 ) -> tuple[NQList, Counter, Counter, Counter]:
     """Emit verbatim EDM passthrough triples for all entity types in rdf (§6.1).
 
@@ -56,6 +68,10 @@ def emit_ddbedm_triples(
             about_parts = raw_about.split()
             subj_uri = mint_bare_id(entity_type, _sanitize_iri(about_parts[0]))
             subj_nt  = f"<{subj_uri}>"
+            if emitted is not None and entity_type in _DEDUP_ENTITY_TYPES:
+                if subj_uri in emitted:
+                    continue
+                emitted[subj_uri] = _DEDUP_ENTITY_TYPES[entity_type]
             if len(about_parts) > 1:
                 sani_ctr["uri_about_split"] += len(about_parts) - 1
                 for alt in about_parts[1:]:
@@ -79,13 +95,12 @@ def emit_ddbedm_triples(
     return lines, class_ctr, pred_ctr, sani_ctr
 
 
-def emit_prov_triples(record: dict, ddb_cho_uri: str, graph_iri: str) -> NQList:
-    """Emit PROV-O Layer 1 (Without-Activity) for one record (§6.2, ddbedm-prov-o-plan.md §2)."""
+def emit_prov_triples(record: dict, ddb_cho_uri: str, graph_iri: str, emitted: dict[str, str] | None = None) -> NQList:
+    """Emit PROV-O Layer 1 (Without-Activity) for one record (§6.2)."""
     lines: NQList = []
     props = record.get("properties") or {}
     prov  = record.get("provider-info") or {}
 
-    item_id         = (props.get("item-id")         or "").strip()
     dataset_id      = (props.get("dataset-id")      or "").strip()
     dataset_label   = (props.get("dataset-label")   or "").strip()
     revision        = (props.get("revision-id")     or "").strip()
@@ -103,10 +118,9 @@ def emit_prov_triples(record: dict, ddb_cho_uri: str, graph_iri: str) -> NQList:
     src_href  = (src_ref.get("href", "") or "").strip() if isinstance(src_ref, dict) else ""
     rec_type  = (src_ref.get("type", "") or "").strip() if isinstance(src_ref, dict) else ""
 
-    ds_uri   = f"urn:ddbedm:properties:dataset-id:{dataset_id}"      if dataset_id      else ""
-    xslt_uri = f"urn:ddbedm:properties:mapping-version:{map_ver}"    if map_ver         else ""
-    prov_uri = f"urn:ddbedm:provider-info:provider-ddb-id:{provider_ddb_id}" \
-               if provider_ddb_id else ""
+    ds_uri   = f"urn:ddbedm:dataset:{dataset_id}"       if dataset_id      else ""
+    xslt_uri = f"urn:ddbedm:xslt:{map_ver}"             if map_ver         else ""
+    prov_uri = f"urn:ddbedm:provider:{provider_ddb_id}" if provider_ddb_id else ""
 
     # ── CHO node ──────────────────────────────────────────────────────────────
     cho_nt = f"<{ddb_cho_uri}>"
@@ -122,11 +136,14 @@ def emit_prov_triples(record: dict, ddb_cho_uri: str, graph_iri: str) -> NQList:
         lines.append(make_nq(cho_nt, f"<{DCTERMS_HAS_VER}>",
                              f'"{_escape_literal(revision)}"', graph_iri))
     if ref_val:
+        # IRI of the DDB item holding the source description (alignment Decision 6); self-references kept
         lines.append(make_nq(cho_nt, f"<{DCTERMS_REF}>",
-                             f'"ddb:{_escape_literal(ref_val)}"', graph_iri))
+                             f"<{_sanitize_iri(DDB_ITEM_BASE + ref_val)}>", graph_iri))
 
     # ── Dataset node ──────────────────────────────────────────────────────────
-    if ds_uri:
+    if ds_uri and (emitted is None or ds_uri not in emitted):
+        if emitted is not None:
+            emitted[ds_uri] = "prov_dataset"
         ds_nt = f"<{ds_uri}>"
         lines.append(make_nq(ds_nt, f"<{RDF_TYPE}>", f"<{DCAT_DATASET}>", graph_iri))
         lines.append(make_nq(ds_nt, f"<{RDF_TYPE}>", f"<{PROV_ENTITY}>",  graph_iri))
@@ -142,7 +159,9 @@ def emit_prov_triples(record: dict, ddb_cho_uri: str, graph_iri: str) -> NQList:
                                  f"<{prov_uri}>", graph_iri))
 
     # ── XSLT SoftwareAgent node ───────────────────────────────────────────────
-    if xslt_uri:
+    if xslt_uri and (emitted is None or xslt_uri not in emitted):
+        if emitted is not None:
+            emitted[xslt_uri] = "prov_xslt"
         xslt_nt = f"<{xslt_uri}>"
         lines.append(make_nq(xslt_nt, f"<{RDF_TYPE}>", f"<{PROV_SW_AGENT}>", graph_iri))
         lines.append(make_nq(xslt_nt, f"<{DCTERMS_HAS_VER}>",
@@ -150,14 +169,19 @@ def emit_prov_triples(record: dict, ddb_cho_uri: str, graph_iri: str) -> NQList:
         lines.append(make_nq(xslt_nt, f"<{PROV_ON_BEHALF}>", f"<{DDB_BASE}>", graph_iri))
 
     # ── DDB Agent node (fixed URI) ────────────────────────────────────────────
-    ddb_nt = f"<{DDB_BASE}>"
-    lines.append(make_nq(ddb_nt, f"<{RDF_TYPE}>", f"<{PROV_AGENT}>", graph_iri))
-    lines.append(make_nq(ddb_nt, f"<{RDF_TYPE}>", f"<{FOAF_ORG}>",   graph_iri))
-    lines.append(make_nq(ddb_nt, f"<{FOAF_NAME}>",
-                         '"Deutsche Digitale Bibliothek"', graph_iri))
+    if emitted is None or DDB_BASE not in emitted:
+        if emitted is not None:
+            emitted[DDB_BASE] = "prov_ddb"
+        ddb_nt = f"<{DDB_BASE}>"
+        lines.append(make_nq(ddb_nt, f"<{RDF_TYPE}>", f"<{PROV_AGENT}>", graph_iri))
+        lines.append(make_nq(ddb_nt, f"<{RDF_TYPE}>", f"<{FOAF_ORG}>",   graph_iri))
+        lines.append(make_nq(ddb_nt, f"<{FOAF_NAME}>",
+                             '"Deutsche Digitale Bibliothek"', graph_iri))
 
     # ── Provider Agent node ───────────────────────────────────────────────────
-    if prov_uri:
+    if prov_uri and (emitted is None or prov_uri not in emitted):
+        if emitted is not None:
+            emitted[prov_uri] = "prov_provider"
         prov_nt = f"<{prov_uri}>"
         lines.append(make_nq(prov_nt, f"<{RDF_TYPE}>", f"<{PROV_AGENT}>", graph_iri))
         lines.append(make_nq(prov_nt, f"<{RDF_TYPE}>", f"<{FOAF_ORG}>",   graph_iri))
@@ -204,6 +228,9 @@ def emit_prov_triples(record: dict, ddb_cho_uri: str, graph_iri: str) -> NQList:
     return lines
 
 
+_DOCO_NS = "http://purl.org/spar/doco/"
+
+
 def retype_entities(
     sector: str,
     mediatype: str,
@@ -215,13 +242,20 @@ def retype_entities(
     audio_type2class: dict,
     graph_iri: str,
 ) -> tuple[NQList, str, str, dict]:
-    """Dispatch rdf:type triples for a ProvidedCHO (§6.4, transform-revised-plan.md §1.1).
+    """Dispatch rdf:type triples for a ProvidedCHO (§6.4).
 
     Returns (lines, target_class_full_iri, wemi, dispatch_flags).
     target_class is used for property alignment lookup; wemi for contributor column selection.
     dispatch_flags: {"htype_used": bool, "fallback": bool}
     """
     lines: NQList = []
+    typed: set[str] = set()
+
+    def _add_type(iri: str) -> None:
+        # one rdf:type triple per class: layers 1 and 2 can name the same class (D30)
+        if iri not in typed:
+            typed.add(iri)
+            lines.append(make_nq(cho_nt, f"<{RDF_TYPE}>", f"<{iri}>", graph_iri))
     row = (
         mediatype_class_map.get((sector, mediatype))
         or mediatype_class_map.get(("any", "any"))
@@ -241,38 +275,51 @@ def retype_entities(
         if entry:
             type_iris, rst_iris = entry
             for t in type_iris:
-                lines.append(make_nq(cho_nt, f"<{RDF_TYPE}>", f"<{t}>", graph_iri))
+                _add_type(t)
             for r in rst_iris:
                 lines.append(make_nq(cho_nt, f"<{RICO_HAS_RST}>", f"<{r}>", graph_iri))
-            primary_class = type_iris[0]  # first = most specific
+            # The WEMI-level class drives property alignment; a DoCO class is a structural extra (D30).
+            primary_class = next((t for t in type_iris if not t.startswith(_DOCO_NS)), type_iris[0])
             htype_used    = True
 
     # Layer 2: fixed mediatype class (always emit if set; added on top of layer 1)
+    # For mt001 dc:type-first strata, rdf_type_m is deferred to audio group dispatch (Layer 3)
+    # so that Group A emits mo:MusicalManifestation instead of aco:AudioManifestation (B1).
+    _aco_audio     = "https://w3id.org/ac-ontology/aco#AudioManifestation"
+    _mo_mani       = "http://purl.org/ontology/mo/MusicalManifestation"
+    _audio_dispatch = rdf_type_m == _aco_audio and bool(dctype_vals) and not use_htype
     if rdf_type_w:
-        lines.append(make_nq(cho_nt, f"<{RDF_TYPE}>", f"<{rdf_type_w}>", graph_iri))
+        _add_type(rdf_type_w)
         if not primary_class:
             primary_class = rdf_type_w
-    if rdf_type_m:
-        lines.append(make_nq(cho_nt, f"<{RDF_TYPE}>", f"<{rdf_type_m}>", graph_iri))
+    if rdf_type_m and not _audio_dispatch:
+        _add_type(rdf_type_m)
         if not primary_class:
             primary_class = rdf_type_m
 
-    # Audio group dispatch: dc:type → mo:MusicalManifestation (Group A) (§2.3)
-    _aco_audio = "https://w3id.org/ac-ontology/aco#AudioManifestation"
-    _mo_mani   = "http://purl.org/ontology/mo/MusicalManifestation"
-    if rdf_type_m == _aco_audio and dctype_vals and not use_htype:
+    # Audio group dispatch: dc:type → mo:MusicalWork (W) + mo:MusicalManifestation (M) for Group A (§2.3)
+    if _audio_dispatch:
+        _mo_work = "http://purl.org/ontology/mo/MusicalWork"
+        _matched = False
         for dct in dctype_vals:
             dc_text = (dct.get("$") or "").strip() if isinstance(dct, dict) else ""
-            if audio_type2class.get((sector, dc_text)) == "A":
-                lines.append(make_nq(cho_nt, f"<{RDF_TYPE}>", f"<{_mo_mani}>", graph_iri))
-                primary_class = _mo_mani
+            group = audio_type2class.get((sector, dc_text)) or audio_type2class.get(("", dc_text))
+            if group == "A":
+                _add_type(_mo_work)
+                _add_type(_mo_mani)
+                primary_class = _mo_work  # W slot — triggers werk_staging
+                _matched = True
                 break
+        if not _matched:
+            _add_type(_aco_audio)
+            if not primary_class:
+                primary_class = _aco_audio
 
     # D9 fallback — no class resolved
     is_fallback = not primary_class
     if is_fallback:
         fallback = MOCHO_NS + "Manifestation"
-        lines.append(make_nq(cho_nt, f"<{RDF_TYPE}>", f"<{fallback}>", graph_iri))
+        _add_type(fallback)
         primary_class = fallback
 
     # hierarchyType may be space-separated; emit one triple per code with correct URI form
@@ -419,7 +466,7 @@ def emit_creator_triples(
 ) -> NQList:
     """Emit class-specific creator predicate (Track 1) and dcterms:creator agent stub (Track 2).
 
-    Both tracks run independently for each creator value (D2 / props-mapping §4).
+    Both tracks run independently for each creator value (D2).
     """
     lines: NQList = []
     dc_creator_iri = "http://purl.org/dc/elements/1.1/creator"
@@ -475,7 +522,7 @@ def emit_contributor_triples(
     bare_id_to_uri: dict[str, str] | None = None,
     agents_index: dict[str, AgentDict] | None = None,
 ) -> NQList:
-    """Emit contributor triples using LIDO event-type dispatch (D3/D25, props-mapping §5)."""
+    """Emit contributor triples using LIDO event-type dispatch (D3/D25)."""
     lines: NQList = []
     prop_col = _CONTRIBUTOR_COL.get((wemi, target_class), "dc_agent_fallback")
     _agents  = agents_index or {}
@@ -582,8 +629,14 @@ def emit_place_stubs(places: object, graph_iri: str) -> NQList:
 
 
 def werk_staging_row(cho_uri: str, cho: dict, target_class: str) -> dict | None:
-    """Build a werk_staging dict if target_class is a W-slot class (D26). Else None."""
-    if target_class not in _W_SLOT_CLASSES:
+    """Build a werk_staging dict if the record falls in a linked Werk-linking type group
+    (D30). Else None."""
+    htype = cho.get("hierarchyType") if isinstance(cho.get("hierarchyType"), str) else ""
+    dc_types = [
+        (v.get("$") or "").strip() for v in coerce_list(cho.get("dcType")) if isinstance(v, dict)
+    ]
+    group = type_group(htype, [t for t in dc_types if t])
+    if group not in GROUP_CLASSES:
         return None
 
     title = ""
@@ -629,6 +682,8 @@ def werk_staging_row(cho_uri: str, cho: dict, target_class: str) -> dict | None:
         "dc_created":       dc_created,
         "creator_uris":     creator_uris,
         "creator_literals": creator_lits,
+        "type_group":       group,
+        "gnd_classes":      list(GROUP_CLASSES[group]),
     }
 
 
@@ -771,7 +826,7 @@ def emit_mocho_triples(
             continue
 
         if prop_iri in (dc_date_iri, dcterms_iss):
-            # Date normalisation (D15 / props-mapping §3.1)
+            # Date normalisation (D15)
             for v in coerce_list(val):
                 raw = (v if isinstance(v, str) else
                        (v.get("$") or "") if isinstance(v, dict) else "").strip()
@@ -783,7 +838,7 @@ def emit_mocho_triples(
             continue
 
         if prop_iri == dcterms_ipart:
-            # isPartOf URI sanitisation (props-mapping §3.1)
+            # isPartOf URI sanitisation
             for obj_nt in value_to_nt_obj(val, sani_ctr):
                 if not obj_nt.startswith("<"):
                     continue  # literal isPartOf skipped in mocho graph

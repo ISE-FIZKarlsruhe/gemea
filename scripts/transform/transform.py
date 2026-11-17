@@ -23,6 +23,7 @@ def transform_record(
     audio_type2class: dict,
     class_prop_align: PropAlign,
     lido_dispatch: dict,
+    emitted_entities: dict[str, str] | None = None,
 ) -> tuple[dict[str, NQList], dict | None, dict, dict]:
     """Transform one JSONL record into per-graph N-Quads lists (§7.1).
 
@@ -55,10 +56,10 @@ def transform_record(
 
     # Streams [1] and [4] always run, including mt007 (faithfulness + audit trail)
     ddbedm_lines, ddbedm_classes, ddbedm_preds, ddbedm_sani = emit_ddbedm_triples(
-        rdf, GRAPH_DDBEDM, lang_coll,
+        rdf, GRAPH_DDBEDM, lang_coll, emitted=emitted_entities,
     )
     streams["ddbedm"] = ddbedm_lines
-    streams["prov"]   = emit_prov_triples(record, ddb_uri, GRAPH_PROV)
+    streams["prov"]   = emit_prov_triples(record, ddb_uri, GRAPH_PROV, emitted=emitted_entities)
 
     # Stream [2] mocho and [3] werk: skip mt007 (D15)
     werk_row: dict | None = None

@@ -88,6 +88,19 @@ DDB Search API ──► fetch IDs ──► fetch JSON records
                               qlever index build
 ```
 
+**GND Werk linking (build-time, library sector)**
+
+```
+library records ──► title spans (ISBD rule, Flair) ──► GND Work candidates ──► links
+  (Parquet)          scripts/py/extract_werk_spans.py   scripts/py/link_gnd_local.py
+                                       │
+                                       ▼
+                    N-Quads in graph/work, provenance in graph/prov
+                    scripts/werk-linking/write_werk_rdf.py
+```
+
+Steps, inputs and evaluation scripts: [`scripts/README.md`](scripts/README.md).
+
 **Access (runtime)**
 
 ```mermaid
@@ -138,14 +151,14 @@ gemea/
 ├── docker-compose.qlever.yml    QLever + SHMARQL + MCPO (SPARQL backend)
 ├── config.env.example           Settings template for docker-compose.qlever.yml (§5.2)
 ├── docker-compose.openwebui.yml OpenWebUI chat UI (open-source client)
-├── docs/adr/                    Architecture Decision Records (transform)
-│   ├── transform-adr.md         Class dispatch and WEMI alignment decisions
-│   ├── transform-props-mapping-adr.md   Property mapping decisions
-│   └── transform-script-adr.md  Transform implementation decisions
+├── config/transform/            Lookup tables consumed by the transform
 ├── scripts/
-│   ├── README.md                Transform → N-Quads → QLever workflow
-│   ├── transform/               EDM → mocho transform package
-│   └── config/                  Lookup tables consumed by transform
+│   ├── README.md                Both pipelines, script by script
+│   ├── transform/               EDM → mocho transform package, drivers, config generators
+│   ├── py/                      GND Werk linking: steps 0 to 2 and evaluation
+│   ├── werk-linking/            GND Werk links and their provenance as RDF; QLever loader
+│   ├── sh/                      Local GND SPARQL server
+│   └── tests/                   Tests of scripts/py/
 ├── goethe-faust/                Goethe-Faust reference corpus
 │   ├── config.env.example       Settings template for the Goethe-Faust compose files
 │   ├── docker-compose.qlever.yml    QLever + SHMARQL for the Goethe-Faust corpus
@@ -153,7 +166,9 @@ gemea/
 │   ├── scripts/                 Data acquisition + corpus analysis scripts
 │   ├── output/                  Corpus analysis outputs (CSVs, PNGs, JSONs)
 │   └── data/                    Corpus sample (IDs + 1K-record excerpt)
-├── requirements.txt             Python dependencies for the scripts
+├── requirements.txt             Python dependencies for the config generators and Goethe-Faust scripts
+├── requirements-transform.txt   Transform runtime
+├── requirements-linking.txt     GND Werk linking (Flair, torch)
 ├── CITATION.cff
 ├── LICENSE                      MIT (code)
 └── LICENSE-DATA                 CC BY 4.0 (data)

@@ -1,4 +1,29 @@
 {
+    "_doc": {
+        "purpose": "dc:type → audio group dispatch table for mt001 (Audio) ProvidedCHOs. Consumed by scripts/transform (load_audio_type2class, D16).",
+        "groups": {
+            "A": {
+                "label": "Musical carriers",
+                "criteria": "dc:type unambiguously names a musical carrier format (e.g. Schallplatte, CD, Langspielplatte)",
+                "class_M": "mo:MusicalManifestation",
+                "class_W": "mo:MusicalWork (reserved — not emitted by current transform; deferred to Work-entity generation phase)"
+            },
+            "B": {
+                "label": "Produced audio",
+                "criteria": "dc:type names an authored non-musical audio document (broadcasts, lectures, audio books, stage recordings)",
+                "class_M": "aco:AudioManifestation",
+                "class_E": "aco:AudioExpression (deferred — not emitted by current transform)"
+            },
+            "C": {
+                "label": "Generic / speech",
+                "criteria": "dc:type is generic or names spoken-word content with no anticipated expression-level class",
+                "class_M": "aco:AudioManifestation"
+            }
+        },
+        "sector_field": "sparte code (e.g. sparte004) narrows applicability to one sector; null/absent = any sector",
+        "default_entry": "Fallback group C for any dc:type not matched by a specific entry",
+        "source": "D16"
+    },
     "Muster": {
         "remarks": "This portion is not read",
         "topic": "list of topics to differentiate between musical and non-musical content",

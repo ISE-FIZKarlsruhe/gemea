@@ -1,0 +1,13 @@
+# Requirements for GND Werk linking: scripts/py/ (steps 0 to 2, evaluation) and scripts/werk-linking/.
+# flair and torch are the versions of the published linking run (2026-11-10, Python 3.12, CUDA 11.8).
+# Install: pip install -r requirements-linking.txt
+#   For CUDA 11.8 as in that run, add: --extra-index-url https://download.pytorch.org/whl/cu118
+# link_gnd_bikidata.py (the alternative linker) also needs bikidata >= 0.5.
+# The tests of scripts/werk-linking/ use rdflib when installed (requirements.txt).
+ijson==3.5.0
+openpyxl==3.1.5
+pandas
+pyarrow==21.0.0
+rapidfuzz>=3
+flair==0.15.1
+torch==2.7.1

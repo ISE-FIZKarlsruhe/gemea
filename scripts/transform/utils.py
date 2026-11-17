@@ -66,14 +66,14 @@ def mint_bare_id(entity_class: str, raw_id: str) -> str:
     """Expand a bare 32-char ID to a full URI (D27).
 
     ProvidedCHO bare IDs → DDB item URI.
-    All other entity types → urn:ddbedm:<ClassName>:<id>.
+    All other entity types → urn:ddbedm:<id>.
     Full URIs and URNs are returned unchanged.
     """
     if raw_id.startswith(("http", "urn")):
         return raw_id
     if entity_class == "ProvidedCHO":
         return DDB_ITEM_BASE + raw_id
-    return f"urn:ddbedm:{entity_class}:{raw_id}"
+    return f"urn:ddbedm:{raw_id}"
 
 
 def _escape_literal(s: str) -> str:

@@ -47,7 +47,7 @@
 <http://www.deutsche-digitale-bibliothek.de/item/223GMAWUHPGI76OQUKSL54XVOCHHXDWD> <http://www.w3.org/ns/prov#wasAttributedTo> <urn:ddbedm:properties:mapping-version:6.18> <https://gemea.ise.fiz-karlsruhe.de/graph/prov> .
 <http://www.deutsche-digitale-bibliothek.de/item/223GMAWUHPGI76OQUKSL54XVOCHHXDWD> <http://www.w3.org/ns/prov#generatedAtTime> "2026-02-12T09:45:54+0100"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://gemea.ise.fiz-karlsruhe.de/graph/prov> .
 <http://www.deutsche-digitale-bibliothek.de/item/223GMAWUHPGI76OQUKSL54XVOCHHXDWD> <http://purl.org/dc/terms/hasVersion> "63" <https://gemea.ise.fiz-karlsruhe.de/graph/prov> .
-<http://www.deutsche-digitale-bibliothek.de/item/223GMAWUHPGI76OQUKSL54XVOCHHXDWD> <http://purl.org/dc/terms/references> "ddb:PAYZNSUS5FONPEPQA7BGHXQABJQ5ORWJ" <https://gemea.ise.fiz-karlsruhe.de/graph/prov> .
+<http://www.deutsche-digitale-bibliothek.de/item/223GMAWUHPGI76OQUKSL54XVOCHHXDWD> <http://purl.org/dc/terms/references> <http://www.deutsche-digitale-bibliothek.de/item/PAYZNSUS5FONPEPQA7BGHXQABJQ5ORWJ> <https://gemea.ise.fiz-karlsruhe.de/graph/prov> .
 <urn:ddbedm:properties:dataset-id:1296799422070261UOgo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> <https://gemea.ise.fiz-karlsruhe.de/graph/prov> .
 <urn:ddbedm:properties:dataset-id:1296799422070261UOgo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> <https://gemea.ise.fiz-karlsruhe.de/graph/prov> .
 <urn:ddbedm:properties:dataset-id:1296799422070261UOgo> <http://purl.org/dc/terms/identifier> "1296799422070261UOgo" <https://gemea.ise.fiz-karlsruhe.de/graph/prov> .

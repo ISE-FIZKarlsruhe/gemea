@@ -2,7 +2,7 @@
 Purpose:    Unit tests for the transform package.
 Usage:      pytest scripts/transform/tests/ -q
 Deps:       pytest
-Assumes:    Run from project root (goethe-faust/).
+Assumes:    Run from the gemea project root.
 """
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ import pytest
 # ── Package import ────────────────────────────────────────────────────────────
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # adds scripts/ to sys.path
 
-from transform.constants import GRAPH_MOCHO, MOCHO_NS, PROJECT_DIR
+from transform.constants import CONFIG_DIR, GRAPH_MOCHO, GRAPH_PROV, MOCHO_NS
 from transform.utils import (
     coerce_list,
     make_nq,
@@ -41,15 +41,16 @@ from transform.emitters import (
     werk_staging_row,
     emit_ddbedm_triples,
     emit_mocho_triples,
+    emit_prov_triples,
 )
 from transform.constants import (
-    _MOCHO_SKIP, DDB_HIERARCHY_TYPE, _HTYPE_PREFIX, EDM_HAS_TYPE, EDM_NS,
+    _MOCHO_SKIP, DDB_HIERARCHY_TYPE, _HTYPE_PREFIX, EDM_HAS_TYPE, EDM_NS, DDB_BASE,
 )
 from transform.transform import transform_record
-from transform.loaders import load_mediatype_class, load_htype_map
+from transform.loaders import load_mediatype_class, load_htype_map, load_audio_type2class
 
 # Config table paths
-_CONFIG = PROJECT_DIR / "output" / "config"
+_CONFIG = CONFIG_DIR
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -109,14 +110,14 @@ class TestMintBareId:
 
     def test_other_entity_bare_id(self):
         result = mint_bare_id("Agent", self._id)
-        assert result == f"urn:ddbedm:Agent:{self._id}"
+        assert result == f"urn:ddbedm:{self._id}"
 
     def test_full_uri_passthrough(self):
         uri = "http://d-nb.info/gnd/1234567"
         assert mint_bare_id("Agent", uri) == uri
 
     def test_urn_passthrough(self):
-        urn = "urn:ddbedm:Agent:12345"
+        urn = "urn:ddbedm:12345"
         assert mint_bare_id("Agent", urn) == urn
 
 
@@ -213,13 +214,66 @@ class TestRetypeEntities:
         assert wemi == "M"
 
     def test_sparte001_mt003_htype021(self, configs):
-        """sparte001/mt003 use_htype=True; htype_021 → rdac:C10001+C10007 from htype, mocho:Manifestation added."""
+        """sparte001/mt003 use_htype=True; htype_021 → rdac:C10007 from htype (no rdac:C10001, D30), mocho:Manifestation added."""
         lines, target_class, wemi, _flags = self._call(_SPARTE001, _MT003, "htype_021", configs)
         types = _rdf_types(lines)
-        assert "http://rdaregistry.info/Elements/c/C10001" in types
+        assert "http://rdaregistry.info/Elements/c/C10001" not in types
+        assert "http://rdaregistry.info/Elements/c/C10007" in types
         assert "https://ise-fizkarlsruhe.github.io/ddbkg/mocho#Manifestation" in types
-        assert wemi == "W"
+        assert wemi == "M"
         assert any(DDB_HIERARCHY_TYPE in l and f"{_HTYPE_PREFIX}ht021" in l for l in lines)
+
+    # ── D30: library CHOs are Manifestations only; Work via Werk linking ──────
+
+    _C10001 = "http://rdaregistry.info/Elements/c/C10001"
+    _C10007 = "http://rdaregistry.info/Elements/c/C10007"
+
+    @pytest.mark.parametrize("htype", ["htype_007", "htype_020", "htype_021"])
+    def test_library_text_band_monograph_multivolume_are_manifestation_only(self, configs, htype):
+        lines, _, wemi, flags = self._call(_SPARTE002, _MT003, htype, configs)
+
+        types = _rdf_types(lines)
+        assert self._C10007 in types
+        assert self._C10001 not in types
+        assert wemi == "M"
+        assert flags["htype_used"] and not flags["fallback"]
+
+    def test_library_text_band_keeps_doco_part(self, configs):
+        lines, *_ = self._call(_SPARTE002, _MT003, "htype_007", configs)
+
+        assert "http://purl.org/spar/doco/Part" in _rdf_types(lines)
+
+    def test_library_text_without_htype_is_rdac_manifestation_not_d9(self, configs):
+        lines, _, _, flags = self._call(_SPARTE002, _MT003, None, configs)
+
+        assert _rdf_types(lines) == {self._C10007}
+        assert not flags["fallback"]
+
+    def test_no_rdf_type_triple_emitted_twice(self, configs):
+        lines, *_ = self._call(_SPARTE002, _MT003, "htype_021", configs)
+
+        type_lines = [l for l in lines if "rdf-syntax-ns#type>" in l]
+        assert len(type_lines) == len(set(type_lines))
+
+    def test_music_htype_keeps_domain_work_class(self, configs):
+        lines, *_ = self._call(_SPARTE002, _MT003, "htype_022", configs)
+
+        types = _rdf_types(lines)
+        assert "http://purl.org/ontology/mo/MusicalWork" in types
+        assert self._C10001 not in types
+
+    @pytest.mark.parametrize("sector, htype", [(_SPARTE002, "htype_007"), (_SPARTE002, "htype_018"), (_SPARTE001, "htype_026")])
+    def test_wemi_class_not_doco_drives_alignment(self, configs, sector, htype):
+        """doco:Part / Chapter / TextChunk stay as types; rdac:C10007 is the primary class (D30)."""
+        _, target_class, wemi, _ = self._call(sector, _MT003, htype, configs)
+
+        assert target_class == self._C10007
+        assert wemi == "M"
+
+    def test_illustration_keeps_image_work(self, configs):
+        lines, *_ = self._call(_SPARTE002, _MT003, "htype_015", configs)
+
+        assert "https://ise-fizkarlsruhe.github.io/ddbkg/mocho#ImageWork" in _rdf_types(lines)
 
     def test_htype_emitted_as_iri(self, configs):
         """htype_code emits vocnet IRI in ht-prefix form (ht042, not htype_042)."""
@@ -267,6 +321,51 @@ class TestRetypeEntities:
                 obj_token = l.split()[2]  # "<http://...>" — whitespace-split is safe for IRI objects
                 assert " " not in obj_token
 
+    def test_mt001_group_a_emits_musical_work_and_manifestation(self, configs):
+        """mt001 + group A dc:type (Schallplatte) → mo:MusicalWork (W) + mo:MusicalManifestation (M); target_class = MusicalWork → triggers werk_staging."""
+        mc_map, ht_map = configs
+        _SPARTE005 = "http://ddb.vocnet.org/sparte/sparte005"
+        audio_map  = load_audio_type2class(_CONFIG / "audio_type2class.json")
+        dctype_vals = [{"$": "Schallplatte"}]
+        lines, target_class, wemi, _ = retype_entities(
+            _SPARTE005, _MT001, None, dctype_vals,
+            self._cho_nt, mc_map, ht_map, audio_map, GRAPH_MOCHO,
+        )
+        types = _rdf_types(lines)
+        assert "http://purl.org/ontology/mo/MusicalWork" in types
+        assert "http://purl.org/ontology/mo/MusicalManifestation" in types
+        assert "https://w3id.org/ac-ontology/aco#AudioManifestation" not in types
+        assert target_class == "http://purl.org/ontology/mo/MusicalWork"
+        assert wemi == "W"
+
+    def test_mt001_group_b_dctype_keeps_aco(self, configs):
+        """mt001 + group B dc:type (Hörfunksendung) → aco:AudioManifestation unchanged (B1)."""
+        mc_map, ht_map = configs
+        _SPARTE005 = "http://ddb.vocnet.org/sparte/sparte005"
+        audio_map  = load_audio_type2class(_CONFIG / "audio_type2class.json")
+        dctype_vals = [{"$": "Hörfunksendung"}]
+        lines, _, _, _ = retype_entities(
+            _SPARTE005, _MT001, None, dctype_vals,
+            self._cho_nt, mc_map, ht_map, audio_map, GRAPH_MOCHO,
+        )
+        types = _rdf_types(lines)
+        assert "https://w3id.org/ac-ontology/aco#AudioManifestation" in types
+        assert "http://purl.org/ontology/mo/MusicalManifestation" not in types
+
+    def test_mt001_sector_specific_entry_matched(self, configs):
+        """Sector-specific entry (Magnettonband × sparte004) resolves correctly (B1)."""
+        mc_map, ht_map = configs
+        _SPARTE004 = "http://ddb.vocnet.org/sparte/sparte004"
+        audio_map  = load_audio_type2class(_CONFIG / "audio_type2class.json")
+        dctype_vals = [{"$": "Magnettonband"}]
+        lines, _, _, _ = retype_entities(
+            _SPARTE004, _MT001, None, dctype_vals,
+            self._cho_nt, mc_map, ht_map, audio_map, GRAPH_MOCHO,
+        )
+        types = _rdf_types(lines)
+        assert "https://w3id.org/ac-ontology/aco#AudioManifestation" in types
+        assert "http://purl.org/ontology/mo/MusicalManifestation" not in types
+
     def test_multi_htype_dispatch_uses_first(self, configs):
         """Dispatch resolves class from the first htype only; second code is ignored for typing."""
         # htype_007 → doco:Part + rdac:C10007; htype_020 → rdac:C10007 only
@@ -274,6 +373,38 @@ class TestRetypeEntities:
         lines, _, _, flags = self._call(_SPARTE001, _MT003, "htype_007 htype_020", configs)
         assert flags["htype_used"] is True
         assert flags["fallback"] is False
+
+
+class TestLoadAudioType2Class:
+    """Loader correctness tests (B1 fix)."""
+
+    def test_non_empty(self):
+        """Loader returns a non-empty dict for the real config file."""
+        result = load_audio_type2class(_CONFIG / "audio_type2class.json")
+        assert len(result) > 0
+
+    def test_sector_agnostic_group_a(self):
+        """Sector-agnostic Group A entry keyed as ('', dc_type)."""
+        result = load_audio_type2class(_CONFIG / "audio_type2class.json")
+        assert result[("", "Schallplatte")] == "A"
+        assert result[("", "CD")] == "A"
+        assert result[("", "Langspielplatte")] == "A"
+
+    def test_sector_agnostic_group_b(self):
+        """Sector-agnostic Group B entry keyed as ('', dc_type)."""
+        result = load_audio_type2class(_CONFIG / "audio_type2class.json")
+        assert result[("", "Hörfunksendung")] == "B"
+
+    def test_sector_specific_full_iri(self):
+        """Sector-specific entry uses full IRI as sector key."""
+        result = load_audio_type2class(_CONFIG / "audio_type2class.json")
+        key = ("http://ddb.vocnet.org/sparte/sparte004", "Magnettonband")
+        assert result[key] == "B"
+
+    def test_skips_doc_and_muster(self):
+        """_doc and Muster meta-entries are not loaded as dc:type entries."""
+        result = load_audio_type2class(_CONFIG / "audio_type2class.json")
+        assert not any(k[1] in {"_doc", "Muster"} for k in result)
 
 
 # ── emit_creator_triples ──────────────────────────────────────────────────────
@@ -421,27 +552,53 @@ class TestEmitPlaceStubs:
 # ── werk_staging_row ──────────────────────────────────────────────────────────
 
 class TestWerkStagingRow:
+    """Staging follows the Werk-linking type groups (D30)."""
     _cho_uri = "https://gemea.ise.fiz-karlsruhe.de/mocho/" + "G" * 32
-    _rdac_c10001 = "http://rdaregistry.info/Elements/c/C10001"
     _rdac_c10007 = "http://rdaregistry.info/Elements/c/C10007"
 
-    def test_w_slot_returns_row(self):
-        cho = {"title": {"$": "Faust", "lang": "de"},
-               "creator": [{"resource": "http://d-nb.info/gnd/118540238", "$": "Goethe"}]}
-        row = werk_staging_row(self._cho_uri, cho, self._rdac_c10001)
+    def _row(self, htype=None, dc_types=(), **extra):
+        cho = dict(extra)
+        if htype is not None:
+            cho["hierarchyType"] = htype
+        if dc_types:
+            cho["dcType"] = [{"$": t} for t in dc_types]
+        return werk_staging_row(self._cho_uri, cho, self._rdac_c10007)
+
+    def test_monograph_is_staged_in_work_group(self):
+        row = self._row("htype_021", title={"$": "Faust", "lang": "de"},
+                        creator=[{"resource": "http://d-nb.info/gnd/118540238", "$": "Goethe"}])
+
         assert row is not None
+        assert row["type_group"] == "work"
+        assert row["gnd_classes"] == ["Work"]
         assert row["dc_title"] == "Faust"
         assert "http://d-nb.info/gnd/118540238" in row["creator_uris"]
+        assert row["target_class"] == self._rdac_c10007
 
-    def test_m_slot_returns_none(self):
-        cho = {"title": {"$": "Faust"}}
-        row = werk_staging_row(self._cho_uri, cho, self._rdac_c10007)
-        assert row is None
+    def test_band_is_staged_like_monograph(self):
+        assert self._row("htype_007")["type_group"] == "work"
+
+    def test_multivolume_has_its_own_group(self):
+        row = self._row("htype_020")
+
+        assert row["type_group"] == "multivolume"
+        assert row["gnd_classes"] == ["Work", "Collection"]
+
+    def test_music_dc_type_stages_without_htype(self):
+        assert self._row(None, ["Noten"])["type_group"] == "music"
+
+    def test_not_linked_htype_is_not_staged(self):
+        assert self._row("htype_006") is None
+
+    def test_not_linked_htype_wins_over_music_dc_type(self):
+        """As in the linker: the not_linked htypes are checked before dc:type."""
+        assert self._row("htype_008", ["Noten"]) is None
+
+    def test_no_htype_and_no_typed_dc_type_is_ignored(self):
+        assert self._row(None, ["Text"]) is None
 
     def test_obj_id_extracted(self):
-        cho = {}
-        row = werk_staging_row(self._cho_uri, cho, self._rdac_c10001)
-        assert row["ddb_obj_id"] == "G" * 32
+        assert self._row("htype_021")["ddb_obj_id"] == "G" * 32
 
 
 # ── make_nq ───────────────────────────────────────────────────────────────────
@@ -468,11 +625,11 @@ class TestBuildBareIdIndex:
     def test_bare_concept_indexed(self):
         idx = build_bare_id_index(self._rdf())
         assert _BARE_CONCEPT in idx
-        assert idx[_BARE_CONCEPT] == f"urn:ddbedm:Concept:{_BARE_CONCEPT}"
+        assert idx[_BARE_CONCEPT] == f"urn:ddbedm:{_BARE_CONCEPT}"
 
     def test_bare_place_indexed(self):
         idx = build_bare_id_index(self._rdf())
-        assert idx[_BARE_PLACE] == f"urn:ddbedm:Place:{_BARE_PLACE}"
+        assert idx[_BARE_PLACE] == f"urn:ddbedm:{_BARE_PLACE}"
 
     def test_full_uri_not_indexed(self):
         idx = build_bare_id_index(self._rdf())
@@ -483,19 +640,19 @@ class TestBuildBareIdIndex:
 
 
 class TestExpandObjNt:
-    _idx = {_BARE_CONCEPT: f"urn:ddbedm:Concept:{_BARE_CONCEPT}"}
+    _idx = {_BARE_CONCEPT: f"urn:ddbedm:{_BARE_CONCEPT}"}
 
     def test_bare_id_resolved(self):
         result = expand_obj_nt(f"<{_BARE_CONCEPT}>", self._idx)
-        assert result == f"<urn:ddbedm:Concept:{_BARE_CONCEPT}>"
+        assert result == f"<urn:ddbedm:{_BARE_CONCEPT}>"
 
     def test_full_uri_unchanged(self):
         result = expand_obj_nt("<http://example.org/foo>", self._idx)
         assert result == "<http://example.org/foo>"
 
     def test_urn_unchanged(self):
-        result = expand_obj_nt("<urn:ddbedm:Concept:XXXX>", self._idx)
-        assert result == "<urn:ddbedm:Concept:XXXX>"
+        result = expand_obj_nt("<urn:ddbedm:XXXX>", self._idx)
+        assert result == "<urn:ddbedm:XXXX>"
 
     def test_literal_unchanged(self):
         result = expand_obj_nt('"hello"@de', self._idx)
@@ -530,7 +687,7 @@ class TestEmitDdbedmBareIds:
             (l for l in lines if "terms/subject" in l), None
         )
         assert subj_line is not None, "dcterms:subject triple not emitted"
-        assert f"urn:ddbedm:Concept:{_BARE_CONC}" in subj_line, (
+        assert f"urn:ddbedm:{_BARE_CONC}" in subj_line, (
             f"bare ID not expanded; got: {subj_line}"
         )
 
@@ -558,16 +715,16 @@ class TestEmitSubjectTriplesBareId:
     _bare   = "Q" * 32
 
     def test_bare_id_expanded_via_index(self):
-        bare_id_to_uri = {self._bare: f"urn:ddbedm:Concept:{self._bare}"}
+        bare_id_to_uri = {self._bare: f"urn:ddbedm:{self._bare}"}
         vals = [{"resource": self._bare, "$": "", "lang": ""}]
         lines = emit_subject_triples(self._cho_nt, vals, {}, GRAPH_MOCHO, bare_id_to_uri)
-        assert any(f"urn:ddbedm:Concept:{self._bare}" in l for l in lines)
+        assert any(f"urn:ddbedm:{self._bare}" in l for l in lines)
 
     def test_bare_id_fallback_concept_mint(self):
         """No index entry → mint as Concept URN as fallback."""
         vals = [{"resource": self._bare, "$": "", "lang": ""}]
         lines = emit_subject_triples(self._cho_nt, vals, {}, GRAPH_MOCHO, {})
-        assert any(f"urn:ddbedm:Concept:{self._bare}" in l for l in lines)
+        assert any(f"urn:ddbedm:{self._bare}" in l for l in lines)
 
     def test_full_uri_unchanged(self):
         uri = "http://d-nb.info/gnd/4018197-4"
@@ -576,7 +733,7 @@ class TestEmitSubjectTriplesBareId:
         assert any(uri in l for l in lines)
 
     def test_label_stub_uses_expanded_uri(self):
-        bare_id_to_uri = {self._bare: f"urn:ddbedm:Concept:{self._bare}"}
+        bare_id_to_uri = {self._bare: f"urn:ddbedm:{self._bare}"}
         concept = {"about": self._bare, "prefLabel": [{"$": "Faust", "lang": "de"}]}
         vals = [{"resource": self._bare, "$": "", "lang": ""}]
         lines = emit_subject_triples(
@@ -584,7 +741,7 @@ class TestEmitSubjectTriplesBareId:
         )
         label_line = next((l for l in lines if '"Faust"@de' in l), None)
         assert label_line is not None
-        assert f"urn:ddbedm:Concept:{self._bare}" in label_line
+        assert f"urn:ddbedm:{self._bare}" in label_line
 
 
 # ── _MOCHO_SKIP: hasMet excluded from mocho graph ────────────────────────────
@@ -607,15 +764,15 @@ class TestEmitHastypeTriples:
         assert any(EDM_HAS_TYPE in l and uri in l for l in lines)
 
     def test_bare_id_expanded_via_index(self):
-        bare_id_to_uri = {_BARE_HT: f"urn:ddbedm:Concept:{_BARE_HT}"}
+        bare_id_to_uri = {_BARE_HT: f"urn:ddbedm:{_BARE_HT}"}
         vals = [{"resource": _BARE_HT}]
         lines = emit_hastype_triples(self._cho_nt, vals, {}, GRAPH_MOCHO, bare_id_to_uri)
-        assert any(f"urn:ddbedm:Concept:{_BARE_HT}" in l for l in lines)
+        assert any(f"urn:ddbedm:{_BARE_HT}" in l for l in lines)
 
     def test_bare_id_fallback_concept_mint(self):
         vals = [{"resource": _BARE_HT}]
         lines = emit_hastype_triples(self._cho_nt, vals, {}, GRAPH_MOCHO, {})
-        assert any(f"urn:ddbedm:Concept:{_BARE_HT}" in l for l in lines)
+        assert any(f"urn:ddbedm:{_BARE_HT}" in l for l in lines)
 
     def test_label_stub_from_concept(self):
         uri = "http://ddb.vocnet.org/thema/th001"
@@ -687,19 +844,19 @@ class TestResourceUris:
 
     def test_bare_id_index_lookup(self):
         bare = "A" * 32
-        index = {bare: f"urn:ddbedm:Concept:{bare}"}
+        index = {bare: f"urn:ddbedm:{bare}"}
         result = resource_uris(bare, index, "Concept")
-        assert result == [f"urn:ddbedm:Concept:{bare}"]
+        assert result == [f"urn:ddbedm:{bare}"]
 
     def test_bare_id_fallback_mint(self):
         bare = "B" * 32
         result = resource_uris(bare, {}, "Concept")
-        assert result == [f"urn:ddbedm:Concept:{bare}"]
+        assert result == [f"urn:ddbedm:{bare}"]
 
     def test_entity_class_forwarded(self):
         bare = "C" * 32
         result = resource_uris(bare, {}, "Place")
-        assert result == [f"urn:ddbedm:Place:{bare}"]
+        assert result == [f"urn:ddbedm:{bare}"]
 
     def test_unsafe_chars_sanitized(self):
         uri = "http://example.org/item<foo>"
@@ -771,13 +928,13 @@ class TestEmitCreatorTriplesBareId:
     _bare = "D" * 32
 
     def test_bare_id_expanded_via_param(self):
-        index = {self._bare: f"urn:ddbedm:Agent:{self._bare}"}
+        index = {self._bare: f"urn:ddbedm:{self._bare}"}
         align = {("http://www.w3.org/2002/07/owl#Thing",
                   "http://purl.org/dc/elements/1.1/creator"): "http://example.org/prop"}
         vals = [{"resource": self._bare}]
         lines = emit_creator_triples(_CREATOR_CHO, vals, {}, "http://www.w3.org/2002/07/owl#Thing",
                                      align, _CREATOR_G, index)
-        assert any(f"urn:ddbedm:Agent:{self._bare}" in l for l in lines)
+        assert any(f"urn:ddbedm:{self._bare}" in l for l in lines)
 
     def test_agent_uri_sanitized(self):
         unsafe_uri = "http://d-nb.info/gnd/118 540238"  # space in URI
@@ -811,10 +968,10 @@ class TestEmitContributorTriplesBareId:
     _bare = "E" * 32
 
     def test_bare_id_expanded_via_param(self):
-        index = {self._bare: f"urn:ddbedm:Agent:{self._bare}"}
+        index = {self._bare: f"urn:ddbedm:{self._bare}"}
         vals = [{"resource": self._bare}]
         lines = emit_contributor_triples(_CONTRIB_CHO, vals, {}, {}, "", "M", GRAPH_MOCHO, index)
-        assert any(f"urn:ddbedm:Agent:{self._bare}" in l for l in lines)
+        assert any(f"urn:ddbedm:{self._bare}" in l for l in lines)
 
 
 # ── emit_creator_triples — prefLabel list (Bug 1 fix) ────────────────────────
@@ -1020,16 +1177,16 @@ class TestEmitCurrentLocationTriples:
 
     def test_bare_id_expanded(self):
         bare = "F" * 32
-        index = {bare: f"urn:ddbedm:Place:{bare}"}
+        index = {bare: f"urn:ddbedm:{bare}"}
         vals = [{"resource": bare}]
         lines = emit_current_location_triples(_CURLOC_CHO, vals, {}, GRAPH_MOCHO, index)
-        assert any(f"urn:ddbedm:Place:{bare}" in l for l in lines)
+        assert any(f"urn:ddbedm:{bare}" in l for l in lines)
 
 
 # ── TestFixtures — integration tests on real corpus records ───────────────────
 
 _FIXTURES = Path(__file__).parent / "fixtures"
-_CONFIG   = PROJECT_DIR / "output" / "config"
+_CONFIG   = CONFIG_DIR
 
 
 def _fixture_configs():
@@ -1082,7 +1239,7 @@ class TestFixtures:
         bare = "DJVX2BT7X2HN24O6YRDOQM6T3CNZYYY6"
         lines = _run_fixture("bare_id")
         assert not any(f"<{bare}>" in l for l in lines), "Bare ID not expanded"
-        assert any(f"urn:ddbedm:Concept:{bare}" in l for l in lines), "Expanded URN missing"
+        assert any(f"urn:ddbedm:{bare}" in l for l in lines), "Expanded URN missing"
 
 
 # ── mocho:mediaType and mocho:sector as vocnet IRIs ───────────────────────────
@@ -1206,3 +1363,228 @@ class TestValueToNtObjLangNorm:
     def test_leading_trailing_whitespace_stripped(self):
         result = value_to_nt_obj({"$": "Faust", "lang": " ger "})
         assert result == ['"Faust"@ger']
+
+
+class TestEmitProvTriplesDedup:
+    _RECORD = {
+        "properties": {
+            "item-id":         "TESTITEMID00000000000000000000000",
+            "dataset-id":      "testdataset123",
+            "dataset-label":   "Test Dataset",
+            "revision-id":     "1",
+            "ingest-date":     "2026-01-01T00:00:00+0000",
+            "mapping-version": "6.18",
+        },
+        "provider-info": {
+            "provider-ddb-id": "PROVIDERID00000000000000000000000",
+            "provider-name":   "Test Provider",
+        },
+    }
+    _CHO_URI  = "http://www.deutsche-digitale-bibliothek.de/item/TESTITEMID00000000000000000000000"
+    _GRAPH    = "http://test.example/graph/prov"
+    _XSLT_URI = "urn:ddbedm:xslt:6.18"
+    _DS_URI   = "urn:ddbedm:dataset:testdataset123"
+    _PROV_URI = "urn:ddbedm:provider:PROVIDERID00000000000000000000000"
+
+    def _subjects(self, lines):
+        return [nq.split(" ", 1)[0] for nq in lines]
+
+    def test_emitted_none_emits_all(self):
+        lines = emit_prov_triples(self._RECORD, self._CHO_URI, self._GRAPH, emitted=None)
+        subjs = set(self._subjects(lines))
+        assert f"<{self._XSLT_URI}>" in subjs
+        assert f"<{DDB_BASE}>"       in subjs
+        assert f"<{self._DS_URI}>"   in subjs
+        assert f"<{self._PROV_URI}>" in subjs
+
+    def test_emitted_dict_populated(self):
+        emitted: dict[str, str] = {}
+        emit_prov_triples(self._RECORD, self._CHO_URI, self._GRAPH, emitted=emitted)
+        assert emitted.get(self._XSLT_URI) == "prov_xslt"
+        assert emitted.get(DDB_BASE)       == "prov_ddb"
+        assert emitted.get(self._DS_URI)   == "prov_dataset"
+        assert emitted.get(self._PROV_URI) == "prov_provider"
+
+    def test_xslt_skipped_when_emitted(self):
+        lines = emit_prov_triples(
+            self._RECORD, self._CHO_URI, self._GRAPH,
+            emitted={self._XSLT_URI: "prov_xslt"},
+        )
+        assert f"<{self._XSLT_URI}>" not in self._subjects(lines)
+
+    def test_ddb_agent_skipped_when_emitted(self):
+        lines = emit_prov_triples(
+            self._RECORD, self._CHO_URI, self._GRAPH,
+            emitted={DDB_BASE: "prov_ddb"},
+        )
+        assert f"<{DDB_BASE}>" not in self._subjects(lines)
+
+    def test_provider_skipped_when_emitted(self):
+        lines = emit_prov_triples(
+            self._RECORD, self._CHO_URI, self._GRAPH,
+            emitted={self._PROV_URI: "prov_provider"},
+        )
+        assert f"<{self._PROV_URI}>" not in self._subjects(lines)
+
+    def test_dataset_skipped_when_emitted(self):
+        lines = emit_prov_triples(
+            self._RECORD, self._CHO_URI, self._GRAPH,
+            emitted={self._DS_URI: "prov_dataset"},
+        )
+        assert f"<{self._DS_URI}>" not in self._subjects(lines)
+
+    def test_cho_linking_always_emitted(self):
+        emitted = {
+            self._XSLT_URI: "prov_xslt",
+            DDB_BASE:        "prov_ddb",
+            self._PROV_URI:  "prov_provider",
+            self._DS_URI:    "prov_dataset",
+        }
+        lines = emit_prov_triples(self._RECORD, self._CHO_URI, self._GRAPH, emitted=emitted)
+        cho_nt    = f"<{self._CHO_URI}>"
+        cho_lines = [nq for nq in lines if nq.startswith(cho_nt)]
+        predicates = {
+            nq.split("> <", 1)[1].split(">", 1)[0]
+            for nq in cho_lines if "> <" in nq
+        }
+        assert "http://www.w3.org/ns/prov#wasDerivedFrom"  in predicates
+        assert "http://www.w3.org/ns/prov#wasAttributedTo" in predicates
+        assert "http://www.w3.org/ns/prov#generatedAtTime" in predicates
+
+    # ── URN format tests ──────────────────────────────────────────────────────
+
+    def test_xslt_uri_short_prefix(self):
+        lines = emit_prov_triples(self._RECORD, self._CHO_URI, self._GRAPH)
+        assert any("urn:ddbedm:xslt:6.18" in nq for nq in lines)
+        assert not any("urn:ddbedm:properties:mapping-version" in nq for nq in lines)
+
+    def test_dataset_uri_short_prefix(self):
+        lines = emit_prov_triples(self._RECORD, self._CHO_URI, self._GRAPH)
+        assert any("urn:ddbedm:dataset:testdataset123" in nq for nq in lines)
+        assert not any("urn:ddbedm:properties:dataset-id" in nq for nq in lines)
+
+    def test_provider_uri_short_prefix(self):
+        lines = emit_prov_triples(self._RECORD, self._CHO_URI, self._GRAPH)
+        assert any("urn:ddbedm:provider:PROVIDERID00000000000000000000000" in nq for nq in lines)
+        assert not any("urn:ddbedm:provider-info:provider-ddb-id" in nq for nq in lines)
+
+    def test_prov_uris_no_collision_with_entity_bare_id(self):
+        # DDB bare IDs are 32-char alphanumeric — prov URNs use typed prefixes with colons
+        # so urn:ddbedm:provider:X and urn:ddbedm:X are distinct
+        lines = emit_prov_triples(self._RECORD, self._CHO_URI, self._GRAPH)
+        prov_subjects = {nq.split(" ", 1)[0] for nq in lines
+                         if nq.startswith("<urn:ddbedm:")}
+        for s in prov_subjects:
+            # every prov URN must carry a type segment (provider:, dataset:, xslt:)
+            inner = s[len("<urn:ddbedm:"):-1]
+            assert ":" in inner, f"prov URN missing type prefix: {s}"
+
+
+class TestEmitDdbedmTriplesDedup:
+    _GRAPH = "http://test.example/graph/ddbedm"
+
+    def _rdf_with(self, entity_type: str, about: str) -> dict:
+        return {entity_type: {"about": about, "prefLabel": [{"$": "Test Label", "lang": "de"}]}}
+
+    def test_agent_skipped_when_emitted(self):
+        uri     = "http://d-nb.info/gnd/118540238"
+        lines, *_ = emit_ddbedm_triples(
+            self._rdf_with("Agent", uri), self._GRAPH,
+            emitted={uri: "edm_agent"},
+        )
+        assert not any(f"<{uri}>" in nq for nq in lines)
+
+    def test_place_skipped_when_emitted(self):
+        uri     = "http://d-nb.info/gnd/4044283-4"
+        lines, *_ = emit_ddbedm_triples(
+            self._rdf_with("Place", uri), self._GRAPH,
+            emitted={uri: "edm_place"},
+        )
+        assert not any(f"<{uri}>" in nq for nq in lines)
+
+    def test_concept_skipped_when_emitted(self):
+        uri     = "http://d-nb.info/gnd/4020531-9"
+        lines, *_ = emit_ddbedm_triples(
+            self._rdf_with("Concept", uri), self._GRAPH,
+            emitted={uri: "skos_concept"},
+        )
+        assert not any(f"<{uri}>" in nq for nq in lines)
+
+    def test_timespan_skipped_when_emitted(self):
+        uri     = "http://d-nb.info/gnd/4806547-9"
+        lines, *_ = emit_ddbedm_triples(
+            self._rdf_with("TimeSpan", uri), self._GRAPH,
+            emitted={uri: "edm_timespan"},
+        )
+        assert not any(f"<{uri}>" in nq for nq in lines)
+
+    def test_provided_cho_never_skipped(self):
+        cho_uri = "http://www.deutsche-digitale-bibliothek.de/item/ABCABC"
+        lines, *_ = emit_ddbedm_triples(
+            {"ProvidedCHO": {"about": cho_uri}}, self._GRAPH,
+            emitted={cho_uri: "edm_agent"},  # present in dict but not a dedup type
+        )
+        assert any(f"<{cho_uri}>" in nq for nq in lines)
+
+    def test_emitted_none_emits_all(self):
+        uri     = "http://d-nb.info/gnd/118540238"
+        lines, *_ = emit_ddbedm_triples(
+            self._rdf_with("Agent", uri), self._GRAPH, emitted=None,
+        )
+        assert any(f"<{uri}>" in nq for nq in lines)
+
+    def test_second_record_shares_agent(self):
+        uri     = "http://d-nb.info/gnd/118540238"
+        emitted: dict[str, str] = {}
+        rdf = self._rdf_with("Agent", uri)
+        lines1, *_ = emit_ddbedm_triples(rdf, self._GRAPH, emitted=emitted)
+        lines2, *_ = emit_ddbedm_triples(rdf, self._GRAPH, emitted=emitted)
+        assert len([nq for nq in lines1 if f"<{uri}>" in nq]) > 0
+        assert len([nq for nq in lines2 if f"<{uri}>" in nq]) == 0
+
+    def test_emitted_dict_populated_with_type(self):
+        uri     = "http://d-nb.info/gnd/118540238"
+        emitted: dict[str, str] = {}
+        emit_ddbedm_triples(self._rdf_with("Agent", uri), self._GRAPH, emitted=emitted)
+        assert emitted.get(uri) == "edm_agent"
+
+
+# ── emit_prov_triples — dcterms:references as DDB item IRI (alignment Decision 6) ──
+
+class TestEmitProvReferences:
+    _ITEM  = "TESTITEMID00000000000000000000000"
+    _OTHER = "OTHERITEM000000000000000000000000"
+    _CHO   = f"http://www.deutsche-digitale-bibliothek.de/item/{_ITEM}"
+    _REF_P = "<http://purl.org/dc/terms/references>"
+
+    def _record(self, ref):
+        rec = {"properties": {"item-id": self._ITEM}}
+        if ref is not None:
+            rec["source"] = {"description": {"record": {"ref": ref, "href": f"/items/{ref}/source/record"}}}
+        return rec
+
+    def _references(self, lines):
+        return [nq for nq in lines if f" {self._REF_P} " in nq]
+
+    def test_other_item_ref_is_ddb_item_iri(self):
+        lines = emit_prov_triples(self._record(self._OTHER), self._CHO, GRAPH_PROV)
+
+        refs = self._references(lines)
+        assert len(refs) == 1
+        assert f"{self._REF_P} <http://www.deutsche-digitale-bibliothek.de/item/{self._OTHER}> " in refs[0]
+
+    def test_self_reference_is_kept(self):
+        lines = emit_prov_triples(self._record(self._ITEM), self._CHO, GRAPH_PROV)
+
+        refs = self._references(lines)
+        assert refs == [f"<{self._CHO}> {self._REF_P} <{self._CHO}> <{GRAPH_PROV}> ."]
+
+    def test_no_source_ref_emits_no_references(self):
+        lines = emit_prov_triples(self._record(None), self._CHO, GRAPH_PROV)
+
+        assert self._references(lines) == []
+
+    def test_old_ddb_literal_is_gone(self):
+        lines = emit_prov_triples(self._record(self._OTHER), self._CHO, GRAPH_PROV)
+
+        assert not any('"ddb:' in nq for nq in lines)
