@@ -6,12 +6,12 @@
 #
 # Setup (one-time):
 #   1. Install Ollama: https://ollama.com/download
-#   2. Pull model: ollama pull gemma3:1b
+#   2. Pull model: ollama pull gemma4:e4b
 #   3. Start stack: docker compose -f docker-compose.openwebui.yml up -d
 #   4. Open http://localhost:3000 and create an admin account
 #   5. Go to Admin → Settings → Tools
-#      Add tool server URL: http://SERVER_B:8001
-#      (replace SERVER_B with the hostname or IP of the QLever server)
+#      Add tool server URL: http://host.docker.internal:2344
+#      (MCPO; see README §Self-hosting, Option B, step 2)
 #
 # OpenWebUI: http://localhost:3000
 # Ollama API: http://localhost:11434 (native, not in this compose)

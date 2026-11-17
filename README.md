@@ -147,34 +147,41 @@ gemea/
 
 ## Self-hosting
 
-The SPARQL endpoint is available at `https://gemea.ise.fiz-karlsruhe.de/shmarql/` — no setup required to query it. For the LLM client, choose between a commercial option (Claude) or a fully open-source option (Ollama + OpenWebUI).
+The SPARQL endpoint is available at `https://gemea.ise.fiz-karlsruhe.de/sparql` — no setup required to query it. The Linked Data browser is at `https://gemea.ise.fiz-karlsruhe.de/shmarql/`. For the LLM client, choose between a commercial option (Claude) or a fully open-source option (Ollama + OpenWebUI).
 
 ### LLM client
 
 **Option A — Commercial (Claude)**
 
-Requires Docker. Add to `.claude/settings.json`:
+Requires Docker. Add to `.mcp.json` in your project root (Claude Code), or to `claude_desktop_config.json` (Claude Desktop):
 ```json
 {
   "mcpServers": {
     "gemea-qlever": {
       "command": "docker",
-      "args": ["run", "--rm", "-i",
+      "args": ["run", "--rm", "-i", "--platform", "linux/amd64",
                "ghcr.io/xorwell/mcp-server-qlever:latest",
-               "-e", "https://gemea.ise.fiz-karlsruhe.de/shmarql/"]
+               "-e", "https://gemea.ise.fiz-karlsruhe.de/sparql"]
     }
   }
 }
 ```
+
+Or register it from the command line: `claude mcp add gemea-qlever -- docker run --rm -i --platform linux/amd64 ghcr.io/xorwell/mcp-server-qlever:latest -e https://gemea.ise.fiz-karlsruhe.de/sparql`
 
 **Option B — Open-source (Ollama + OpenWebUI)**
 
 Requires Docker. Ollama must run natively on macOS — Docker Desktop does not expose Apple Silicon GPU (Metal) to containers.
 
 1. Install [Ollama](https://ollama.com/download) and pull a model: `ollama pull gemma4:e4b`
-2. Start OpenWebUI: `docker compose -f docker-compose.openwebui.yml up -d`
-3. Open `http://localhost:3000` and create an admin account
-4. Go to **Admin → Settings → Tools** and add the MCPO tool server URL: `https://gemea.ise.fiz-karlsruhe.de/shmarql/`
+2. Start MCPO, which exposes the MCP server's tools over HTTP:
+   ```bash
+   docker run -d -p 2344:8001 ghcr.io/open-webui/mcpo:latest --port 8001 -- \
+     npx -y mcp-server-qlever -e https://gemea.ise.fiz-karlsruhe.de/sparql
+   ```
+3. Start OpenWebUI: `docker compose -f docker-compose.openwebui.yml up -d`
+4. Open `http://localhost:3000` and create an admin account
+5. Go to **Admin → Settings → Tools** and add the tool server URL: `http://host.docker.internal:2344`
 
 ### Running everything locally (test)
 
