@@ -1,10 +1,10 @@
-# GEMEA — German Memory Atlas
+# GEMEA: German Memory Atlas
 
 GEMEA is a knowledge graph over approximately 27.5 million digitised objects from the [German Digital Library](https://www.deutsche-digitale-bibliothek.de/) (DDB), aligned to the [mocho](https://github.com/ISE-FIZKarlsruhe/mocho) mid-level ontology and indexed in [QLever](https://github.com/ad-freiburg/qlever) for high-performance SPARQL querying.
 The alignment of DDB metadata to mocho classes and properties is documented in the [GEMEA Alignment Writeup](https://gemea.ise.fiz-karlsruhe.de/alignment).
 The corpus is served through [SHMARQL](https://github.com/epoz/shmarql) as a dereferenceable Linked Data browser and SPARQL endpoint, and is queryable by AI agents via [mcp-server-qlever](https://github.com/xorwell/mcp-server-qlever).
 
-> Presented at: Mary Ann Tan. **GEMEA: Germany's Cultural Memory as a Linked Knowledge Graph.** *SWIB26 — Semantic Web in Libraries*, online, 18 November 2026.
+> Presented at: Mary Ann Tan. **GEMEA: Germany's Cultural Memory as a Linked Knowledge Graph.** *SWIB26: Semantic Web in Libraries*, online, 18 November 2026.
 
 ---
 
@@ -13,8 +13,9 @@ The corpus is served through [SHMARQL](https://github.com/epoz/shmarql) as a der
 | Resource | URL |
 |---|---|
 | GEMEA N-Quads dump | <https://gemea.ise.fiz-karlsruhe.de/downloads/gemea> |
-| Goethe-Faust corpus (JSONL + N-Quads) | <https://gemea.ise.fiz-karlsruhe.de/downloads/goethe-faust/> |
-| SHMARQL Linked Data browser | <https://gemea.ise.fiz-karlsruhe.de/shmarql> |
+| Goethe-Faust corpus (JSON + N-Quads) | <https://gemea.ise.fiz-karlsruhe.de/downloads/goethe-faust/> |
+| SHMARQL Linked Data browser | <https://gemea.ise.fiz-karlsruhe.de/> |
+| SPARQL endpoint | <https://gemea.ise.fiz-karlsruhe.de/sparql> |
 
 ### 1.1 Dump layout
 
@@ -120,13 +121,13 @@ flowchart LR
     User -->|chat| CL
     User -->|chat| OW
     User -->|browse| SHMARQL
-    TC -->|SPARQL GET| QL
-    QL -->|JSON results| TC
-    T -->|SPARQL GET| QL
-    QL -->|JSON results| T
+    TC -->|SPARQL GET /sparql| SHMARQL
+    SHMARQL -->|JSON results| TC
+    T -->|SPARQL GET /sparql| SHMARQL
+    SHMARQL -->|JSON results| T
 ```
 
-**Goethe-Faust POC.** The alignment and dispatch logic were developed and validated on the [Goethe-Faust corpus](goethe-faust/) — 115,432 DDB records retrieved via the keywords *Goethe* and *Faust* — before scaling to the full 27.5M-object collection. The corpus analysis scripts, outputs, and design decisions are in [`goethe-faust/`](goethe-faust/).
+**Goethe-Faust POC.** The alignment and dispatch logic were developed and validated on the [Goethe-Faust corpus](goethe-faust/) (115,432 DDB records retrieved via the keywords *Goethe* and *Faust*) before scaling to the full 27.5M-object collection. The corpus analysis scripts, outputs, and design decisions are in [`goethe-faust/`](goethe-faust/).
 
 ---
 
@@ -135,6 +136,7 @@ flowchart LR
 ```
 gemea/
 ├── docker-compose.qlever.yml    QLever + SHMARQL + MCPO (SPARQL backend)
+├── config.env.example           Settings template for docker-compose.qlever.yml (§5.2)
 ├── docker-compose.openwebui.yml OpenWebUI chat UI (open-source client)
 ├── docs/adr/                    Architecture Decision Records (transform)
 │   ├── transform-adr.md         Class dispatch and WEMI alignment decisions
@@ -145,7 +147,7 @@ gemea/
 │   ├── transform/               EDM → mocho transform package
 │   └── config/                  Lookup tables consumed by transform
 ├── goethe-faust/                Goethe-Faust reference corpus
-│   ├── config.env.example       Settings template for local QLever (§5.2)
+│   ├── config.env.example       Settings template for the Goethe-Faust compose files
 │   ├── docker-compose.qlever.yml    QLever + SHMARQL for the Goethe-Faust corpus
 │   ├── docker-compose.shmarql.yml   SHMARQL (pyoxigraph) for the Goethe-Faust EDM data
 │   ├── scripts/                 Data acquisition + corpus analysis scripts
@@ -153,18 +155,19 @@ gemea/
 │   └── data/                    Corpus sample (IDs + 1K-record excerpt)
 ├── requirements.txt             Python dependencies for the scripts
 ├── CITATION.cff
-└── LICENSE                      MIT (code) / CC BY 4.0 (data)
+├── LICENSE                      MIT (code)
+└── LICENSE-DATA                 CC BY 4.0 (data)
 ```
 
 ---
 
 ## 5. Self-hosting
 
-The SPARQL endpoint is available at `https://gemea.ise.fiz-karlsruhe.de/sparql` — no setup required to query it. The Linked Data browser is at `https://gemea.ise.fiz-karlsruhe.de/shmarql/`. For the LLM client, choose between a commercial option (Claude) or a fully open-source option (Ollama + OpenWebUI).
+The SPARQL endpoint is available at `https://gemea.ise.fiz-karlsruhe.de/sparql`; no setup is required to query it. The Linked Data browser is at `https://gemea.ise.fiz-karlsruhe.de/`. For the LLM client, choose between a commercial option (Claude) or a fully open-source option (Ollama + OpenWebUI).
 
 ### 5.1 LLM client
 
-**Option A — Commercial (Claude)**
+**Option A: Commercial (Claude)**
 
 Requires Docker. Add to `.mcp.json` in your project root (Claude Code), or to `claude_desktop_config.json` (Claude Desktop):
 ```json
@@ -182,14 +185,14 @@ Requires Docker. Add to `.mcp.json` in your project root (Claude Code), or to `c
 
 Or register it from the command line: `claude mcp add gemea-qlever -- docker run --rm -i --platform linux/amd64 ghcr.io/xorwell/mcp-server-qlever:latest -e https://gemea.ise.fiz-karlsruhe.de/sparql`
 
-**Option B — Open-source (Ollama + OpenWebUI)**
+**Option B: Open-source (Ollama + OpenWebUI)**
 
-Requires Docker. Ollama must run natively on macOS — Docker Desktop does not expose Apple Silicon GPU (Metal) to containers.
+Requires Docker. Ollama must run natively on macOS, because Docker Desktop does not expose Apple Silicon GPU (Metal) to containers.
 
 1. Install [Ollama](https://ollama.com/download) and pull a model: `ollama pull gemma4:e4b`
 2. Start MCPO, which exposes the MCP server's tools over HTTP:
    ```bash
-   docker run -d -p 2344:8001 ghcr.io/open-webui/mcpo:latest --port 8001 -- \
+   docker run -d -p 127.0.0.1:2344:8001 ghcr.io/open-webui/mcpo:latest --port 8001 -- \
      npx -y mcp-server-qlever -e https://gemea.ise.fiz-karlsruhe.de/sparql
    ```
 3. Start OpenWebUI: `docker compose -f docker-compose.openwebui.yml up -d`
@@ -224,7 +227,7 @@ Small local models write weaker SPARQL than Claude: if an answer looks wrong, re
 
 ### 5.2 Running everything locally (test)
 
-To run QLever, SHMARQL, and MCPO on your own machine instead of using the hosted endpoint, download the N-Quads dump and use `docker-compose.qlever.yml`.
+To run QLever, SHMARQL, and MCPO on your own machine instead of using the hosted endpoint, download the N-Quads dump and use `docker-compose.qlever.yml`. Its QLever settings match the hosted deployment; all ports bind to `127.0.0.1`.
 
 **1. Download the N-Quads dump**
 All sectors take ~474 GB (see §1.1); for a first test, download one small sector such as `s3` (1.5 GB).
@@ -241,21 +244,29 @@ The GND Werk links in `nq/werk-links/` are not included; download them separatel
 
 **2. Configure**
 ```bash
-cp goethe-faust/config.env.example config.env
-# Set NQ_INPUT_DIR, INDEX_DIR, and ports in config.env
+cp config.env.example config.env
+# Set NQ_INPUT_DIR, INDEX_DIR, UID/GID (id -u, id -g), and ports in config.env
 ```
+The QLever limits in `config.env.example` (`QLEVER_MEMORY=50G`, `QLEVER_CACHE=15G`) are those of the hosted deployment; lower them when you load only one sector.
 
 **Before running**
 - [ ] `NQ_INPUT_DIR` exists and contains the downloaded `.nq` files
-- [ ] `INDEX_DIR` exists and the Docker user (UID 1000) has write access
+- [ ] `INDEX_DIR` exists and is writable by `UID:GID`
 - [ ] Ports `QLEVER_PORT`, `SHMARQL_PORT`, and `MCPO_PORT` are free on the host
 
-**3. Start**
+**3. Build the index (once)**
+```bash
+docker compose --env-file config.env -f docker-compose.qlever.yml run --rm qlever-index
+```
+
+**4. Start**
 ```bash
 docker compose --env-file config.env -f docker-compose.qlever.yml up -d --wait
 ```
 
-SPARQL endpoint: `http://localhost:2343` · SHMARQL browser: `http://localhost:2342` · MCPO: `http://localhost:2344` (defaults; adjust in `config.env`).
+SPARQL endpoint: `http://localhost:2343` · SHMARQL browser: `http://localhost:2342` · MCPO: `http://localhost:2344` (defaults; adjust in `config.env`). SHMARQL needs about 20 s after start before it answers.
+
+To make the endpoint public, put a reverse proxy with TLS in front of SHMARQL only; do not expose QLever, Redis, or MCPO directly.
 
 ---
 
@@ -263,31 +274,32 @@ SPARQL endpoint: `http://localhost:2343` · SHMARQL browser: `http://localhost:2
 
 | Component | License |
 |---|---|
-| Code (scripts, transform) | [MIT](LICENSE) |
-| Data (corpus, KG dump) | Per object — queryable via `dcterms:rights` |
+| Code (scripts, transform, compose files) | [MIT](LICENSE) |
+| Data (KG dump, lookup tables, statistics, Goethe-Faust outputs) | [CC BY 4.0](LICENSE-DATA) |
+| Digital objects referenced by the KG | Per object, given in `edm:rights` and `dcterms:rights` |
 
 ---
 
 ## 7. Troubleshooting
 
-**T1. `Permission denied` writing to `/data`**
-The Docker user cannot write to `INDEX_DIR`. Check that the directory exists and is writable:
+**T1. `Permission denied` writing to `/index`**
+The `UID:GID` set in `config.env` cannot write to `INDEX_DIR`. Create the directory and give it to that user:
 ```bash
-mkdir -p $INDEX_DIR && chmod 777 $INDEX_DIR
+mkdir -p "$INDEX_DIR" && sudo chown "$(id -u):$(id -g)" "$INDEX_DIR"
 ```
 
-**T2. `invalid spec: :/input:ro` — empty section between colons**
-`NQ_INPUT_DIR` is not set. Verify `config.env` contains a valid path.
+**T2. `required variable INDEX_DIR is missing a value: set INDEX_DIR in config.env`** (or `NQ_INPUT_DIR`)
+`NQ_INPUT_DIR` or `INDEX_DIR` is not set. Check that `config.env` contains valid paths and that you pass `--env-file config.env`.
 
 **T3. `ERROR: no files matched /input/*.nq`**
-No `.nq` file in `NQ_INPUT_DIR`. Confirm `gemea.nq` is in that directory.
+No `.nq` file in `NQ_INPUT_DIR`, or `NQ_INPUT_GLOB` matches nothing. Check the directory against the file list in §1.1.
 
 **T4. Port already in use**
-Change `QLEVER_PORT`, `SHMARQL_PORT`, or `MCPO_PORT` in `config.env` to a free port. To check whether ports 2342–2344 are already in use on the host:
+Change `QLEVER_PORT`, `SHMARQL_PORT`, or `MCPO_PORT` in `config.env` to a free port. To check whether ports 2342 to 2344 are already in use on the host:
 ```bash
 ss -tlnp | grep -E '234[234]'
 ```
-These ports are IANA-registered (nati-logos, fcmsys) but rarely used in practice. If they are taken, pick any free port in the 2000–9000 range that is not a well-known service.
+These ports are IANA-registered (nati-logos, fcmsys) but rarely used in practice. If they are taken, pick any free port between 2000 and 9000 that is not a well-known service.
 
 **T5. `dependency failed to start`**
 Root cause is always in the QLever logs:
@@ -302,7 +314,7 @@ docker compose --env-file config.env -f docker-compose.qlever.yml logs qlever
 - The Goethe-Faust POC covers 115,432 records; the full GEMEA corpus covers 27.5M objects.
 - GND Werk linking (Phase 1b) is partial; the `graph/work` named graph may be incomplete.
 - NER enrichment (Phase 2) is deferred and not included in this release.
-- Resource metadata (VoID descriptor, DCAT record, persistent URI) will be added at camera-ready.
+- Resource metadata (VoID descriptor, DCAT record, persistent URI) is not yet available.
 
 ---
 

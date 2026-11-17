@@ -2,3 +2,6 @@ i# Add below lines to exclude OS settings and caches
 .trash/
 .DS_Store
 
+
+# Local settings for docker compose (may contain paths)
+config.env
