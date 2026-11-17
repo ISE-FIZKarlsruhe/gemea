@@ -22,15 +22,18 @@ url: "https://gemea.ise.fiz-karlsruhe.de/shmarql"
 license: MIT
 date-released: "2026"
 preferred-citation:
-  type: conference-paper
-  title: "GeMeA: A Knowledge Graph for the German Digital Library"
+  type: slides
+  title: "GEMEA: Germany's Cultural Memory as a Linked Knowledge Graph"
   authors:
     - family-names: Tan
       given-names: Mary Ann
-    - family-names: Gesese
-      given-names: Genet Asefa
-    - family-names: Sack
-      given-names: Harald
-  collection-title: "Proceedings of the 23rd International Semantic Web Conference (ISWC 2026)"
+      orcid: "https://orcid.org/0000-0002-6365-0569"
+  conference:
+    name: "SWIB26 — Semantic Web in Libraries"
+    location: "Online"
+    date-start: "2026-11-16"
+    date-end: "2026-11-18"
+  date-published: "2026-11-18"
   year: 2026
-  notes: "Forthcoming."
+  month: 11
+  notes: "Presentation, 18 November 2026."

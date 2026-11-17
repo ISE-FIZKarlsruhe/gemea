@@ -4,7 +4,7 @@ GeMeA is a knowledge graph over approximately 26.8 million digitised objects fro
 The alignment of DDB metadata to mocho classes and properties is documented in the [GeMeA Alignment Writeup](https://gemea.ise.fiz-karlsruhe.de/alignment).
 The corpus is served through [SHMARQL](https://github.com/epoz/shmarql) as a dereferenceable Linked Data browser and SPARQL endpoint, and is queryable by AI agents via [mcp-server-qlever](https://github.com/xorwell/mcp-server-qlever).
 
-> Supplemental materials for: Mary Ann Tan, Genet Asefa Gesese, Harald Sack. **GeMeA: A Knowledge Graph for the German Digital Library.** *ISWC 2026 Resource Track* (forthcoming).
+> Presented at: Mary Ann Tan. **GEMEA: Germany's Cultural Memory as a Linked Knowledge Graph.** *SWIB26 — Semantic Web in Libraries*, online, 18 November 2026.
 
 ---
 
@@ -283,12 +283,11 @@ docker compose --env-file config.env -f docker-compose.qlever.yml logs qlever
 ## Citation
 
 ```bibtex
-@inproceedings{tan2026gemea,
-  author    = {Tan, Mary Ann and Posthumus, Etienne and Gesese, Genet Asefa and Sack, Harald},
-  title     = {{GEMEA: An Open Knowledge Graph over 26M+
-German Cultural Heritage Objects}},
-  booktitle = {{Proceedings of the 23rd International Semantic Web Conference (ISWC 2026)}},
-  year      = {2026},
-  note      = {Resource Track. Under Review.},
+@misc{tan2026swib,
+  author       = {Tan, Mary Ann},
+  year         = {2026},
+  month        = nov,
+  title        = {{GEMEA: Germany's Cultural Memory as a Linked Knowledge Graph}},
+  howpublished = {{Presentation at SWIB26: Semantic Web in Libraries, online, 18 November 2026}}
 }
 ```
