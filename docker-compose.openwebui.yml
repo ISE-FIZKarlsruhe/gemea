@@ -9,7 +9,7 @@
 #   2. Pull model: ollama pull gemma4:e4b
 #   3. Start stack: docker compose -f docker-compose.openwebui.yml up -d
 #   4. Open http://localhost:3000 and create an admin account
-#   5. Go to Admin → Settings → Tools
+#   5. Go to Admin Panel → Settings → Integrations → Manage Tool Servers
 #      Add tool server URL: http://host.docker.internal:2344
 #      (MCPO; see README §Self-hosting, Option B, step 2)
 #

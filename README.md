@@ -181,7 +181,28 @@ Requires Docker. Ollama must run natively on macOS — Docker Desktop does not e
    ```
 3. Start OpenWebUI: `docker compose -f docker-compose.openwebui.yml up -d`
 4. Open `http://localhost:3000` and create an admin account
-5. Go to **Admin → Settings → Tools** and add the tool server URL: `http://host.docker.internal:2344`
+5. Add MCPO as a tool server: **Admin Panel → Settings → Integrations → Manage Tool Servers → +**
+   - URL: `http://host.docker.internal:2344` (check for a trailing space; it breaks the connection)
+   - Auth: None (leave the key empty)
+   - Click ↻ to verify, then **Save**
+
+   Use the admin-level setting, not the user-level **Settings → Integrations**: user-level tool servers are called from the browser and may return empty results.
+6. In a new chat with `gemma4:e4b`, open **Controls** (sliders icon, top right):
+   - **Advanced Params → Function Calling: Native**. In the default mode the model often stops before answering.
+   - **System Prompt**:
+     ```
+     You answer questions about the German Memory Atlas (GEMEA), a knowledge graph of DDB cultural heritage objects, using the sparql_query tool.
+     Always declare prefixes. Useful ones:
+     PREFIX edm: <http://www.europeana.eu/schemas/edm/>
+     PREFIX dc: <http://purl.org/dc/elements/1.1/>
+     PREFIX ore: <http://www.openarchives.org/ore/terms/>
+     Aggregates need an alias: SELECT (COUNT(?s) AS ?n).
+     To count or list objects of a class, use ?s a <class>, e.g. ?s a edm:ProvidedCHO. Never invent properties; if unsure, first query the predicates of one example object.
+     Report only numbers the tool returns; if the tool returns nothing or an error, say so.
+     ```
+7. Enable the tools with the wrench icon below the message box and ask: *"How many cultural heritage objects (edm:ProvidedCHO) are in GEMEA?"* Expected answer: 27,526,560.
+
+Small local models write weaker SPARQL than Claude: if an answer looks wrong, regenerate it or check the query under **Explored → sparql_query**.
 
 ### Running everything locally (test)
 
