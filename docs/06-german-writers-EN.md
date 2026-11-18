@@ -143,17 +143,21 @@ You could put it this way: In the 19th century you wrote books; in the 20th you 
 
 And photographed they were. With the camera, fame acquires a face.
 
-Among the Literature Nobel laureates, one name explodes: Gerhart Hauptmann — 842 images, 802 of them from a single collection. George Bernard Shaw (523), Thomas Mann (350 images). Where Goethe was still etched in copper, Hauptmann — and above all his plays — were shot on film by the dozen: 479 of those 802 are scene photos of *Die Weber*, *Die Ratten*, *Florian Geyer* and the rest. Even in the photographic age, the stage wins. The Deutsche Fotothek becomes the secret protagonist of this story — it supplies the faces of modernity, just as Weimar supplied the playbills of the classical age.
-```shmarql
-# shmarql-view: barchart
-# shmarql-x: writer
-# shmarql-y: images
-# shmarql-label: Images linked to Nobel laureates in literature
+Among the Literature Nobel laureates, one name explodes: Gerhart Hauptmann — 730 photographs, and 842 images in all, 802 of them from a single collection. George Bernard Shaw (516 photographs), Thomas Mann (104 photographs, 350 images). Where Goethe was still etched in copper, Hauptmann — and above all his plays — were shot on film by the dozen: 479 of those 802 are scene photos of *Die Weber*, *Die Ratten*, *Florian Geyer* and the rest. Even in the photographic age, the stage wins. The Deutsche Fotothek becomes the secret protagonist of this story — it supplies the faces of modernity, just as Weimar supplied the playbills of the classical age.
 
+```shmarql
+# shmarql-label: Photographs and images of Nobel laureates in literature
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX edm: <http://www.europeana.eu/schemas/edm/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?writer (xsd:integer(COUNT(DISTINCT ?image)) AS ?images)
+# photographs: dc:type is the GND concept "Fotografie" and the laureate is the subject
+# images: any edm:type IMAGE object linked to the laureate
+SELECT ?writer
+       (xsd:integer(COUNT(DISTINCT ?photo)) AS ?photographs)
+       (xsd:integer(COUNT(DISTINCT ?image)) AS ?images)
 WHERE {
   VALUES (?gnd ?writer) {
     (<http://d-nb.info/gnd/118546937> "Gerhart Hauptmann")
@@ -161,12 +165,15 @@ WHERE {
     (<http://d-nb.info/gnd/118577166> "Thomas Mann")
   }
   GRAPH <https://gemea.ise.fiz-karlsruhe.de/graph/ddbedm> {
-    ?image ?link ?gnd ;
-           edm:type "IMAGE" .
+    { ?photo dcterms:subject ?gnd ;
+             dc:type <http://d-nb.info/gnd/4045895-7> . }
+    UNION
+    { ?image ?link ?gnd ;
+             edm:type "IMAGE" . }
   }
 }
 GROUP BY ?writer
-ORDER BY DESC(?images)
+ORDER BY DESC(?photographs)
 ```
 
 ```shmarql
@@ -196,7 +203,38 @@ Every good story has a twist. This graph had one — and it has nothing to do wi
 
 ### 🏫 The Eponym Trap
 
-Georg Büchner looks like a titan in a title search. But 528 of the hits are — a secondary school. The Georg Büchner Gymnasium in Darmstadt, immortalized in architectural drawings by Hans Schwippert, held by the Architecture Museum of TU Munich. Büchner, dead at 23, author of barely a handful of works (*Woyzeck*: 23 objects), is so famous that his name turned into brickwork.
+Georg Büchner looks like a titan with 954 hits. But 531 of them are — a secondary school. The Georg Büchner Gymnasium in Darmstadt, immortalized in 528 architectural drawings by Hans Schwippert, held by the Architecture Museum of TU Munich. Büchner, dead at 23, author of barely a handful of works (*Woyzeck*: 23 objects), is so famous that his name turned into brickwork.
+
+```shmarql
+# shmarql-label: Objects naming Georg Büchner vs. the Georg Büchner Gymnasium
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX edm: <http://www.europeana.eu/schemas/edm/>
+PREFIX ql: <http://qlever.cs.uni-freiburg.de/builtin-functions/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# ql:contains-word uses QLever's full-text index, so the search over all objects stays fast
+SELECT ?search (xsd:integer(COUNT(DISTINCT ?object)) AS ?objects)
+WHERE {
+  {
+    ?text ql:contains-word "georg büchner" ; ql:contains-entity ?literal .
+    ?object ?property ?literal ; a edm:ProvidedCHO .
+    BIND("names Georg Büchner, or links his GND record" AS ?search)
+  } UNION {
+    ?object ?role <http://d-nb.info/gnd/118516906> ; a edm:ProvidedCHO .
+    VALUES ?role { dc:creator dcterms:creator dc:contributor dc:subject dcterms:subject }
+    BIND("names Georg Büchner, or links his GND record" AS ?search)
+  } UNION {
+    ?text ql:contains-word "georg büchner gymnasium" ; ql:contains-entity ?literal .
+    ?object ?property ?literal ; a edm:ProvidedCHO .
+    BIND("names the Georg Büchner Gymnasium" AS ?search)
+  }
+}
+GROUP BY ?search
+ORDER BY DESC(?objects)
+```
+
 ```shmarql
 # shmarql-label: "Büchner" in the Architecture Museum of TU Munich
 
@@ -291,9 +329,9 @@ Until then, the loveliest truth in this dataset remains: the greatest lyric poet
 | Johann Wolfgang von Goethe | Weimar Classicism | 4,393 | *Faust* 677; ~96 % at BSB + Weimar |
 | Friedrich Schiller | Weimar Classicism | 3,787 | *Wallenstein* trilogy 468, *Tell* 410; 2,141 playbills |
 | Heinrich Heine | 19th c. | 541 | 31 playbills (6 %): the lyric poet off the stage |
-| Georg Büchner | 19th c. | 45 | 173 objects about him; 528 drawings of the Georg Büchner Gymnasium |
-| Gerhart Hauptmann | 20th c. (Nobel 1912) | 322 | 842 images, 802 from the Deutsche Fotothek |
-| Thomas Mann | 20th c. (Nobel 1929) | 22 | 350 images |
+| Georg Büchner | 19th c. | 45 | 954 objects name him or link him, 531 of them the Georg Büchner Gymnasium |
+| Gerhart Hauptmann | 20th c. (Nobel 1912) | 322 | 730 photographs; 842 images, 802 from the Deutsche Fotothek |
+| Thomas Mann | 20th c. (Nobel 1929) | 22 | 104 photographs; 350 images |
 | Heinrich Mann | 20th c. | 52 | 347 objects about him |
 | Gottfried Benn | 20th c. | 2 | 48 objects about him |
 
